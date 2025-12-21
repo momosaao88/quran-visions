@@ -7,18 +7,21 @@
  */
 
 import { Verse } from '@/types/quran';
-import { X } from 'lucide-react';
+import { X, Play } from 'lucide-react';
 import { useState } from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { getVideoForVerse } from '@/data/video-mappings';
 
 interface VerseDetailProps {
   surahName: string;
   verse: Verse;
+  surahNumber: number;
   onClose: () => void;
 }
 
-export default function VerseDetail({ surahName, verse, onClose }: VerseDetailProps) {
+export default function VerseDetail({ surahName, verse, surahNumber, onClose }: VerseDetailProps) {
   const [activeTab, setActiveTab] = useState(0);
+  const videoMapping = getVideoForVerse(surahNumber, verse.number);
 
   return (
     <>
@@ -57,7 +60,31 @@ export default function VerseDetail({ surahName, verse, onClose }: VerseDetailPr
           >
             {verse.text}
           </p>
+          {videoMapping && (
+            <div className="mt-4 p-4 bg-primary/10 rounded-lg border border-primary/30 flex items-center gap-3">
+              <Play className="w-5 h-5 text-primary flex-shrink-0" />
+              <div>
+                <p className="text-sm font-semibold text-primary">فيديو غريب القرآن</p>
+                <p className="text-xs text-muted-foreground">{videoMapping.videoTitle}</p>
+              </div>
+            </div>
+          )}
         </div>
+
+        {/* Video Player or Tafsir Tabs */}
+        {videoMapping && (
+          <div className="p-6 border-b border-border bg-secondary/30">
+            <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+              <iframe
+                className="absolute top-0 left-0 w-full h-full rounded-lg"
+                src={`https://www.youtube.com/embed/${videoMapping.videoId}`}
+                title={videoMapping.videoTitle}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        )}
 
         {/* Tafsir Tabs */}
         <div className="p-6">

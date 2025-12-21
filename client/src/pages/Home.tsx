@@ -58,6 +58,7 @@ export default function Home() {
         <VerseDetail
           surahName={getSurahByNumber(selectedVerse.surahNumber)!.nameArabic}
           verse={selectedVerse.verse}
+          surahNumber={selectedVerse.surahNumber}
           onClose={handleClose}
         />
       )}
