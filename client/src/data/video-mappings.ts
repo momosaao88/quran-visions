@@ -105,10 +105,10 @@ export const videoMappings: VideoMapping[] = [
     episodeNumber: 8
   },
 
-  // Surah Al-Naba (78) - Verse 24
+  // Surah Al-Naba (78) - Verse 14
   {
     surah: 78,
-    verse: 24,
+    verse: 14,
     word: "ماءً ثجاجًا",
     videoTitle: "برنامج ( غريب القرآن ) || الحلقة 09 - { ماءً ثجاجًا }",
     videoId: "7n-2DSPb8a4",
