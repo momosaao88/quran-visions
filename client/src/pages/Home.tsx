@@ -1,25 +1,62 @@
-import { Button } from "@/components/ui/button";
-import { Loader2 } from "lucide-react";
-import { Streamdown } from 'streamdown';
-
 /**
- * All content in this page are only for example, replace with your own feature implementation
- * When building pages, remember your instructions in Frontend Best Practices, Design Guide and Common Pitfalls
+ * QuranVisions - Home Page
+ * Design Philosophy: Islamic Minimalism with Calligraphic Elegance
+ * - Clean white background with gold accents
+ * - Amiri font for Arabic text
+ * - Simple and focused interface
+ * - Bottom Sheet for tafsir display
  */
+
+import { useState } from 'react';
+import { Verse } from '@/types/quran';
+import SurahList from '@/components/SurahList';
+import VerseDetail from '@/components/VerseDetail';
+import { quranData } from '@/data/quran-data';
+
 export default function Home() {
-  // If theme is switchable in App.tsx, we can implement theme toggling like this:
-  // const { theme, toggleTheme } = useTheme();
+  const [selectedVerse, setSelectedVerse] = useState<{
+    surahNumber: number;
+    verse: Verse;
+  } | null>(null);
+
+  const handleVerseClick = (surahNumber: number, verse: Verse) => {
+    setSelectedVerse({ surahNumber, verse });
+  };
+
+  const handleClose = () => {
+    setSelectedVerse(null);
+  };
 
   return (
-    <div className="min-h-screen flex flex-col">
-      <main>
-        {/* Example: lucide-react for icons */}
-        <Loader2 className="animate-spin" />
-        Example Page
-        {/* Example: Streamdown for markdown rendering */}
-        <Streamdown>Any **markdown** content</Streamdown>
-        <Button variant="default">Example Button</Button>
+    <div className="min-h-screen bg-white text-foreground" dir="rtl">
+      {/* Header */}
+      <header className="sticky top-0 z-40 bg-white border-b border-border shadow-sm">
+        <div className="container mx-auto px-4 py-6">
+          <h1 className="text-4xl font-bold text-center text-primary" style={{ fontFamily: 'Amiri, serif' }}>
+            المصحف الشريف
+          </h1>
+          <p className="text-center text-muted-foreground mt-2">
+            مع التفسيرات الموثوقة
+          </p>
+        </div>
+      </header>
+
+      {/* Main Content */}
+      <main className="container mx-auto px-4 py-8">
+        <SurahList 
+          surahs={quranData.surahs}
+          onVerseClick={handleVerseClick}
+        />
       </main>
+
+      {/* Verse Detail Bottom Sheet */}
+      {selectedVerse && (
+        <VerseDetail
+          surahName={quranData.surahs[selectedVerse.surahNumber - 1].nameArabic}
+          verse={selectedVerse.verse}
+          onClose={handleClose}
+        />
+      )}
     </div>
   );
 }
