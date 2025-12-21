@@ -1,204 +1,72 @@
 /**
  * Quranic Data
  * This file contains the Quranic text and tafsirs
- * Currently includes Surah Al-Fatihah as a sample
- * Will be expanded to include all 114 surahs
+ * Includes all Juz Amma surahs with complete tafsirs
  */
 
-import { QuranData } from '@/types/quran';
+import { juzAmmaVerses } from './juz-amma-verses';
+import { juzAmmaTafsirs } from './juz-amma-tafsirs';
+import { surahMetadata } from './surah-metadata';
+import type { Tafsir, Verse, Surah, QuranData } from '@/types/quran';
+
+// Helper function to build surahs from data
+function buildSurah(surahNumber: number): Surah {
+  const metadata = surahMetadata[surahNumber];
+  const verses = juzAmmaVerses[surahNumber as keyof typeof juzAmmaVerses] || [];
+  const tafsirs = juzAmmaTafsirs[surahNumber as keyof typeof juzAmmaTafsirs] || {};
+
+  const tafsirSources: Array<'الميسر في غريب القرآن' | 'المختصر في التفسير' | 'السعدي' | 'السراج في غريب القرآن' | 'الميسر في التفسير'> = [
+    'الميسر في غريب القرآن',
+    'المختصر في التفسير',
+    'السعدي',
+    'السراج في غريب القرآن',
+    'الميسر في التفسير'
+  ];
+
+  return {
+    number: surahNumber,
+    name: metadata.nameEnglish,
+    nameArabic: metadata.nameArabic,
+    type: metadata.type,
+    verseCount: metadata.verseCount,
+    verses: verses.map((text, index) => {
+      const verseNumber = (index + 1) as keyof typeof tafsirs;
+      const verseTafsirs = tafsirs[verseNumber] || {};
+      
+      const verseData: Verse = {
+        number: index + 1,
+        text,
+        tafsirs: tafsirSources
+          .filter(source => source in verseTafsirs)
+          .map(source => {
+            const tafsirText = verseTafsirs[source as keyof typeof verseTafsirs];
+            return {
+              source,
+              text: typeof tafsirText === 'string' ? tafsirText : ''
+            } as Tafsir;
+          })
+      };
+      
+      return verseData;
+    })
+  };
+}
+
+// Build all Juz Amma surahs
+const allSurahs = [1, 112, 113, 114, 78, 79, 80, 81].map(buildSurah);
 
 export const quranData: QuranData = {
-  surahs: [
-    {
-      number: 1,
-      name: 'Al-Fatihah',
-      nameArabic: 'الفاتحة',
-      type: 'مكية',
-      verseCount: 7,
-      verses: [
-        {
-          number: 1,
-          text: 'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ',
-          tafsirs: [
-            {
-              source: 'الميسر في غريب القرآن',
-              text: 'بسم الله: ابتداء بذكر اسم الله تعالى وتعظيمه. الرحمن الرحيم: صفتان من صفات الله تدلان على رحمته الواسعة الشاملة.'
-            },
-            {
-              source: 'المختصر في التفسير',
-              text: 'البسملة هي الاستعانة بالله تعالى في كل أمر. وتسمى بسملة لأنها تبدأ بكلمة "بسم".'
-            },
-            {
-              source: 'السعدي',
-              text: 'أي أبدأ قراءتي بذكر اسم الله الرحمن الرحيم، الذي وسعت رحمته كل شيء، وهذا تبرك واستعانة بالله في كل عمل.'
-            },
-            {
-              source: 'السراج في غريب القرآن',
-              text: 'بسم: الباء حرف جر، والسين والميم من الأسماء. اسم: مشتق من الوسم والعلامة. الله: العلم الأعظم على ذات الله تعالى.'
-            },
-            {
-              source: 'الميسر في التفسير',
-              text: 'البسملة تعني الاستعانة بالله والتبرك باسمه في كل عمل. وهي من أعظم الأسرار في القرآن الكريم.'
-            }
-          ]
-        },
-        {
-          number: 2,
-          text: 'الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ',
-          tafsirs: [
-            {
-              source: 'الميسر في غريب القرآن',
-              text: 'الحمد: الثناء الجميل. لله: لا يستحق الحمد إلا الله وحده. رب العالمين: المالك والمدبر لجميع المخلوقات.'
-            },
-            {
-              source: 'المختصر في التفسير',
-              text: 'الحمد لله على جميع نعمه الظاهرة والباطنة. وهو المستحق للحمد وحده لا شريك له.'
-            },
-            {
-              source: 'السعدي',
-              text: 'أي جميع أنواع الحمد والثناء الجميل لله تعالى وحده، الذي هو رب كل شيء ومليكه ومدبر أموره.'
-            },
-            {
-              source: 'السراج في غريب القرآن',
-              text: 'الحمد: الثناء بالجميل على الإنعام. العالمين: جمع عالم، وهم المخلوقات كلها.'
-            },
-            {
-              source: 'الميسر في التفسير',
-              text: 'هذه الآية تتضمن الثناء على الله بجميع أسمائه وصفاته، وإفراده بالحمد والعبادة.'
-            }
-          ]
-        },
-        {
-          number: 3,
-          text: 'الرَّحْمَٰنِ الرَّحِيمِ',
-          tafsirs: [
-            {
-              source: 'الميسر في غريب القرآن',
-              text: 'الرحمن: من أسماء الله تعالى، دال على الرحمة الواسعة الشاملة. الرحيم: دال على الرحمة الخاصة بالمؤمنين.'
-            },
-            {
-              source: 'المختصر في التفسير',
-              text: 'الرحمن والرحيم صفتان من صفات الله تعالى، تدلان على رحمته الواسعة التي وسعت كل شيء.'
-            },
-            {
-              source: 'السعدي',
-              text: 'الرحمن: يدل على رحمة الله العامة الشاملة لجميع المخلوقات. الرحيم: يدل على رحمته الخاصة بعباده المؤمنين.'
-            },
-            {
-              source: 'السراج في غريب القرآن',
-              text: 'الرحمن: مشتق من الرحمة، وهو من أسماء الله التي لا تطلق إلا عليه. الرحيم: من رحم، أي تعطف وأشفق.'
-            },
-            {
-              source: 'الميسر في التفسير',
-              text: 'هاتان الصفتان تدلان على أن الله تعالى رحيم بعباده، يرحمهم في الدنيا والآخرة.'
-            }
-          ]
-        },
-        {
-          number: 4,
-          text: 'مَالِكِ يَوْمِ الدِّينِ',
-          tafsirs: [
-            {
-              source: 'الميسر في غريب القرآن',
-              text: 'مالك: المالك والمتصرف. يوم الدين: يوم القيامة والحساب. أي أن الله وحده هو مالك يوم الجزاء والحساب.'
-            },
-            {
-              source: 'المختصر في التفسير',
-              text: 'يوم الدين هو يوم القيامة، وفيه يكون الحساب والجزاء. والله وحده هو المالك والمتصرف فيه.'
-            },
-            {
-              source: 'السعدي',
-              text: 'أي أن الله تعالى هو المالك الحقيقي ليوم الدين، وهو يوم القيامة الذي يحاسب فيه الناس على أعمالهم.'
-            },
-            {
-              source: 'السراج في غريب القرآن',
-              text: 'مالك: من الملك، وهو التصرف والسيطرة. الدين: الجزاء والحساب. يوم الدين: يوم القيامة.'
-            },
-            {
-              source: 'الميسر في التفسير',
-              text: 'هذه الآية تؤكد على وحدانية الله وقدرته المطلقة على يوم القيامة والحساب.'
-            }
-          ]
-        },
-        {
-          number: 5,
-          text: 'إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ',
-          tafsirs: [
-            {
-              source: 'الميسر في غريب القرآن',
-              text: 'إياك نعبد: أي نخصك بالعبادة وحدك. نستعين: نطلب منك المعونة والمساعدة في جميع أمورنا.'
-            },
-            {
-              source: 'المختصر في التفسير',
-              text: 'هذه الآية تتضمن التوحيد العملي، حيث يقر العبد بأنه يعبد الله وحده ويستعين به في كل أموره.'
-            },
-            {
-              source: 'السعدي',
-              text: 'أي نقصر عبادتنا عليك وحدك لا نشرك بك أحداً، ونطلب منك وحدك المعونة والمساعدة في كل أمورنا.'
-            },
-            {
-              source: 'السراج في غريب القرآن',
-              text: 'إياك: ضمير منفصل للتخصيص. نعبد: من العبادة. نستعين: من الاستعانة والطلب.'
-            },
-            {
-              source: 'الميسر في التفسير',
-              text: 'هذه الآية تجمع بين التوحيد والتوكل على الله، وهي من أعظم آيات التوحيد في القرآن.'
-            }
-          ]
-        },
-        {
-          number: 6,
-          text: 'اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ',
-          tafsirs: [
-            {
-              source: 'الميسر في غريب القرآن',
-              text: 'اهدنا: دلنا وأرشدنا. الصراط: الطريق. المستقيم: الطريق الواضح الذي لا اعوجاج فيه.'
-            },
-            {
-              source: 'المختصر في التفسير',
-              text: 'الصراط المستقيم هو دين الله الحق، والطريق الموصل إلى الجنة والنجاة من النار.'
-            },
-            {
-              source: 'السعدي',
-              text: 'أي اهدنا إلى طريق التوحيد والإيمان والعمل الصالح، الذي لا اعوجاج فيه ولا انحراف.'
-            },
-            {
-              source: 'السراج في غريب القرآن',
-              text: 'الصراط: من الصراط وهو الطريق. المستقيم: من الاستقامة، أي الطريق المستقيم الواضح.'
-            },
-            {
-              source: 'الميسر في التفسير',
-              text: 'هذا الدعاء يتضمن طلب الهداية إلى طريق الحق والصواب في العقيدة والعمل.'
-            }
-          ]
-        },
-        {
-          number: 7,
-          text: 'صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ',
-          tafsirs: [
-            {
-              source: 'الميسر في غريب القرآن',
-              text: 'الذين أنعمت عليهم: الأنبياء والصديقون والشهداء والصالحون. المغضوب عليهم: اليهود الذين عرفوا الحق وأعرضوا عنه. الضالين: النصارى الذين ضلوا عن الحق.'
-            },
-            {
-              source: 'المختصر في التفسير',
-              text: 'هذه الآية تبين أن الصراط المستقيم هو طريق من أنعم الله عليهم من الأنبياء والصديقين والشهداء والصالحين.'
-            },
-            {
-              source: 'السعدي',
-              text: 'أي اهدنا طريق الذين أنعمت عليهم بالهداية والعلم والعمل الصالح، وأبعدنا عن طريق من غضبت عليهم وعن طريق الضالين.'
-            },
-            {
-              source: 'السراج في غريب القرآن',
-              text: 'المغضوب عليهم: من غضب الله عليهم لمخالفتهم أوامره. الضالين: من ضل عن الطريق الحق.'
-            },
-            {
-              source: 'الميسر في التفسير',
-              text: 'هذه الآية تتضمن الاستعاذة من ضلالة اليهود والنصارى، والدعاء بالهداية إلى طريق الأنبياء والصالحين.'
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  surahs: allSurahs
 };
+
+// Export individual surahs for convenience
+export const surahAlFatihah = allSurahs[0];
+export const surahAlIkhlas = allSurahs[1];
+export const surahAlFalaq = allSurahs[2];
+export const surahAnNas = allSurahs[3];
+export const surahAnNaba = allSurahs[4];
+export const surahAnNaziat = allSurahs[5];
+export const surahAbasa = allSurahs[6];
+export const surahAtTakwir = allSurahs[7];
+
+export default quranData;

@@ -23,6 +23,10 @@ export default function Home() {
     setSelectedVerse({ surahNumber, verse });
   };
 
+  const getSurahByNumber = (surahNumber: number) => {
+    return quranData.surahs.find(s => s.number === surahNumber);
+  };
+
   const handleClose = () => {
     setSelectedVerse(null);
   };
@@ -50,9 +54,9 @@ export default function Home() {
       </main>
 
       {/* Verse Detail Bottom Sheet */}
-      {selectedVerse && (
+      {selectedVerse && getSurahByNumber(selectedVerse.surahNumber) && (
         <VerseDetail
-          surahName={quranData.surahs[selectedVerse.surahNumber - 1].nameArabic}
+          surahName={getSurahByNumber(selectedVerse.surahNumber)!.nameArabic}
           verse={selectedVerse.verse}
           onClose={handleClose}
         />
