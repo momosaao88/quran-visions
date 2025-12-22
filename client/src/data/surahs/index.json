@@ -1,0 +1,304 @@
+{
+  "juz": 30,
+  "name": "جزء عم",
+  "totalSurahs": 37,
+  "totalAyat": 564,
+  "surahs": [
+    {
+      "number": 78,
+      "name": "النبأ",
+      "englishName": "An-Naba",
+      "meaning": "الخبر العظيم",
+      "totalAyat": 40,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 79,
+      "name": "النازعات",
+      "englishName": "An-Naziat",
+      "meaning": "الملائكة",
+      "totalAyat": 46,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 80,
+      "name": "عبس",
+      "englishName": "Abasa",
+      "meaning": "عبس وتولى",
+      "totalAyat": 42,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 81,
+      "name": "التكوير",
+      "englishName": "At-Takwir",
+      "meaning": "لف الشمس",
+      "totalAyat": 29,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 82,
+      "name": "الانفطار",
+      "englishName": "Al-Infitar",
+      "meaning": "انشقاق السماء",
+      "totalAyat": 19,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 83,
+      "name": "المطففين",
+      "englishName": "Al-Mutaffifin",
+      "meaning": "الذين ينقصون الكيل",
+      "totalAyat": 36,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 84,
+      "name": "الانشقاق",
+      "englishName": "Al-Inshiqaq",
+      "meaning": "انشقاق السماء",
+      "totalAyat": 25,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 85,
+      "name": "البروج",
+      "englishName": "Al-Buruj",
+      "meaning": "النجوم",
+      "totalAyat": 22,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 86,
+      "name": "الطارق",
+      "englishName": "At-Tariq",
+      "meaning": "النجم الثاقب",
+      "totalAyat": 17,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 87,
+      "name": "الأعلى",
+      "englishName": "Al-Ala",
+      "meaning": "الله الأعلى",
+      "totalAyat": 19,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 88,
+      "name": "الغاشية",
+      "englishName": "Al-Ghashiyah",
+      "meaning": "القيامة",
+      "totalAyat": 26,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 89,
+      "name": "الفجر",
+      "englishName": "Al-Fajr",
+      "meaning": "وقت الفجر",
+      "totalAyat": 30,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 90,
+      "name": "البلد",
+      "englishName": "Al-Balad",
+      "meaning": "مكة المكرمة",
+      "totalAyat": 20,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 91,
+      "name": "الشمس",
+      "englishName": "Ash-Shams",
+      "meaning": "الشمس",
+      "totalAyat": 15,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 92,
+      "name": "الليل",
+      "englishName": "Al-Layl",
+      "meaning": "الليل",
+      "totalAyat": 21,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 93,
+      "name": "الضحى",
+      "englishName": "Ad-Duha",
+      "meaning": "وقت الضحى",
+      "totalAyat": 11,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 94,
+      "name": "الشرح",
+      "englishName": "Ash-Sharh",
+      "meaning": "شرح الصدر",
+      "totalAyat": 8,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 95,
+      "name": "التين",
+      "englishName": "At-Tin",
+      "meaning": "التين",
+      "totalAyat": 8,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 96,
+      "name": "العلق",
+      "englishName": "Al-Alaq",
+      "meaning": "العلقة",
+      "totalAyat": 19,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 97,
+      "name": "القدر",
+      "englishName": "Al-Qadr",
+      "meaning": "ليلة القدر",
+      "totalAyat": 5,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 98,
+      "name": "البينة",
+      "englishName": "Al-Bayyinah",
+      "meaning": "الدليل الواضح",
+      "totalAyat": 8,
+      "revelationType": "Medinan"
+    },
+    {
+      "number": 99,
+      "name": "الزلزلة",
+      "englishName": "Az-Zalzalah",
+      "meaning": "الزلزال",
+      "totalAyat": 8,
+      "revelationType": "Medinan"
+    },
+    {
+      "number": 100,
+      "name": "العاديات",
+      "englishName": "Al-Adiyat",
+      "meaning": "الخيل العادية",
+      "totalAyat": 11,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 101,
+      "name": "القارعة",
+      "englishName": "Al-Qariah",
+      "meaning": "القيامة",
+      "totalAyat": 11,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 102,
+      "name": "التكاثر",
+      "englishName": "At-Takathur",
+      "meaning": "التفاخر بالكثرة",
+      "totalAyat": 8,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 103,
+      "name": "العصر",
+      "englishName": "Al-Asr",
+      "meaning": "الزمن",
+      "totalAyat": 3,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 104,
+      "name": "الهمزة",
+      "englishName": "Al-Humazah",
+      "meaning": "المغتاب",
+      "totalAyat": 9,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 105,
+      "name": "الفيل",
+      "englishName": "Al-Fil",
+      "meaning": "الفيل",
+      "totalAyat": 5,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 106,
+      "name": "قريش",
+      "englishName": "Quraysh",
+      "meaning": "قبيلة قريش",
+      "totalAyat": 4,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 107,
+      "name": "الماعون",
+      "englishName": "Al-Maun",
+      "meaning": "المعونة",
+      "totalAyat": 7,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 108,
+      "name": "الكوثر",
+      "englishName": "Al-Kawthar",
+      "meaning": "الخير الكثير",
+      "totalAyat": 3,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 109,
+      "name": "الكافرون",
+      "englishName": "Al-Kafirun",
+      "meaning": "الكافرون",
+      "totalAyat": 6,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 110,
+      "name": "النصر",
+      "englishName": "An-Nasr",
+      "meaning": "النصر",
+      "totalAyat": 3,
+      "revelationType": "Medinan"
+    },
+    {
+      "number": 111,
+      "name": "المسد",
+      "englishName": "Al-Masad",
+      "meaning": "الحبل من ليف",
+      "totalAyat": 5,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 112,
+      "name": "الإخلاص",
+      "englishName": "Al-Ikhlas",
+      "meaning": "التوحيد",
+      "totalAyat": 4,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 113,
+      "name": "الفلق",
+      "englishName": "Al-Falaq",
+      "meaning": "الصبح",
+      "totalAyat": 5,
+      "revelationType": "Meccan"
+    },
+    {
+      "number": 114,
+      "name": "الناس",
+      "englishName": "An-Nas",
+      "meaning": "الناس",
+      "totalAyat": 6,
+      "revelationType": "Meccan"
+    }
+  ]
+}

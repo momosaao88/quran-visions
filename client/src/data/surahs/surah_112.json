@@ -1,0 +1,123 @@
+{
+  "surah": {
+    "number": 112,
+    "name": "الإخلاص",
+    "englishName": "Al-Ikhlas",
+    "totalAyat": 4,
+    "revelationType": "Meccan",
+    "meaning": "التوحيد"
+  },
+  "ayat": [
+    {
+      "number": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+      "juz": 30,
+      "page": 604,
+      "tafsir": {
+        "muyassar": "قل -أيها الرسول-: هو الله المتفرد بالألوهية والربوبية والأسماء والصفات، لا يشاركه أحد فيها.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "enNduVCQjeo",
+        "title": "برنامج غريب القرآن || الحلقة 38 - { بسم الله مجرىها }",
+        "url": "https://www.youtube.com/watch?v=enNduVCQjeo",
+        "keyword": "بسم الله مجرىها"
+      }
+    },
+    {
+      "number": 2,
+      "text": "ٱللَّهُ ٱلصَّمَدُ",
+      "juz": 30,
+      "page": 604,
+      "tafsir": {
+        "muyassar": "الله وحده المقصود في قضاء الحوائج والرغائب.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "Yh9ekFRRaU8",
+        "title": "#برنامج_غريب_القرآن || الحلقة 81 - { سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ }",
+        "url": "https://www.youtube.com/watch?v=Yh9ekFRRaU8",
+        "keyword": "سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ"
+      }
+    },
+    {
+      "number": 3,
+      "text": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+      "juz": 30,
+      "page": 604,
+      "tafsir": {
+        "muyassar": "ليس له ولد ولا والد ولا صاحبة.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      }
+    },
+    {
+      "number": 4,
+      "text": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+      "juz": 30,
+      "page": 604,
+      "tafsir": {
+        "muyassar": "ولم يكن له مماثلا ولا مشابهًا أحد من خلقه، لا في أسمائه ولا في صفاته، ولا في أفعاله، تبارك وتعالى وتقدَّس.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      }
+    }
+  ],
+  "tafsirSources": [
+    {
+      "id": "muyassar",
+      "name": "التفسير الميسر",
+      "author": "مجمع الملك فهد"
+    },
+    {
+      "id": "mukhtasar",
+      "name": "المختصر في التفسير",
+      "author": "مركز تفسير"
+    },
+    {
+      "id": "saadi",
+      "name": "تفسير السعدي",
+      "author": "الشيخ عبدالرحمن السعدي"
+    },
+    {
+      "id": "jalalayn",
+      "name": "تفسير الجلالين",
+      "author": "جلال الدين المحلي والسيوطي"
+    }
+  ],
+  "gharibSources": [
+    {
+      "id": "muyassar",
+      "name": "الميسر في غريب القرآن",
+      "author": "مجمع الملك فهد"
+    },
+    {
+      "id": "siraj",
+      "name": "السراج في غريب القرآن",
+      "author": "د. محمد الخضيري"
+    }
+  ],
+  "videos": []
+}

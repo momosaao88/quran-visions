@@ -1,0 +1,171 @@
+{
+  "surah": {
+    "number": 107,
+    "name": "الماعون",
+    "englishName": "Al-Maun",
+    "totalAyat": 7,
+    "revelationType": "Meccan",
+    "meaning": "المعونة"
+  },
+  "ayat": [
+    {
+      "number": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ",
+      "juz": 30,
+      "page": 602,
+      "tafsir": {
+        "muyassar": "أرأيت حال ذلك الذي يكذِّب بالبعث والجزاء؟",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "enNduVCQjeo",
+        "title": "برنامج غريب القرآن || الحلقة 38 - { بسم الله مجرىها }",
+        "url": "https://www.youtube.com/watch?v=enNduVCQjeo",
+        "keyword": "بسم الله مجرىها"
+      }
+    },
+    {
+      "number": 2,
+      "text": "فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ",
+      "juz": 30,
+      "page": 602,
+      "tafsir": {
+        "muyassar": "فذلك الذي يدفع اليتيم بعنف وشدة عن حقه؛ لقساوة قلبه.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      }
+    },
+    {
+      "number": 3,
+      "text": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+      "juz": 30,
+      "page": 602,
+      "tafsir": {
+        "muyassar": "ولا يحضُّ غيره على إطعام المسكين، فكيف له أن يطعمه بنفسه؟",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "UPTcV9V98yc",
+        "title": "برنامج غريب القرآن || الحلقة 49 - { إِلًّا وَلَا ذِمَّةً }",
+        "url": "https://www.youtube.com/watch?v=UPTcV9V98yc",
+        "keyword": "إِلًّا وَلَا ذِمَّةً"
+      }
+    },
+    {
+      "number": 4,
+      "text": "فَوَيْلٌۭ لِّلْمُصَلِّينَ",
+      "juz": 30,
+      "page": 602,
+      "tafsir": {
+        "muyassar": "فعذاب شديد للمصلين الذين هم عن صلاتهم لاهون، لا يقيمونها على وجهها، ولا يؤدونها في وقتها.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      }
+    },
+    {
+      "number": 5,
+      "text": "ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ",
+      "juz": 30,
+      "page": 602,
+      "tafsir": {
+        "muyassar": "فعذاب شديد للمصلين الذين هم عن صلاتهم لاهون، لا يقيمونها على وجهها، ولا يؤدونها في وقتها.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      }
+    },
+    {
+      "number": 6,
+      "text": "ٱلَّذِينَ هُمْ يُرَآءُونَ",
+      "juz": 30,
+      "page": 602,
+      "tafsir": {
+        "muyassar": "الذين هم يتظاهرون بأعمال الخير مراءاة للناس.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      }
+    },
+    {
+      "number": 7,
+      "text": "وَيَمْنَعُونَ ٱلْمَاعُونَ",
+      "juz": 30,
+      "page": 602,
+      "tafsir": {
+        "muyassar": "ويمنعون إعارة ما لا تضر إعارته من الآنية وغيرها، فلا هم أحسنوا عبادة ربهم، ولا هم أحسنوا إلى خلقه.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      }
+    }
+  ],
+  "tafsirSources": [
+    {
+      "id": "muyassar",
+      "name": "التفسير الميسر",
+      "author": "مجمع الملك فهد"
+    },
+    {
+      "id": "mukhtasar",
+      "name": "المختصر في التفسير",
+      "author": "مركز تفسير"
+    },
+    {
+      "id": "saadi",
+      "name": "تفسير السعدي",
+      "author": "الشيخ عبدالرحمن السعدي"
+    },
+    {
+      "id": "jalalayn",
+      "name": "تفسير الجلالين",
+      "author": "جلال الدين المحلي والسيوطي"
+    }
+  ],
+  "gharibSources": [
+    {
+      "id": "muyassar",
+      "name": "الميسر في غريب القرآن",
+      "author": "مجمع الملك فهد"
+    },
+    {
+      "id": "siraj",
+      "name": "السراج في غريب القرآن",
+      "author": "د. محمد الخضيري"
+    }
+  ],
+  "videos": []
+}

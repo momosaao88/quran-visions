@@ -1,0 +1,113 @@
+{
+  "surah": {
+    "number": 110,
+    "name": "النصر",
+    "englishName": "An-Nasr",
+    "totalAyat": 3,
+    "revelationType": "Medinan",
+    "meaning": "النصر"
+  },
+  "ayat": [
+    {
+      "number": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
+      "juz": 30,
+      "page": 603,
+      "tafsir": {
+        "muyassar": "إذا تمَّ لك -أيها الرسول- النصر على كفار قريش، وتم لك فتح \"مكة\".",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "FqqopePrNYE",
+        "title": "برنامج ( غريب القرآن ) || الحلقة 04 - { غاسق إذا وقب }",
+        "url": "https://www.youtube.com/watch?v=FqqopePrNYE",
+        "keyword": "غاسق إذا وقب"
+      }
+    },
+    {
+      "number": 2,
+      "text": "وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًۭا",
+      "juz": 30,
+      "page": 603,
+      "tafsir": {
+        "muyassar": "ورأيت الكثير من الناس يدخلون في الإسلام جماعات جماعات.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "lMFS_5TsB6s",
+        "title": "برنامج ( غريب القرآن ) || الحلقة 15 - { وإذا رأيت ثم رأيت }",
+        "url": "https://www.youtube.com/watch?v=lMFS_5TsB6s",
+        "keyword": "وإذا رأيت ثم رأيت"
+      }
+    },
+    {
+      "number": 3,
+      "text": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ ۚ إِنَّهُۥ كَانَ تَوَّابًۢا",
+      "juz": 30,
+      "page": 603,
+      "tafsir": {
+        "muyassar": "إذا وقع ذلك فتهيأ للقاء ربك بالإكثار من التسبيح بحمده والإكثار من استغفاره، إنه كان توابًا على المسبحين والمستغفرين، يتوب عليهم ويرحمهم ويقبل توبتهم.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "lFySgeRmJQI",
+        "title": "#برنامج_غريب_القرآن || الحلقة 61 - { وَلَوْ كَانَ بِهِمْ خَصَاصَةٌ }",
+        "url": "https://www.youtube.com/watch?v=lFySgeRmJQI",
+        "keyword": "وَلَوْ كَانَ بِهِمْ خَصَاصَةٌ"
+      }
+    }
+  ],
+  "tafsirSources": [
+    {
+      "id": "muyassar",
+      "name": "التفسير الميسر",
+      "author": "مجمع الملك فهد"
+    },
+    {
+      "id": "mukhtasar",
+      "name": "المختصر في التفسير",
+      "author": "مركز تفسير"
+    },
+    {
+      "id": "saadi",
+      "name": "تفسير السعدي",
+      "author": "الشيخ عبدالرحمن السعدي"
+    },
+    {
+      "id": "jalalayn",
+      "name": "تفسير الجلالين",
+      "author": "جلال الدين المحلي والسيوطي"
+    }
+  ],
+  "gharibSources": [
+    {
+      "id": "muyassar",
+      "name": "الميسر في غريب القرآن",
+      "author": "مجمع الملك فهد"
+    },
+    {
+      "id": "siraj",
+      "name": "السراج في غريب القرآن",
+      "author": "د. محمد الخضيري"
+    }
+  ],
+  "videos": []
+}

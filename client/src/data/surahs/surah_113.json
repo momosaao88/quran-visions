@@ -1,0 +1,151 @@
+{
+  "surah": {
+    "number": 113,
+    "name": "الفلق",
+    "englishName": "Al-Falaq",
+    "totalAyat": 5,
+    "revelationType": "Meccan",
+    "meaning": "الصبح"
+  },
+  "ayat": [
+    {
+      "number": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+      "juz": 30,
+      "page": 604,
+      "tafsir": {
+        "muyassar": "قل -أيها الرسول-: أعوذ وأعتصم برب الفلق، وهو الصبح.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "enNduVCQjeo",
+        "title": "برنامج غريب القرآن || الحلقة 38 - { بسم الله مجرىها }",
+        "url": "https://www.youtube.com/watch?v=enNduVCQjeo",
+        "keyword": "بسم الله مجرىها"
+      }
+    },
+    {
+      "number": 2,
+      "text": "مِن شَرِّ مَا خَلَقَ",
+      "juz": 30,
+      "page": 604,
+      "tafsir": {
+        "muyassar": "من شر جميع المخلوقات وأذاها.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "mcXnCCGNPLs",
+        "title": "#برنامج_غريب_القرآن || الحلقة 111 - { إن الإنسان خلق هلوعًا }",
+        "url": "https://www.youtube.com/watch?v=mcXnCCGNPLs",
+        "keyword": "إن الإنسان خلق هلوعًا"
+      }
+    },
+    {
+      "number": 3,
+      "text": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+      "juz": 30,
+      "page": 604,
+      "tafsir": {
+        "muyassar": "ومن شر ليل شديد الظلمة إذا دخل وتغلغل، وما فيه من الشرور والمؤذيات.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "FqqopePrNYE",
+        "title": "برنامج ( غريب القرآن ) || الحلقة 04 - { غاسق إذا وقب }",
+        "url": "https://www.youtube.com/watch?v=FqqopePrNYE",
+        "keyword": "غاسق إذا وقب"
+      }
+    },
+    {
+      "number": 4,
+      "text": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
+      "juz": 30,
+      "page": 604,
+      "tafsir": {
+        "muyassar": "ومن شر الساحرات اللاتي ينفخن فيما يعقدن من عُقَد بقصد السحر.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      }
+    },
+    {
+      "number": 5,
+      "text": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+      "juz": 30,
+      "page": 604,
+      "tafsir": {
+        "muyassar": "ومن شر حاسد مبغض للناس إذا حسدهم على ما وهبهم الله من نعم، وأراد زوالها عنهم، وإيقاع الأذى بهم.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "FqqopePrNYE",
+        "title": "برنامج ( غريب القرآن ) || الحلقة 04 - { غاسق إذا وقب }",
+        "url": "https://www.youtube.com/watch?v=FqqopePrNYE",
+        "keyword": "غاسق إذا وقب"
+      }
+    }
+  ],
+  "tafsirSources": [
+    {
+      "id": "muyassar",
+      "name": "التفسير الميسر",
+      "author": "مجمع الملك فهد"
+    },
+    {
+      "id": "mukhtasar",
+      "name": "المختصر في التفسير",
+      "author": "مركز تفسير"
+    },
+    {
+      "id": "saadi",
+      "name": "تفسير السعدي",
+      "author": "الشيخ عبدالرحمن السعدي"
+    },
+    {
+      "id": "jalalayn",
+      "name": "تفسير الجلالين",
+      "author": "جلال الدين المحلي والسيوطي"
+    }
+  ],
+  "gharibSources": [
+    {
+      "id": "muyassar",
+      "name": "الميسر في غريب القرآن",
+      "author": "مجمع الملك فهد"
+    },
+    {
+      "id": "siraj",
+      "name": "السراج في غريب القرآن",
+      "author": "د. محمد الخضيري"
+    }
+  ],
+  "videos": []
+}

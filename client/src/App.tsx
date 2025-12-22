@@ -1,17 +1,30 @@
 import { Switch, Route } from "wouter";
 import { ThemeProvider } from "@/components/theme-provider";
-import Home from "@/pages/Home";
+import SurahIndex from "@/pages/SurahIndex";
+import SurahView from "@/pages/SurahView";
 
 function App() {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="quran-visions-theme">
       <Switch>
-        <Route path="/" component={Home} />
+        {/* الصفحة الرئيسية - فهرس السور */}
+        <Route path="/" component={SurahIndex} />
+        
+        {/* صفحة عرض السورة */}
+        <Route path="/surah/:number" component={SurahView} />
+        
+        {/* صفحة 404 */}
         <Route>
-          <div className="min-h-screen flex items-center justify-center bg-background">
+          <div className="min-h-screen flex items-center justify-center bg-gradient-cosmic">
             <div className="text-center">
-              <h1 className="font-amiri text-4xl text-primary mb-4">404</h1>
-              <p className="text-muted-foreground">الصفحة غير موجودة</p>
+              <h1 className="font-amiri text-6xl text-primary mb-4">404</h1>
+              <p className="text-muted-foreground mb-6">الصفحة غير موجودة</p>
+              <a 
+                href="/" 
+                className="px-6 py-3 bg-primary/20 text-primary rounded-lg hover:bg-primary/30 transition-colors"
+              >
+                العودة للفهرس
+              </a>
             </div>
           </div>
         </Route>

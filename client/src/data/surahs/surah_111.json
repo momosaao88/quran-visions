@@ -1,0 +1,151 @@
+{
+  "surah": {
+    "number": 111,
+    "name": "المسد",
+    "englishName": "Al-Masad",
+    "totalAyat": 5,
+    "revelationType": "Meccan",
+    "meaning": "الحبل من ليف"
+  },
+  "ayat": [
+    {
+      "number": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ تَبَّتْ يَدَآ أَبِى لَهَبٍۢ وَتَبَّ",
+      "juz": 30,
+      "page": 603,
+      "tafsir": {
+        "muyassar": "خسرت يدا أبي لهب وشقي بإيذائه رسول الله محمدا صلى الله عليه وسلم، وقد تحقق خسران أبي لهب.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "enNduVCQjeo",
+        "title": "برنامج غريب القرآن || الحلقة 38 - { بسم الله مجرىها }",
+        "url": "https://www.youtube.com/watch?v=enNduVCQjeo",
+        "keyword": "بسم الله مجرىها"
+      }
+    },
+    {
+      "number": 2,
+      "text": "مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ",
+      "juz": 30,
+      "page": 603,
+      "tafsir": {
+        "muyassar": "ما أغنى عنه ماله وولده، فلن يَرُدَّا عنه شيئًا من عذاب الله إذا نزل به.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "mtjzT85w4DM",
+        "title": "برنامج ( غريب القرآن ) || الحلقة 14 - { وأنه هو أغنى وأقنى }",
+        "url": "https://www.youtube.com/watch?v=mtjzT85w4DM",
+        "keyword": "وأنه هو أغنى وأقنى"
+      }
+    },
+    {
+      "number": 3,
+      "text": "سَيَصْلَىٰ نَارًۭا ذَاتَ لَهَبٍۢ",
+      "juz": 30,
+      "page": 603,
+      "tafsir": {
+        "muyassar": "سيدخل نارًا متأججة، هو وامرأته التي كانت تحمل الشوك، فتطرحه في طريق النبي صلى الله عليه وسلم؛ لأذيَّته.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "x7HbB1NHelw",
+        "title": "برنامج ( غريب القرآن ) || الحلقة 13  - { ذات ألواح و دسر }",
+        "url": "https://www.youtube.com/watch?v=x7HbB1NHelw",
+        "keyword": "ذات ألواح و دسر"
+      }
+    },
+    {
+      "number": 4,
+      "text": "وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ",
+      "juz": 30,
+      "page": 603,
+      "tafsir": {
+        "muyassar": "سيدخل نارًا متأججة، هو وامرأته التي كانت تحمل الشوك، فتطرحه في طريق النبي صلى الله عليه وسلم؛ لأذيَّته.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      }
+    },
+    {
+      "number": 5,
+      "text": "فِى جِيدِهَا حَبْلٌۭ مِّن مَّسَدٍۭ",
+      "juz": 30,
+      "page": 603,
+      "tafsir": {
+        "muyassar": "في عنقها حبل محكم الفَتْلِ مِن ليف شديد خشن، تُرْفَع به في نار جهنم، ثم تُرْمى إلى أسفلها.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "LbI1Zv8Uuv8",
+        "title": "برنامج ( غريب القرآن ) || الحلقة 05 - { حبل من مسد }",
+        "url": "https://www.youtube.com/watch?v=LbI1Zv8Uuv8",
+        "keyword": "حبل من مسد"
+      }
+    }
+  ],
+  "tafsirSources": [
+    {
+      "id": "muyassar",
+      "name": "التفسير الميسر",
+      "author": "مجمع الملك فهد"
+    },
+    {
+      "id": "mukhtasar",
+      "name": "المختصر في التفسير",
+      "author": "مركز تفسير"
+    },
+    {
+      "id": "saadi",
+      "name": "تفسير السعدي",
+      "author": "الشيخ عبدالرحمن السعدي"
+    },
+    {
+      "id": "jalalayn",
+      "name": "تفسير الجلالين",
+      "author": "جلال الدين المحلي والسيوطي"
+    }
+  ],
+  "gharibSources": [
+    {
+      "id": "muyassar",
+      "name": "الميسر في غريب القرآن",
+      "author": "مجمع الملك فهد"
+    },
+    {
+      "id": "siraj",
+      "name": "السراج في غريب القرآن",
+      "author": "د. محمد الخضيري"
+    }
+  ],
+  "videos": []
+}

@@ -1,0 +1,151 @@
+{
+  "surah": {
+    "number": 105,
+    "name": "الفيل",
+    "englishName": "Al-Fil",
+    "totalAyat": 5,
+    "revelationType": "Meccan",
+    "meaning": "الفيل"
+  },
+  "ayat": [
+    {
+      "number": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ",
+      "juz": 30,
+      "page": 601,
+      "tafsir": {
+        "muyassar": "ألم تعلم -أيها الرسول- كيف فعل ربك بأصحاب الفيل: أبرهة الحبشي وجيشه الذين أرادوا تدمير الكعبة المباركة؟",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "enNduVCQjeo",
+        "title": "برنامج غريب القرآن || الحلقة 38 - { بسم الله مجرىها }",
+        "url": "https://www.youtube.com/watch?v=enNduVCQjeo",
+        "keyword": "بسم الله مجرىها"
+      }
+    },
+    {
+      "number": 2,
+      "text": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍۢ",
+      "juz": 30,
+      "page": 601,
+      "tafsir": {
+        "muyassar": "ألم يجعل ما دبَّروه من شر في إبطال وتضييع؟",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      }
+    },
+    {
+      "number": 3,
+      "text": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
+      "juz": 30,
+      "page": 601,
+      "tafsir": {
+        "muyassar": "وبعث عليهم طيرًا في جماعات متتابعة، تقذفهم بحجارة من طين متحجِّر.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "WvDpMVuPxOc",
+        "title": "برنامج ( غريب القرآن ) || الحلقة 07 - { فظن ألن نقدر عليه }",
+        "url": "https://www.youtube.com/watch?v=WvDpMVuPxOc",
+        "keyword": "فظن ألن نقدر عليه"
+      }
+    },
+    {
+      "number": 4,
+      "text": "تَرْمِيهِم بِحِجَارَةٍۢ مِّن سِجِّيلٍۢ",
+      "juz": 30,
+      "page": 601,
+      "tafsir": {
+        "muyassar": "وبعث عليهم طيرًا في جماعات متتابعة، تقذفهم بحجارة من طين متحجِّر.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "sm9PNcXArag",
+        "title": "برنامج غريب القرآن || الحلقة 42 - { سجيل منضود }",
+        "url": "https://www.youtube.com/watch?v=sm9PNcXArag",
+        "keyword": "سجيل منضود"
+      }
+    },
+    {
+      "number": 5,
+      "text": "فَجَعَلَهُمْ كَعَصْفٍۢ مَّأْكُولٍۭ",
+      "juz": 30,
+      "page": 601,
+      "tafsir": {
+        "muyassar": "فجعلهم به محطمين كأوراق الزرع اليابسة التي أكلتها البهائم ثم رمت بها.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "Rl9hzenHsWk",
+        "title": "#برنامج_غريب_القرآن || الحلقة 103 - { نملي لهم }",
+        "url": "https://www.youtube.com/watch?v=Rl9hzenHsWk",
+        "keyword": "نملي لهم"
+      }
+    }
+  ],
+  "tafsirSources": [
+    {
+      "id": "muyassar",
+      "name": "التفسير الميسر",
+      "author": "مجمع الملك فهد"
+    },
+    {
+      "id": "mukhtasar",
+      "name": "المختصر في التفسير",
+      "author": "مركز تفسير"
+    },
+    {
+      "id": "saadi",
+      "name": "تفسير السعدي",
+      "author": "الشيخ عبدالرحمن السعدي"
+    },
+    {
+      "id": "jalalayn",
+      "name": "تفسير الجلالين",
+      "author": "جلال الدين المحلي والسيوطي"
+    }
+  ],
+  "gharibSources": [
+    {
+      "id": "muyassar",
+      "name": "الميسر في غريب القرآن",
+      "author": "مجمع الملك فهد"
+    },
+    {
+      "id": "siraj",
+      "name": "السراج في غريب القرآن",
+      "author": "د. محمد الخضيري"
+    }
+  ],
+  "videos": []
+}

@@ -26,7 +26,8 @@ interface Ayah {
 interface TafsirSource {
   id: string;
   name: string;
-  description: string;
+  author?: string;
+  description?: string;
 }
 
 interface TafsirPanelProps {

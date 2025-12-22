@@ -1,0 +1,173 @@
+{
+  "surah": {
+    "number": 114,
+    "name": "الناس",
+    "englishName": "An-Nas",
+    "totalAyat": 6,
+    "revelationType": "Meccan",
+    "meaning": "الناس"
+  },
+  "ayat": [
+    {
+      "number": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+      "juz": 30,
+      "page": 604,
+      "tafsir": {
+        "muyassar": "قل -أيها الرسول-: أعوذ وأعتصم برب الناس، القادر وحده على ردِّ شر الوسواس.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "enNduVCQjeo",
+        "title": "برنامج غريب القرآن || الحلقة 38 - { بسم الله مجرىها }",
+        "url": "https://www.youtube.com/watch?v=enNduVCQjeo",
+        "keyword": "بسم الله مجرىها"
+      }
+    },
+    {
+      "number": 2,
+      "text": "مَلِكِ ٱلنَّاسِ",
+      "juz": 30,
+      "page": 604,
+      "tafsir": {
+        "muyassar": "ملك الناس المتصرف في كل شؤونهم، الغنيِّ عنهم.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "9Z55NwEhLjU",
+        "title": "برنامج غريب القرآن || الحلقة 44 - { وقالوا ربنا عجل لنا قطنا }",
+        "url": "https://www.youtube.com/watch?v=9Z55NwEhLjU",
+        "keyword": "وقالوا ربنا عجل لنا قطنا"
+      }
+    },
+    {
+      "number": 3,
+      "text": "إِلَٰهِ ٱلنَّاسِ",
+      "juz": 30,
+      "page": 604,
+      "tafsir": {
+        "muyassar": "إله الناس الذي لا معبود بحق سواه.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "9Z55NwEhLjU",
+        "title": "برنامج غريب القرآن || الحلقة 44 - { وقالوا ربنا عجل لنا قطنا }",
+        "url": "https://www.youtube.com/watch?v=9Z55NwEhLjU",
+        "keyword": "وقالوا ربنا عجل لنا قطنا"
+      }
+    },
+    {
+      "number": 4,
+      "text": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
+      "juz": 30,
+      "page": 604,
+      "tafsir": {
+        "muyassar": "من أذى الشيطان الذي يوسوس عند الغفلة، ويختفي عند ذكر الله.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      }
+    },
+    {
+      "number": 5,
+      "text": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
+      "juz": 30,
+      "page": 604,
+      "tafsir": {
+        "muyassar": "الذي يبثُّ الشر والشكوك في صدور الناس.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "9Z55NwEhLjU",
+        "title": "برنامج غريب القرآن || الحلقة 44 - { وقالوا ربنا عجل لنا قطنا }",
+        "url": "https://www.youtube.com/watch?v=9Z55NwEhLjU",
+        "keyword": "وقالوا ربنا عجل لنا قطنا"
+      }
+    },
+    {
+      "number": 6,
+      "text": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+      "juz": 30,
+      "page": 604,
+      "tafsir": {
+        "muyassar": "من شياطين الجن والإنس.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "9Z55NwEhLjU",
+        "title": "برنامج غريب القرآن || الحلقة 44 - { وقالوا ربنا عجل لنا قطنا }",
+        "url": "https://www.youtube.com/watch?v=9Z55NwEhLjU",
+        "keyword": "وقالوا ربنا عجل لنا قطنا"
+      }
+    }
+  ],
+  "tafsirSources": [
+    {
+      "id": "muyassar",
+      "name": "التفسير الميسر",
+      "author": "مجمع الملك فهد"
+    },
+    {
+      "id": "mukhtasar",
+      "name": "المختصر في التفسير",
+      "author": "مركز تفسير"
+    },
+    {
+      "id": "saadi",
+      "name": "تفسير السعدي",
+      "author": "الشيخ عبدالرحمن السعدي"
+    },
+    {
+      "id": "jalalayn",
+      "name": "تفسير الجلالين",
+      "author": "جلال الدين المحلي والسيوطي"
+    }
+  ],
+  "gharibSources": [
+    {
+      "id": "muyassar",
+      "name": "الميسر في غريب القرآن",
+      "author": "مجمع الملك فهد"
+    },
+    {
+      "id": "siraj",
+      "name": "السراج في غريب القرآن",
+      "author": "د. محمد الخضيري"
+    }
+  ],
+  "videos": []
+}

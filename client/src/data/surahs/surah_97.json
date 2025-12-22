@@ -1,0 +1,151 @@
+{
+  "surah": {
+    "number": 97,
+    "name": "القدر",
+    "englishName": "Al-Qadr",
+    "totalAyat": 5,
+    "revelationType": "Meccan",
+    "meaning": "ليلة القدر"
+  },
+  "ayat": [
+    {
+      "number": 1,
+      "text": "بِّسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِنَّآ أَنزَلْنَٰهُ فِى لَيْلَةِ ٱلْقَدْرِ",
+      "juz": 30,
+      "page": 598,
+      "tafsir": {
+        "muyassar": "إنا أنزلنا القرآن في ليلة الشرف والفضل، وهي إحدى ليالي شهر رمضان.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "enNduVCQjeo",
+        "title": "برنامج غريب القرآن || الحلقة 38 - { بسم الله مجرىها }",
+        "url": "https://www.youtube.com/watch?v=enNduVCQjeo",
+        "keyword": "بسم الله مجرىها"
+      }
+    },
+    {
+      "number": 2,
+      "text": "وَمَآ أَدْرَىٰكَ مَا لَيْلَةُ ٱلْقَدْرِ",
+      "juz": 30,
+      "page": 598,
+      "tafsir": {
+        "muyassar": "وما أدراك -أيها النبي- ما ليلة القدر والشرف؟",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "02iZa0vqNG4",
+        "title": "#برنامج_غريب_القرآن || الحلقة 78 - { وما يعزب عن ربك }",
+        "url": "https://www.youtube.com/watch?v=02iZa0vqNG4",
+        "keyword": "وما يعزب عن ربك"
+      }
+    },
+    {
+      "number": 3,
+      "text": "لَيْلَةُ ٱلْقَدْرِ خَيْرٌۭ مِّنْ أَلْفِ شَهْرٍۢ",
+      "juz": 30,
+      "page": 598,
+      "tafsir": {
+        "muyassar": "ليلة القدر ليلة مباركة، فَضْلُها خير من فضل ألف شهر ليس فيها ليلة قدر.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      }
+    },
+    {
+      "number": 4,
+      "text": "تَنَزَّلُ ٱلْمَلَٰٓئِكَةُ وَٱلرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍۢ",
+      "juz": 30,
+      "page": 598,
+      "tafsir": {
+        "muyassar": "يكثر نزول الملائكة وجبريل عليه السلام فيها، بإذن ربهم من كل أمر قضاه في تلك السنة.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "lFySgeRmJQI",
+        "title": "#برنامج_غريب_القرآن || الحلقة 61 - { وَلَوْ كَانَ بِهِمْ خَصَاصَةٌ }",
+        "url": "https://www.youtube.com/watch?v=lFySgeRmJQI",
+        "keyword": "وَلَوْ كَانَ بِهِمْ خَصَاصَةٌ"
+      }
+    },
+    {
+      "number": 5,
+      "text": "سَلَٰمٌ هِىَ حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ",
+      "juz": 30,
+      "page": 598,
+      "tafsir": {
+        "muyassar": "هي أمن كلها، لا شرَّ فيها إلى مطلع الفجر.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "bNVTG7GoUMw",
+        "title": "#برنامج_غريب_القرآن || الحلقة 60 - { حَتَّى يَلِجَ الْجَمَلُ فِي سَمِّ الْخِيَاطِ }",
+        "url": "https://www.youtube.com/watch?v=bNVTG7GoUMw",
+        "keyword": "حَتَّى يَلِجَ الْجَمَلُ فِي سَمِّ الْخِيَاطِ"
+      }
+    }
+  ],
+  "tafsirSources": [
+    {
+      "id": "muyassar",
+      "name": "التفسير الميسر",
+      "author": "مجمع الملك فهد"
+    },
+    {
+      "id": "mukhtasar",
+      "name": "المختصر في التفسير",
+      "author": "مركز تفسير"
+    },
+    {
+      "id": "saadi",
+      "name": "تفسير السعدي",
+      "author": "الشيخ عبدالرحمن السعدي"
+    },
+    {
+      "id": "jalalayn",
+      "name": "تفسير الجلالين",
+      "author": "جلال الدين المحلي والسيوطي"
+    }
+  ],
+  "gharibSources": [
+    {
+      "id": "muyassar",
+      "name": "الميسر في غريب القرآن",
+      "author": "مجمع الملك فهد"
+    },
+    {
+      "id": "siraj",
+      "name": "السراج في غريب القرآن",
+      "author": "د. محمد الخضيري"
+    }
+  ],
+  "videos": []
+}

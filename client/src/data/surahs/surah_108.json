@@ -1,0 +1,107 @@
+{
+  "surah": {
+    "number": 108,
+    "name": "الكوثر",
+    "englishName": "Al-Kawthar",
+    "totalAyat": 3,
+    "revelationType": "Meccan",
+    "meaning": "الخير الكثير"
+  },
+  "ayat": [
+    {
+      "number": 1,
+      "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ",
+      "juz": 30,
+      "page": 602,
+      "tafsir": {
+        "muyassar": "إنا أعطيناك -أيها النبي- الخير الكثير في الدنيا والآخرة، ومن ذلك نهر الكوثر في الجنة الذي حافتاه خيام اللؤلؤ المجوَّف، وطينه المسك.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "HSgYkX1LgIM",
+        "title": "برنامج ( غريب القرآن ) || الحلقة 24  - { و أعطى قليلاً و أكدى }",
+        "url": "https://www.youtube.com/watch?v=HSgYkX1LgIM",
+        "keyword": "و أعطى قليلاً و أكدى"
+      }
+    },
+    {
+      "number": 2,
+      "text": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ",
+      "juz": 30,
+      "page": 602,
+      "tafsir": {
+        "muyassar": "فأخلص لربك صلاتك كلها، واذبح ذبيحتك له وعلى اسمه وحده.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      },
+      "video": {
+        "videoId": "02iZa0vqNG4",
+        "title": "#برنامج_غريب_القرآن || الحلقة 78 - { وما يعزب عن ربك }",
+        "url": "https://www.youtube.com/watch?v=02iZa0vqNG4",
+        "keyword": "وما يعزب عن ربك"
+      }
+    },
+    {
+      "number": 3,
+      "text": "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ",
+      "juz": 30,
+      "page": 602,
+      "tafsir": {
+        "muyassar": "إن مبغضك ومبغض ما جئت به من الهدى والنور، هو المنقطع أثره، المقطوع من كل خير.",
+        "mukhtasar": "",
+        "saadi": "",
+        "jalalayn": ""
+      },
+      "gharib": {
+        "muyassar": {},
+        "siraj": {}
+      }
+    }
+  ],
+  "tafsirSources": [
+    {
+      "id": "muyassar",
+      "name": "التفسير الميسر",
+      "author": "مجمع الملك فهد"
+    },
+    {
+      "id": "mukhtasar",
+      "name": "المختصر في التفسير",
+      "author": "مركز تفسير"
+    },
+    {
+      "id": "saadi",
+      "name": "تفسير السعدي",
+      "author": "الشيخ عبدالرحمن السعدي"
+    },
+    {
+      "id": "jalalayn",
+      "name": "تفسير الجلالين",
+      "author": "جلال الدين المحلي والسيوطي"
+    }
+  ],
+  "gharibSources": [
+    {
+      "id": "muyassar",
+      "name": "الميسر في غريب القرآن",
+      "author": "مجمع الملك فهد"
+    },
+    {
+      "id": "siraj",
+      "name": "السراج في غريب القرآن",
+      "author": "د. محمد الخضيري"
+    }
+  ],
+  "videos": []
+}
