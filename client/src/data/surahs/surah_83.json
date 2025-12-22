@@ -25,7 +25,12 @@
         "وَيْلٌ لِلْمُطَفِّفِينَ (1) افتتاح السورة باسم الويل مؤذن بأنها تشتمل على وعيد فلفظ { ويل } من براعة الاستهلال",
         "كأنهم راعَوا في صيغة التفعيل معنى التكلف والمحاولة لأن المُطفف يحاول أن ينقص الكيل دون أن يشعر به المُكتال",
         "واجتمعت كلمة المفسرين على أن أهل يثرب كانوا من أخبث الناس كيلاً فقال جماعة من المفسرين : إن هذه الآية نزلت فيهم فأحسنوا الكيل بعد ذلك"
-      ]
+      ],
+      "translations": {
+        "en": "Woe to those who give less [than due],",
+        "fr": "Malheur aux fraudeurs",
+        "es": "¡Ay de los defraudadores,"
+      }
     },
     {
       "number": 2,
@@ -47,7 +52,12 @@
         "في معنى أخذ المبيع وأخذ الشيء المرهون وأخذ السلعة المشتراة",
         "وإنما عدي في الآية بحرف { على } لتضمين { اكتالوا } معنى التحامل",
         "فمعنى : { اكتالوا على الناس } اشتروا من الناس ما يباع بالكيل"
-      ]
+      ],
+      "translations": {
+        "en": "Who, when they take a measure from people, take in full.",
+        "fr": "qui, lorsqu'ils font mesurer pour eux-mêmes exigent la pleine mesure,",
+        "es": "que, cuando piden a otros la medida, la exigen exacta,"
+      }
     },
     {
       "number": 3,
@@ -69,7 +79,12 @@
         "كما حذفت اللام في قوله تعالى في سورة البقرة ( 233 ) { وإن أردتم أن تسترضعوا أولادكم } أي تسترضعوا لأولادكم",
         "وهو حذف كثير مثل قولهم : نصحتك وشكرتك",
         "ولكثرة دورانه على اللسان خففوه فقالوا : كاله ووزنه طعاماً على الحذف والإِيصال"
-      ]
+      ],
+      "translations": {
+        "en": "But if they give by measure or by weight to them, they cause loss.",
+        "fr": "et qui lorsqu'eux-mêmes mesurent ou pèsent pour les autres, [leur] causent perte.",
+        "es": "pero que, cuando ellos miden o pesan para otros, dan menos de lo debido!"
+      }
     },
     {
       "number": 4,
@@ -88,7 +103,12 @@
       },
       "basair_ibn_ashour": [
         "والهمزة للاستفهام التعجيبي بحيث يَسأل السائل عن علمهم بالبعث"
-      ]
+      ],
+      "translations": {
+        "en": "Do they not think that they will be resurrected",
+        "fr": "Ceux-là ne pensent-ils pas qu'ils seront ressuscités,",
+        "es": "¿No cuentan con ser resucitados"
+      }
     },
     {
       "number": 5,
@@ -108,7 +128,12 @@
       "basair_ibn_ashour": [
         "لِيَوْمٍ عَظِيمٍ (5) واللام في قوله : { ليوم عظيم } لام التوقيت مثل { أقم الصلاة لدلوك الشمس } [ الإسراء : 78 ]",
         "وفائدة لام التوقيت إدماج الرد على شبهتهم الحاملة لهم على إنكار البعث باعتقادهم أنه لو كان بعث لبُعثت أمواتُ القرون الغابرة"
-      ]
+      ],
+      "translations": {
+        "en": "For a tremendous Day -",
+        "fr": "en un jour terrible,",
+        "es": "un día terrible,"
+      }
     },
     {
       "number": 6,
@@ -127,7 +152,12 @@
       },
       "basair_ibn_ashour": [
         "ومعنى يقوم الناس } أنهم يكونون قياماً"
-      ]
+      ],
+      "translations": {
+        "en": "The Day when mankind will stand before the Lord of the worlds?",
+        "fr": "le jour où les gens se tiendront debout devant le Seigneur de l'Univers?",
+        "es": "el día que comparezcan los hombres ante el Señor del universo?"
+      }
     },
     {
       "number": 7,
@@ -149,7 +179,12 @@
         "استئناف ابتدائي بمناسبة ذكر يوم القيامة",
         "ويحتمل أن يكون كناية عن إحصاء أعمالهم وتوقيفهم عليها",
         "ومحمل قوله : { لفي سجين } إن كان على ظاهر الظرفية كان المعنى أن كتب أعمال الفجار مودعة في مكان اسمه { سجين } أو وصفه { سجين } وذلك يؤذن بتحقيره"
-      ]
+      ],
+      "translations": {
+        "en": "No! Indeed, the record of the wicked is in sijjeen.",
+        "fr": "Non...! Mais en vérité le livre des libertins sera dans le Sijjîn -",
+        "es": "¡No! La Escritura de los pecadores está, ciertamente, en Sichchín."
+      }
     },
     {
       "number": 8,
@@ -165,6 +200,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "And what can make you know what is sijjeen?",
+        "fr": "et qui te dira ce qu'est le Sijjîn? -",
+        "es": "Y ¿cómo sabrás qué es Sichchín?"
       }
     },
     {
@@ -185,7 +225,12 @@
       "basair_ibn_ashour": [
         "وهذا من حذف المسند إليه الذي اتُّبع في حذفه استعمالُ العرب إذا تحدثوا عن شيء ثم أرادوا الإخبار عنه بخبر جديد",
         "وهذا الوصف يفيد تأكيد ما يفيده لفظ { كتاب } سواء كان اللفظ حقيقة أو مجازاً"
-      ]
+      ],
+      "translations": {
+        "en": "It is [their destination recorded in] a register inscribed.",
+        "fr": "Un livre déjà cacheté (achevé).",
+        "es": "Es una Escritura marcada."
+      }
     },
     {
       "number": 10,
@@ -201,6 +246,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "Woe, that Day, to the deniers,",
+        "fr": "Malheur, ce jour-là, aux négateurs,",
+        "es": "Ese día, ¡ay de los desmentidores,"
       }
     },
     {
@@ -220,7 +270,12 @@
       },
       "basair_ibn_ashour": [
         "الَّذِينَ يُكَذِّبُونَ بِيَوْمِ الدِّينِ (11) ومعنى التكذيب ب«يوم الدين» التكذيب بوقوعه"
-      ]
+      ],
+      "translations": {
+        "en": "Who deny the Day of Recompense.",
+        "fr": "qui démentent le jour de la Rétribution.",
+        "es": "que desmienten el día del Juicio!"
+      }
     },
     {
       "number": 12,
@@ -239,7 +294,12 @@
       },
       "basair_ibn_ashour": [
         "ومعنى الادعاء أن من لم يُؤثَر عنهم القول في القرآن بأنه أساطير الأولين قد جعل تكذيبهم بيوم الدين كَلا تكذيببٍ مبالغة في إبطال تكذيب المشركين بيوم الدين"
-      ]
+      ],
+      "translations": {
+        "en": "And none deny it except every sinful transgressor.",
+        "fr": "Or, ne le dément que tout transgresseur, pécheur:",
+        "es": "Y no lo desmiente sino todo violador de la ley, pecador,"
+      }
     },
     {
       "number": 13,
@@ -258,7 +318,12 @@
       },
       "basair_ibn_ashour": [
         "والمراد بالأولين الأمم السابقة لأن الأول يطلق على السابق على وجه التشبيه بأنه أول بالنسبة إلى ثان بعده وإن كان هو قد سبقتْه أجيال"
-      ]
+      ],
+      "translations": {
+        "en": "When Our verses are recited to him, he says, \"Legends of the former peoples.\"",
+        "fr": "qui, lorsque Nos versets lui sont récités, dit: «[Ce sont] des contes d'anciens!»",
+        "es": "que, al serle recitadas Nuestras aleyas, dice: «¡Patrañas de los antiguos!»"
+      }
     },
     {
       "number": 14,
@@ -280,7 +345,12 @@
         "ولما فيه من معنى التغطئة أطلق على التغطية فجاء منه فعل ران بمعنى غشي",
         "والمعنى : غَطَّت على قلوبهم أعمالهم أن يدخلها فهمُ القرآن والبوننِ الشاسِع بينه وبين أساطير الأولين",
         "وما كانوا يكسبون } ما عملوه سالفاً من سيئات أعمالهم وجماحهم عن التدبر في الآيات حتى صار الإعراض والعناد خُلُقاً متأصلاً فيهم فلا تفهم عقولهم دلالة الأدلة على مدلولاتها"
-      ]
+      ],
+      "translations": {
+        "en": "No! Rather, the stain has covered their hearts of that which they were earning.",
+        "fr": "Pas du tout, mais ce qu'ils ont accompli couvre leurs cœurs.",
+        "es": "Pero ¡no! Lo que han cometido ha cubierto de herrumbre sus corazones."
+      }
     },
     {
       "number": 15,
@@ -299,7 +369,12 @@
       },
       "basair_ibn_ashour": [
         "ويوضح هذا المعنى قوله في حكاية أحوال الأبرار : { على الأرائك ينظرون } [ المطففين : 23 ] وكذلك أيضاً لا يدخلون حضرة القدس قال تعالى : { إن الذين كذبوا بآياتنا واستكبروا عنها لا تفتح لهم أبواب السماء } [ الأعراف : 40 ]"
-      ]
+      ],
+      "translations": {
+        "en": "No! Indeed, from their Lord, that Day, they will be partitioned.",
+        "fr": "Qu'ils prennent garde! En vérité ce jour-là un voile les empêchera de voir leur Seigneur,",
+        "es": "¡No! Ese día serán separados de su Señor por un velo."
+      }
     },
     {
       "number": 16,
@@ -318,7 +393,12 @@
       },
       "basair_ibn_ashour": [
         "والمعنى : أنهم سيصلون عذاب جهنم"
-      ]
+      ],
+      "translations": {
+        "en": "Then indeed, they will [enter and] burn in Hellfire.",
+        "fr": "ensuite, ils brûleront certes, dans la Fournaise;",
+        "es": "Luego, arderán, sí, en el fuego de la gehena."
+      }
     },
     {
       "number": 17,
@@ -338,7 +418,12 @@
       "basair_ibn_ashour": [
         "وتقديم { به } على { تكذبون } للاهتمام بمعاد الضمير مع الرعاية على الفاصلة والباء لتعدية فعل { تكذبون } إلى تفرقة بين تعديته إلى الشخص الكاذب فيعدّى بنفسه وبين تعديته إلى الخبر المكذَّب فيعدّى بالباء",
         "ولذلك قدره بعض المفسرين : هذا الذي كنتم به تكذبون رسل الله في الدنيا"
-      ]
+      ],
+      "translations": {
+        "en": "Then it will be said [to them], \"This is what you used to deny.\"",
+        "fr": "on [leur] dira alors: «Voilà ce que vous traitiez de mensonge!»",
+        "es": "Luego, se dirá: «¡He aquí lo que desmentíais!»"
+      }
     },
     {
       "number": 18,
@@ -359,7 +444,12 @@
         "فإن هذه الجملة بحذافرها تشبه جملة : { إن كتاب الفجار لفي سجين } [ المطففين : 7 ] الخ أسلوباً ومقابلةً",
         "فالوجه أن يكون مضمونها قسيماً لمضمون شبيهها فتحصلُ مقابلة وعيد الفجار بوعد الأبرار ومن عادة القرآن تعقيب الإنذار بالتبشير والعكس لأن الناس راهب وراغب فالتعرضُ لنعيم الأبرار إدماج اقتضته المناسبة وإن كان المقام من أول السورة مقام إنذار",
         "فاستُكمل له صيغة جمع العقلاء الذكور إتماماً لشرف المعنى باستعارة العلو وشرف النوع بإعطائه صيغة التذكير"
-      ]
+      ],
+      "translations": {
+        "en": "No! Indeed, the record of the righteous is in 'illiyyun.",
+        "fr": "Qu'ils prennent garde! Le livre des bons sera dans l'Illiyûn -",
+        "es": "¡No! La Escritura de los justos está, ciertamente, en Illiyyun."
+      }
     },
     {
       "number": 19,
@@ -375,6 +465,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "And what can make you know what is 'illiyyun?",
+        "fr": "et qui te dira ce qu'est l'Illiyûn? -",
+        "es": "Y ¿cómo sabrás qué es Illiyyun?"
       }
     },
     {
@@ -391,6 +486,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "It is [their destination recorded in] a register inscribed",
+        "fr": "un livre cacheté!",
+        "es": "Es una Escritura marcada,"
       }
     },
     {
@@ -407,6 +507,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "Which is witnessed by those brought near [to Allah].",
+        "fr": "Les rapprochés [d'Allah: les Anges] en témoignent.",
+        "es": "que verán con sus propios ojos los allegados."
       }
     },
     {
@@ -426,7 +531,12 @@
       },
       "basair_ibn_ashour": [
         "ولذلك جاءت على نسيج نظم قسيمتها افتتاحاً وتوصيفاً وفصلاً"
-      ]
+      ],
+      "translations": {
+        "en": "Indeed, the righteous will be in pleasure",
+        "fr": "Les bons seront dans [un Jardin] de délice,",
+        "es": "Sí, los justos estarán en delicia,"
+      }
     },
     {
       "number": 23,
@@ -446,7 +556,12 @@
       "basair_ibn_ashour": [
         "وحذف مفعول { ينظرون } إما لدلالة ما تقدم عليه من قوله في ضدهم : { إنهم عن ربهم يومئذ لمحجوبون } [ المطففين : 15 ] والتقدير : ينظرون إلى ربهم",
         "أي ينظرون كل ما يبهج نفوسهم ويسرهم بقرينة مقام الوعد والتكريم"
-      ]
+      ],
+      "translations": {
+        "en": "On adorned couches, observing.",
+        "fr": "sur les divans, ils regardent.",
+        "es": "en sofás, observando..."
+      }
     },
     {
       "number": 24,
@@ -465,7 +580,12 @@
       },
       "basair_ibn_ashour": [
         "أي النضرة والبهجة التي تكون لوجه المسرور الراضي إذ تبدو على وجهه ملامح السرور"
-      ]
+      ],
+      "translations": {
+        "en": "You will recognize in their faces the radiance of pleasure.",
+        "fr": "Tu reconnaîtras sur leurs visages, l'éclat de la félicité.",
+        "es": "Se reconocerá en sus rostros el brillo de la delicia."
+      }
     },
     {
       "number": 25,
@@ -486,7 +606,12 @@
         "للدلالة على أنهم مخدُومون يخدمهم مخلوقات لأجل ذلك في الجنة",
         "وهو اسم مفعول من خَتمه إذا شدّ بصنف من الطين معروف بالصلابة إذا يبس فيعسر قلعه وإذا قلع ظهر أنه مقلوع كانوا يجعلونه للختم على الرسائل لئلا يقرأ حاملها ما فيها ولذلك يقولون من كرم الكتاب ختمه ويجعلون علامة عليه",
         "إن الخليفة أن الله سربلهسِرْبَال مُلك به تُزجَى الخواتيم"
-      ]
+      ],
+      "translations": {
+        "en": "They will be given to drink [pure] wine [which was] sealed.",
+        "fr": "On leur sert à boire un nectar pur, cacheté,",
+        "es": "Se les dará de beber un vino generoso y sellado,"
+      }
     },
     {
       "number": 26,
@@ -508,7 +633,12 @@
         "وتقديم المجرور لإفادة الحصر أي وفي ذلك الرحِيققِ فليتنافس الناس لا في رحيق الدنيا الذي يتنافس فيه أهل البذخ ويجلبونه من أقاصي البلاد وينفقون فيه الأموال",
         "وإما أن تكون الفاء فاء جواب لشرط مقدر في الكلام يؤذن به تقديم المجرور لأن تقديم المجرور كثيراً ما يعامل معاملة الشرط",
         "وإما أن تكون الفاء تفريعاً على محذوف على طريقة الحذف على شريطة التفسير"
-      ]
+      ],
+      "translations": {
+        "en": "The last of it is musk. So for this let the competitors compete.",
+        "fr": "laissant un arrière-goût de musc. Que ceux qui la convoitent entrent en compétition [pour l'acquérir]",
+        "es": "con un dejo de almizcle -¡que lo codicien los codiciosos!-,"
+      }
     },
     {
       "number": 27,
@@ -527,7 +657,12 @@
       },
       "basair_ibn_ashour": [
         "وكانوا يمزجون الخمر لئلا تغلبهم سَوْرتها فيسرع إليهم مغيب العقول لأنهم يقصدون تطويل حصة النشوة للالتذاذ بدبيب السكر في العقل دون أن يغُتّه غتّاً فلذلك أكثر ما تشرب الخمر المعتقة الخالصة تُشرب ممزوجة بالماء"
-      ]
+      ],
+      "translations": {
+        "en": "And its mixture is of Tasneem,",
+        "fr": "Il est mélangé à la boisson de Tasnîm,",
+        "es": "mezclado con agua de Tasnim,"
+      }
     },
     {
       "number": 28,
@@ -547,7 +682,12 @@
       "basair_ibn_ashour": [
         "وعُدي فعل { يشرب } إلى ضمير العين بتضمين { يشرب } معنى : يمزج",
         "أو الباء بمعنى ( مِن ) التبعيضية وقد عده الأصمعي والفارسي وابن قتيبة وابن مالك في معاني الباء"
-      ]
+      ],
+      "translations": {
+        "en": "A spring from which those near [to Allah] drink.",
+        "fr": "source dont les rapprochés boivent.",
+        "es": "fuente de la que beberán los allegados."
+      }
     },
     {
       "number": 29,
@@ -569,7 +709,12 @@
         "والافتتاح ب { إن الذين أجرموا } بصورة الكلام المؤكد لإفادة الاهتمام بالكلام وذلك كثير في افتتاح الكلام المراد إعلانه ليتوجه بذلك الافتتاح جميع السامعين إلى استماعه للإِشعار بأنه خبر مهم",
         "وصوغ { يضحكون } بصيغة المضارع للدلالة على تكرر ذلك منهم وأنه ديدن لهم",
         "ومعنى يضحكون منهم : يضحكون من حالهم فكان المشركون لبطرهم يهزأوون بالمؤمنين ومعظمهم ضعاف أهل مكة فيضحكون منهم"
-      ]
+      ],
+      "translations": {
+        "en": "Indeed, those who committed crimes used to laugh at those who believed.",
+        "fr": "Les criminels riaient de ceux qui croyaient,",
+        "es": "Los pecadores se reían de los creyentes."
+      }
     },
     {
       "number": 30,
@@ -590,7 +735,12 @@
         "ويطلق الغمز على تحريك الطَّرْف لقصد تنبيه الناظر لما عسى أن يفوته النظر إليه من أحوال في المقام وكلا الإِطلاقين يصح حمل المعنى في الآية عليه",
         "والمعنى : وإذا مرّ المؤمنون بالذين أجرموا وهم في مجالسهم يتغامز المجرمون حين مرور المؤمنين أوْ وإذا مرّ الذين أجرموا بالذين آمنوا وهم في عملهم وفي عسر حالهم يتغامز المجرمون حين مرورهم",
         "والمعنى : وإذا رجع الذين أجرموا إلى بيوتهم وخلَصوا مع أهلهم تحدثوا أحاديث الفكاهة معهم بذكر المؤمنين وذمهم"
-      ]
+      ],
+      "translations": {
+        "en": "And when they passed by them, they would exchange derisive glances.",
+        "fr": "et, passant près d'eux, ils se faisaient des œillades,",
+        "es": "Cuando pasaban junto a ellos, se guiñaban el ojo,"
+      }
     },
     {
       "number": 31,
@@ -612,7 +762,12 @@
         "والمعنى : فاكهين بالتحدث عن المؤمنين",
         "فحذف متعلق { فاكهين } للعلم بأنه من قبيل متعلقات الأفعال المذكورة معه",
         "وهو صفة مشبهة وهما بمعنى واحد مثل فارح وفرح"
-      ]
+      ],
+      "translations": {
+        "en": "And when they returned to their people, they would return jesting.",
+        "fr": "et, retournant dans leurs familles, ils retournaient en plaisantant,",
+        "es": "cuando regresaban a los suyos, regresaban burlándose,"
+      }
     },
     {
       "number": 32,
@@ -631,7 +786,12 @@
       },
       "basair_ibn_ashour": [
         "وتأكيد الخبر بحرف التأكيد ولام الابتداء لقصد تحقيق الخبر"
-      ]
+      ],
+      "translations": {
+        "en": "And when they saw them, they would say, \"Indeed, those are truly lost.\"",
+        "fr": "et les voyant, ils disaient: «Ce sont vraiment ceux-là les égarés».",
+        "es": "cuando les veían, decían: «¡Sí, están extraviados!»"
+      }
     },
     {
       "number": 33,
@@ -651,7 +811,12 @@
       "basair_ibn_ashour": [
         "فمعنى الحِفظ هنا الرَّقابة ولذلك عدّي بحرف ( على ) ليتسلط النفي على الإِرسال والحِفظ ومعنَى الاستعلاء المجازي الذي أفاده حرف ( على ) فينتفي حالُهم الممثَّلُ",
         "وتقديم المجرور على متعلَّقه للاهتمام بمفاد حرف الاستعلاء وبمجروره معَ الرعاية على الفاصلة"
-      ]
+      ],
+      "translations": {
+        "en": "But they had not been sent as guardians over them.",
+        "fr": "Or, ils n'ont pas été envoyés pour être leurs gardiens.",
+        "es": "Pero no han sido enviados para velar por ellos."
+      }
     },
     {
       "number": 34,
@@ -673,7 +838,12 @@
         "وسكت عنه جميع المفسرين عدا ابن عطية",
         "ولا يستقيم تفسير قوله : { فاليوم } بمعنى : فيوم القيامة الذين آمنوا يضحكون من الكفار",
         "وتقديم { من الكفار } على متعلَّقه وهو { يضحكون } للاهتمام بالمضحوك منهم تعجيلاً لإِساءتهم عند سماع هذا التقريع"
-      ]
+      ],
+      "translations": {
+        "en": "So Today those who believed are laughing at the disbelievers,",
+        "fr": "Aujourd'hui, donc, ce sont ceux qui ont cru qui rient des infidèles",
+        "es": "Ese día, los creyentes se reirán de los infieles,"
+      }
     },
     {
       "number": 35,
@@ -689,6 +859,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "On adorned couches, observing.",
+        "fr": "sur les divans, ils regardent.",
+        "es": "en sofás, observando..."
       }
     },
     {
@@ -711,7 +886,12 @@
         "والاستفهام ب { هل } تقريري وتعجيب من عدم إِفلاتهم منه بعد دهور",
         "والاستفهام من قبيل الطلب فهو من أنواع الخطاب",
         "والخطاب بهذا الاستفهام موجه إلى غير معيّن بل إلى كل من يسمع ذلك النداء يوم القيامة"
-      ]
+      ],
+      "translations": {
+        "en": "Have the disbelievers [not] been rewarded [this Day] for what they used to do?",
+        "fr": "Est-ce que les infidèles ont eu la récompense de ce qu'ils faisaient?",
+        "es": "¿No han sido retribuidos los infieles según sus obras?"
+      }
     }
   ]
 }

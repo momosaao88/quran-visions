@@ -25,6 +25,12 @@ interface BasairData {
   source: string;
 }
 
+interface Translations {
+  en: string;
+  fr: string;
+  es: string;
+}
+
 interface Ayah {
   number: number;
   text: string;
@@ -43,6 +49,7 @@ interface Ayah {
   video?: Video;
   basair?: BasairData;
   basair_ibn_ashour?: string[];
+  translations?: Translations;
 }
 
 interface SurahData {

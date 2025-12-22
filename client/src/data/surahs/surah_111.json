@@ -26,7 +26,12 @@
         "فذلك براعة استهلال مثل ما تفتتح أشعار الهجاء بما يؤذن بالذم والشتم ومنه قوله تعالى : { ويل للمطففين } [ المطففين : 1 ] إذ افتتحت السورة المشتملة على وعيد المطففين للفظ الويل ومن هذا القبيل قول عبد الرحمان بن الحكم من شعراء «الحماسة» :",
         "مجشري فقد أنجز الإِقبال ما وعدوالتَّبُّ : الخسران والهلاك",
         "والكلام دعاء وتقريع لأبي لهب دافع الله به عن نبيئه بمثل اللفظ الذي شَتَم به أبو لهب محمداً صلى الله عليه وسلم جزاءً وفاقاً"
-      ]
+      ],
+      "translations": {
+        "en": "May the hands of Abu Lahab be ruined, and ruined is he.",
+        "fr": "Que périssent les deux mains d'Abû-Lahab et que lui-même périsse.",
+        "es": "¡Perezcan las manos de Abu Lahab! ¡Perezca él!"
+      }
     },
     {
       "number": 2,
@@ -45,7 +50,12 @@
       },
       "basair_ibn_ashour": [
         "ويجوز أن تكون استفهامية للتوبيخ والإِنكار"
-      ]
+      ],
+      "translations": {
+        "en": "His wealth will not avail him or that which he gained.",
+        "fr": "Sa fortune ne lui sert à rien, ni ce qu'il a acquis.",
+        "es": "Ni su hacienda ni sus adquisiciones le servirán de nada."
+      }
     },
     {
       "number": 3,
@@ -65,7 +75,12 @@
       "basair_ibn_ashour": [
         "ووصف النار ب { ذات لهب } لزيادة تقرير المناسبة بين اسمه وبين كفره إذ هو أبو لهب والنار ذات لهب",
         "وفي وصف النار بذلك زيادة كشف لحقيقة النار وهو مِثل التأكيد"
-      ]
+      ],
+      "translations": {
+        "en": "He will [enter to] burn in a Fire of [blazing] flame",
+        "fr": "Il sera brûlé dans un Feu plein de flammes,",
+        "es": "Arderá en un fuego llameante,"
+      }
     },
     {
       "number": 4,
@@ -84,7 +99,12 @@
       },
       "basair_ibn_ashour": [
         "فلما حصل لأبي لهب وعيد مقتبس من كنيته جُعل لامرأته وعيد مقتبَس لفظُه من فِعلها وهو حَمْل الحطب في الدنيا"
-      ]
+      ],
+      "translations": {
+        "en": "And his wife [as well] - the carrier of firewood.",
+        "fr": "de même sa femme, la porteuse de bois,",
+        "es": "así como su mujer, la acarreadora de leña,"
+      }
     },
     {
       "number": 5,
@@ -108,7 +128,12 @@
       },
       "basair_ibn_ashour": [
         "وقدم الخبر من قوله : { في جيدها } للاهتمام بوصف تلك الحالة الفظيعة التي عوضت فيها بحبل في جيدها عن العقد الذي كانت تحلي به جيدها في الدنيا فتربط به إذ قد كانت هي وزوجها من أهل الثراء وسادة أهل البطحاء"
-      ]
+      ],
+      "translations": {
+        "en": "Around her neck is a rope of [twisted] fiber.",
+        "fr": "à son cou, une corde de fibres.",
+        "es": "a su cuello una cuerda de fibras."
+      }
     }
   ]
 }

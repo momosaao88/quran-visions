@@ -26,7 +26,12 @@
         "وخاصة بالإطناب بتكرير كلمة { إذا }",
         "فإعادة كلمة { إذا } بعد واو العطف في هذه الجمل المتعاطفة إطناب",
         "والتهويل من مقتضيات الإِطناب والتكرير"
-      ]
+      ],
+      "translations": {
+        "en": "When the sun is wrapped up [in darkness]",
+        "fr": "Quand le soleil sera obscurci,",
+        "es": "Cuando el sol sea obscurecido,"
+      }
     },
     {
       "number": 2,
@@ -46,7 +51,12 @@
       "basair_ibn_ashour": [
         "وفسر الانكدار بالتساقط والانقضاض",
         "أبصَر خِرْبَانَ فَضَاءً فانكدرومعنى تساقطها تساقط بعضها على بعض واصطدامها بسبب اختلال نظام الجاذبية الذي جعله الله لإمساكها إلى أمد معلوم"
-      ]
+      ],
+      "translations": {
+        "en": "And when the stars fall, dispersing,",
+        "fr": "et que les étoiles deviendront ternes,",
+        "es": "cuando las estrellas pierdan su brillo,"
+      }
     },
     {
       "number": 3,
@@ -62,6 +72,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "And when the mountains are removed",
+        "fr": "et les montagnes mises en marche,",
+        "es": "cuando las montañas sean puestas en marcha,"
       }
     },
     {
@@ -84,7 +99,12 @@
         "والكلام كناية عن ترك الناس أعمالهم لشدة الهول",
         "فهم يطلقون مثل هذه الاستعارة للسحاب",
         "ومعنى تعطيل الأسحبة أن يَعْرض لها ما يحبس مطرها عن النزول"
-      ]
+      ],
+      "translations": {
+        "en": "And when full-term she-camels are neglected",
+        "fr": "et les chamelles à terme, négligées,",
+        "es": "cuando las camellas preñadas de diez meses sean descuidadas,"
+      }
     },
     {
       "number": 5,
@@ -100,6 +120,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "And when the wild beasts are gathered",
+        "fr": "et les bêtes farouches, rassemblées,",
+        "es": "cuando las bestias salvajes sean agrupadas,"
       }
     },
     {
@@ -116,6 +141,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "And when the seas are filled with flame",
+        "fr": "et les mers allumées,",
+        "es": "cuando los mares sean hinchados,"
       }
     },
     {
@@ -138,7 +168,12 @@
         "وهذا هو البعث وهوالمعنى المتبادر أولاً",
         "ويجوز أن يكون المعنى وإذا الأشخاص نُوعت وصنفت فجعلت أصنافاً : المؤمنون",
         "وقد ذكروا معاني أخرى لتزويج النفوس في هذه الآية غير مناسبة للسياق"
-      ]
+      ],
+      "translations": {
+        "en": "And when the souls are paired",
+        "fr": "et les âmes accouplées",
+        "es": "cuando las almas sean apareadas,"
+      }
     },
     {
       "number": 8,
@@ -157,7 +192,12 @@
       },
       "basair_ibn_ashour": [
         "قال تعالى : { ولا تقتلوا أولادكم خشية إملاق } [ الإسراء : 31 ] وقال : { وإذا بشر أحدهم بالأنثى ظل وجهه مسوداً وهو كظيم يتوارى من القوم من سوء ما بشر به أيمسكه على هون أم يدسه في التراب ألا ساء ما يحكمون } [ النحل : 58"
-      ]
+      ],
+      "translations": {
+        "en": "And when the girl [who was] buried alive is asked",
+        "fr": "et qu'on demandera à la fillette enterrée vivante",
+        "es": "cuando se pregunte a la niña enterrada viva"
+      }
     },
     {
       "number": 9,
@@ -179,7 +219,12 @@
         "والاستفهام في { بأي ذنب } تقريري",
         "فأشار إلى ثلاثة أدلة :أحدها : دلالة الإِشارة",
         "وهذا استدلال ضعيف لأن الذنب المنفي وجودُه بطريقة الاستفهام المشوب بإنكار إنما هو الذنب الذي يخول لأبيها وأدها لا إثباتَ حرمتها وعصمة دمها فتلك قضية أخرى على تفصيل فيها"
-      ]
+      ],
+      "translations": {
+        "en": "For what sin she was killed",
+        "fr": "pour quel péché elle a été tuée.",
+        "es": "qué crimen cometió para que la mataran,"
+      }
     },
     {
       "number": 10,
@@ -199,7 +244,12 @@
       "basair_ibn_ashour": [
         "وعند قوله : { كتاباً يلقاه منشوراً } في سورة الإسراء ( 13 )",
         "وإما مجازية أطلقت على أشياء فيها إحصاءُ أعمال الناس"
-      ]
+      ],
+      "translations": {
+        "en": "And when the pages are made public",
+        "fr": "Et quand les feuilles seront déployées,",
+        "es": "cuando las hojas sean desplegadas,"
+      }
     },
     {
       "number": 11,
@@ -215,6 +265,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "And when the sky is stripped away",
+        "fr": "et le ciel écorché",
+        "es": "cuando el cielo sea desollado,"
       }
     },
     {
@@ -231,6 +286,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "And when Hellfire is set ablaze",
+        "fr": "et la fournaise attisée,",
+        "es": "cuando el fuego de la gehena sea avivado,"
       }
     },
     {
@@ -253,7 +313,12 @@
         "وهكذا كما قال : { فإذا انشقت السماء فكانت وردة كالدهان } [ الرحمن : 37 ] أن ذلك التقديم لإفادة الاهتمام بتلك الأخبار المجعولة علامات ليوم البعث توسلاً بالاهتمام بأشراطه إلى الاهتمام به وتحقيق وقوعه",
         "وإن إطالة ذكر تلك الجمل تشويق للجواب الواقع بعدها بقوله : { علمت نفس ما أحضرت }",
         "وعن عمر بن الخطاب : «أنه قرأ أول هذه السورة فلما بلغ { علمت نفس ما أحضرت } قال : لهذا أجريت القصة» أي هو جواب القسم ومعنى { علمت } أنها تعلم بما أحضرت فتعلمه"
-      ]
+      ],
+      "translations": {
+        "en": "And when Paradise is brought near,",
+        "fr": "et le Paradis rapproché,",
+        "es": "cuando el Jardín sea acercado,"
+      }
     },
     {
       "number": 14,
@@ -273,7 +338,12 @@
       "basair_ibn_ashour": [
         "عَلِمَتْ نَفْسٌ مَا أَحْضَرَتْ (14)ومعنى : { علمتْ نفس ما أحضرت } حصول اليقين بما لم يكن لها به علم من حقائق الأعمال التي كان علمها بها أشتاتاً : بَعْضه معلوم على غير وجهه",
         "ولما كانت الأعمال تظهر آثارها من ثواب وعقاب يومئذ عبر عن ظهور آثارها بالإحضار لشببه به كما يحضر الزاد للمسافر ففي فعل : { أحضرت } استعارة"
-      ]
+      ],
+      "translations": {
+        "en": "A soul will [then] know what it has brought [with it].",
+        "fr": "chaque âme saura ce qu'elle a présenté.",
+        "es": "cada cual sabrá lo que presenta."
+      }
     },
     {
       "number": 15,
@@ -295,7 +365,12 @@
         "ومعنى : ( لا أقسم ) : إيقاع القسم",
         "والقسم مراد به تأكيد الخبر وتحقيقه",
         "وأدمج فيه أوصاف الأشياء المُقْسَم بها للدلالة على تمام قدرة الله تعالى"
-      ]
+      ],
+      "translations": {
+        "en": "So I swear by the retreating stars -",
+        "fr": "Non!... Je jure par les planètes qui gravitent",
+        "es": "¡Pues no! ¡Juro por los planetas,"
+      }
     },
     {
       "number": 16,
@@ -317,7 +392,12 @@
         "وهذه الصفات أريد بها صفات مجازية لأن الجمهور على أن المراد بموصوفاتها الكواكب",
         "فقيل : الخُنَّس وهو من بديع التشبيه",
         "فشبهت حالة بُدُوّها بعد احتجابها مع كونها كالمتحركة بحالة الوحش تجري بعد خنوسها تشبيه التمثيل"
-      ]
+      ],
+      "translations": {
+        "en": "Those that run [their courses] and disappear -",
+        "fr": "qui courent et disparaissent",
+        "es": "que pasan y desaparecen!"
+      }
     },
     {
       "number": 17,
@@ -337,7 +417,12 @@
       "basair_ibn_ashour": [
         "وَاللَّيْلِ إِذَا عَسْعَسَ (17) ثم عطف القسم ب { الليل } على القسم ب «الكواكب» لمناسبة جريان الكواكب في الليل",
         "أي انشقاق ضوئه لمناسبة ذكر الليل"
-      ]
+      ],
+      "translations": {
+        "en": "And by the night as it closes in",
+        "fr": "par la nuit quand elle survient!",
+        "es": "¡Por la noche cuando se extiende!"
+      }
     },
     {
       "number": 18,
@@ -357,7 +442,12 @@
       "basair_ibn_ashour": [
         "استعير لظهور الضياء مع بقايا الظلام على تشبيه خروج الضياء بخروج النَفَس على طريقة الاستعارة المصرحة",
         "أو لأنه إذا بدا الصباح أقبل معه نسيم فجُعل ذلك كالتنفس له على طريقة المكنية بتشبيه الصبح بذي نفس مع تشبيه النسيم بالأنفاس"
-      ]
+      ],
+      "translations": {
+        "en": "And by the dawn when it breathes",
+        "fr": "et par l'aube quand elle exhale son souffle!",
+        "es": "¡Por la mañana cuando respira!"
+      }
     },
     {
       "number": 19,
@@ -377,7 +467,12 @@
       "basair_ibn_ashour": [
         "ولم يُعين اسم أحد ممن قالوا هذا من المفسرين",
         "وللكناية على أن ما نزل به صِدق لأن كمال القائل يدل على صدق القول"
-      ]
+      ],
+      "translations": {
+        "en": "[That] indeed, the Qur'an is a word [conveyed by] a noble messenger",
+        "fr": "Ceci [le Coran] est la parole d'un noble Messager,",
+        "es": "Sí, es la palabra de un Enviado noble,"
+      }
     },
     {
       "number": 20,
@@ -399,7 +494,12 @@
         "ويجوز أن يكون في القوة المجازية وهي الثبات في أداء ما أرسل به كقوله تعالى : { علمه شديد القوى } [ النجم : 5 ] لأنّ المناسب للتعليم هو قوة النفس",
         "وأما إذا كان المراد محمد صلى الله عليه وسلم فوصفه ب { ذي قوة عند ذي العرش } يراد بها المعنى المجازي وهو الكرامة والاستجابة له",
         "وتوسيط قوله : { عند ذي العرش } بين { ذي قوة } و { مكين } ليتنازعه كلا الوصفين على وجه الإيجاز"
-      ]
+      ],
+      "translations": {
+        "en": "[Who is] possessed of power and with the Owner of the Throne, secure [in position],",
+        "fr": "doué d'une grande force, et ayant un rang élevé auprès du Maître du Trône,",
+        "es": "que dispone de poder junto al Señor del Trono, firme,"
+      }
     },
     {
       "number": 21,
@@ -419,7 +519,12 @@
       "basair_ibn_ashour": [
         "والمشار إليه هو المكان المجازي الذي دلّ عليه قوله : { عند ذي العرش } فيجوز تعلق الظرف ب { مطاع } وهو أنسب لإجراء الوصف على جبريل",
         "وتقديمه على متعلَّقه للاهتمام بذلك المكان"
-      ]
+      ],
+      "translations": {
+        "en": "Obeyed there [in the heavens] and trustworthy.",
+        "fr": "obéi, là-haut, et digne de confiance.",
+        "es": "obedecido allís de confianza."
+      }
     },
     {
       "number": 22,
@@ -441,7 +546,12 @@
         "فتأكيده بالقَسم وبزيادة الباء بعد النفي",
         "فإن وصف صاحب كناية عن كونهم يعلمون خُلقه وعقلَه ويعلمون أنه ليس بمجنون",
         "والمعنى : نفي أن يكون القرآن من وساوس المجانين"
-      ]
+      ],
+      "translations": {
+        "en": "And your companion is not [at all] mad.",
+        "fr": "Votre compagnon (Muhammad) n'est nullement fou;",
+        "es": "¡Vuestro paisano no es un poseso!"
+      }
     },
     {
       "number": 23,
@@ -461,7 +571,12 @@
       "basair_ibn_ashour": [
         "والمناسبة بين الجملتين أن المشركين كانوا إذا بلغهم أن الرسول صلى الله عليه وسلم يخبر أنه نَزل عليه جبريل بالوحي من وقت غار حراء فما بعده استهزأوا وقالوا : إن ذلك الذي يتراءى له هو جنّي",
         "و«الأفُق» : الفضاء الذي يبدو للعين من الكُرة الهوائية بين طرفي مطلع الشمس ومغربها من حيث يلوح ضوء الفجر ويبدو شَفق الغروب وهو يلوح كأنه قبة زرقاء والمعنى رآه ما بين السماء والأرض"
-      ]
+      ],
+      "translations": {
+        "en": "And he has already seen Gabriel in the clear horizon.",
+        "fr": "il l'a effectivement vu (Gabriel), au clair horizon",
+        "es": "Le ha visto en el claro horizonte,"
+      }
     },
     {
       "number": 24,
@@ -483,7 +598,12 @@
         "فأما معنى ضنين بالضاد الساقطة فهو البخيل الذي لا يعطي ما عنده مشتقّ من الضَنّ بالضاد مصدر ضَنَّ",
         "وذلك كناية عن نفي أن يكون كاهناً أو عرَّافاً يتلقّى الأخبار عن الجننِ إذ كان المشركون يترددون على الكهان ويزعمون أنهم يخبرون بالمغيبات",
         "فيكون هذا المعنى من قبيل قوله تعالى : { قل ما أسألكم عليه من أجر } [ الفرقان : 57 ] { قل لا أسألكم عليه أجراً } [ الأنعام : 90 ] ونحو ذلك"
-      ]
+      ],
+      "translations": {
+        "en": "And Muhammad is not a withholder of [knowledge of] the unseen.",
+        "fr": "et il ne garde pas avarement pour lui-même ce qui lui a été révélé.",
+        "es": "no es avaro de lo oculto."
+      }
     },
     {
       "number": 25,
@@ -502,7 +622,12 @@
       },
       "basair_ibn_ashour": [
         "فكان التخلص إلى العَود لتنزيه القرآن بمناسبة ذكر الغيب في قوله تعالى : { وما هو على الغيب بضنين } [ التكوير : 24 ]"
-      ]
+      ],
+      "translations": {
+        "en": "And the Qur'an is not the word of a devil, expelled [from the heavens].",
+        "fr": "Et ceci [le Coran] n'est point la parole d'un diable banni.",
+        "es": "No es la palabra de un demonio maldito."
+      }
     },
     {
       "number": 26,
@@ -524,7 +649,12 @@
         "وهو استفهام إنكاري عن مكان ذهابهم",
         "ويجوز أن يكون الاستفهام مستعملاً في التعجيز عن طلب طريق يسلكونه إلى مقصدهم من الطعن في القرآن",
         "والمعنى : أنه قد سدت عليكم طرق بهتانكم إذ اتضح بالحجة الدامغة بطلان ادعائكم أن القرآن كلام مجنون أو كلام كاهن"
-      ]
+      ],
+      "translations": {
+        "en": "So where are you going?",
+        "fr": "Où allez-vous donc?",
+        "es": "¿Adónde iréis, pues?"
+      }
     },
     {
       "number": 27,
@@ -545,7 +675,12 @@
         "إِنْ هُوَ إِلَّا ذِكْرٌ لِلْعَالَمِينَ (27) بعد أن أفاقهم من ضلالتهم أرشدهم إلى حقيقة القرآن بقوله : { إن هو إلا ذكر للعالمين }",
         "وبذلك كان فيه تأكيد لجملة : { وما هو بقول شيطان رجيم }",
         "وأما إعجازه فله مدخل عظيم في التذكير لأن إعجازه دليل على أنه ليس بكلام من صُنع البشر"
-      ]
+      ],
+      "translations": {
+        "en": "It is not except a reminder to the worlds",
+        "fr": "Ceci n'est qu'un rappel pour l'univers,",
+        "es": "No es sino una amonestación dirigida a todo el mundo,"
+      }
     },
     {
       "number": 28,
@@ -566,7 +701,12 @@
         "وأعيد مع البدل حرف الجر العامل مثله في المبدل منه لتأكيد العامل كقوله تعالى : { ومن النخل من طلعها قنوان } [ الأنعام : 99 ] وقوله : { قال الملأ الذين استكبروا من قومه للذين استضعفوا لمن آمن منهم } وتقدم في سورة الأعراف ( 75 )",
         "وفائدة هذا الإِبدال التنبيه على أن الذين تذكروا بالقرآن وهم المسلمون قد شاؤوا الاستقامة لأنفسهم فنصحوا أنفسهم",
         "والظاهري وهو الأفعال والأقوال تشبيهاً للعمل بخط مستقيم تشبيهَ معقول بمحسوس"
-      ]
+      ],
+      "translations": {
+        "en": "For whoever wills among you to take a right course.",
+        "fr": "pour celui d'entre vous qui veut suivre le chemin droit.",
+        "es": "para aquéllos de vosotros que quieran seguir la vía recta."
+      }
     },
     {
       "number": 29,
@@ -586,7 +726,12 @@
       "basair_ibn_ashour": [
         "والمقصود التكميل والاحتراس في معنى لمن شاء منكم أن يستقيم",
         "وهذه العناية معنى عظيم تحير أهل العلم في الكشف عنه"
-      ]
+      ],
+      "translations": {
+        "en": "And you do not will except that Allah wills - Lord of the worlds.",
+        "fr": "Mais vous ne pouvez vouloir, que si Allah veut, [Lui], le Seigneur de l'Univers ;",
+        "es": "Pero vosotros no lo querréis, a menos que quiera Alá, Señor del universo."
+      }
     }
   ]
 }

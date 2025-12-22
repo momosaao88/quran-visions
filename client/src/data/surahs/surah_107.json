@@ -25,7 +25,12 @@
         "أَرَأَيْتَ الَّذِي يُكَذِّبُ بِالدِّينِ (1) الاستفهام مستعمل في التعجيب من حال المكذبين بالجزاء",
         "وقد صيغ هذا التعجيب في نظم مشوِّق لأن الاستفهام عن رؤية من ثبتت له صلة الموصول يذهب بذهن السامع مذاهب شتى من تعرف المقصد بهذا الاستفهام",
         "وفي إقحام اسم الإِشارة واسم الموصول بعد الفاء زيادة تشويق حتى تقرع الصلة سمع السامع فتتمكن منه كَمَالَ تَمكُّن"
-      ]
+      ],
+      "translations": {
+        "en": "Have you seen the one who denies the Recompense?",
+        "fr": "Vois-tu celui qui traite de mensonge la Rétribution?",
+        "es": "¿Qué te parece el que desmiente el Juicio?"
+      }
     },
     {
       "number": 2,
@@ -46,7 +51,12 @@
         "فَذَلِكَ الَّذِي يَدُعُّ الْيَتِيمَ (2) فمعنى الآية عطفُ صفتي : دَع اليتيم",
         "وفي ذلك كناية عن تحذير المسلمين من الاقتراب من إحدى هاتين الصفتين بأنهما من صفات الذين لا يؤمنون بالجزاء",
         "وهكذا في فعل ( رأى ) كلما وقع بعد همزة استفهام"
-      ]
+      ],
+      "translations": {
+        "en": "For that is the one who drives away the orphan",
+        "fr": "C'est bien lui qui repousse l'orphelin,",
+        "es": "Es el mismo que rechaza violentamente al huérfano"
+      }
     },
     {
       "number": 3,
@@ -66,7 +76,12 @@
       "basair_ibn_ashour": [
         "وهو اسم مصدر مضاف إلى مفعوله إضافة لفظية",
         "ويجوز أن يكون الطعام مراداً به ما يطعم كما في قوله تعالى : { فانظر إلى طعامك وشرابك } [ البقرة : 259 ] فتكون إضافة طعام إلى المسكين معنوية على معنى اللام"
-      ]
+      ],
+      "translations": {
+        "en": "And does not encourage the feeding of the poor.",
+        "fr": "et qui n'encourage point à nourrir le pauvre.",
+        "es": "Y no anima a dar de comer al pobre."
+      }
     },
     {
       "number": 4,
@@ -87,7 +102,12 @@
         "فَوَيْلٌ لِلْمُصَلِّينَ (4) موقع الفاء صريح في اتصال ما بعدها بما قبلها من الكلام على معنى التفريع والترتب والتسبب",
         "دعا إليه زيادة تعداد صفاته الذميمة بأسلوب سليم عن تتابع ستِّ صفات لأن ذلك التتابع لا يخلو من كثرة تكرار النظائر فيشبه تتابع الإِضافات الذي قيل إنه مُناكد للفصاحة",
         "مع الإِشارة بتوسط ويل له إلى أن الويل ناشىء عن جميع تلك الصفات التي هو أهلها وهذا المعنى أشار إليه كلام «الكشاف» بغموض"
-      ]
+      ],
+      "translations": {
+        "en": "So woe to those who pray",
+        "fr": "Malheur donc, à ceux qui prient",
+        "es": "¡Ay de los que oran"
+      }
     },
     {
       "number": 5,
@@ -103,6 +123,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "[But] who are heedless of their prayer -",
+        "fr": "tout en négligeant (et retardant) leur Salât,",
+        "es": "distraídamente,"
       }
     },
     {
@@ -122,7 +147,12 @@
       },
       "basair_ibn_ashour": [
         "وهذا الفعل وارد في الكلام على صيغة المفاعلة ولم يسمع منه فعل مجرد لأنه يلازمه تكرير الإِراءة"
-      ]
+      ],
+      "translations": {
+        "en": "Those who make show [of their deeds]",
+        "fr": "qui sont pleins d'ostentation,",
+        "es": "para ser vistos"
+      }
     },
     {
       "number": 7,
@@ -144,7 +174,12 @@
         "وتقديم المسند إليه على الخبر الفعلي في قوله : { هم يراءون } لتقوية الحكم",
         "فإطلاق المصلين عليهم بمعنى المتظاهرين بأنهم يصلون وهو من إطلاق الفعل على صورته كقوله تعالى : { يحذر المنافقون أن تنزل عليهم سورة } [ التوبة : 64 ] أي يظهرون أنهم يحذرون تنزيل سورة",
         "وهو هنا مستعار للإِعراض والترك عن عمد استعارة تهكمية مثل قوله تعالى : { وتنسون ما تشركون } [ الأنعام : 41 ] أي تعرضون عنهم"
-      ]
+      ],
+      "translations": {
+        "en": "And withhold [simple] assistance.",
+        "fr": "et refusent l'ustensile (à celui qui en a besoin).",
+        "es": "Y niegan la ayuda!"
+      }
     }
   ]
 }

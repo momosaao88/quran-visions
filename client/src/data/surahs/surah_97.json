@@ -26,7 +26,12 @@
         "ويفيد هذا التقديم قصراً وهو قصر قلب للرد على المشركين الذي نفوا أن يكون القرآن منزلاً من الله تعالى",
         "وعلى كلا الوجهين فالتعبير بالمضي في فعل { أنزلناه } لا مجاز فيه",
         "وقيل : أطلق ضمير القرآن على بعضه مجازاً بعلاقة البعضية"
-      ]
+      ],
+      "translations": {
+        "en": "Indeed, We sent the Qur'an down during the Night of Decree.",
+        "fr": "Nous l'avons certes, fait descendre (le Coran) pendant la nuit d'Al-Qadr.",
+        "es": "Lo hemos revelado en la noche del Destino."
+      }
     },
     {
       "number": 2,
@@ -47,7 +52,12 @@
         "والمعنى : أيُّ شيء يُعَرِّفك ما هي ليلة القدر",
         "أي يعسر على شيءٍ أن يعرِّفك مقدارَها",
         "وحصلت كناية عن تعظيم ما أنزل فيها وأن الله اختار إنزاله فيها ليتطابق الشرفان"
-      ]
+      ],
+      "translations": {
+        "en": "And what can make you know what is the Night of Decree?",
+        "fr": "Et qui te dira ce qu'est la nuit d'Al-Qadr?",
+        "es": "Y ¿cómo sabrás qué es la noche del Destino?"
+      }
     },
     {
       "number": 3,
@@ -69,7 +79,12 @@
         "وقد تكرر هذا اللفظ ثلاث مرات والمرات الثلاث ينتهي عندها التكرير غالباً كقوله تعالى : { وإن منهم لفريقاً يلوون ألسنتهم بالكتاب لتحسبوه من الكتاب وما هو من الكتاب } [ آل عمران : 78 ]",
         "وأقول : هو مختل المعنى وسمات الوضع لائحة عليه وهو من وضع أهل النحَل المخالفةِ للجماعة فالاحتجاجُ به لا يليق أن يصدر مثله عن الحسن مع فرط علمه وفطنته",
         "قال ابن عرفة وفي قوله : { ليلة القدر خير من ألف شهر } المحسن المسمّى تَشابه الأطراف وهو إعادة لفظ القافية في الجملة التي تليها كقوله تعالى : { كمشكاة فيها مصباح المصباحُ في زجاجة الزجاجةُ كأنها كوكب دري } [ النور : 35 ] اه"
-      ]
+      ],
+      "translations": {
+        "en": "The Night of Decree is better than a thousand months.",
+        "fr": "La nuit d'Al-Qadr est meilleure que mille mois.",
+        "es": "La noche del Destino vale más de mil meses."
+      }
     },
     {
       "number": 4,
@@ -91,7 +106,12 @@
         "ومعنى { بإذن ربهم } أن هذا التنزل كرامة أكْرم الله بها المسلمين بأن أنزل لهم في تلك الليلة جماعات من ملائكته وفيهم أشرفهم وكان نزول جبريل في تلك الليلة ليعود عليها من الفضل مثل الذي حصل في مماثلتها الأولى ليلة نزوله بالوحي في غار حِراء",
         "وقوله : { بإذن ربهم } متعلق ب { تنزل } إما بمعنى السببية",
         "أي يتنزلون بسبب إذن ربهم لهم في النزول فالإِذن بمعنى المصدر"
-      ]
+      ],
+      "translations": {
+        "en": "The angels and the Spirit descend therein by permission of their Lord for every matter.",
+        "fr": "Durant celle-ci descendent les Anges ainsi que l'Esprit, par permission de leur Seigneur pour tout ordre.",
+        "es": "Los ángeles y el Espíritu descienden en ella, con permiso de su Señor, para fijarlo todo."
+      }
     },
     {
       "number": 5,
@@ -112,7 +132,12 @@
         "والسلام بمعنى التحية والقول الحسن مراد به ثناء الملائكة على أهل ليلة القدر كدأبهم مع أهل الجنة فيما حكاه قوله تعالى : { والملائكة يدخلون عليهم من كل باب سلام عليكم بما صبرتم فنعم عقبى الدار }[ الرعد : 23",
         "وتقديم المسند وهو { سلام } على المسند إليه لإِفادة الاختصاص",
         "وقرأه الكسائي وخَلف بكسر اللام على معنى زمان طلوع الفجر"
-      ]
+      ],
+      "translations": {
+        "en": "Peace it is until the emergence of dawn.",
+        "fr": "Elle est paix et salut jusqu'à l'apparition de l'aube.",
+        "es": "¡Es una noche de paz, hasta el rayar del alba!"
+      }
     }
   ]
 }

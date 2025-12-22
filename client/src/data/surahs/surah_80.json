@@ -32,7 +32,12 @@
       },
       "basair_ibn_ashour": [
         "عَبَسَ وَتَوَلَّى (1) افتتاح هذه السورة بفعلين متحملين لضمير لا معاد له في الكلام تشويق لما سيورد بعدهما"
-      ]
+      ],
+      "translations": {
+        "en": "The Prophet frowned and turned away",
+        "fr": "Il s'est renfrogné et il s'est détourné",
+        "es": "Frunció las cejasy volvió la espalda,"
+      }
     },
     {
       "number": 2,
@@ -54,7 +59,12 @@
         "لأن مثله يكون سريعاً إلى انكسار خاطره",
         "و { أن جاءه الأعمى } مجرور بلام الجر محذوففٍ مع { أن } وهو حذف مطرد وهو متعلق بفعلي { عبس وتولى } على طريقة التنازع",
         "فوجهه إليه على أسلوب الغيبة ليكون أول ما يقرع سمعه باعثاً على أن يترقب المعنيَّ من ضمير الغائب فلا يفاجئه العتاب"
-      ]
+      ],
+      "translations": {
+        "en": "Because there came to him the blind man, [interrupting].",
+        "fr": "parce que l'aveugle est venu à lui.",
+        "es": "porque el ciego vino a él."
+      }
     },
     {
       "number": 3,
@@ -76,7 +86,12 @@
         "والاستفهام في هذه التراكيب مراد منه التنبيه على مغفول عنه ثم تقع بعده جملة نحو { ما أدراك ما القارعة } [ القارعة : 3 ] ونحو قوله هنا : { وما يدريك لعله يزكى }",
         "وإنما يستعمل مثله لقصد الإجمال ثم التفصيل",
         "وفعل : { يدريك } معلق عن العمل في مفعوليه لورود حرف ( لعلّ ) بعده فإن ( لعل ) من موجبات تعليق أفعال القلوب على ما أثبته أبو علي الفارسي في «التذكرة» إلحاقاً للترجي بالاستفهام في أنه طلب"
-      ]
+      ],
+      "translations": {
+        "en": "But what would make you perceive, [O Muhammad], that perhaps he might be purified",
+        "fr": "Qui te dit: peut-être [cherche]-t-il à se purifier?",
+        "es": "¿Quién sabe? Quizá quería purificarse,"
+      }
     },
     {
       "number": 4,
@@ -95,7 +110,12 @@
       },
       "basair_ibn_ashour": [
         "والمعنى : انظر فقد يكون تزكِّيهِ مرجواً"
-      ]
+      ],
+      "translations": {
+        "en": "Or be reminded and the remembrance would benefit him?",
+        "fr": "ou à se rappeler en sorte que le rappel lui profite?",
+        "es": "o dejarse amonestar y que la amonestación le aprovechara."
+      }
     },
     {
       "number": 5,
@@ -116,7 +136,12 @@
         "أَمَّا مَنِ اسْتَغْنَى (5) تقدم الكلام على { أمَّا } في سورة النازعات أنها بمعنى : مهما يكن شيء",
         "» كناية عن أنه لا بأس به يريد ولكني غيرُ محتاج إليه",
         "وهذا الذي تصدَّى النبي صلى الله عليه وسلم لدعوته وعرض القرآن عليه هو على أشهر الأقوال المروية عن سلف المفسرين الوليد بن المغيرة المخزومي كما تقدم"
-      ]
+      ],
+      "translations": {
+        "en": "As for he who thinks himself without need,",
+        "fr": "Quant à celui qui se complaît dans sa suffisance (pour sa richesse)",
+        "es": "A quien es rico"
+      }
     },
     {
       "number": 6,
@@ -136,7 +161,12 @@
       "basair_ibn_ashour": [
         "والباقون بالفتح وتخفيف الصاد على حذف إحدى التاءين",
         "أطلق هنا على الإِقبال الشديد مجازاً"
-      ]
+      ],
+      "translations": {
+        "en": "To him you give attention.",
+        "fr": "tu vas avec empressement à sa rencontre.",
+        "es": "le dispensas una buena acogida"
+      }
     },
     {
       "number": 7,
@@ -155,7 +185,12 @@
       },
       "basair_ibn_ashour": [
         "والمعنى : عدم تزكّيه ليس محمولاً عليك"
-      ]
+      ],
+      "translations": {
+        "en": "And not upon you [is any blame] if he will not be purified.",
+        "fr": "Or, que t'importe qu'il ne se purifie pas».",
+        "es": "y te tiene sin cuidado que no quiera purificarse."
+      }
     },
     {
       "number": 8,
@@ -174,7 +209,12 @@
       },
       "basair_ibn_ashour": [
         "فحصل بمضمون هذه الجملة تأكيد لمضمون { عبس وتولى أن جاءه الأعمى } [ عبس : 1 2 ]"
-      ]
+      ],
+      "translations": {
+        "en": "But as for he who came to you striving [for knowledge]",
+        "fr": "Et quant à celui qui vient à toi avec empressement",
+        "es": "En cambio, de quien viene a ti, corriendo,"
+      }
     },
     {
       "number": 9,
@@ -194,7 +234,12 @@
       "basair_ibn_ashour": [
         "وحذف مفعول { يخشى } لظهوره لأن الخشية في لسان الشرع تنصرف إلى خشية الله تعالى",
         "والمعنى : أنه جاء طلباً للتزكية لأن يخشى الله من التقصير في الاسترشاد"
-      ]
+      ],
+      "translations": {
+        "en": "While he fears [Allah],",
+        "fr": "tout en ayant la crainte,",
+        "es": "con miedo de Alá,"
+      }
     },
     {
       "number": 10,
@@ -216,7 +261,12 @@
         "وفي حاليهما حالان آخران سرُّهما من أسرار الحكمة التي لقنها الله نبيئه صلى الله عليه وسلم وهو يخفى في معتاد نظر النظار فأنبأه الله به ليزيل عنه ستار ظاهر حاليهما",
         "وبذلك تَعطل الانتفاعُ بها عموماً وخصوصاً وتمخض أن لتزكية المؤمن صاحب القضية نفعاً لخاصة نفسه ولا يخلو من عَود تزكية بفائدة على الأمة بازدياد الكاملين من أفرادها",
         "وتلك سرائر لا يعلم حقها وفروقها إلا الله تعالى"
-      ]
+      ],
+      "translations": {
+        "en": "From him you are distracted.",
+        "fr": "tu ne t'en soucies pas.",
+        "es": "te despreocupas."
+      }
     },
     {
       "number": 11,
@@ -237,7 +287,12 @@
         "ويجوز أن يكون تأكيداً لقوله : { وما عليك ألاَّ يزكى } [ عبس : 7 ] على التفسيرين",
         "ويجوز أن يَكون المعنى : أن هذه الموعظة تذكرة لك وتنبيه لما غفلت عنه وليست ملاماً وإنما يعاتب الحبيبُ حبيبَه",
         "فكان تأنيث الضمير نكتةً خصوصية لتحميل الكلام هذه المعاني"
-      ]
+      ],
+      "translations": {
+        "en": "No! Indeed, these verses are a reminder;",
+        "fr": "N'agis plus ainsi! Vraiment ceci est un rappel -",
+        "es": "¡No! Es un Recuerdo,"
+      }
     },
     {
       "number": 12,
@@ -258,7 +313,12 @@
         "وتعدية فعل ( ذكر ) إلى ذلك الضمير على الوجهين على حذف مضاف يناسب المقام",
         "والفاء لتفريع مضمون الجملة على جملة { إنها تذكرة } فإن الجملة المعترضة تقترن بالفاء إذا كان معنى الفاء قائماً",
         "قال الراغب : وهي أعم من الدلالة والأمارة قال تعالى : { فما لهم عن التذكرة معرضين } وتقدم نظيره في سورة المدثر ( 49 )"
-      ]
+      ],
+      "translations": {
+        "en": "So whoever wills may remember it.",
+        "fr": "quiconque veut, donc, s'en rappelle -",
+        "es": "que recordará quien quiera,"
+      }
     },
     {
       "number": 13,
@@ -274,6 +334,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "[It is recorded] in honored sheets,",
+        "fr": "consigné dans des feuilles honorées,",
+        "es": "contenido en hojas veneradas,"
       }
     },
     {
@@ -294,7 +359,12 @@
       "basair_ibn_ashour": [
         "والمراد هنا : الطهارة المجازية وهي الشرف",
         "مطهرة } محمولة على المعاني المجازية وهي معاني الاعتناء بها كما قال تعالى : { قالت يا أيها الملأ إني ألقي إلي كتاب كريم } [ النمل : 29 ]"
-      ]
+      ],
+      "translations": {
+        "en": "Exalted and purified,",
+        "fr": "élevées, purifiées,",
+        "es": "sublimes, purificadas,"
+      }
     },
     {
       "number": 15,
@@ -316,7 +386,12 @@
         "ومعنى كون هذه التذكرة في كتب الرسل السابقين : أن أمثال معانيها وأصولها في كتبهم",
         "ويجوز أن يراد بالصحف صحفٌ مجازية",
         "ومعنى { مرفوعة } أنها من العالم العلوي"
-      ]
+      ],
+      "translations": {
+        "en": "[Carried] by the hands of messenger-angels,",
+        "fr": "entre les mains d'ambassadeurs",
+        "es": "escrito por mano de escribas"
+      }
     },
     {
       "number": 16,
@@ -335,7 +410,12 @@
       },
       "basair_ibn_ashour": [
         "فإن تلك المدائح عائدة إلى القرآن بطريق الكناية"
-      ]
+      ],
+      "translations": {
+        "en": "Noble and dutiful.",
+        "fr": "nobles, obéissants.",
+        "es": "nobles, píos."
+      }
     },
     {
       "number": 17,
@@ -366,7 +446,12 @@
         "والمفسرون الأولون جعلوا : { قتل الإنسان } أنه لُعِن",
         "والدعاء بالسوء من الله تعالى مستعمل في التحقير والتهديد لظهور أن حقيقة الدعاء لا تناسب الإلهية لأن الله هو الذي يتوجه إليه الناس بالدعاء",
         "فالاستغراق الذي يقتضيه تعريف لفظ الجنس المحكوم عليه استغراق عرفي معناه ثبوت الحكم للجنس على الجملة"
-      ]
+      ],
+      "translations": {
+        "en": "Cursed is man; how disbelieving is he.",
+        "fr": "Que périsse l'homme! Qu'il est ingrat!",
+        "es": "¡Maldito sea el hombre! ¡Qué desagradecido es!"
+      }
     },
     {
       "number": 18,
@@ -386,7 +471,12 @@
       "basair_ibn_ashour": [
         "وجيء في هذا الاستدلال بصورة سؤال وجواب للتشويق إلى مضمونه",
         "ولذلك قرن الاستفهام بالجواب عنه على الطريقة المتقدمة في قوله تعالى : { عم يتساءلون عن النبأ العظيم } [ النبأ : 1 2 ]"
-      ]
+      ],
+      "translations": {
+        "en": "From what substance did He create him?",
+        "fr": "De quoi [Allah] l'a-t-Il créé?",
+        "es": "¿De qué lo ha creado Él?"
+      }
     },
     {
       "number": 19,
@@ -408,7 +498,12 @@
         "مع الاهتمام بتقديم ما منه الخلق",
         "لما في تقديمه من التنبيه للاستدلال على عظيم حكمة الله تعالى إذ كوّن أبدع مخلوققٍ معروف من أهون شيء وهو النطفة",
         "فذكر فعل { خلقه } الثاني من أسلوب المساواة ليس بإيجاز"
-      ]
+      ],
+      "translations": {
+        "en": "From a sperm-drop He created him and destined for him;",
+        "fr": "D'une goutte de sperme, Il le crée et détermine (son destin):",
+        "es": "De una gota lo ha creado y determinado;"
+      }
     },
     {
       "number": 20,
@@ -429,7 +524,12 @@
         "ثُمَّ السَّبِيلَ يَسَّرَهُ (20) وحرف { ثم } من قوله : { ثم السبيل يسره } للتراخي الرتبي لأن تيسير سبيل العمل الإنساني أعجب في الدلالة على بديع صنع الله لأنه أثَرُ العقل وهو أعظم ما في خلق الإنسان وهو أقوى في المنة",
         "وهو هنا مستعار لما يفعله الإنسان من أعماله وتصرفاته تشبيهاً للأعمال بطريق يمشي فيه الماشي تشبيهَ المحسوس بالمعقول",
         "ويجوز أن يكون مستعاراً لمسقط المولود من بطن أمه فقد أطلق على ذلك المَمر اسم السبيل في قولهم : «السبيلان» فيكون هذا من استعمال اللفظ في مجازيه"
-      ]
+      ],
+      "translations": {
+        "en": "Then He eased the way for him;",
+        "fr": "puis Il lui facilite le chemin;",
+        "es": "luego, le ha facilitado el camino;"
+      }
     },
     {
       "number": 21,
@@ -451,7 +551,12 @@
         "ف { أماته } مقابل { خلقه } و { أقبره } مقابل { ثم السبيل يسره } لأن الإِقبار إدخال في الأرض وهو ضد خروج المولود إلى الأرض",
         "كقوله : { ولقد يسرنا القرآن للذكر } [ القمر : 17 ] أي لذِكر الناس",
         "وتقديم { السبيل } على فعله للاهتمام بالعبرة بتيسير السبيل بمعنييه المجازيين"
-      ]
+      ],
+      "translations": {
+        "en": "Then He causes his death and provides a grave for him.",
+        "fr": "puis Il lui donne la mort et le met au tombeau;",
+        "es": "luego, le ha hecho morir y ser sepultado;"
+      }
     },
     {
       "number": 22,
@@ -470,7 +575,12 @@
       },
       "basair_ibn_ashour": [
         "واستفادة إبطال قولهم من طريق الكناية"
-      ]
+      ],
+      "translations": {
+        "en": "Then when He wills, He will resurrect him.",
+        "fr": "puis Il le ressuscitera quand Il voudra.",
+        "es": "luego, cuando É quiera, le resucitará."
+      }
     },
     {
       "number": 23,
@@ -492,7 +602,12 @@
         "ويُتسروح هذا من كلام روي عن مجاهد",
         "أي إنما لم يَهتد الكافرُ إلى دلالة الخلق الأول على إمكاننِ الخلق الثاني",
         "وأما الذين لم يلتزموا معنى الزجر في { كلاّ } وهم الكسائي القائل : تكون { كلاّ } بمعنى حقاً"
-      ]
+      ],
+      "translations": {
+        "en": "No! Man has not yet accomplished what He commanded him.",
+        "fr": "Eh bien non! [L'homme] n'accomplit pas ce qu'Il lui commande.",
+        "es": "¡No! No ha cumplido aún lo que Él le ha ordenado."
+      }
     },
     {
       "number": 24,
@@ -514,7 +629,12 @@
         "وذلك من أسلوب إناطة الأحكام بأسماء الذوات",
         "ولا يخلو أحد عن علممٍ إجمالي بذلك",
         "فيزيده هذا الوصف علماً تفصيلياً"
-      ]
+      ],
+      "translations": {
+        "en": "Then let mankind look at his food -",
+        "fr": "Que l'homme considère donc sa nourriture:",
+        "es": "¡Que mire el hombre su alimento!"
+      }
     },
     {
       "number": 25,
@@ -533,7 +653,12 @@
       },
       "basair_ibn_ashour": [
         "أَنَّا صَبَبْنَا الْمَاءَ صَبًّا (25) وقرأ الجمهور : { إنا صببنا } بكسر همزة ( إنَّا ) على أن الجملة بيان لجملة : { فلينظر الإنسان إلى طعامه } لتفصيل ما أجمل هنالك على وجه الإيجاز"
-      ]
+      ],
+      "translations": {
+        "en": "How We poured down water in torrents,",
+        "fr": "C'est Nous qui versons l'eau abondante,",
+        "es": "Nosotros hemos derramado el agua en abundancia;!"
+      }
     },
     {
       "number": 26,
@@ -554,7 +679,12 @@
         "فالإسناد مجاز عقلي في الأفعال الثلاثة",
         "وقد شاع في { صببنا } و { أنبتنا } حتى ساوَى الحقيقة العقلية",
         "وانتصب { صبّاً } و { شقاً } على المفعول المطلق ل { صببنا } و { شققنا } مؤكّداً لعامله ليتأتى تنوينه لما في التنكير من الدلالة على التعظيم وتعظيم كل شيء بما يناسبه وهو تعظيم تعجيب"
-      ]
+      ],
+      "translations": {
+        "en": "Then We broke open the earth, splitting [it with sprouts],",
+        "fr": "puis Nous fendons la terre par fissures",
+        "es": "luego, hendido la tierra profundamente"
+      }
     },
     {
       "number": 27,
@@ -570,6 +700,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "And caused to grow within it grain",
+        "fr": "et y faisons pousser grains,",
+        "es": "y hecho crecer en ella grano,"
       }
     },
     {
@@ -586,6 +721,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "And grapes and herbage",
+        "fr": "vignobles et légumes,",
+        "es": "vides, hortalizas,"
       }
     },
     {
@@ -602,6 +742,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "And olive and palm trees",
+        "fr": "oliviers et palmiers,",
+        "es": "olivos, palmeras,"
       }
     },
     {
@@ -623,7 +768,12 @@
         "فهم يقتاتون ثمرته من تمر ورُطب وبُسر",
         "وهو هنا مستعار لغلظ أصول الشجر فوصف الحدائق به؛ إما على تشبيه الحديقة في تكاثف أوراق شجرها والتفافها بشخص غليظ الأوداج والأعصاب فتكون استعارة",
         "فيكون نعتاً سببيّاً وتكون الاستعارة في تشبيه كل شجرة بامرأة غليظة الرقبة"
-      ]
+      ],
+      "translations": {
+        "en": "And gardens of dense shrubbery",
+        "fr": "jardins touffus,",
+        "es": "frondosos jardines,"
+      }
     },
     {
       "number": 31,
@@ -639,6 +789,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "And fruit and grass -",
+        "fr": "fruits et herbages,",
+        "es": "frutas, pastos,"
       }
     },
     {
@@ -655,6 +810,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "[As] enjoyment for you and your grazing livestock.",
+        "fr": "pour votre jouissance vous et vos bestiaux.",
+        "es": "para disfrute vuestro y de vuestros rebaños."
       }
     },
     {
@@ -675,7 +835,12 @@
       "basair_ibn_ashour": [
         "مع مناسبة وقوع هذا الإِنذار عقب التعريض والتصريح بالامتنان في قوله : { إلى طعامه } [ عبس : 24 ] وقوله : { متاعاً لكم ولأنعامكم } [ عبس : 32 ] على نحو ما تقدم في قوله : { فإذا جاءت الطامة الكبرى } من سورة النازعات ( 34 )",
         "والمجيء مستعمل في الحصول مجازاً"
-      ]
+      ],
+      "translations": {
+        "en": "But when there comes the Deafening Blast",
+        "fr": "Puis quand viendra le Fracas,",
+        "es": "Pero, cuando venga el Estruendo,"
+      }
     },
     {
       "number": 34,
@@ -696,7 +861,12 @@
         "وحرف ( من ) هنا يجوز أن يكون بمعنى التعليل الذي يُعدّى به فعل الفرار إلى سبب الفرار حين يقال : فَرّ من الأسد",
         "ويجوز أن يكون بمعنى المجاوزة مثل ( عن )",
         "وقدمت الأم في الذكر لأن إلْفَ ابنها بها أقوى منه بأبيه وللرعي على الفاصلة"
-      ]
+      ],
+      "translations": {
+        "en": "On the Day a man will flee from his brother",
+        "fr": "le jour où l'homme s'enfuira de son frère,",
+        "es": "el día que el hombre huya de su hermano,"
+      }
     },
     {
       "number": 35,
@@ -715,7 +885,12 @@
       },
       "basair_ibn_ashour": [
         "وقدمت الأم في الذكر لأن إلْفَ ابنها بها أقوى منه بأبيه وللرعي على الفاصلة"
-      ]
+      ],
+      "translations": {
+        "en": "And his mother and his father",
+        "fr": "de sa mère, de son père,",
+        "es": "de su madre y de su padre,"
+      }
     },
     {
       "number": 36,
@@ -734,7 +909,12 @@
       },
       "basair_ibn_ashour": [
         "وإنما ذُكرتْ بوصف الصاحبة الدال على القرب والملازمة دون وصف الزوج لأن المرأة قد تكون غير حسنة العشرة لزوجها فلا يكون فراره منها كناية عن شدة الهول فذكر بوصف الصاحبة"
-      ]
+      ],
+      "translations": {
+        "en": "And his wife and his children,",
+        "fr": "de sa compagne et de ses enfants,",
+        "es": "de su compañera y de sus hijos varones,"
+      }
     },
     {
       "number": 37,
@@ -755,7 +935,12 @@
         "لِكُلِّ امْرِئٍ مِنْهُمْ يَوْمَئِذٍ شَأْنٌ يُغْنِيهِ (37) وتقديم الخبر في قوله : { لكل امرىء } على المبتدأ ليتأتى تنكير { شأن } الدال على التعظيم لأن العرب لا يبتدئون بالنكرة في جملتها إلا بمسوغ من مسوغاتتٍ عَدَّها النحاة بضعةَ عشر مسوغاً",
         "وقد استعمل هنا في معنى الإِشغال والإِشغال أعم",
         "فاستعمل الإغناء الذي هو نفع في معنى الإِشغال الأعم على وجه المجاز المرسل أو الاستعارة إيماء إلى أن المؤمنين يشغلهم عن قرابتهم المشركين فرط النعيم ورفع الدرجات كما دل عليه قوله عقبه : { وجوه يومئذٍ مسفرة } إلى آخر السورة"
-      ]
+      ],
+      "translations": {
+        "en": "For every man, that Day, will be a matter adequate for him.",
+        "fr": "car chacun d'eux, ce jour-là, aura son propre cas pour l'occuper.",
+        "es": "ese día, cada cual tendrá bastante consigo mismo."
+      }
     },
     {
       "number": 38,
@@ -774,7 +959,12 @@
       },
       "basair_ibn_ashour": [
         "وإعادة { يومئذ } لتأكيد الربط بين الشرط وجوابه ولطول الفصل بينهما والتقدير : وجوه مسفرة يوم يفرّ المرء من أخيه إلى آخره"
-      ]
+      ],
+      "translations": {
+        "en": "[Some] faces, that Day, will be bright -",
+        "fr": "Ce jour-là, il y aura des visages rayonnants,",
+        "es": "Ese día, unos rostros estarán radiantes,"
+      }
     },
     {
       "number": 39,
@@ -795,7 +985,12 @@
         "ضَاحِكَةٌ مُسْتَبْشِرَةٌ (39) و { ضاحكة } أي كناية عن السرور",
         "وإسناد الضحك والاستبشار إلى الوجوه مجاز عقلي لأن الوجوه محلّ ظهور الضحك والاستبشار",
         "ولك أن تجعل الوجوه كناية عن الذوات كقوله تعالى : { ويبقى وجه ربك } [ الرحمن : 27 ]"
-      ]
+      ],
+      "translations": {
+        "en": "Laughing, rejoicing at good news.",
+        "fr": "riants et réjouis.",
+        "es": "risueños, alegres,"
+      }
     },
     {
       "number": 40,
@@ -811,6 +1006,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "And [other] faces, that Day, will have upon them dust.",
+        "fr": "De même qu'il y aura, ce jour-là, des visages couverts de poussière,",
+        "es": "mientras que otros, ese día, tendrán polvo encima,"
       }
     },
     {
@@ -830,7 +1030,12 @@
       },
       "basair_ibn_ashour": [
         "وقد صرح بذلك بقوله : { أولئك هم الكفرة الفجرة } زيادة في تشهير حالهم الفظيع للسامعين"
-      ]
+      ],
+      "translations": {
+        "en": "Blackness will cover them.",
+        "fr": "recouverts de ténèbres.",
+        "es": "los cubrirá una negrura:"
+      }
     },
     {
       "number": 42,
@@ -849,7 +1054,12 @@
       },
       "basair_ibn_ashour": [
         "أُولَئِكَ هُمُ الْكَفَرَةُ الْفَجَرَةُ (42)وأتبع وصف { الكفرة } بوصف { الفجرة } مع أن وصف الكُفر أعظم من وصف الفجور لما في معنى الفجور من خساسة العمل فذُكر وصفاهم الدالان على مجموع فساد الاعتقاد وفساد العمل"
-      ]
+      ],
+      "translations": {
+        "en": "Those are the disbelievers, the wicked ones.",
+        "fr": "Voilà les infidèles, les libertins.",
+        "es": "ésos serán los infieles, los pecadores."
+      }
     }
   ]
 }

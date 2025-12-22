@@ -26,7 +26,12 @@
         "وتقدم القول في : هل حرف النفي مزيد أو هو مستعمل في معناه كناية عن تعظيم أمر المقسم به",
         "وفائدة الإِتيان باسم الإِشارة تمييز المقسم به أكْمَلَ تمييز لقصد التنويه به",
         "بلْ بَلَدٍ ملءُ الفجاج قَتمُهوأطلق هنا على جانب من الأرض مجعولة فيه بيوت من بناء وهو بلدة مكة والقسم بالبلدة مع أنها لا تدل على صفة من صفات الذات الإلهية ولا من صفات أفعاله كنايةٌ عن تعظيم الله تعالى إياه وتفضيله"
-      ]
+      ],
+      "translations": {
+        "en": "I swear by this city, Makkah -",
+        "fr": "Non!... Je jure par cette Cité!",
+        "es": "¡No! ¡Juro por esta ciudad,"
+      }
     },
     {
       "number": 2,
@@ -48,7 +53,12 @@
         "فالمعنى وقد جعلَك أهلُ مكة حلالاً بهذا البلد الذي يحرم أذى صيده وعَضْدُ شجره",
         "والمعنى التعريض بالمشركين في عدوانهم وظلمهم الرسول صلى الله عليه وسلم في بلد لا يظلمون فيه أحداً",
         "والمناسبة ابتداء القسم بمكة الذي هو إشعار بحرمتها المقتضية حرمة من يحل بها"
-      ]
+      ],
+      "translations": {
+        "en": "And you, [O Muhammad], are free of restriction in this city -",
+        "fr": "et toi, tu es un résident dans cette cité -",
+        "es": "en la que estás avecindado!"
+      }
     },
     {
       "number": 3,
@@ -68,7 +78,12 @@
       "basair_ibn_ashour": [
         "والراجح عمل والد على المعنى الحقيقي بقرينة قوله { وما ولد }",
         "والإِنسان يجوز أن يراد به الجنس وهو الأظهر وقولُ جمهور المفسرين"
-      ]
+      ],
+      "translations": {
+        "en": "And [by] the father and that which was born [of him],",
+        "fr": "Et par le père et ce qu'il engendre!",
+        "es": "¡Por todo padre y lo que ha engendrado!"
+      }
     },
     {
       "number": 4,
@@ -90,7 +105,12 @@
         "ولم يعرج واحد منهم على ربط المناسبة بين ما يفسِّر به الكَبَد وبين السياق المسوق له الكلام وافتتاحِه بالقسم المشعر بالتأكيد وتوقع الإنكار",
         "فمعنى : { أيحسب أن لن يقدر عليه } [ البلد : 5 ] : أيحسب أن لن نقدر عليه بعد اضمحلال جسده فنعيده خلقاً آخر",
         "والظرفية من قوله : { في كبد } مستعملة مجازاً في الملازمة فكأنه مظروف في الكَبَد"
-      ]
+      ],
+      "translations": {
+        "en": "We have certainly created man into hardship.",
+        "fr": "Nous avons, certes, créé l'homme pour une vie de lutte.",
+        "es": "Hemos creado al hombre en aflicción."
+      }
     },
     {
       "number": 5,
@@ -110,7 +130,12 @@
       "basair_ibn_ashour": [
         "والاستفهام مستعمل في التوبيخ والتخْطئة",
         "ومن آثار الحيرة في معنى { لقد خلقنا الإنسان في كبد } [ البلد : 4 ] أن بعض المفسرين جعل ضمير { أَيَحْسِبُ } راجعاً إلى بعض مما يعمه لفظ الإِنسان مثل أبي الأشد الجمحي"
-      ]
+      ],
+      "translations": {
+        "en": "Does he think that never will anyone overcome him?",
+        "fr": "Pense-t-il que personne ne pourra rien contre lui?",
+        "es": "¿Cree que nadie podrá contra él?"
+      }
     },
     {
       "number": 6,
@@ -126,6 +151,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "He says, \"I have spent wealth in abundance.\"",
+        "fr": "Il dit: «J'ai gaspillé beaucoup de biens».",
+        "es": "Dice: «He consumido una hacienda considerable»."
       }
     },
     {
@@ -146,7 +176,12 @@
       "basair_ibn_ashour": [
         "على جميع الناس وهو لا يخلو من ناس يطلعون على كذبه قال زهير :ومهْما تكنْ عند امرىء مِن خليقةوإنْ خالها تَخفى على الناسسِ تُعْلَمِوالاستفهام إنكار وتوبيخ وهو كناية عن علم الله تعالى بدخيلته وأن افتخاره بالكرم باطل",
         "أي تجمع والتصق بعضه ببعض وقرأه أبو جعفر { لبَّداً } بضم اللام وتشديد الباء على أنه جمع لاَبِدٍ بمعنى مجتمع بعضُه إلى بعض مثل : صُيَّم وقُوَّم"
-      ]
+      ],
+      "translations": {
+        "en": "Does he think that no one has seen him?",
+        "fr": "Pense-t-il que nul ne l'a vu?",
+        "es": "¿Cree que nadie le ha visto?"
+      }
     },
     {
       "number": 8,
@@ -165,7 +200,12 @@
       },
       "basair_ibn_ashour": [
         "والاستفهام يجوز أن يكون تقريرياً وأن يكون إنكارياً"
-      ]
+      ],
+      "translations": {
+        "en": "Have We not made for him two eyes?",
+        "fr": "Ne lui avons Nous pas assigné deux yeux,",
+        "es": "¿No le hemos dado dos ojos,"
+      }
     },
     {
       "number": 9,
@@ -181,6 +221,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "And a tongue and two lips?",
+        "fr": "et une langue et deux lèvres?",
+        "es": "una lengua y dos labios?"
       }
     },
     {
@@ -206,7 +251,12 @@
       "basair_ibn_ashour": [
         "وَهَدَيْنَاهُ النَّجْدَيْنِ (10)والهداية : الدلالة على الطريق المبلِّغة إلى المكان المقصود السير إليه",
         "ويتضمن ذلك تشبيه إعمال الفكر لنوال المطلوب بالسير في الطريق الموصل إلى المكان المرغوب كما قال تعالى : { إنا هديناه السبيل إما شاكراً وإما كفوراً } [ الإنسان : 3 ] وتشبيه الإِقبال على تلقّي دعوة الإِسلام إذ شقّت على نفوسهم كذلك"
-      ]
+      ],
+      "translations": {
+        "en": "And have shown him the two ways?",
+        "fr": "Ne l'avons-Nous pas guidé aux deux voies.",
+        "es": "¿No le hemos mostrado las dos vías?"
+      }
     },
     {
       "number": 11,
@@ -228,7 +278,12 @@
         "وتكون «لا اقتحم العقبة» استفهاماً حذف منه أداته",
         "والمعنى : أنه يدعي إهلاك مَال كثيرٍ في الفساد من ميسر وخمر ونحو ذلك أفَلا أهلكه في القُرَب والفضائل بفكّ الرقاب وإطعام المساكين في زمن المجاعة فإن الإِنفاق في ذلك لا يخفى على الناس خلافاً لما يدعيه من إنفاققٍ",
         "ولم تتكرر استغناء عن تكريرها بكون ما بعدها وهو { اقتَحَم العقبة } يتضمن شيئين جاء بيانهما في قوله : { فكُّ رقبة أو إطعام } فكأنه قال : فلا فَكَّ رقبةً ولا أطعم يتيماً أو مسكيناً"
-      ]
+      ],
+      "translations": {
+        "en": "But he has not broken through the difficult pass.",
+        "fr": "Or, il ne s'engage pas dans la voie difficile!",
+        "es": "Pues nunca se ha puesto a subir la Cuesta."
+      }
     },
     {
       "number": 12,
@@ -249,7 +304,12 @@
         "وهذا التنويه يفيد التشويق إلى معرفة المراد من العقبة",
         "كناية عن كونه أمراً عزيزاً يحتاج إلى من يُعلمك به",
         "وفِعل { أدراك } معلق عن العمل في المفعولين لوقوع الاستفهام بعده وقد تقدم نظيره في سورة الحاقة"
-      ]
+      ],
+      "translations": {
+        "en": "And what can make you know what is [breaking through] the difficult pass?",
+        "fr": "Et qui te dira ce qu'est la voie difficile?",
+        "es": "Y ¿cómo sabrás qué es la Cuesta?"
+      }
     },
     {
       "number": 13,
@@ -271,7 +331,12 @@
         "وتبيين العقبة بأنها : { فك رقبة أو إطعام } مبني على استعارة العقبة للأعمال الصالحة الشاقة على النفس",
         "وقد علمت أن ذلك من تشبيه المعقول بالمحسوس",
         "وإيثار لفظ الرقبة هنا لأن المراد ذات الأسير أو العبد وأول ما يخطر بذهن الناظر لواحد من هؤلاء"
-      ]
+      ],
+      "translations": {
+        "en": "It is the freeing of a slave",
+        "fr": "C'est délier un joug [affranchir un esclave],",
+        "es": "Es manumitir a un esclavo,"
+      }
     },
     {
       "number": 14,
@@ -290,7 +355,12 @@
       },
       "basair_ibn_ashour": [
         "ومَا ورد بعدَه مرفوع أو منصوب حملوه على إضمار فعل من لفظ المصدر"
-      ]
+      ],
+      "translations": {
+        "en": "Or feeding on a day of severe hunger",
+        "fr": "ou nourrir, en un jour de famine,",
+        "es": "Alimentar en tiempo de hambre"
+      }
     },
     {
       "number": 15,
@@ -306,6 +376,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "An orphan of near relationship",
+        "fr": "un orphelin proche parent",
+        "es": "A un pariente próximo huérfano,"
       }
     },
     {
@@ -328,7 +403,12 @@
         "و { أو } للتقسيم وهو معنى من معاني ( أو ) جاء من إفادة التخيير",
         "أي المشركين كان نفي فكّ الرقاب والإِطعام كنايةً عن انتفاء تحلّيهم بشرائع الإِسلام لأن فكّ الرقاب وإطعام الجياع من القُربات التي جاء بها الإِسلام من إطعام الجياع والمحاويج وفيه تعريض بتعيير المشركين بأنهم إنما يحبون التفاخر والسمعة وإرضاء أنفسهم بذلك",
         "وإن كان المراد من الإِنسان واحداً معيناً جاز أن يكون المعنى على نحو ما تقدم"
-      ]
+      ],
+      "translations": {
+        "en": "Or a needy person in misery",
+        "fr": "ou un pauvre dans le dénuement.",
+        "es": "A un pobre en la miseria."
+      }
     },
     {
       "number": 17,
@@ -348,7 +428,12 @@
       "basair_ibn_ashour": [
         "ومن يجعل { ثُم } مفيدة للتراخي في الزمان يجعل المعنى : لا اقتحم العقبة واتبعها بالإِيمان",
         "وهو أيضاً كناية عن اتصافهم بالمرحمة لأن من يوصي بالمرحمة هو الذي عَرَف قدرَها وفضلها"
-      ]
+      ],
+      "translations": {
+        "en": "And then being among those who believed and advised one another to patience and advised one another to compassion.",
+        "fr": "Et c'est être, en outre, de ceux qui croient et s'enjoignent mutuellement l'endurance, et s'enjoignent mutuellement la miséricorde.",
+        "es": "Es, también, formar parte de los que creen, de los que se recomiendan mutuamente la paciencia y la misericordia."
+      }
     },
     {
       "number": 18,
@@ -367,7 +452,12 @@
       },
       "basair_ibn_ashour": [
         "قيل : سميت اليد اليمنى يميناً ويُمنى لأنها أعود نفعاً على صاحبها في يسرْ أعماله"
-      ]
+      ],
+      "translations": {
+        "en": "Those are the companions of the right.",
+        "fr": "Ceux-là sont les gens de la droite;",
+        "es": "Ésos son los de la Derecha."
+      }
     },
     {
       "number": 19,
@@ -387,7 +477,12 @@
       "basair_ibn_ashour": [
         "وذلك كناية مبنية على عرف العرب يومئذ في مجالسهم",
         "ولا ميمنة ولا مشأمة على الحقيقة لأن حقيقة الميمنة والمشأمة تقتضيان حَيِّزاً لمن تُنسَب إليه الجهةُ"
-      ]
+      ],
+      "translations": {
+        "en": "But they who disbelieved in Our signs - those are the companions of the left.",
+        "fr": "alors que ceux qui ne croient pas en Nos versets sont les gens de la gauche.",
+        "es": "En cambio, los que no creen en Nuestros signos, ésos son los de la izquierda."
+      }
     },
     {
       "number": 20,
@@ -407,7 +502,12 @@
       "basair_ibn_ashour": [
         "وقد استتب بهذا التقديم رعاية الفواصل بالهاء ابتداء من قوله : { فلا اقتحم العقبة } [ البلد : 11 ]",
         "وإسناد المُوصَديَّة إلى النار مجاز عقلي"
-      ]
+      ],
+      "translations": {
+        "en": "Over them will be fire closed in.",
+        "fr": "Le Feu se refermera sur eux.",
+        "es": "Se cerrará un fuego sobre ellos."
+      }
     }
   ]
 }

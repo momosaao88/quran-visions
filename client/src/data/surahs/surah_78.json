@@ -35,7 +35,12 @@
         "افتتاح تشويققٍ ثم تهويل لما سيذكر بعده",
         "فهو من الفواتح البديعة لما فيها من أسلوب عزيز غير مألوف ومن تشويق بطريقة الإِجمال ثم التفصيل المحصلة لتمكن الخبر الآتي بعده في نفس السامع أكمل تمكن",
         "وإذ كان هذا الافتتاح مؤذناً بعظيم أمر كان مؤذناً بالتصدي لقول فصللٍ فيه"
-      ]
+      ],
+      "translations": {
+        "en": "About what are they asking one another?",
+        "fr": "Sur quoi s'interrogent-ils mutuellement?",
+        "es": "¿Por qué cosa se preguntan unos a otros?"
+      }
     },
     {
       "number": 2,
@@ -67,7 +72,12 @@
         "وهذا فرق حسن ولا أحسب البلغاء جَروا إلاّ على نحو ما قال الراغب فلا يقال للخبر عن الأمور المعتادة : نبأ وذلك ما تدل عليه موارد استعمال لفظ النبأ في كلام البلغاء",
         "وأحسب أن الذين أطلقوا مرادفة النبأ للخبر راعَوا ما يقع في بعض كلام الناس من تسامح بإطلاق النبأ بمعنى مطلق الخبر لضرب من التأويل أو المجاز المرسل بالإطلاق والتقييد",
         "فكثر ذلك في الكلام كثرة عسر معها تحديد مواقع الكلمتين ولكنْ أبلغُ الكلام لا يليق تخريجه إلا على أدق مواقع الاستعمال"
-      ]
+      ],
+      "translations": {
+        "en": "About the great news -",
+        "fr": "Sur la grande nouvelle,",
+        "es": "Por la enorme Noticia,"
+      }
     },
     {
       "number": 3,
@@ -97,7 +107,12 @@
         "لتفيد الجملة الإسمية أن الاختلاف في أمر هذا النبأ متمكن منهم ودائم فيهم لدلالة الجملة الإسمية على الدوام والثبات",
         "وتقديم { عنه } على { معرضون } [ ص : 68 ] للاهتمام بالمجرور وللإشعار بأن الاختلاف ما كان من حقه أن يتعلق به",
         "مع ما في التقديم من الرعاية على الفاصلة"
-      ]
+      ],
+      "translations": {
+        "en": "That over which they are in disagreement.",
+        "fr": "à propos de laquelle ils divergent.",
+        "es": "acerca de la cual discrepan."
+      }
     },
     {
       "number": 4,
@@ -118,7 +133,12 @@
         "والمعنى : إبطال الاختلاف في ذلك النبأ وإنكار التساؤل عنه ذلِك التساؤُل الذي أرادوا به الاستهزاء وإنكار الوقوع",
         "وتضمن وعيداً وقد وقع تأكيده بحرف الاستقبال الذي شأنه إفادة تقريب المستقبل",
         "ومن محاسن هذا الأسلوب في الوعيد أن فيه إيهاماً بأنهم سيعلمون جواب سؤالهم الذي أرادوا به الإحالة والتهكم"
-      ]
+      ],
+      "translations": {
+        "en": "No! They are going to know.",
+        "fr": "Eh bien non! Ils sauront bientôt.",
+        "es": "¡No! ¡Ya verán...!"
+      }
     },
     {
       "number": 5,
@@ -138,7 +158,12 @@
       "basair_ibn_ashour": [
         "ومعنى ارتقاء الرتبة أن مضمون ما بعد { ثم } أقوى من مضمون الجملة التي قبل { ثم }",
         "فلما استفيد تحقيق وقوع المتوعد به بما أفاده التوكيد اللفظي إذ الجملة التي بعد { ثم } أكدت الجملة التي قبلها تعيّن انصراف معنى ارتقاء رتبة معنى الجملة الثانية هو أن المتوعد به الثاني أعظم مما يحسبون"
-      ]
+      ],
+      "translations": {
+        "en": "Then, no! They are going to know.",
+        "fr": "Encore une fois, non! Ils sauront bientôt.",
+        "es": "¡No y no! ¡Ya verán...!"
+      }
     },
     {
       "number": 6,
@@ -169,7 +194,12 @@
         "والكلام موجه إلى منكري البعث وهم الموجه إليهم الاستفهام فهو من قبيل الالتفات لأن توجيه الكلام في قوة ضمير الخطاب بدليل عطف { وخلقناكم أزواجاً } [ النبأ : 8 ] عليه",
         "والاستفهام في { ألم نجعل } تقريري وهو تقرير على النفي كما هو غالب صيغ الاستفهام التقريري أن يَكون بعده نفي والأكثر كونه بحرف ( لم )",
         "وذلك النفي كالإعذار للمقرَّر إن كان يريد أن ينكر وإنما المقصود التقرير بوقوع جعل الأرض مهاداً لا بنفيه فحرف النفي لمجرد تأكيد معنى التقرير"
-      ]
+      ],
+      "translations": {
+        "en": "Have We not made the earth a resting place?",
+        "fr": "N'avons-Nous pas fait de la terre une couche?",
+        "es": "¿No hemos hecho de la tierra lecho"
+      }
     },
     {
       "number": 7,
@@ -199,7 +229,12 @@
         "والأوتاد : جمع وتد بفتح الواو وكسر المثناة الفوقية",
         "والإِخبار عن الجبال بأنها أوتاد على طريقة التشبيه البليغ أي كالأوتاد",
         "وأيضاً فإن كثرة الجبال الناتئة على وجه الأرض قد يخطر في الأذهان أنها لا تناسب جعل الأرض مهاداً فكان تشبيه الجبال بالأوتاد مستملحاً بمنزلة حسن الاعتذار"
-      ]
+      ],
+      "translations": {
+        "en": "And the mountains as stakes?",
+        "fr": "et (placé) les montagnes comme des piquets?",
+        "es": "y de las montañas estacas?"
+      }
     },
     {
       "number": 8,
@@ -230,7 +265,12 @@
         "فإقرارهم بها أيسر لأن دلالتها قريبة من البديهي",
         "وقد أُعقب الاستدلال بخلق الأرض وجبالها بالاستدلال بخلق الناس للجمع بين إثبات التفرد بالخلق وبين الدلالة على إمكان إعادتهم",
         "وللمناسبة التي قدمنا ذكرها في توجيه الابتداء بخلق الأرض في الاستدلال فهي أن من الأرض يخرج الناس للبعث فكذلك ثني باستدلال بخلق الناس الأول لأنهم الذين سيعاد خلقهم يوم البعث وهم الذين يخرجون من الأرض"
-      ]
+      ],
+      "translations": {
+        "en": "And We created you in pairs",
+        "fr": "Nous vous avons créés en couples,",
+        "es": "Y os hemos creado por parejas,"
+      }
     },
     {
       "number": 9,
@@ -261,7 +301,12 @@
         "وإلى هذا أشار ابن الأعرابي وابن قتيبة إذ جعلا المعنى : وجعلنا نومكن راحة",
         "وإنما أوثر لفظ ( سُبات ) لما فيه من الإشعار بالقطع عن العمل ليقابله قوله بعده { وجعلنا النهار معاشاً } [ النبأ : 11 ] كما سيأتي",
         "وليس مراداً في هذه الآية إذ لا يستقيم أن يكون المعنى : وجعلنا نومكم نوماً"
-      ]
+      ],
+      "translations": {
+        "en": "And made your sleep [a means for] rest",
+        "fr": "et désigné votre sommeil pour votre repos,",
+        "es": "hecho de vuestro sueño descanso,"
+      }
     },
     {
       "number": 10,
@@ -292,7 +337,12 @@
         "فيجوز أن يكون اللباس محمولاً على معنى الاسم وهو المشهور في إطلاقه",
         "أي ما يلبسه الإِنسان من الثياب فيكون وصف الليل به على تقدير كاف التشبيه على طريقة التشبيه البليغ",
         "وقد أخذ أبو الطيب معنى هذا التعريض في قوله :وكم لظلام الليل عندك من يد"
-      ]
+      ],
+      "translations": {
+        "en": "And made the night as clothing",
+        "fr": "et fait de la nuit un vêtement,",
+        "es": "de la noche vestidura,"
+      }
     },
     {
       "number": 11,
@@ -323,7 +373,12 @@
         "والمعنيان صالحان للآية إذ يكون المعنى : وجعلنا النهار حياة لكم",
         "أو يكون المعنى وجعلنا النهار معيشة لكم",
         "والإِخبار عنه بأنه معيشة مجاز أيضاً بعلاقة السببية لأن النهار سبب للعمل الذي هو سبب لحصول المعيشة وذلك يقابل جعل الليل سباتاً بمعنى الانقطاع عن العمل"
-      ]
+      ],
+      "translations": {
+        "en": "And made the day for livelihood",
+        "fr": "et assigné le jour pour les affaires de la vie,",
+        "es": "del día medio de subsistencia."
+      }
     },
     {
       "number": 12,
@@ -345,7 +400,12 @@
         "ولذلك كان قوله : { فوقكم } إيماء إلى وجه الشبه في إطلاق فعل { بنينا } وليس ذلك تجريداً للاستعارة لأن الفوقية لا تختص بالمبنيّات",
         "فهو من ذكر الصفة وحذف الموصوف للعلم به كقوله تعالى : { حملناكم في الجارية } [ الحاقة : 11 ]",
         "والمعنى : أنها متينة الخَلققِ قوية الأجرام لا يختل أمرها ولا تنقص على مرّ الأزمان"
-      ]
+      ],
+      "translations": {
+        "en": "And constructed above you seven strong [heavens]",
+        "fr": "et construit au-dessus de vous sept (cieux) renforcés,",
+        "es": "Y hemos edificado encima de vosotros siete cielos firmes,"
+      }
     },
     {
       "number": 13,
@@ -367,7 +427,12 @@
         "والكلامُ على التشبيهِ البليغ والغرض من التشبيه تقريب صفة المشبّه إلى الأذهان كما تقدم في سورة نوح",
         "وزيد ذلك التقريب بوصف السراج بالوهّاج",
         "ويطلق الوهاج على المتلألىء المضيء وهو المراد هنا لأن وصف وهاج أُجريَ على سراج"
-      ]
+      ],
+      "translations": {
+        "en": "And made [therein] a burning lamp",
+        "fr": "et [y] avons placé une lampe (le soleil) très ardente,",
+        "es": "y colocado una lámpara resplandeciente."
+      }
     },
     {
       "number": 14,
@@ -403,7 +468,12 @@
         "ومناسبة الانتقال من ذكر السماوات إلى ذكر السحاب والمطر قوية",
         "والمعصرات : بضم الميم وكسر الصاد السحابات التي تحمل ماء المطر واحدتها مُعصرةِ اسم فاعل من : أعْصَرَتْ السحابةُ",
         "فهمزة ( أعصر ) تفيد معنى الحينونة وهو استعمال موجود وتسمَّى همزة التهيئة كما في قولهم : أجَزَّ الزرعُ"
-      ]
+      ],
+      "translations": {
+        "en": "And sent down, from the rain clouds, pouring water",
+        "fr": "et fait descendre des nuées une eau abondante",
+        "es": "Y hemos hecho bajar de las nubes un agua abundante"
+      }
     },
     {
       "number": 15,
@@ -419,6 +489,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "That We may bring forth thereby grain and vegetation",
+        "fr": "pour faire pousser par elle grains et plantes",
+        "es": "para, mediante ella, sacar grano, plantas"
       }
     },
     {
@@ -441,7 +516,12 @@
         "وألفاف : اسم جمع لا واحد له من لفظه وهو مثل أوزاع وأخياف",
         "فوصف الجنات بألفَاف مبنيّ على المجاز العقلي لأن الالتفاف في أشجارها ولكن لما كانت الأشجار لا يَلتفّ بعضها على بعض في الغالب إلا إذا جمعتها جنة أسند ألفاف إلى جنات بطريق الوصف",
         "وقيل : ألفاف جمع لِفّ بكسر اللام بوزن جِذْع"
-      ]
+      ],
+      "translations": {
+        "en": "And gardens of entwined growth.",
+        "fr": "et jardins luxuriants.",
+        "es": "y frondosos jardines."
+      }
     },
     {
       "number": 17,
@@ -472,7 +552,12 @@
         "ولذلك لا يستعمل لفظ وقت إلا مقيداً بإضافة أو نحوها نحو وقت الصلاة",
         "فكونه ميقاتاً } كناية تلويحية عن تحقيق وقوعه إذ التوقيت لا يكون إلا بزمن محقق الوقوع ولو تأخر وأبطأ",
         "وهذا رد لسؤالهم تعجيله وعن سبب تأخيره"
-      ]
+      ],
+      "translations": {
+        "en": "Indeed, the Day of Judgement is an appointed time -",
+        "fr": "Le Jour de la Décision [du Jugement] a son terme fixé.",
+        "es": "El día del Fallo está ya señalado."
+      }
     },
     {
       "number": 18,
@@ -503,7 +588,12 @@
         "وقد ورد في الآثار أن المَلك الموكّل بهذا النفخ هو إسرافيل",
         "وحذف ما يحصل بين النفخ في الصور وبين حضورهم لزيادة الإِيذان بسرعة حصور الإِتيان حتّى كأنه يحصل عند النفخ في الصور وإن كان المعنى : ينفخ في الصور فتحيَوْن فتسيرون فتأتون",
         "والمعنى : فتأتون مقسَّمين طوائف وجماعات"
-      ]
+      ],
+      "translations": {
+        "en": "The Day the Horn is blown and you will come forth in multitudes",
+        "fr": "Le jour où l'on soufflera dans la Trompe, vous viendrez par troupes,",
+        "es": "Día en que se tocará la trompeta y acudiréis en masa."
+      }
     },
     {
       "number": 19,
@@ -534,7 +624,12 @@
         "والإِخبار عن السماء بأنها أبواب جرى على طريق المبالغة في الوصف بذات أبواب للدلالة على كثرة المفاتح فيها حتى كأنها هي أبواب وقريب منه قوله تعالى : { وفجرنا الأرض عيوناً } [ القمر : 12 ] حيث أسند التفجير إلى لفظ الأرض",
         "وهذا يناسب معنى قراءة التشديد ويؤكده",
         "ويقيد معنى قراءة التخفيف ويبينه"
-      ]
+      ],
+      "translations": {
+        "en": "And the heaven is opened and will become gateways",
+        "fr": "et le ciel sera ouvert et [présentera] des portes,",
+        "es": "El cielo se abrirá, todo puertas;"
+      }
     },
     {
       "number": 20,
@@ -565,7 +660,12 @@
         "حتى كأنها تسيّر من مكان إلى آخر وهو نقْل يصحبه تفتيت كما دل عليه تعقيبه بقوله : { فكانت سراباً } لأن ظاهر التعقيب أن لا تكون معه مهلة",
         "أي فكانت كالسراب في أنها لا شيء",
         "وكذلك قوله : { فكانت سراباً } هو كقوله : { فكانت أبواباً } [ النبأ : 19 ]"
-      ]
+      ],
+      "translations": {
+        "en": "And the mountains are removed and will be [but] a mirage.",
+        "fr": "et les montagnes seront mises en marche et deviendront un mirage.",
+        "es": "las montañas, puestas en marcha, serán espejismo."
+      }
     },
     {
       "number": 21,
@@ -596,7 +696,12 @@
         "ودخول حرف ( إنَّ ) في خبر ( إن ) يفيد تأكيداً على التأكيد الذي أفاده حرف التأكيد الداخل على قوله : { يوم الفصل } على حد قول جرير:",
         "إنّ الخليفة إنَّ الله سربَلهسِربال مُلْك به تُزجَى الخَواتِيم",
         "والمعنى : أن جهنم موضع يرصد منه الموَكّلون بها"
-      ]
+      ],
+      "translations": {
+        "en": "Indeed, Hell has been lying in wait",
+        "fr": "L'Enfer demeure aux aguets,",
+        "es": "La gehena, al acecho,"
+      }
     },
     {
       "number": 22,
@@ -617,7 +722,12 @@
         "ولو شئت أن تجعل { للطاغين } متنازعاً فيه بين { مرصاداً } أو { مئاباً } فلا مانع من ذلك معنىً",
         "وأقحم { كانت } دون أن يقال : إن جهنم مرصادٌ للدلالة على أن جعلها مرصاداً أمر مقدر لها كما تقدم في قوله : { إن يوم الفصل كان ميقاتاً } [ النبأ : 17 ]",
         "أطلق على المقر والمسكن إطلاقاً أصله كناية ثم شاع استعماله فصار اسماً للموضع الذي يستقر به المرء"
-      ]
+      ],
+      "translations": {
+        "en": "For the transgressors, a place of return,",
+        "fr": "refuge pour les transgresseurs.",
+        "es": "será refugio de los rebeldes,"
+      }
     },
     {
       "number": 23,
@@ -646,7 +756,12 @@
       "basair_ibn_ashour": [
         "فجاءت هذه الآية على المعروف الشائع في الكلام كناية به عن الدوام دون انتهاء",
         "وليس فيه دلالة على أن لهذا اللبث نهاية حتى يُحتاج إلى دعوى نسخ ذلك بآيات الخلود وهو وهم لأن الأخبار لا تنسخ"
-      ]
+      ],
+      "translations": {
+        "en": "In which they will remain for ages [unending].",
+        "fr": "Ils y demeureront pendant des siècles successifs.",
+        "es": "que permanecerán en ella durante generaciones,"
+      }
     },
     {
       "number": 24,
@@ -666,7 +781,12 @@
       "basair_ibn_ashour": [
         "وحقيقة الذوق : إدراك طعم الطعام والشراب",
         "ويطلق على الإِحساس بغير الطعوم إطلاقاً مجازياً"
-      ]
+      ],
+      "translations": {
+        "en": "They will not taste therein [any] coolness or drink",
+        "fr": "Ils n'y goûteront ni fraîcheur ni breuvage,",
+        "es": "sin probar frescor ni bebida,"
+      }
     },
     {
       "number": 25,
@@ -695,7 +815,12 @@
       "basair_ibn_ashour": [
         "والمعنى : يذوقون الحميم إذ يُراق على أجسادهم",
         "وصورة الاستثناء هنا من تأكيد الشيء بما يشبه ضده في الصورة"
-      ]
+      ],
+      "translations": {
+        "en": "Except scalding water and [foul] purulence -",
+        "fr": "Hormis une eau bouillante et un pus",
+        "es": "fuera de agua muy caliente y hediondo líquido,"
+      }
     },
     {
       "number": 26,
@@ -723,7 +848,12 @@
       },
       "basair_ibn_ashour": [
         "فالحال هنا مصدر مؤول بمعنى الوصف وهو أبلغ من الوصف"
-      ]
+      ],
+      "translations": {
+        "en": "An appropriate recompense.",
+        "fr": "comme rétribution équitable.",
+        "es": "retribución adecuada."
+      }
     },
     {
       "number": 27,
@@ -745,7 +875,12 @@
         "فيَظهر أن وجه العدول عن التعبير بمادة التوقع إلى التعبير بمادة الرجاء أن الله لما أخبر عن جزاء الطاغين وعذابهم تلقى المسلمون ذلك بالمسرة وعلموا أنهم ناجون مما سيلقاه الطاغون فكانوا مترقبين يوم الحساب ترقب رجاء",
         "فنفي رجاء يوم الحساب عن المشركين جامعٌ بصريحه معنى عدم إيمانهم بوقوعه",
         "وبكنايته رجاء المؤمنين وقوعه بطريقة الكناية التعريضية تعريضاً بالمسلمين وهي أيضاً تلويحية لما في لازم مدلول الكلام من الخفاء"
-      ]
+      ],
+      "translations": {
+        "en": "Indeed, they were not expecting an account",
+        "fr": "Car ils ne s'attendaient pas à rendre compte,",
+        "es": "No contaban con el ajuste de cuentas"
+      }
     },
     {
       "number": 28,
@@ -766,7 +901,12 @@
         "والمعنى : كذبوا ما اشتملت عليه الآيات من إثبات الوحدانية",
         "وكِذَّاب : بكسر الكاف وتشديد الذال مصدر كذَّب",
         "والفِعَّال بكسر أوله وتشديد عينه مصدر فعَّل مثل التفعيل"
-      ]
+      ],
+      "translations": {
+        "en": "And denied Our verses with [emphatic] denial.",
+        "fr": "et traitaient de mensonges, continuellement, Nos versets,",
+        "es": "y desmintieron descaradamente Nuestros signos,"
+      }
     },
     {
       "number": 29,
@@ -787,7 +927,12 @@
         "فالإحصاء كناية عن الضبط والتحصيل",
         "وهو كناية عن شدة الضبط لأن الأمور المكتوبة مصونة عن النسيان والإغفال",
         "فباعتبار كونه كناية عن الضبط جاء مفعولاً مطلقاً ل ( أحصينا )"
-      ]
+      ],
+      "translations": {
+        "en": "But all things We have enumerated in writing.",
+        "fr": "alors que Nous avons dénombré toutes choses en écrit.",
+        "es": "siendo así que habíamos consignado todo en una Escritura."
+      }
     },
     {
       "number": 30,
@@ -809,7 +954,12 @@
         "ويجوز أن تكون زيادة من نوع ما هم فيه من العذاب بتكريره في المستقبل",
         "والمعنى : فسنزيدكم عذاباً زيادة مستمرة في أزمنة المستقبل",
         "فصيغ التعبير عن هذا المعنى بهذا التركيب الدقيق"
-      ]
+      ],
+      "translations": {
+        "en": "\"So taste [the penalty], and never will We increase you except in torment.\"",
+        "fr": "Goûtez-donc. Nous n'augmenterons pour vous que le châtiment!",
+        "es": "«¡Gustad, pues! ¡No haremos sino aumentaros el castigo!»"
+      }
     },
     {
       "number": 31,
@@ -840,7 +990,12 @@
         "وافتتاحها بحرف { إنَّ } للدلالة على الاهتمام بالخبر لئلا يشك فيه أحد",
         "ويجوز أن يكون مصدراً ميمياً بمعنى الفوز",
         "وتقديم خبر { إن } على اسمها للاهتمام به تنويهاً بالمتقين"
-      ]
+      ],
+      "translations": {
+        "en": "Indeed, for the righteous is attainment -",
+        "fr": "Pour les pieux ce sera une réussite:",
+        "es": "En cambio, a los temerosos de Alá se les deparará el éxito:"
+      }
     },
     {
       "number": 32,
@@ -856,6 +1011,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "Gardens and grapevines",
+        "fr": "jardins et vignes,",
+        "es": "vergeles y viñedos,"
       }
     },
     {
@@ -886,7 +1046,12 @@
         "والأتراب : جمع تِرب بكسر فسكون : هو المساوي غيره في السِنّ",
         "وقيل : مشتق من الترائب تشبيهاً في التساوي بالترائب وهي ضلوع الصدر فإنها متساوية",
         "أي فلا تكون النفس إلى إحداهن أميل منها إلى الأخرى فتكون بعضهن أقل مسرة في نفس الرجل"
-      ]
+      ],
+      "translations": {
+        "en": "And full-breasted [companions] of equal age",
+        "fr": "et des (belles) aux seins arrondis, d'une égale jeunesse,",
+        "es": "de turgidos senos, de una misma edad,"
+      }
     },
     {
       "number": 34,
@@ -921,7 +1086,12 @@
         "وقد يطلقون على الخمر اسم الكأس وأريد بالكأس الجنس إذا المعنى : وأكؤساً",
         "ووصفُ الكأس بالدهق من إطلاق المصدر على المفعول كالخلق بمعنى المخلوق فإن الكأس مدهقة لا داهقة",
         "أي دون تقتير لأن الخمر كانت عزيزة فلا يكيل الحَانَوِي للشارب إلا بمقدار فإذا كانت الكأس ملأى كان ذلك أسر للشارب"
-      ]
+      ],
+      "translations": {
+        "en": "And a full cup.",
+        "fr": "et coupes débordantes.",
+        "es": "copa desbordante."
+      }
     },
     {
       "number": 35,
@@ -943,7 +1113,12 @@
         "والمعنى : لا يسمعون لغواً ولا كذَّاباً منها أو عندها",
         "وهذا المعنى نشأ عن أسلوب نظم الكلام حيث قدم { حدائق وأعناباً } الخ",
         "وهذا من بديع الإيجاز مع وفرة المعاني مما عددناه من وجوه الإِعجاز من جانب الأسلوب في المقدمة العاشرة من هذا التفسير"
-      ]
+      ],
+      "translations": {
+        "en": "No ill speech will they hear therein or any falsehood -",
+        "fr": "Ils n'y entendront ni futilités ni mensonges.",
+        "es": "No oirán allí vaniloquio, ni falsedad."
+      }
     },
     {
       "number": 36,
@@ -963,7 +1138,12 @@
       "basair_ibn_ashour": [
         "إذا عَدَّ أشياء وجميع ما تصرف من مادة حسب متفرع عن معنى العدّ وتقديرِ المقدار",
         "والوصف باسم المصدر للمبالغة وهو بمعنى المفعول"
-      ]
+      ],
+      "translations": {
+        "en": "[As] reward from your Lord, [a generous] gift [made due by] account,",
+        "fr": "A titre de récompense de ton Seigneur et à titre de don abondant",
+        "es": "Es una retribución de tu Señor, regalo bien pensado"
+      }
     },
     {
       "number": 37,
@@ -985,7 +1165,12 @@
         "أي في المقام الذي يجري استعمال البلغاء فيه على حذف المسند إليه",
         "والمعنى : إن ربك هو ربهم لأنه رب السماوات والأرض وما بينهما ولكن المشركين عبدوا غيره جهلاً وكفراً لنعمته",
         "والمراد بما بين السماوات والأرض : ما على الأرض من كائنات وما في السماوات من الملائكة وما لا يعلمه بالتفصيل إلا الله وما في الجو من المكونات حية وغيرها من أسحبة وأمطار وموجودات سابحة في الهواء"
-      ]
+      ],
+      "translations": {
+        "en": "[From] the Lord of the heavens and the earth and whatever is between them, the Most Merciful. They possess not from Him [authority for] speech.",
+        "fr": "du Seigneur des cieux et de la terre et de ce qui existe entre eux, le Tout Miséricordieux; ils n'osent nullement Lui adresser la parole.",
+        "es": "del Señor de los cielos, de la tierra y de lo que entre ellos está, del Compasivo, a Quien no podrán dirigir la palabra."
+      }
     },
     {
       "number": 38,
@@ -1016,7 +1201,12 @@
         "فالتقرير لقصد التوصل به إلى الدلالة على إبطال زعم المشركين شفاعة أصنامهم لهم عند الله",
         "وهي دلالة بطريق الفحوى فإنه إذا نُفي تكلمهم بدون إذن نفيت شفاعتهم إذ الشفاعة كلام مَن له وجاهة وقبول عند سامعه",
         "والمعنى : يومَ تُحْضَر الأرواح لتودع في أجسادها"
-      ]
+      ],
+      "translations": {
+        "en": "The Day that the Spirit and the angels will stand in rows, they will not speak except for one whom the Most Merciful permits, and he will say what is correct.",
+        "fr": "Le jour où l'Esprit et les Anges se dresseront en rangs, nul ne saura parler, sauf celui à qui le Tout Miséricordieux aura accordé la permission, et qui dira la vérité.",
+        "es": "Día en que el Espíritu y los ángeles estarán de pie, en fila, sin hablar, excepto aquél a quien el Compasivo se lo permita y diga algo oportuno."
+      }
     },
     {
       "number": 39,
@@ -1038,7 +1228,12 @@
         "أي العدلُ وفصلُ القضاء فيكون وصف اليوم به على وجه المجاز العقلي إذ الحق يقع فيه واليوم ظرف له قال تعالى : { يوم القيامة يفصل بينكم } [ الممتحنة : 3 ]",
         "ويجوز أن يكون الحق بمعنى الحقيق بمسمى اليوم لأنه شاع إطلاق اسم اليوم على اليوم الذي يكون فيه نصر قبيلة على أخرى مثل : يوممِ حليمة",
         "والمعنى : ذلك اليوم الذي يحق له أن يقال : يوم"
-      ]
+      ],
+      "translations": {
+        "en": "That is the True Day; so he who wills may take to his Lord a [way of] return.",
+        "fr": "Ce jour-là est inéluctable. Que celui qui veut prenne donc refuge auprès de son Seigneur.",
+        "es": "Ese será el día de la Verdad. El que quiera. encontrará refugio junto a su Señor."
+      }
     },
     {
       "number": 40,
@@ -1069,7 +1264,12 @@
         "وقرب العذاب مستعمل مجازاً في تحققه وإلا فإنه بحسب العرف بعيد",
         "ويصدق بعذاب الدنيا من القتل والأسر في غزوات المسلمين لأهل الشرك",
         "ويشمل عذاب يوم الفتح ويوم حنين كما ورد لفظ العذاب لذلك في قوله تعالى : { يعذبهم اللَّه بأيديكم } [ التوبة : 14 ] وقوله : { وإن للذين ظلموا عذاباً دون ذلك } [ الطور : 47 ]"
-      ]
+      ],
+      "translations": {
+        "en": "Indeed, We have warned you of a near punishment on the Day when a man will observe what his hands have put forth and the disbeliever will say, \"Oh, I wish that I were dust!\"",
+        "fr": "Nous vous avons avertis d'un châtiment bien proche, le jour où l'homme verra ce que ses deux mains ont préparé; et l'infidèle dira: «Hélas pour moi! Comme j'aurais aimé n'être que poussière».",
+        "es": "Os hemos prevenido contra un castigo cercano, el día que el hombre medite en sus obras pasadas y diga el infiel: «¡Ojalá fuera yo tierra!»"
+      }
     }
   ]
 }

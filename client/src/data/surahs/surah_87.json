@@ -26,7 +26,12 @@
         "ولهذا يكثر في القرآن إناطة التسبيح بلفظ اسم الله نحو قوله : { فسبح باسم ربك العظيم } [ الواقعة : 74 ] وقد تقدم ذلك في مبحث الكلام على البسملة في أول هذا التفسير",
         "وبتظاهُرِ النطق مع استحضار المعنى يتكرر المعنى على ذهن المتكلم ويتجدد ما في نفسه من تعظيم لله تعالى",
         "لأن ذلك لا يجري على لفظ من أسماء الله تعالى"
-      ]
+      ],
+      "translations": {
+        "en": "Exalt the name of your Lord, the Most High,",
+        "fr": "Glorifie le nom de ton Seigneur, le Très Haut,",
+        "es": "¡Glorifica el nombre de tu Señor, el Altísimo,"
+      }
     },
     {
       "number": 2,
@@ -47,7 +52,12 @@
         "وحذف مفعول { خلق } فيجوز أن يقدر عامّاً",
         "وهو شأن حذف المفعول إذا لم يدل عليه دليل",
         "يقال : قَدَّر بالتضعيف وقدَر بالتخفيف بمعنىً"
-      ]
+      ],
+      "translations": {
+        "en": "Who created and proportioned",
+        "fr": "Celui Qui a créé et agencé harmonieusement,",
+        "es": "Que ha creado y dado forma armoniosa,"
+      }
     },
     {
       "number": 3,
@@ -69,7 +79,12 @@
         "للاهتمام بكل صلة من هذه الصلات وإثباتها لمدلول الموصول وهذا من مقتضيات الإطناب",
         "والمعنى : قَدّر الأشياءَ كلها فهداها إلى أداء وظائفها كما قدّرها لها",
         "وكانت الهداية هداية خاصة وهي دلالة الإِدراك والعقل"
-      ]
+      ],
+      "translations": {
+        "en": "And who destined and [then] guided",
+        "fr": "qui a décrété et guidé,",
+        "es": "Que ha determinado y dirigido,"
+      }
     },
     {
       "number": 4,
@@ -90,7 +105,12 @@
         "وأصله : إما مصدر ميمي أطلق على الشيء المَرْعِيّ من إطلاق المصدر على المفعول مثل الخلق بمعنى المخلوق وإما اسم مكان الرعي أطلق على ما ينبت فيه ويُرعَى إطلاقاً مجازياً بعلاقة الحلول كما أطلق اسم الوادي على الماء الجاري فيه",
         "وإيثار كلمة { المرعى } دون لفظ النبات",
         "لما يشعر به مادة الرعي من نفع الأنعام به ونفعها للناس الذين يتخذونها مع رعاية الفاصلة"
-      ]
+      ],
+      "translations": {
+        "en": "And who brings out the pasture",
+        "fr": "et qui a fait pousser le pâturage,",
+        "es": "Que ha sacado el pasto"
+      }
     },
     {
       "number": 5,
@@ -114,7 +134,12 @@
       },
       "basair_ibn_ashour": [
         "وقد جاء بيان هذا الإِيماء وتفصيله بقول النبي صلى الله عليه وسلم « مثل ما بَعَثني الله به من الهُدى والعِلم كمثَل الغيث الكثير أصابَ أرضاً فكان منها نَقِيُّةٌ قَبِلَتْ الماء فأنبتت الكلأ والعُشُبَ الكثير"
-      ]
+      ],
+      "translations": {
+        "en": "And [then] makes it black stubble.",
+        "fr": "et en a fait ensuite un foin sombre.",
+        "es": "y, luego, hecho de él obscuro heno!"
+      }
     },
     {
       "number": 6,
@@ -135,7 +160,12 @@
         "سَنُقْرِئُكَ فَلَا تَنْسَى (6) قد عرفت أن الأمر بالتسبيح في قوله : { سبح اسم ربك الأعلى } [ الأعلى : 1 ] بشارة إجمالية للنبيء صلى الله عليه وسلم بخير يحصل له",
         "وهي تفيد تأكيد حصول الفعل وخاصةً إذا اقترنت بفعل حاصل في وقت التكلم فإنها تقتضي أنه يستمر ويتجدد وذلك تأكيد لحصوله وإذ قد كان قوله : { سنقرئك فلا تنسى } إقراءً",
         "وإسناد الإقراء إلى الله مجاز عقلي لأنه جاعل الكلام المقروء وآمر بإقرائه"
-      ]
+      ],
+      "translations": {
+        "en": "We will make you recite, [O Muhammad], and you will not forget,",
+        "fr": "Nous te ferons réciter (le Coran), de sorte que tu n'oublieras",
+        "es": "Te haremos recitar y, así no olvidarás,"
+      }
     },
     {
       "number": 7,
@@ -155,7 +185,12 @@
       "basair_ibn_ashour": [
         "فحذف مفعول فعل المشيئة جرياً على غالب استعماله في كلام العرب",
         "ومناسبة الجهر وما يخفى أن ما يقرؤه الرسول صلى الله عليه وسلم من القرآن هو من قبيل الجهر فالله يعلمه"
-      ]
+      ],
+      "translations": {
+        "en": "Except what Allah should will. Indeed, He knows what is declared and what is hidden.",
+        "fr": "que ce qu'Allah veut. Car, Il connaît ce qui paraît au grand jour ainsi que ce qui est caché.",
+        "es": "salvo lo que Alá quiera. Él conoce lo patente y lo escondido."
+      }
     },
     {
       "number": 8,
@@ -177,7 +212,12 @@
         "فكان الوصف المؤنث منادياً على تقدير موصوف مناسب للتأنيث في لفظه",
         "وقوله : { ونيسرك لليسرى } إن حمل على ظاهر نظم الكلام وهو ما جرى عليه المفسرون",
         "أي قوة تمكينه صلى الله عليه وسلم من اليُسرى وتصرفه فيها بما يأمر الله به"
-      ]
+      ],
+      "translations": {
+        "en": "And We will ease you toward ease.",
+        "fr": "Nous te mettrons sur la voie la plus facile.",
+        "es": "Te facilitaremos el acceso a la mayor felicidad."
+      }
     },
     {
       "number": 9,
@@ -197,7 +237,12 @@
       "basair_ibn_ashour": [
         "ووعده بأنه وفقه وهيأه لذلك ويسره عليه",
         "وشحذاً لنشاطه ليكون إقباله على التذكير بشراشره فإن امتثال الأمر إذا عاضده إقبال النفس على فعل المأمور به كان فيه مسرة للمأمور"
-      ]
+      ],
+      "translations": {
+        "en": "So remind, if the reminder should benefit;",
+        "fr": "Rappelle, donc, où le Rappel doit être utile.",
+        "es": "¡Amonesta, pues, si la amonestación aprovecha!"
+      }
     },
     {
       "number": 10,
@@ -219,7 +264,12 @@
         "فالشرط في قوله : { إن نفعت الذكرى } جملة معترضة وليس متعلقاً بالجملة ولا تقييداً لمضمونها إذ ليس المعنى : فذكر إذا كان للذكرى نفع حتى يفهم منه بطريق مفهوم المخالفة أن لا تُذَكِّر إذا لم تنفع الذكرى",
         "ولذلك كان قوله تعالى : { فذكر بالقرآن من يخاف وعيد } [ ق : 45 ] مؤولاً بأن المعنى فذكر بالقرآن فيتذكر من يخاف وعيد",
         "وهذا معنى قول ابن عباس : تنفع أوليائي ولا تنفع أعدائي"
-      ]
+      ],
+      "translations": {
+        "en": "He who fears [Allah] will be reminded.",
+        "fr": "Quiconque craint (Allah) s'[en] rappellera,",
+        "es": "Se dejará amonestar quien tenga miedo de Alá,"
+      }
     },
     {
       "number": 11,
@@ -239,7 +289,12 @@
       "basair_ibn_ashour": [
         "وتكلفُ الكينونة به كناية عن طلب البعد أي بمكان بعيد منه",
         "ومن المفسرين من حمله على العهد فقال : أريد به الوليد بن المغيرة"
-      ]
+      ],
+      "translations": {
+        "en": "But the wretched one will avoid it -",
+        "fr": "et s'en écartera le grand malheureux,",
+        "es": "y la evitará el infame,"
+      }
     },
     {
       "number": 12,
@@ -255,6 +310,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "[He] who will [enter and] burn in the greatest Fire,",
+        "fr": "qui brûlera dans le plus grand Feu,",
+        "es": "que arderá en el tan grande Fuego."
       }
     },
     {
@@ -275,7 +335,12 @@
       "basair_ibn_ashour": [
         "فمعنى { لا يموت } : لا يزول عنه الإِحساس",
         "ويجوز أن نجعل نفي الحياة كناية عن نفي الخلاص بناء على أن لازم الإِحراق الهلاك ولازم الحياة عدم الهلاك"
-      ]
+      ],
+      "translations": {
+        "en": "Neither dying therein nor living.",
+        "fr": "où il ne mourra ni ne vivra.",
+        "es": "sin en él morir ni vivir."
+      }
     },
     {
       "number": 14,
@@ -294,7 +359,12 @@
       },
       "basair_ibn_ashour": [
         "ومعنى { تزكَّى } : عالج أن يكون زكياً"
-      ]
+      ],
+      "translations": {
+        "en": "He has certainly succeeded who purifies himself",
+        "fr": "Réussit, certes, celui qui se purifie,",
+        "es": "¡Bienaventurado, en cambio, quien se purifique,"
+      }
     },
     {
       "number": 15,
@@ -313,7 +383,12 @@
       },
       "basair_ibn_ashour": [
         "وفعل { ذكر اسم ربه } يجوز أن يكون من الذّكر اللساني الذي هو بكسر الذال فيكون كلمة { اسم ربه } مراداً بها ذكر أسماء الله بالتعظم مثل قول لا إله إلا الله"
-      ]
+      ],
+      "translations": {
+        "en": "And mentions the name of his Lord and prays.",
+        "fr": "et se rappelle le nom de son Seigneur, puis célèbre la Salât.",
+        "es": "quien mencione el nombre de su Señor y ore!"
+      }
     },
     {
       "number": 16,
@@ -335,7 +410,12 @@
         "فتارة يقصد إبطال معنى الكلام نحو قوله تعالى : { أم يقولون به جنة بل جاءهم بالحق } [ المؤمنون : 70 ] فهو انصراف في الحُكم",
         "والمعنى : أنهم بُعداء عن أن يظنّ بهم التنافس في طلب الفلاح لأنهم يؤثرون الحياة الدنيا",
         "فالمعنى : بل أنتم تؤثرون منافع الدنيا على حظوظ الآخرة"
-      ]
+      ],
+      "translations": {
+        "en": "But you prefer the worldly life,",
+        "fr": "Mais, vous préférez plutôt la vie présente,",
+        "es": "Pero preferís la vida de acá,"
+      }
     },
     {
       "number": 17,
@@ -351,6 +431,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "While the Hereafter is better and more enduring.",
+        "fr": "alors que l'au-delà est meilleur et plus durable.",
+        "es": "siendo así que la otra es mejor y más duradera."
       }
     },
     {
@@ -371,7 +456,12 @@
       "basair_ibn_ashour": [
         "ومعنى الظرفية من قوله : { لفي الصحف } أن مماثله في المعنى مكتوب في الصحف الأولى",
         "فأطلقت الصحف على ما هو مكتوب فيها على وجه المجاز المرسل كما في قوله تعالى : { وقالوا ربنا عجل لنا قطنا } [ ص : 16 ]"
-      ]
+      ],
+      "translations": {
+        "en": "Indeed, this is in the former scriptures,",
+        "fr": "Ceci se trouve, certes, dans les Feuilles anciennes,",
+        "es": "Esto se encuentra en las Hojas primeras,"
+      }
     },
     {
       "number": 19,
@@ -391,7 +481,12 @@
       "basair_ibn_ashour": [
         "صُحُفِ إِبْرَاهِيمَ وَمُوسَى (19)وجاء نظم الكلام على أسلوب الإِجمال والتفصيل ليكون لهذا الخبر مزيد تقرير في أذهان الناس فقوله : { صحف إبراهيم وموسى } بدل من { الصحف الأولى }",
         "واختلف في الحروف الأصلية للفظ أوّل فقيل : حروفه الأصول همزة فواو ( مكررة ) فلام ذكره في «اللسان» فيكون وزن أول : أَأَوَل"
-      ]
+      ],
+      "translations": {
+        "en": "The scriptures of Abraham and Moses.",
+        "fr": "les Feuilles d'Abraham et de Moïse.",
+        "es": "las Hojas de Abraham y de Moisés."
+      }
     }
   ]
 }

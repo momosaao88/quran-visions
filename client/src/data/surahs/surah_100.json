@@ -30,7 +30,12 @@
         "وهو اسم فاعل من العَدْو وهو السيْر السريع يطلق على سير الخيل والإِبل خاصة",
         "وقد يوصف به سير الإِنسان وأحسب أنه على التشبيه بالخيل ومنه عَدَّاؤو العرب",
         "فقال المبرد وبعض أهل اللغة : من جعلها للإِبل جعل { ضبحا } بمعنى ضَبعا"
-      ]
+      ],
+      "translations": {
+        "en": "By the racers, panting,",
+        "fr": "Par les coursiers qui halètent,",
+        "es": "¡Por los corceles jadeantes,"
+      }
     },
     {
       "number": 2,
@@ -51,7 +56,12 @@
         "وذلك كناية عن الإِمعان في العدو وشدة السرعة في السير",
         "فيكون { قدحاً } ترشيحاً لاستعارة { الموريات } ومنصوباً على المفعول المطلق ل { الموريات } وجُوز أن يكون { قدحاً } بمعنى استخراج المرق من القِدر في القداح لإِطعام الجيش أو الركْب",
         "والإِغارة تطلق على غزو الجيش داراً وهو أشهر إطلاقها فإسناد الإِغارة إلى ضمير { العاديات } مجاز عقلي فإن المغيرين راكبوها ولكن الخيل أو إبل الغزو أسباب للإِغارة ووسائل"
-      ]
+      ],
+      "translations": {
+        "en": "And the producers of sparks [when] striking",
+        "fr": "qui font jaillir des étincelles,",
+        "es": "que hacen saltar chispas,"
+      }
     },
     {
       "number": 3,
@@ -73,7 +83,12 @@
         "وإذا فسر «المغيرات» بالإِبل المسرعات في السير",
         "ومعنى : «وسَطْن» : كُنَّ وسط الجمع",
         "فأما بالنسبة إلى الإِبل فيتعين أن يكون قوله : { جمعاً } بمعنى المكان المسمى { جمعاً } وهو المزدلفة فيكون إشارة إلى حلول الإِبل في مزدلفة قبل أن تغير صبحاً منها إلى عرفة إذ ليس ثمة جماعة مستقرة في مكان تصل إليه هذه الرواحل"
-      ]
+      ],
+      "translations": {
+        "en": "And the chargers at dawn,",
+        "fr": "qui attaquent au matin,",
+        "es": "cargan el alba,"
+      }
     },
     {
       "number": 4,
@@ -89,6 +104,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "Stirring up thereby [clouds of] dust,",
+        "fr": "et font ainsi voler la poussière,",
+        "es": "levantando, así, una nube de polvo"
       }
     },
     {
@@ -108,7 +128,12 @@
       },
       "basair_ibn_ashour": [
         "مع تسكين نفس النبي صلى الله عليه وسلم من التردد في مصير السرية التي بعث بها مع المُنذر بن عَمْرو إذا صحّ خبرها فيكون القسم بخصوص هذه الخيل إدماجاً للاطمئنان"
-      ]
+      ],
+      "translations": {
+        "en": "Arriving thereby in the center collectively,",
+        "fr": "et pénètrent au centre de la troupe ennemie.",
+        "es": "y rompen a través de una hueste!"
+      }
     },
     {
       "number": 6,
@@ -128,7 +153,12 @@
       "basair_ibn_ashour": [
         "وتقديم { لربه } لإِفادة الاهتمام بمتعلق هذا الكنود لتشنيع هذا الكنود بأنه كنود للرب الذي هو أحق الموجودات بالشكر وأعظم ذلك شرك المشركين",
         "وتقديم { لربه } على عامله المقترن بلام الابتداء وهي من ذوات الصدر لأنهم يتوسعون في المجرورات والظروف"
-      ]
+      ],
+      "translations": {
+        "en": "Indeed mankind, to his Lord, is ungrateful.",
+        "fr": "L'homme est, certes, ingrat envers son Seigneur;",
+        "es": "El hombre, en verdad, es muy desagradecido con su Señor,"
+      }
     },
     {
       "number": 7,
@@ -150,7 +180,12 @@
         "والمعنى : أن الإنسان مقر بكنوده لربه من حيث لا يقصد الإِقرار",
         "ويجوز أن يكون «شهيد» بمعنى ( عليم ) كقول الحارث بن حِلَّزة في عمرو بن هند:",
         "ويكون قوله : { على ذلك } بمعنى : مع ذلك"
-      ]
+      ],
+      "translations": {
+        "en": "And indeed, he is to that a witness.",
+        "fr": "et pourtant, il est certes, témoin de cela;",
+        "es": "y él es, sí, testigo de ello."
+      }
     },
     {
       "number": 8,
@@ -170,7 +205,12 @@
       "basair_ibn_ashour": [
         "وَإِنَّهُ لِحُبِّ الْخَيْرِ لَشَدِيدٌ (8)وتقديم { لحب الخير } على متعلَّقه للاهتمام بغرابة هذا المتعلق ولمراعاة الفاصلة",
         "وتقديمه على عامله المقترن بلام الابتداء"
-      ]
+      ],
+      "translations": {
+        "en": "And indeed he is, in love of wealth, intense.",
+        "fr": "et pour l'amour des richesses il est certes ardent.",
+        "es": "Y ama ardientemente, sí, los bienes terrenales."
+      }
     },
     {
       "number": 9,
@@ -192,7 +232,12 @@
         "وهمزة الاستفهام قدمت على فاء التفريع لأن الاستفهام صدر الكلام",
         "والمعنى : ألا يعلم العذابَ جزاءً له على ما في كنوده وبخله من جناية متفاوتة المقدار إلى حد إيجاب الخلود في النار",
         "وحُذف مفعولا { يعلم } ولا دليل في اللفظ على تعيين تقديرهما فيوكل إلى السامع تقدير ما يقتضيه المقام من الوعيد والتهويل ويسمى هذا الحذف عند النحاة الحذف الاقتصاري"
-      ]
+      ],
+      "translations": {
+        "en": "But does he not know that when the contents of the graves are scattered",
+        "fr": "Ne sait-il donc pas que lorsque ce qui est dans les tombes sera bouleversé,",
+        "es": "¿No sabe, acaso, que cuando lo que hay en las sepulturas sea vuelto al revés"
+      }
     },
     {
       "number": 10,
@@ -208,6 +253,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "And that within the breasts is obtained,",
+        "fr": "et que sera dévoilé ce qui est dans les poitrines,",
+        "es": "y se haga público lo que hay en los pechos,"
       }
     },
     {
@@ -229,7 +279,12 @@
         "والخبير : مكنَى به عن المجازى بالعقاب والثواب",
         "وتقديم { بهم } على عامله وهو { لخبير } للاهتمام به ليعلموا أنهم المقصود بذلك",
         "وتقديم المجرور على العامل المقترن بلام الابتداء مع أن لها الصدر سائغ لتوسعهم في المجرورات والظرف كما تقدم آنفاً في قوله : { لربه لكنود } [ العاديات : 6 ] وقوله : { على ذلك لشهيد } [ العاديات : 7 ] وقوله : { لحب الخير لشديد } [ العاديات : 8 ]"
-      ]
+      ],
+      "translations": {
+        "en": "Indeed, their Lord with them, that Day, is [fully] Acquainted.",
+        "fr": "ce jour-là, certes, leur Seigneur sera Parfaitement Connaisseur d'eux?",
+        "es": "ese día, su Señor estará, ciertamente, bien informado de ellos?"
+      }
     }
   ]
 }

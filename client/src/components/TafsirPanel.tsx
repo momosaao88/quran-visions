@@ -3,15 +3,23 @@
  * يعرض التفسيرات المختلفة للآية المحددة
  * التفسيرات: الميسر، المختصر، السعدي، ابن كثير
  * البصائر: السامرائي، ابن عاشور
+ * الترجمات: الإنجليزية، الفرنسية، الإسبانية
  */
 
 import { motion } from 'framer-motion';
-import { X, BookOpen, Sparkles, Lightbulb, GraduationCap } from 'lucide-react';
+import { X, BookOpen, Sparkles, Lightbulb, GraduationCap, Globe } from 'lucide-react';
+import { useState } from 'react';
 
 interface BasairData {
   title: string;
   points: string[];
   source: string;
+}
+
+interface Translations {
+  en: string;
+  fr: string;
+  es: string;
 }
 
 interface Ayah {
@@ -31,6 +39,7 @@ interface Ayah {
   };
   basair?: BasairData;
   basair_ibn_ashour?: string[];
+  translations?: Translations;
 }
 
 interface TafsirSource {
@@ -49,6 +58,12 @@ interface TafsirPanelProps {
   gharibSources: TafsirSource[];
 }
 
+const translationSources = [
+  { id: 'en', name: 'English', flag: '🇬🇧', fullName: 'Sahih International' },
+  { id: 'fr', name: 'Français', flag: '🇫🇷', fullName: 'Muhammad Hamidullah' },
+  { id: 'es', name: 'Español', flag: '🇪🇸', fullName: 'Julio Cortés' },
+];
+
 export default function TafsirPanel({
   ayah,
   activeTafsir,
@@ -57,6 +72,8 @@ export default function TafsirPanel({
   tafsirSources,
   gharibSources,
 }: TafsirPanelProps) {
+  const [activeTranslation, setActiveTranslation] = useState('en');
+
   // Get current tafsir text
   const getTafsirText = () => {
     const tafsirMap: Record<string, string> = {
@@ -66,6 +83,12 @@ export default function TafsirPanel({
       ibn_kathir: ayah.tafsir.ibn_kathir || '',
     };
     return tafsirMap[activeTafsir] || '';
+  };
+
+  // Get current translation text
+  const getTranslationText = () => {
+    if (!ayah.translations) return '';
+    return ayah.translations[activeTranslation as keyof Translations] || '';
   };
 
   // Check if gharib exists
@@ -78,6 +101,9 @@ export default function TafsirPanel({
 
   // Check if basair ibn ashour exists
   const hasBasairIbnAshour = ayah.basair_ibn_ashour && ayah.basair_ibn_ashour.length > 0;
+
+  // Check if translations exist
+  const hasTranslations = ayah.translations && (ayah.translations.en || ayah.translations.fr || ayah.translations.es);
 
   return (
     <>
@@ -173,6 +199,53 @@ export default function TafsirPanel({
                 </p>
               </motion.div>
             </div>
+
+            {/* Translations Section */}
+            {hasTranslations && (
+              <div className="mt-6">
+                <div className="flex items-center gap-2 mb-3">
+                  <Globe className="w-5 h-5 text-blue-400" />
+                  <h4 className="font-tajawal font-bold text-foreground">الترجمات</h4>
+                  <span className="text-xs text-muted-foreground">- مجمع الملك فهد</span>
+                </div>
+                
+                {/* Translation Language Tabs */}
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {translationSources.map((source) => (
+                    <button
+                      key={source.id}
+                      onClick={() => setActiveTranslation(source.id)}
+                      className={`
+                        px-4 py-2 rounded-full text-sm font-tajawal transition-all flex items-center gap-2
+                        ${activeTranslation === source.id
+                          ? 'bg-blue-500 text-white'
+                          : 'bg-white/10 text-muted-foreground hover:bg-white/20'
+                        }
+                      `}
+                    >
+                      <span>{source.flag}</span>
+                      <span>{source.name}</span>
+                    </button>
+                  ))}
+                </div>
+
+                {/* Translation Text */}
+                <motion.div
+                  key={activeTranslation}
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.3 }}
+                  className="bg-gradient-to-br from-blue-500/10 to-indigo-500/10 rounded-xl p-4 border border-blue-500/20"
+                >
+                  <p className="text-foreground/90 leading-relaxed text-left" dir="ltr" style={{ fontFamily: 'system-ui, sans-serif' }}>
+                    {getTranslationText() || 'Translation not available'}
+                  </p>
+                  <p className="text-xs text-muted-foreground mt-3 pt-2 border-t border-white/10">
+                    {translationSources.find(s => s.id === activeTranslation)?.fullName}
+                  </p>
+                </motion.div>
+              </div>
+            )}
 
             {/* Basair Al-Bayan Section - السامرائي */}
             {hasBasairSamurai && (

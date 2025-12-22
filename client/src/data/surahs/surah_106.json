@@ -33,7 +33,12 @@
         "وزاده الطول تشويقاً إذ فصل بينه وبين متعلَّقه ( بالفتح ) بخمس كلمات",
         "وتقديم هذا المجرور للاهتمام به إذ هو من أسباب أمرهم بعبادة الله التي أعرضوا عنها بعبادة الأصنام والمجرور متعلق بفعل «ليعبدوا»",
         "فلما اقتضى قصدُ الاهتمام بالمعمول تقديمه على عامله"
-      ]
+      ],
+      "translations": {
+        "en": "For the accustomed security of the Quraysh -",
+        "fr": "A cause du pacte des Coraïch,",
+        "es": "Por el pacto de los coraixíes,"
+      }
     },
     {
       "number": 2,
@@ -55,7 +60,12 @@
         "وقرأ أبو جعفر «لِيلاَف قريش» بحذف الهمزة الأولى",
         "ورسم المصحف سُنّة متَّبعة سنَّها الصحابة الذين عُيّنوا لنسخ المصاحف وإضافة «إيلاف» إلى { قريش } على معنى إضافة المصدر إلى فاعله وحذف مفعوله لأنه هنا أطلق بالمعنى الاسمي لتلك العادة فهي إضافة معنوية بتقدير اللام",
         "وقوله : { إيلافهم } عطف بيان من «إيلاف قريش» وهو من أسلوب الإجمال"
-      ]
+      ],
+      "translations": {
+        "en": "Their accustomed security [in] the caravan of winter and summer -",
+        "fr": "De leur pacte [concernant] les voyages d'hiver et d'été.",
+        "es": "pacto relativo a la caravana de invierno y la de verano,"
+      }
     },
     {
       "number": 3,
@@ -76,7 +86,12 @@
         "فتيسرت لهم الأسفار في بلاد العرب من جنوبها إلى شمالها",
         "وقد تقدم آنفاً الكلام على معنى الفاء من قوله : { فليعبدوا رب هذا البيت } على الوجوه كلها",
         "وتعريف { رب } بالإضافة إلى { هذا البيت } دون أن يقال : فليعبدوا الله لما يومىء إليه لفظ { رب } من استحقاقه الإِفراد بالعبادة دون شريك"
-      ]
+      ],
+      "translations": {
+        "en": "Let them worship the Lord of this House,",
+        "fr": "Qu'ils adorent donc le Seigneur de cette Maison [la Ka'ba],",
+        "es": "¡que sirvan, pues, al Señor de esta Casa,"
+      }
     },
     {
       "number": 4,
@@ -96,7 +111,12 @@
       "basair_ibn_ashour": [
         "وكذلك يسر لهم إقامة الأسواق حول مكة في أشهر الحج وهي سوق مجنَّة",
         "ومعنى البدلية هو أن حالة بلادهم تقتضي أن يكون أهلها في جوع فإطعامُهم بدلٌ من الجوع الذي تقتضيه البلاد"
-      ]
+      ],
+      "translations": {
+        "en": "Who has fed them, [saving them] from hunger and made them safe, [saving them] from fear.",
+        "fr": "qui les a nourris contre la faim et rassurés de la crainte!",
+        "es": "que les ha alimentado contra el hambre y dado seguridad frente al temor!"
+      }
     }
   ],
   "tafsirSources": [

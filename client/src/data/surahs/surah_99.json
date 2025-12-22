@@ -26,7 +26,12 @@
         "وفي ذلك تنزيل وقوع البعث منزلة الشيء المحقق المفروغ منه بحيث لا يهم الناس إلا معرفة وقته وأشراطِهِ فيكون التوقيت كناية عن تحقيق وقوع الموقت",
         "ومعنى { زلزلت } : حُركت تحريكاً شديداً حتى يخيل للناس أنها خرجت من حيزها لأن فعل زلزل مأخوذ من الزّلل وهو زَلَق الرِّجلين",
         "فلما عَنَوا شدة الزلل ضاعفوا الفعل للدلالة بالتضعيف على شدة الفعل كما قالوا : كَبْكَبه"
-      ]
+      ],
+      "translations": {
+        "en": "When the earth is shaken with its [final] earthquake",
+        "fr": "Quand la terre tremblera d'un violent tremblement,",
+        "es": "Cuando sea sacudida la tierra por su terremoto,"
+      }
     },
     {
       "number": 2,
@@ -46,7 +51,12 @@
       "basair_ibn_ashour": [
         "وَأَخْرَجَتِ الْأَرْضُ أَثْقَالَهَا (2) وإعادة لفظ الأرض في قوله : { وأخرجت الأرض أثقالها } إظهار في مقام الإِضمار لقصد التهويل",
         "والأثقال : جمع ثِقْل بكسر المثلثة وسكون القاف وهو المتاع الثقيل"
-      ]
+      ],
+      "translations": {
+        "en": "And the earth discharges its burdens",
+        "fr": "et que la terre fera sortir ses fardeaux,",
+        "es": "expulse la tierra su carga"
+      }
     },
     {
       "number": 3,
@@ -66,7 +76,12 @@
       "basair_ibn_ashour": [
         "وَقَالَ الْإِنْسَانُ مَا لَهَا (3) وقول : { ما لها } استفهام عن الشيء الذي ثبت للأرض ولزمها لأن اللام تفيد الاختصاص",
         "وإنما يقع مثل هذا الاستفهام غالباً مردفاً بما يتعلق بالاستقرار الذي في الخبر مثل أن يقال : ما لَه يفعل كَذا"
-      ]
+      ],
+      "translations": {
+        "en": "And man says, \"What is [wrong] with it?\" -",
+        "fr": "et que l'homme dira: «Qu'a-t-elle?»",
+        "es": "y el hombre se pregunte: «¿Qué es lo que le pasa?»,"
+      }
     },
     {
       "number": 4,
@@ -82,6 +97,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "That Day, it will report its news",
+        "fr": "ce jour-là, elle contera son histoire,",
+        "es": "ese día contará sus noticias,"
       }
     },
     {
@@ -104,7 +124,12 @@
         "أي أوجَدَ فيها أسباب إخراج أثقالها فكأنه أسرَّ إليها بكلام كقوله تعالى : { وأوحى ربك إلى النحل أن اتخذي من الجبال بيوتاً } [ النحل : 68 ] الآيات",
         "«وعُدي فعل { أوحى } باللام لتضمين { أوحى } معنى قال كقوله تعالى : { فقال لها وللأرض ائتيا طوعاً أو كرهاً } [ فصلت : 11 ]",
         "وإنما عُدل عن فعل : قال لها إلى فعل { أوحى لها } لأنه حكاية عن تكوين لا عن قول لفظي"
-      ]
+      ],
+      "translations": {
+        "en": "Because your Lord has commanded it.",
+        "fr": "selon ce que ton Seigneur lui aura révélé [ordonné].",
+        "es": "según lo que tu Señor le inspire."
+      }
     },
     {
       "number": 6,
@@ -124,7 +149,12 @@
       "basair_ibn_ashour": [
         "وحقيقة { يصدر الناس } الخروج من محل اجتماعهم",
         "تشبيهاً بانصراف الناس عن الماء بعد الورد"
-      ]
+      ],
+      "translations": {
+        "en": "That Day, the people will depart separated [into categories] to be shown [the result of] their deeds.",
+        "fr": "Ce jour-là, les gens sortiront séparément pour que leur soient montrées leurs œuvres.",
+        "es": "Ese día los hombres surgirán en grupos, para que se les muestren sus obras."
+      }
     },
     {
       "number": 7,
@@ -143,7 +173,12 @@
       },
       "basair_ibn_ashour": [
         "وأما بالنسبة إلى أعمالهم من الخير فهي كالعدم فلا توصف بخير عند الله لأن عمل الخير مشروط بالإِيمان قال تعالى : { والذين كفروا أعمالهم كسراب بِقيعة يحسبه الظمآن ماء حتى إذا جاءه لم يجده شيئاً } [ النور : 39 ]"
-      ]
+      ],
+      "translations": {
+        "en": "So whoever does an atom's weight of good will see it,",
+        "fr": "Quiconque fait un bien fût-ce du poids d'un atome, le verra,",
+        "es": "Quien haya hecho el peso de un átomo de bien, lo verá."
+      }
     },
     {
       "number": 8,
@@ -164,7 +199,12 @@
         "وَمَنْ يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُ (8)وإنما أعيد قوله : { ومن يعمل } دون الاكتفاء بحرف العطف لتكون كل جملة مستقلة الدلالة على المراد لتختص كل جملة بغرضها من الترغيب أو الترهيب فأهمية ذلك تقتضي التصريح والإِطناب",
         "وإذ قد كان الكلام مسوقاً للترغيب والترهيب معاً أوثر جانب الترغيب بالتقديم في التقسيم تنويهاً بأهل الخير",
         "وقد غفل هذا الأعرابي عن بلاغة الآية المقتضية التنويه بأهل الخير"
-      ]
+      ],
+      "translations": {
+        "en": "And whoever does an atom's weight of evil will see it.",
+        "fr": "et quiconque fait un mal fût-ce du poids d'un atome, le verra.",
+        "es": "Y quien haya hecho el peso de un átomo de mal, lo verá."
+      }
     }
   ]
 }

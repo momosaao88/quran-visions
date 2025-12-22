@@ -25,7 +25,12 @@
         "وإطالةُ القَسَم تشويق إلى المُقْسَم عليه",
         "وعلى ظاهر الاسمين للتِّين والزيتون حملهما جمع من المفسرين الأوَّلين ابنُ عباس ومجاهد والحسن وعكرمةُ والنخعي وعطاء وجابر بن زيد ومقاتِل والكلبي وذلك لما في هاتين الثمرتين من المنافع للناس المقتضية الامتنان عليهم بأن خلقها الله لهم",
         "ولكن مناسبة ذكر هذَيْن مع { طور سنين } ومع { البلد الأمين } تقتضي أن يكون لهما محمل أوفق بالمناسبة فروي عن ابن عباس أيضاً تفسير التين بأنه مَسجد نوح الذي بني على الجُودي بعد الطوفان"
-      ]
+      ],
+      "translations": {
+        "en": "By the fig and the olive",
+        "fr": "Par le figuier et l'olivier!",
+        "es": "¡Por las higueras y los olivos!"
+      }
     },
     {
       "number": 2,
@@ -45,7 +50,12 @@
       "basair_ibn_ashour": [
         "مجاز في إعرابه أن يعرب مثل إعراب جمع المذكر بالواو نيابة عن الضمة",
         "أو الياء نيابة عن الفتحة أو الكسرة"
-      ]
+      ],
+      "translations": {
+        "en": "And [by] Mount Sinai",
+        "fr": "Et par le Mont Sînîn!",
+        "es": "¡Por el monte Sinaí!"
+      }
     },
     {
       "number": 3,
@@ -67,7 +77,12 @@
         "ويجوز أن يكون بمعنى مفعول على وجه الإِسناد المجازي",
         "وعلى ما تقدم ذكره من المحملين الثانيين للتين والزيتون تتم المناسبة بين الأيمان وتكون إشارة إلى موارد أعظم الشرائع الواردة للبشر",
         "والزيتون إيماء إلى شريعة إبراهيم فإنه بنى المسجد الأقصى كما ورد في الحديث وقد تقدم في أول الإِسراء"
-      ]
+      ],
+      "translations": {
+        "en": "And [by] this secure city [Makkah],",
+        "fr": "Et par cette Cité sûre!",
+        "es": "¡Por esta ciudad segura!"
+      }
     },
     {
       "number": 4,
@@ -89,7 +104,12 @@
         "ويحمل على معنى : خلقنا جميع الناس في أحسن تقويم",
         "ويجوز أن يكون تعريف { الإنسان } تعريف الحقيقة نحو قولهم : الرجل خير من المرأة",
         "وحرف { في } يفيد الظرفية المجازية المستعارة لمعنى التمكن والمِلك فهي مستعملة في معنى باء الملابسة أو لام الملك"
-      ]
+      ],
+      "translations": {
+        "en": "We have certainly created man in the best of stature;",
+        "fr": "Nous avons certes créé l'homme dans la forme la plus parfaite.",
+        "es": "Hemos creado al hombre dándole la mejor complexión."
+      }
     },
     {
       "number": 5,
@@ -111,7 +131,12 @@
         "ويطلق الرد مجازاً على تصيير الشيء بحالة غير الحالة التي كانت له مجازاً مرسلاً بعلاقة الإطلاق عن التقييد كما هنا",
         "وتطلق مجازاً شائعاً على الخسة والحقارة في النفس",
         "والمعنى : أن الإِنسان أخذ يغير ما فطر عليه من التقويم وهو الإِيمان بإله واحد وما يقتضيه ذلك من تقواه ومراقبته فصار أسفل سافلين"
-      ]
+      ],
+      "translations": {
+        "en": "Then We return him to the lowest of the low,",
+        "fr": "Ensuite, Nous l'avons ramené au niveau le plus bas,",
+        "es": "Luego, hemos hecho de él el más abyecto,"
+      }
     },
     {
       "number": 6,
@@ -131,7 +156,12 @@
       "basair_ibn_ashour": [
         "والمعنى : أن الذين آمنوابعد أن ردوا أسفل سافلين أيام الإِشراك صاروا بالإِيمان إلى الفطرة التي فطر الله الإِنسان عليها فراجعوا أصلهم إلى أحسن تقويم",
         "وفُرع على معنى الاستثناء وهو أنهم ليسوا ممن يرد أسفل سافلين الإِخبارُ بأن لهم أجراً عظيماً لأن الاستثناء أفاد أنهم ليسوا بأسفل سافلين فأريد زيادة البيان لفضلهم وما أعد لهم"
-      ]
+      ],
+      "translations": {
+        "en": "Except for those who believe and do righteous deeds, for they will have a reward uninterrupted.",
+        "fr": "sauf ceux qui croient et accomplissent les bonnes œuvres: ceux-là auront une récompense jamais interrompue.",
+        "es": "Excepto quienes crean y obren bien, que recibirán una recompensa ininterrumpida."
+      }
     },
     {
       "number": 7,
@@ -151,7 +181,12 @@
       "basair_ibn_ashour": [
         "و ( مَا ) يَجوز أن تكون استفهامية",
         "ونكتة الالتفات هنا أنه أصرح في مواجهة الإِنسان المكذب بالتوبيخ"
-      ]
+      ],
+      "translations": {
+        "en": "So what yet causes you to deny the Recompense?",
+        "fr": "Après cela, qu'est-ce qui te fait traiter la rétribution de mensonge?",
+        "es": "Cómo puede aún desmentirse el Juicio?"
+      }
     },
     {
       "number": 8,
@@ -173,7 +208,12 @@
         "و { الدين } يجوز أن يكون بمعنى الملة والشريعة",
         "ومعنى { يكذبك } : ينسبك للكذب بسبب ما جئت به من الدين أو ما أنذرت به من الجزاء",
         "وأسلوب هذا التركيب مؤذن بأنهم لم يكونوا ينسبون النبي صلى الله عليه وسلم إلى الكذب قبل أن يجيئهم بهذا الدين"
-      ]
+      ],
+      "translations": {
+        "en": "Is not Allah the most just of judges?",
+        "fr": "Allah n'est-Il pas le plus sage des Juges?",
+        "es": "¿No es Alá quien mejor decide?"
+      }
     }
   ]
 }

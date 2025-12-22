@@ -24,7 +24,12 @@
       "basair_ibn_ashour": [
         "وقد فسرت الآية بهما قال تعالى : { وقالوا نحن أكثر أموالاً وأولاداً وما نحن بمعذبين } [ سبأ : 35 ]",
         "وهل لك يا بن آدم من مالك إلا ما أكلتَ فأفنَيْت أو لَبست فَأَبْلَيْت أو تصدقت فأمضَيْت » فهذا جارٍ مجرى التفسير لمعنى من معاني التكاثر اقتضاه حال الموعظة ساعتئذ وتحتمله الآية"
-      ]
+      ],
+      "translations": {
+        "en": "Competition in [worldly] increase diverts you",
+        "fr": "La course aux richesses vous distrait,",
+        "es": "El afán de lucro os distrae"
+      }
     },
     {
       "number": 2,
@@ -44,7 +49,12 @@
       "basair_ibn_ashour": [
         "ولكون زيارة المقابر على هذا الوجه عبارة عن الحلول فيها",
         "وحقيقة الزيارة الحلول في المكان حلولاً غير مستمر"
-      ]
+      ],
+      "translations": {
+        "en": "Until you visit the graveyards.",
+        "fr": "jusqu'à ce que vous visitiez les tombes.",
+        "es": "hasta la hora de la muerte."
+      }
     },
     {
       "number": 3,
@@ -63,7 +73,12 @@
       },
       "basair_ibn_ashour": [
         "وأكد الزجر والوعيد بقوله : { ثم كلا سوف تعلمون } فعطف عطفاً لفظيّاً بحرف التراخي أيضاً للإِشارة إلى تراخي رتبة هذا الزجر والوعيد عن رتبة الزجر والوعيد الذي قبله"
-      ]
+      ],
+      "translations": {
+        "en": "No! You are going to know.",
+        "fr": "Mais non! Vous saurez bientôt!",
+        "es": "¡No! ¡Ya veréis...!"
+      }
     },
     {
       "number": 4,
@@ -83,7 +98,12 @@
       "basair_ibn_ashour": [
         "ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ (4)فجملة : { ثم كلا سوف تعلمون } توكيد لفظي لجملة : { كلا سوف تعلمون } وعن ابن عباس : { كلا سوف تعلمون } ما ينزل بكم من عذاب في القبر : { ثم كلا سوف تعلمون } عند البعث أن ما وعدتم به صِدق",
         "وليس تكرير الجملة بمقتض ذلك في أصل الكلام"
-      ]
+      ],
+      "translations": {
+        "en": "Then no! You are going to know.",
+        "fr": "(Encore une fois)! Vous saurez bientôt!",
+        "es": "¡No y no! ¡Ya veréis...!"
+      }
     },
     {
       "number": 5,
@@ -105,7 +125,12 @@
         "وجملة : { لو تعلمون علم اليقين } تهويل وإزعاج لأن حذف جواب { لو } يجعل النفوس تذهب في تقديره كلَّ مذهب مُمكن",
         "والمعنى : لو تعلمون علم اليقين لتبيَّن لكم حالٌ مفظع عظيم",
         "فقد يقع بلفظ الماضي وقد يقع بلفظ المضارع وفي كليهما قد يكون استعماله في أصل معناه"
-      ]
+      ],
+      "translations": {
+        "en": "No! If you only knew with knowledge of certainty...",
+        "fr": "Sûrement! Si vous saviez de science certaine.",
+        "es": "¡No! Si supierais a ciencia cierta..."
+      }
     },
     {
       "number": 6,
@@ -127,7 +152,12 @@
         "وليس قولُه : { لترون الجحيم } جواب ( لَوْ ) على معنى : لو تعلمون علم اليقين لكنتم كمَن ترون الجحيم",
         "لأن نظم الكلام صيغة قَسم بدليل قَرْنه بنون التوكيد",
         "فليست هذه اللام لامَ جواب ( لو ) لأن جواب ( لو ) ممْتَنِعُ الوقوع فلا تقترن به نون التوكيد"
-      ]
+      ],
+      "translations": {
+        "en": "You will surely see the Hellfire.",
+        "fr": "Vous verrez, certes, la Fournaise.",
+        "es": "¡Veréis, de seguro, el fuego de la gehena!"
+      }
     },
     {
       "number": 7,
@@ -149,7 +179,12 @@
         "فلفظ عين مجاز عن حقيقة الشيء الخالصة غير الناقصة ولا المشابهة",
         "وانتصب { عين } على النيابة عن المفعول المطلق لأنه في المعنى صفة لمصدر محذوف",
         "وحُذف جواب { لو تعلمون } [ التكاثر : 5 ] لما في حذفه من مبالغة التهويل"
-      ]
+      ],
+      "translations": {
+        "en": "Then you will surely see it with the eye of certainty.",
+        "fr": "Puis, vous la verrez certes, avec l'œil de la certitude.",
+        "es": "¡Sí, lo veréis con ojos de certeza!"
+      }
     },
     {
       "number": 8,
@@ -170,7 +205,12 @@
         "والنعيم أخص من النعمة بكسر النون ومرادف للنَّعمة بفتح النون",
         "ومعنى الحديث : لتُسألن عن شكر تلك النعمة",
         "وروي «أن أبا بكر لما نَزَلَتْ هذه الآية قال : يا رسول الله أرأيتَ أكلة أكلتُها معك في بيت أبي الهيثم بن التيِّهان من خبز شعير ولحم وبُسر قد ذَنَّب وماء عذب"
-      ]
+      ],
+      "translations": {
+        "en": "Then you will surely be asked that Day about pleasure.",
+        "fr": "Puis, assurément, vous serez interrogés, ce jour-là, sur les délices.",
+        "es": "Luego, ese día, se os preguntará, ciertamente, por la delicia."
+      }
     }
   ]
 }

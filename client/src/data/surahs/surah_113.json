@@ -26,7 +26,12 @@
         "وهو فَعَل بمعنى مفعول مثل الصَّمَد لأن الليل شبه بشَيء مغلق ينفلق عن الصبح",
         "وحقيقة الفَلْق : الانشقاق عن باطن شيء",
         "وهذا مثل استعارة الإخراج لظهور النور بعد الظلام في قوله تعالى : { وأغطش ليلها وأخرج ضحاها } [ النازعات : 29 ]"
-      ]
+      ],
+      "translations": {
+        "en": "Say, \"I seek refuge in the Lord of daybreak",
+        "fr": "Dis: «Je cherche protection auprès du Seigneur de l'aube naissante,",
+        "es": "Di: «Me refugio en el Señor del alba"
+      }
     },
     {
       "number": 2,
@@ -42,6 +47,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "From the evil of that which He created",
+        "fr": "contre le mal des êtres qu'Il a créés,",
+        "es": "del mal que hacen sus criaturas,"
       }
     },
     {
@@ -78,7 +88,12 @@
         "إذا أظلم قال تعالى : { إلى غسق الليل } [ الإسراء : 78 ]",
         "فالغاسق صفة لموصوف محذوف لظهوره من معنى وصفه مثل الجواري في قوله تعالى : { ومن آياته الجوار في البحر } [ الشورى : 32 ] وتنكير { غاسق } للجنس لأن المراد جنس الليل",
         "ومنه قول الحريري في المقامة الخامسة : «يا أهل ذا المعنى وقيتُم ضُراً» أي وقيتم كل ضر"
-      ]
+      ],
+      "translations": {
+        "en": "And from the evil of darkness when it settles",
+        "fr": "contre le mal de l'obscurité quand elle s'approfondit,",
+        "es": "del mal de la oscuridad cuando se extiende,"
+      }
     },
     {
       "number": 4,
@@ -108,7 +123,12 @@
         "وتعريف { النفاثات } تعريف الجنس وهو في معنى النكرة",
         "فلا تفاوت في المعنى بينه وبين قوله : { ومن شر غاسق } [ الفلق : 3 ] وقوله : { ومن شر حاسد } [ الفلق : 5 ]",
         "وإنما أوثر لفظ { النفاثات } بالتعريف لأن التعريف في مثله للإِشارة إلى أن حقيقة معلومة للسامع مثل التعريف في قولهم : «أرسلها العراك» كما تقدم في قوله تعالى : { الحمد للَّه } في سورة الفاتحة ( 2 )"
-      ]
+      ],
+      "translations": {
+        "en": "And from the evil of the blowers in knots",
+        "fr": "contre le mal de celles qui soufflent [les sorcières] sur les nœuds,",
+        "es": "del mal de las que soplan en los nudos,"
+      }
     },
     {
       "number": 5,
@@ -130,7 +150,12 @@
         "وقد يطلق اسم الحسد على الغبطة مجازاً",
         "ولما كان الحسد يستلزم كون المحسود في حالة حسنة كثر في كلام العرب الكناية عن السيد بالمحسود",
         "وبعكسه الكناية عن سيّىء الحال بالحاسد"
-      ]
+      ],
+      "translations": {
+        "en": "And from the evil of an envier when he envies.\"",
+        "fr": "et contre le mal de l'envieux quand il envie».",
+        "es": "del mal envidioso cuando envidia»."
+      }
     }
   ]
 }

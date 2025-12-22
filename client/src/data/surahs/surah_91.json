@@ -26,7 +26,12 @@
         "والمقصود بالتأكيد هو ما في سَوق الخبر من التعريض بالتهديد والوعيد بالاستئصال",
         "من أعظم مخلوقات الله ذاتاً ومعنىً الدالة على بديع حكمته وقويّ قدرته",
         "وأن التقصير في إصلاحها سبب الفجور والخسران"
-      ]
+      ],
+      "translations": {
+        "en": "By the sun and its brightness",
+        "fr": "Par le soleil et par sa clarté!",
+        "es": "¡Por el sol y su claridad!"
+      }
     },
     {
       "number": 2,
@@ -47,7 +52,12 @@
         "وهذا إعجاز علمي من إعجاز القرآن وهو مما أشرت إليه في المقدمة العاشرة",
         "وابتدىء بالشمس لمناسبة المقام إيماء للتنويه بالإِسلام لأن هديه كنور الشمس لا يترك للضلال مسلكاً",
         "ومناسبة استحضار السماء عقب ذكر الشمس والقمر"
-      ]
+      ],
+      "translations": {
+        "en": "And [by] the moon when it follows it",
+        "fr": "Et par la lune quand elle le suit!",
+        "es": "¡Por la luna cuando le sigue!"
+      }
     },
     {
       "number": 3,
@@ -69,7 +79,12 @@
         "فإسناد التجلية إلى النهار مجاز عقلي والقَسَم إنما هو بالنهار لأنه حالة دالة على دقيق نظام العالم الأرضي",
         "والغشي : التغطية وليس الليل بمغطّ للشمس على الحقيقة ولكنه مسبَّب عن غشي نصف الكرة الأرضية لقرص الشمس ابتداء من وقت الغروب وهو زمن لذلك الغشي",
         "فإسناد الغشي إلى الليل مجاز عقلي من إسناد الفعل إلى زَمنه أو إلى مسببه ( بفتح الباء )"
-      ]
+      ],
+      "translations": {
+        "en": "And [by] the day when it displays it",
+        "fr": "Et par le jour quand il l'éclaire!",
+        "es": "¡Por el día cuando lo muestra brillante!"
+      }
     },
     {
       "number": 4,
@@ -89,7 +104,12 @@
       "basair_ibn_ashour": [
         "وَاللَّيْلِ إِذَا يَغْشَاهَا (4) والغاشي في الحقيقة هو تكوير الأرض ودورانها تُجاه مظهر الشمس وهي الدورة اليومية",
         "أي مقسماً بكل واحد من هذه الثلاثة في الحالة الدالة على أعظم أحواله وأشدِها دلالة على عظيم صنع الله تعالى"
-      ]
+      ],
+      "translations": {
+        "en": "And [by] the night when it covers it",
+        "fr": "Et par la nuit quand elle l'enveloppe!",
+        "es": "¡Por la noche cuando lo vela!"
+      }
     },
     {
       "number": 5,
@@ -108,7 +128,12 @@
       },
       "basair_ibn_ashour": [
         "وَالسَّمَاءِ وَمَا بَنَاهَا (5) وبناء السماء تشبيهٌ لرفعها فوق الأرض بالبناء"
-      ]
+      ],
+      "translations": {
+        "en": "And [by] the sky and He who constructed it",
+        "fr": "Et par le ciel et Celui qui l'a construit!",
+        "es": "¡Por el cielo y Quien lo ha edificado!"
+      }
     },
     {
       "number": 6,
@@ -124,6 +149,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "And [by] the earth and He who spread it",
+        "fr": "Et par la terre et Celui qui l'a étendue!",
+        "es": "¡Por la tierra y Quien la ha extentido!"
       }
     },
     {
@@ -140,6 +170,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "And [by] the soul and He who proportioned it",
+        "fr": "Et par l'âme et Celui qui l'a harmonieusement façonnée;",
+        "es": "¡Por el alma y Quien le ha dado forma armoniosa,"
       }
     },
     {
@@ -162,7 +197,12 @@
         "والمعنى هنا : أن من آثار تسوية النفس إدراك العلوم الأولية والإِدراك الضروري المدرَّج ابتداء من الانسياق الجِبلي نحو الأمور النافعة كطلب الرضيع الثدي أول مرة",
         "وتقديم الفجور على التقوى مراعىً فيه أحوال المخاطبين بهذه السورة وهم المشركون",
         "ومجيء فعل : «ألهمها» بصيغة الإِسناد إلى ضمير مذكر باعتبار أن تأنيث مصدر التسوية تأنيث غير حقيقي أو لمراعاة لفظ { ما } إن جعلتَها موصولة"
-      ]
+      ],
+      "translations": {
+        "en": "And inspired it [with discernment of] its wickedness and its righteousness,",
+        "fr": "et lui a alors inspiré son immoralité, de même que sa piété!",
+        "es": "instruyéndole sobre su propensión al pecado y su temor de Dios!"
+      }
     },
     {
       "number": 9,
@@ -182,7 +222,12 @@
       "basair_ibn_ashour": [
         "وإن المعنى تحقيق فلاح المؤمنين وخَيبة المشركين كما جُعل في سورة الليل ( 4",
         "ويجوز أن تكون جملةً معترضة بين القَسم والجواب لمناسبة ذكر إلهام الفجور والتقوى"
-      ]
+      ],
+      "translations": {
+        "en": "He has succeeded who purifies it,",
+        "fr": "A réussi, certes, celui qui la purifie.",
+        "es": "¡Bienaventurado quien la purifique!"
+      }
     },
     {
       "number": 10,
@@ -201,7 +246,12 @@
       },
       "basair_ibn_ashour": [
         "وَقَدْ خَابَ مَنْ دَسَّاهَا (10)ومعنى : { دساها } حال بينها وبين فعل الخير"
-      ]
+      ],
+      "translations": {
+        "en": "And he has failed who instills it [with corruption].",
+        "fr": "Et est perdu, certes, celui qui la corrompt.",
+        "es": "¡Decepcionado, empero, quien la corrompa!"
+      }
     },
     {
       "number": 11,
@@ -223,7 +273,12 @@
         "وذلك هو المحتاج إلى التأكيد بالقَسَم لأن المشركين لم يهتدوا إلى أن ما حل بثمود من الاستئصال كان لأجل تكذيبهم رسول الله إليهم",
         "فمفعول { كذبت } محذوف لدلالة قوله بعده : { فقال لهم رسول الله } والتقدير : كذبوا رسول الله",
         "فالمعنى : إذ بعثوا أشقاهم فانبعث وانتدب لذلك"
-      ]
+      ],
+      "translations": {
+        "en": "Thamud denied [their prophet] by reason of their transgression,",
+        "fr": "Les Thamûd, par leur transgression, ont crié au mensonge,",
+        "es": "Los tamudeos, en su arrogancia, desmintieron."
+      }
     },
     {
       "number": 12,
@@ -245,7 +300,12 @@
         "وذلك هو المحتاج إلى التأكيد بالقَسَم لأن المشركين لم يهتدوا إلى أن ما حل بثمود من الاستئصال كان لأجل تكذيبهم رسول الله إليهم",
         "فمفعول { كذبت } محذوف لدلالة قوله بعده : { فقال لهم رسول الله } والتقدير : كذبوا رسول الله",
         "فالمعنى : إذ بعثوا أشقاهم فانبعث وانتدب لذلك"
-      ]
+      ],
+      "translations": {
+        "en": "When the most wretched of them was sent forth.",
+        "fr": "lorsque le plus misérable d'entre eux se leva (pour tuer la chamelle)",
+        "es": "Cuando el más miserable de entre ellos se alzó."
+      }
     },
     {
       "number": 13,
@@ -267,7 +327,12 @@
         "وذلك هو المحتاج إلى التأكيد بالقَسَم لأن المشركين لم يهتدوا إلى أن ما حل بثمود من الاستئصال كان لأجل تكذيبهم رسول الله إليهم",
         "فمفعول { كذبت } محذوف لدلالة قوله بعده : { فقال لهم رسول الله } والتقدير : كذبوا رسول الله",
         "فالمعنى : إذ بعثوا أشقاهم فانبعث وانتدب لذلك"
-      ]
+      ],
+      "translations": {
+        "en": "And the messenger of Allah [Salih] said to them, \"[Do not harm] the she-camel of Allah or [prevent her from] her drink.\"",
+        "fr": "Le Messager d'Allah leur avait dit: «La chamelle d'Allah! Laissez-la boire.",
+        "es": "El enviado de Dios les dijo: «¡Dejad a la camella de Dios y que beba!»"
+      }
     },
     {
       "number": 14,
@@ -289,7 +354,12 @@
         "وذلك هو المحتاج إلى التأكيد بالقَسَم لأن المشركين لم يهتدوا إلى أن ما حل بثمود من الاستئصال كان لأجل تكذيبهم رسول الله إليهم",
         "فمفعول { كذبت } محذوف لدلالة قوله بعده : { فقال لهم رسول الله } والتقدير : كذبوا رسول الله",
         "فالمعنى : إذ بعثوا أشقاهم فانبعث وانتدب لذلك"
-      ]
+      ],
+      "translations": {
+        "en": "But they denied him and hamstrung her. So their Lord brought down upon them destruction for their sin and made it equal [upon all of them].",
+        "fr": "Mais, ils le traitèrent de menteur, et la tuèrent. Leur Seigneur les détruisit donc, pour leur péché et étendit Son châtiment sur tous.",
+        "es": "Le desmintieron y la desjarretaron. Su Señor, entonces, les aniquiló por su pecado, a todos por igual,"
+      }
     },
     {
       "number": 15,
@@ -311,7 +381,12 @@
         "وقال أكثر المفسرين : دمدم عليهم أطبق عليهم الأرض",
         "ومن فسروا «دمدم» بمعنى : أطبق عليهم الأرض قالوا معنَى «سوَّاها» : جعل الأرض مستوية عليهم لا تظهر فيها أجسادهم ولا بلادهم",
         "وهذا كناية عن تمكن الله من عقاب المشركين"
-      ]
+      ],
+      "translations": {
+        "en": "And He does not fear the consequence thereof.",
+        "fr": "Et Allah n'a aucune crainte des conséquences.",
+        "es": "sin temer las consecuencias de ello."
+      }
     }
   ]
 }

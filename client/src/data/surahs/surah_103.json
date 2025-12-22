@@ -26,7 +26,12 @@
         "وأشهر إطلاق لفظ العصر أنه علَم بالغلبة لوقتتٍ ما بين آخر وقت الظهر وبين اصفرار الشمس فمبدؤه إذا صار ظل الجسم مثلَه بعد القَدْر الذي كان عليه عند زوال الشمس ويمتد إلى أن يصير ظلُّ الجسم مثلَيْ قدرِه بعد الظل الذي كان له عند زوال الشمس",
         "ويجوز أن يفسر العصر في هذه الآية بالزمان كله",
         "وهذه المعاني لا يفي باحتمالها غير لفظ العصر"
-      ]
+      ],
+      "translations": {
+        "en": "By time,",
+        "fr": "Par le Temps!",
+        "es": "¡Por la tarde!"
+      }
     },
     {
       "number": 2,
@@ -46,7 +51,12 @@
       "basair_ibn_ashour": [
         "إِنَّ الْإِنْسَانَ لَفِي خُسْرٍ (2) والظرفية في قوله : لفي خسر } مجازية شبهت ملازمة الخسر بإحاطة الظرف بالمظروف فكانت أبلغ من أن يقال : إن الإنسان لخاسر",
         "ومجيء هذا الخبر على العموم مع تأكيده بالقَسم وحرففِ التوكيد في جوابه"
-      ]
+      ],
+      "translations": {
+        "en": "Indeed, mankind is in loss,",
+        "fr": "L'homme est certes, en perdition,",
+        "es": "En verdad, el hombre camina hacia su perdición,"
+      }
     },
     {
       "number": 3,
@@ -68,7 +78,12 @@
         "فالذين آمنوا وعملوا الصالحات لا يلحقهم الخسران بحال إذا لم يتركوا شيئاً من الصالحات بارتكاب أضدادها وهي السيئات",
         "فمن تحقق فيه وصف الإِيمان ولم يعمل السيئات أو عملها وتاب منها فقد تحقق له ضد الخسران وهو الربح المجازي",
         "وأما من لم يعمل الصالحات ولم يتب من سيئاته فقد تحقق فيه حكم المستثنى منه وهو الخسران"
-      ]
+      ],
+      "translations": {
+        "en": "Except for those who have believed and done righteous deeds and advised each other to truth and advised each other to patience.",
+        "fr": "sauf ceux qui croient et accomplissent les bonnes œuvres, s'enjoignent mutuellement la vérité et s'enjoignent mutuellement l'endurance.",
+        "es": "Excepto quienes crean, obren bien, se recomienden mutuamente la verdad y se recomienden mutuamente la paciencia."
+      }
     }
   ]
 }

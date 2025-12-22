@@ -26,7 +26,12 @@
         "وكونُ الاستفهام ب { هل } المفيدة معنى ( قد )",
         "فيه مزيد تشويق فهو استفهام صوري يكنى به عن أهمية الخبر بحيث شأنه أن يكون بلَغ السامع",
         "وتعريف ما أضيف إليه حديث } بوصفه { الغاشية } الذي يقتضي موصوفاً لم يذكر هو إبهام لزيادة التشويق إلى بيانه الآتي ليتمكن الخبر في الذهن كمال تمكُّن"
-      ]
+      ],
+      "translations": {
+        "en": "Has there reached you the report of the Overwhelming [event]?",
+        "fr": "T'est-il parvenu le récit de l'enveloppante?",
+        "es": "¿Te has enterado de la historia de la que cubre?"
+      }
     },
     {
       "number": 2,
@@ -47,7 +52,12 @@
         "وأوثرت الوجوه بالكناية عن أصحابها هنا وفي مثل هذا المقام لأن حالة الوجوه تنبىء عن حالة أصحابها إذ الوجه عنوان عما يجده صاحبه من نعيم أو شقوة كما يقال : خرج بوجه غير الوجه الذي دخل به",
         "ويجوز أن يجعل إسناد الخشوع والعمل والنصَب إلى وجوه } من قبيل المجاز العقلي",
         "ويدل عليها ما في اسم { الغاشية } من لمح أصل الوصفية لأنها بمعنى التي تغشى الناس فتقدير الجملة المحذوفة يوم إذ تغشى الغاشية"
-      ]
+      ],
+      "translations": {
+        "en": "[Some] faces, that Day, will be humbled,",
+        "fr": "Ce jour-là, il y aura des visages humiliés,",
+        "es": "Ese día, unos rostros, humillados,"
+      }
     },
     {
       "number": 3,
@@ -63,6 +73,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "Working [hard] and exhausted.",
+        "fr": "préoccupés, harassés.",
+        "es": "preocupados, cansados,"
       }
     },
     {
@@ -79,6 +94,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "They will [enter to] burn in an intensely hot Fire.",
+        "fr": "Ils brûleront dans un Feu ardent,",
+        "es": "arderán en un fuego abrasador."
       }
     },
     {
@@ -95,6 +115,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "They will be given drink from a boiling spring.",
+        "fr": "et seront abreuvés d'une source bouillante.",
+        "es": "Se les dará de beber de una fuente hirviente."
       }
     },
     {
@@ -114,7 +139,12 @@
       },
       "basair_ibn_ashour": [
         "والضريع : يابس الشِّبْرِق ( بكسر الشين المعجمة وسكون الموحدة وكسر الراء ) وهو نبت ذو شَوك إذا كان رطباً فإذا يبس سمي ضَريعاً وحينئذ يصير مسموماً وهو مرعى للإِبل ولحُمُر الوحش إذا كان رطباً"
-      ]
+      ],
+      "translations": {
+        "en": "For them there will be no food except from a poisonous, thorny plant",
+        "fr": "Il n'y aura pour eux d'autre nourriture que des plantes épineuses [darî'],",
+        "es": "No tendrán más alimento que de dari,"
+      }
     },
     {
       "number": 7,
@@ -134,7 +164,12 @@
       "basair_ibn_ashour": [
         "بكسر السين وفتح الميم : وفرة اللحم والشحم للحيوان يقال : أسمنه الطعامُ",
         "ومن جوع } متعلق ب { يغني } وحرف { من } لمعنى البدلية"
-      ]
+      ],
+      "translations": {
+        "en": "Which neither nourishes nor avails against hunger.",
+        "fr": "qui n'engraisse, ni n'apaise la faim.",
+        "es": "que no engorda, ni sacia."
+      }
     },
     {
       "number": 8,
@@ -154,7 +189,12 @@
       "basair_ibn_ashour": [
         "ووجه الفصل التنبيه على أن المقصود من الاستفهام في { هل أتاك حديث الغاشية } [ الغاشية : 1 ] الإِعلام بحال المعرَّض بتهديدهم وهم أصحاب الوجوه الخاشعة فلما حصل ذلك الإِعلام بجملة : { وجوه يومئذٍ خاشعة } [ الغاشية : 2 ] إلى آخرها تم المقصود",
         "ويجوز أن يكون مشتقاً من نَعِم بكسر العين ينعَم مثل حَذِرَ"
-      ]
+      ],
+      "translations": {
+        "en": "[Other] faces, that Day, will show pleasure.",
+        "fr": "Ce jour-là, il y aura des visages épanouis,",
+        "es": "Otros rostros, ese día, estarán alegres,"
+      }
     },
     {
       "number": 9,
@@ -170,6 +210,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "With their effort [they are] satisfied",
+        "fr": "contents de leurs efforts,",
+        "es": "satisfechos de su esfuerzo,"
       }
     },
     {
@@ -186,6 +231,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "In an elevated garden,",
+        "fr": "dans un haut Jardin,",
+        "es": "en un Jardín elevado,"
       }
     },
     {
@@ -208,7 +258,12 @@
         "ووصف الكلمة بذلك مجاز عقلي لأن اللاغي صاحبها",
         "واللغو : الكلام الذي لا فائدة له",
         "وهذا تنبيه على أن الجنة دار جد وحقيقة فلا كلام فيها إلا لفائدة لأن النفوس فيها تخلصت من النقائص كلها فلا يلذّ لها إلا الحقائق والسمو العقلي والخُلُقي"
-      ]
+      ],
+      "translations": {
+        "en": "Wherein they will hear no unsuitable speech.",
+        "fr": "où ils n'entendent aucune futilité.",
+        "es": "en el que no se oirá vaniloquio."
+      }
     },
     {
       "number": 12,
@@ -227,7 +282,12 @@
       },
       "basair_ibn_ashour": [
         "وهذا وصف للجنة باستكمالها محاسن الجنات قال تعالى : { أو تكون لك جنة من نخيل وعنب فتفجر الأنهار خلالها تفجيراً } [ الإسراء : 91 ]"
-      ]
+      ],
+      "translations": {
+        "en": "Within it is a flowing spring.",
+        "fr": "Là, il y aura une source coulante.",
+        "es": "Habrá allí una fuente caudalosa,"
+      }
     },
     {
       "number": 13,
@@ -249,7 +309,12 @@
         "ولما كان الارتفاع عن الأرض مأخوذاً في مفهوم السرر كان وصفها ب { مرفوعة } لتصوير حُسنها",
         "إيهَام الطِّباق لأن حقيقة معنى الرفع ضد حقيقة معنى الوضع",
         "ولا تضادَّ بين مجاز الأول وحقيقة الثاني ولكنه إيهام التضاد"
-      ]
+      ],
+      "translations": {
+        "en": "Within it are couches raised high",
+        "fr": "Là, des divans élevés",
+        "es": "lechos elevados,"
+      }
     },
     {
       "number": 14,
@@ -265,6 +330,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "And cups put in place",
+        "fr": "et des coupes posées",
+        "es": "copas preparadas,"
       }
     },
     {
@@ -281,6 +351,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "And cushions lined up",
+        "fr": "et des coussins rangés",
+        "es": "cojines alineados"
       }
     },
     {
@@ -302,7 +377,12 @@
         "و { زرابيّ } : جمع زَرْبيَّة بفتح الزاي وسكون الراء وكسر الموحدة وتشديد الياء",
         "حذفت همزتها للتخفيف لثقل الاسم لعجمته واتصال ياء النسب به",
         "والمبثوثة : المنتشرة على الأرض بكثرة وذلك يفيد كناية عن الكثرة"
-      ]
+      ],
+      "translations": {
+        "en": "And carpets spread around.",
+        "fr": "et des tapis étalés.",
+        "es": "y alfombras extendidas."
+      }
     },
     {
       "number": 17,
@@ -322,7 +402,12 @@
       "basair_ibn_ashour": [
         "والهمزة للاستفهام الإِنكاري إنكاراً عليهم إهمال النظر في الحال إلى دقائق صنع الله في بعض مخلوقاته",
         "لما في ( إلى ) من معنى الانتهاء حتى كأنَّ النظر انتهى عند المجرور ب ( إلى ) انتهاءَ تمكن واستقرارٍ كما قال تعالى : { فإذا جاء الخوف رأيتهم ينظرون إليك } [ الأحزاب : 19 ] وقوله : { إلى ربها ناظرة } [ القيامة : 23 ]"
-      ]
+      ],
+      "translations": {
+        "en": "Then do they not look at the camels - how they are created?",
+        "fr": "Ne considèrent-ils donc pas les chameaux, comment ils ont été créés,",
+        "es": "¿Es que no consideran cómo han sido creados los camélidos,"
+      }
     },
     {
       "number": 18,
@@ -344,7 +429,12 @@
         "و { الإِبل } : اسم جمع للبُعران لا واحد له من لفظه",
         "وعن المبرد أنه فسر الإِبل في هذه الآية بالأسحبة وتأوَّله الزمخشري بأنه لم يرد أن الإِبل من أسماء السحاب ولكنه أراد أنه من قبيل التشبيه",
         "ومعنى سُطحت } : سُويت يقال : سَطَح الشيء إذا سوّاه ومنه سَطْح الدار"
-      ]
+      ],
+      "translations": {
+        "en": "And at the sky - how it is raised?",
+        "fr": "et le ciel comment il est élevé,",
+        "es": "cómo alzado el cielo."
+      }
     },
     {
       "number": 19,
@@ -366,7 +456,12 @@
         "و { الإِبل } : اسم جمع للبُعران لا واحد له من لفظه",
         "وعن المبرد أنه فسر الإِبل في هذه الآية بالأسحبة وتأوَّله الزمخشري بأنه لم يرد أن الإِبل من أسماء السحاب ولكنه أراد أنه من قبيل التشبيه",
         "ومعنى سُطحت } : سُويت يقال : سَطَح الشيء إذا سوّاه ومنه سَطْح الدار"
-      ]
+      ],
+      "translations": {
+        "en": "And at the mountains - how they are erected?",
+        "fr": "et les montagnes comment elles sont dressées",
+        "es": "cómo erigidas las montañas,"
+      }
     },
     {
       "number": 20,
@@ -388,7 +483,12 @@
         "و { الإِبل } : اسم جمع للبُعران لا واحد له من لفظه",
         "وعن المبرد أنه فسر الإِبل في هذه الآية بالأسحبة وتأوَّله الزمخشري بأنه لم يرد أن الإِبل من أسماء السحاب ولكنه أراد أنه من قبيل التشبيه",
         "ومعنى سُطحت } : سُويت يقال : سَطَح الشيء إذا سوّاه ومنه سَطْح الدار"
-      ]
+      ],
+      "translations": {
+        "en": "And at the earth - how it is spread out?",
+        "fr": "et la terre comment elle est nivelée?",
+        "es": "cómo extendida la tierra?"
+      }
     },
     {
       "number": 21,
@@ -404,6 +504,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "So remind, [O Muhammad]; you are only a reminder.",
+        "fr": "Eh bien, rappelle! Tu n'es qu'un rappeleur,",
+        "es": "¡Amonesta, pues! Tú eres sólo un monitor,"
       }
     },
     {
@@ -424,7 +529,12 @@
       "basair_ibn_ashour": [
         "فالخبر بهذا النفي مستعمل كناية عن التطمين برفع التبعة عنه من جراء استمرار أكثرهم على الكفر",
         "وتقديم { عليهم } على متعلقه وهو «مسيطر» للرعاية على الفاصلة"
-      ]
+      ],
+      "translations": {
+        "en": "You are not over them a controller.",
+        "fr": "et tu n'es pas un dominateur sur eux.",
+        "es": "no tienes autoridad sobre ellos."
+      }
     },
     {
       "number": 23,
@@ -444,7 +554,12 @@
       "basair_ibn_ashour": [
         "فحرف { إلا } للاستثناء المنقطع وهو بمعنى الاستدراك",
         "والمعنى : لكن من تولى عن التذكر ودام على كفره يعذبه الله العذاب الشديد"
-      ]
+      ],
+      "translations": {
+        "en": "However, he who turns away and disbelieves -",
+        "fr": "Sauf celui qui tourne le dos et ne croit pas,",
+        "es": "Sin embargo, a quien se desvíe y no crea,"
+      }
     },
     {
       "number": 24,
@@ -460,6 +575,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "Then Allah will punish him with the greatest punishment.",
+        "fr": "alors Allah le châtiera du plus grand châtiment.",
+        "es": "Alá le infligirá el castigo mayor."
       }
     },
     {
@@ -481,7 +601,12 @@
         "أطلق على الحضور في حضرة القُدس يوم الحشر تشبيهاً له بالرجوع إلى المكان الذي خرج منه بملاحظة أن الله خالقُ الناس خلْقَهم الأول",
         "وتقديم خبر { إنَّ } على اسمها يظهر أنه لمجرد الاهتمام تحقيقاً لهذا الرجوع لأنهم ينكرونه",
         "ونُقل الكلام من أسلوب الغيبة في قوله : { فيعذبه اللَّه } [ الغاشية : 24 ] إلى أسلوب التكلم بقوله : { إلينا } على طريقة الالتفات"
-      ]
+      ],
+      "translations": {
+        "en": "Indeed, to Us is their return.",
+        "fr": "Vers Nous est leur retour.",
+        "es": "Volverán todos a Nosotros."
+      }
     },
     {
       "number": 26,
@@ -502,7 +627,12 @@
         "ومعنى ( على ) من قوله : { علينا حسابهم } أن حسابهم لتأكده في حكمة الله يشبه الحق الذي فرضه الله على نفسه",
         "وهذه الجملة هي المقصود من التعليل التي قبلها بمعنى التمهيد لها والإِدماج لإِثبات البعث",
         "وفي ذلك إيذان بأن تأخير عقابهم إمهال فلا يحسبُوه انفلاتاً من العقاب"
-      ]
+      ],
+      "translations": {
+        "en": "Then indeed, upon Us is their account.",
+        "fr": "Ensuite, c'est à Nous de leur demander compte.",
+        "es": "Luego, nos tocará a Nosotros pedirles cuentas."
+      }
     }
   ]
 }

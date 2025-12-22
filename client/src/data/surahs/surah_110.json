@@ -26,7 +26,12 @@
         "و { جاء } مستعمل في معنى : حصَل وتحقق مجازاً",
         "وقد اتفقت أقوال المفسرين من السلف فمَن بعدهم على أن الفتح المذكور في هذه السورة هو فتح مكة إلا رواية عن سعيد بن جبير عن ابن عباس هو فتح المدائن والقصور",
         "وهو مراد مَن قال من المفسرين { إذا } بمعنى ( قد )"
-      ]
+      ],
+      "translations": {
+        "en": "When the victory of Allah has come and the conquest,",
+        "fr": "Lorsque vient le secours d'Allah ainsi que la victoire,",
+        "es": "Cuando venga el auxilio de Alá, así como el éxito,"
+      }
     },
     {
       "number": 2,
@@ -46,7 +51,12 @@
       "basair_ibn_ashour": [
         "على تشبيه التلبس بالدين بتلبس المظروف بالظرف",
         "فالمعنى : ورأيتَ ناساً كثيرين أو ورأيت العرب"
-      ]
+      ],
+      "translations": {
+        "en": "And you see the people entering into the religion of Allah in multitudes,",
+        "fr": "et que tu vois les gens entrer en foule dans la religion d'Allah,",
+        "es": "y veas que los hombres entran en masa en la religión de Alá,"
+      }
     },
     {
       "number": 3,
@@ -68,7 +78,12 @@
         "وفي تقديم الأمر بالتسبيح والحمد على الأمر بالاستغفار تمهيد لإجابة استغفاره على عادة العرب في تقديم الثناء قبل سؤال الحاجة كما قال ابن أبي الصلت:",
         "مثل فِداء أسرى بدر مع فوات مصلحة استئصالهم الذي هو أصلح للأمة فعوتِبَ عليه رسول الله صلى الله عليه وسلم بقوله تعالى : { ما كان لنبيء أن يكون له أسرى } [ الأنفال : 67 ] الآية",
         "والكلام من قبيل الكناية الرمزية وهي لا تنافي إرادة المعنى الصريح بأن يحمل الأمر بالتسبيح والاستغفار على معنى الإِكثار من قول ذلك"
-      ]
+      ],
+      "translations": {
+        "en": "Then exalt [Him] with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of repentance.",
+        "fr": "alors, par la louange, célèbre la gloire de ton Seigneur et implore Son pardon. Car c'est Lui le grand Accueillant au repentir.",
+        "es": "entonces, ¡celebra las alabanzas de tu Señor y pide Su perdón! Es indulgente."
+      }
     }
   ]
 }

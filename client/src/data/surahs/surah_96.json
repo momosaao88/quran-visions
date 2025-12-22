@@ -26,7 +26,12 @@
         "وفي هذا الافتتاح براعة استهلال للقرآن",
         "وقوله { باسم ربك } فيه وجوه :أولها : أن يكون افتتاح كلام بعد جملة { اقرأ } وهو أول المقروء",
         "فتكون الباء للاستعانة فيجوز تعلقه بمحذوف تقديره : ابتدىء ويجوز أن يتعلق ب { اقرأ } الثاني فيكون تقديمه على معموله للاهتمام بشأن اسم الله"
-      ]
+      ],
+      "translations": {
+        "en": "Recite in the name of your Lord who created -",
+        "fr": "Lis, au nom de ton Seigneur qui a créé,",
+        "es": "¡Recita en el nombre de tu Señor, Que ha creado,"
+      }
     },
     {
       "number": 2,
@@ -48,7 +53,12 @@
         "سمي بذلك تشبيهاً لها بدودةٍ صغيرة تسمَّى علقة",
         "ومعنى : { خلق الإنسان من علق } أن نطفة الذكر ونطفة المرأة بعد الاختلاط ومضي مدة كافيَة تصيران علقةً فإذا صارت علقة فقد أخذت في أطوار التكوّن",
         "وفعل { اقرأ } الثاني تأكيد ل { اقرأ } الأول للاهتمام بهذا الأمر"
-      ]
+      ],
+      "translations": {
+        "en": "Created man from a clinging substance.",
+        "fr": "qui a créé l'homme d'une adhérence.",
+        "es": "ha creado al hombre de sangre coagulada!"
+      }
     },
     {
       "number": 3,
@@ -69,7 +79,12 @@
         "فعُدل عن الإِضمار لتأكيد ما يشعر به { ربّك } من العناية المستفادة من قوله : { اقرأ باسم ربك } وأن هذه القراءة شأن من شؤون الرب اختص بها عبدَه إتماماً لنعمة الربوبية عليه",
         "وليجري على لفظ الرب وصفُ الأكرم",
         "ووصف { الأكرم } مصوغ للدلالة على قوة الاتصاف بالكرم وليس مصوغاً للمفاضلة فهو مسلوب المفاضلة"
-      ]
+      ],
+      "translations": {
+        "en": "Recite, and your Lord is the most Generous -",
+        "fr": "Lis! Ton Seigneur est le Très Noble,",
+        "es": "¡Recita! Tu Señor es el Munífico,"
+      }
     },
     {
       "number": 4,
@@ -88,7 +103,12 @@
       },
       "basair_ibn_ashour": [
         "لأن قوله : \" ما أنا بقارىء \" اعتذار عن تعذر امتثال أمره بقوله : { اقرأ } ؛ فالمعنى أن الذي علّم الناس الكتابة بالقلم والقراءة قادر على أن يعلمك القراءة وأنت لا تعلم الكتابة"
-      ]
+      ],
+      "translations": {
+        "en": "Who taught by the pen -",
+        "fr": "qui a enseigné par la plume [le calame],",
+        "es": "que ha enseñado el uso del cálamo,"
+      }
     },
     {
       "number": 5,
@@ -104,6 +124,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "Taught man that which he knew not.",
+        "fr": "a enseigné à l'homme ce qu'il ne savait pas.",
+        "es": "ha enseñado al hombre lo que no sabía."
       }
     },
     {
@@ -126,7 +151,12 @@
         "وفيما روي في سبب نزولها من قول أبي جهل بناءً على أن الصلاة فُرضت ليلة الإِسراء وكانَ الإِسراء بعد البعثة بسنين",
         "وقال السهيلي في «الروض الأنُف» : ذكر الحربي أن الصلاة قبل الإِسراء كانت صلاة قبل غروب الشمس ( أي العصر ) وصلاة قبل طلوعها ( أي الصبح )",
         "وقال : كان الإِسراء وفرض الصلوات الخمس قبل الهجرة بعام اه"
-      ]
+      ],
+      "translations": {
+        "en": "No! [But] indeed, man transgresses",
+        "fr": "Prenez-garde! Vraiment l'homme devient rebelle,",
+        "es": "¡No! El hombre, en verdad, se rebela,"
+      }
     },
     {
       "number": 7,
@@ -148,7 +178,12 @@
         "وتأكيد الخبر بحرف التأكيد ولام الابتداء لقصد زيادة تحقيقه لغرابته حتى كأنه مما يتوقع أن يشك السامع فيه",
         "و { وَأنْ رآه } متعلق ب«يطغى» بحذف لام التعليل لأن حذف الجار مع ( أنْ ) كثير شائع",
         "فقد بينت هذه الآية حقيقةً نفسية عظيمة من الأخلاق وعلم النفس"
-      ]
+      ],
+      "translations": {
+        "en": "Because he sees himself self-sufficient.",
+        "fr": "dès qu'il estime qu'il peut se suffire à lui-même (à cause de sa richesse).",
+        "es": "ya que cree bastarse a sí mismo."
+      }
     },
     {
       "number": 8,
@@ -169,7 +204,12 @@
         "وفيه معنى آخر وهو أن استغناءه غير حقيقي لأنه مفتقر إلى الله في أهم أموره ولا يدري ماذا يصيِّره إليه ربُّه من العواقب فلا يَزْدَهِ بغنًى زائف في هذه الحياة فيكون : { الرجعى } مستعملاً في مجازه",
         "وتأكيد الخبر ب ( إن ) مراعى فيه المعنى التعريضي لأن معظم الطغاة ينسون هذه الحقيقة بحيث يُنزَّلون منزلة من ينكرها",
         "وتقديم { إلى ربك } على { الرجعى } للاهتمام بذلك"
-      ]
+      ],
+      "translations": {
+        "en": "Indeed, to your Lord is the return.",
+        "fr": "Mais, c'est vers ton Seigneur qu'est le retour.",
+        "es": "Pero todo vuelve a tu Señor."
+      }
     },
     {
       "number": 9,
@@ -190,7 +230,12 @@
         "والاستفهام مستعمل في التعجيب لأن الحالة العجيبة من شأنها أن يستفهم عن وقوعها استفهام تحقيق وتثبيت لِنَبئها إذ لا يكاد يصدق به",
         "فاستعمال الاستفهام في التعجيب مجاز مرسل في التركيب",
         "ومجيء الاستفهام في التعجيب كثير نحو { هل أتاك حديث الغاشية } [ الغاشية : 1 ]"
-      ]
+      ],
+      "translations": {
+        "en": "Have you seen the one who forbids",
+        "fr": "As-tu vu celui qui interdit",
+        "es": "¿Has visto a quien prohíbe"
+      }
     },
     {
       "number": 10,
@@ -210,7 +255,12 @@
       "basair_ibn_ashour": [
         "والمعنى : أعجب ما حصل لك من العلم قال الذي ينهى عبداً إذا صلى",
         "والمراد بالعبد النبي صلى الله عليه وسلم وإطلاق العبد هنا على معنى الواحد من عباد الله أيّ شَخْصصٍ كما في قوله تعالى : { بعثنا عليكم عباداً لنا أولي بأس شديد } [ الإسراء : 5 ]"
-      ]
+      ],
+      "translations": {
+        "en": "A servant when he prays?",
+        "fr": "à un serviteur d'Allah [Muhammad] de célébrer la Salât?",
+        "es": "A un siervo orar?"
+      }
     },
     {
       "number": 11,
@@ -229,7 +279,12 @@
       },
       "basair_ibn_ashour": [
         "والمعنى : أن ذلك هو الظن به فيعجّب المخاطب من ذلك لأن من ينهى عن الصلاة وهي قربةٌ إلى الله فقد نهى عن الهدى"
-      ]
+      ],
+      "translations": {
+        "en": "Have you seen if he is upon guidance",
+        "fr": "Vois-tu s'il est sur la bonne voie,",
+        "es": "¿Te parece que sigue la Dirección"
+      }
     },
     {
       "number": 12,
@@ -250,7 +305,12 @@
         "وحُذف مفعولا فعل الرؤية اختصاراً لدلالة { الذي ينهى } [ العلق : 9 ] على المفعول الأول ودلالة { ينهى } على المفعول الثاني في الجملة قبلها",
         "و { على } للاستعلاء المجازي وهو شدّة التمكن من الهُدى بحيث يشبه تمكنَ المستعلِي على المكان كما تقدم في قوله تعالى : { أولئك على هدى من ربهم } [ لقمان : 5 ]",
         "وفُصِلت جملة : { أرأيت إن كان على الهدى } لوقوعها موقع التكرير لأن فيها تكريرَ التَّعجيب من أحوال عديدة لشخص واحد"
-      ]
+      ],
+      "translations": {
+        "en": "Or enjoins righteousness?",
+        "fr": "ou s'il ordonne la piété?",
+        "es": "O que ordena el temor de Dios?"
+      }
     },
     {
       "number": 13,
@@ -269,7 +329,12 @@
       },
       "basair_ibn_ashour": [
         "ولم يعتبر وجوب اقتران جملة جواب الشرط بالفاء إذا كانت الجملة استفهامية"
-      ]
+      ],
+      "translations": {
+        "en": "Have you seen if he denies and turns away -",
+        "fr": "Vois-tu s'il dément et tourne le dos?",
+        "es": "¿No te parece que desmiente y se desvía?"
+      }
     },
     {
       "number": 14,
@@ -290,7 +355,12 @@
         "وضمن فعل { يعلم } معنى يوقنْ فلذلك عُدي بالباء",
         "وعلق فعل { أرأيت } هنا عن العمل لوجود الاستفهام في قوله : { ألم يعلم }",
         "وحذف مفعول { كذب } لدلالة ما قبله عليه"
-      ]
+      ],
+      "translations": {
+        "en": "Does he not know that Allah sees?",
+        "fr": "Ne sait-il pas que vraiment Allah voit?",
+        "es": "¿No sabe que Dios ve?"
+      }
     },
     {
       "number": 15,
@@ -312,7 +382,12 @@
         "والأخذ من الناصية أخذُ من لا يُترك له تَمَكُّنٌ من الانفلات فهو كناية عن أخذه إلى العذاب",
         "وأكدَ ذلك السفع بالباء المزيدة الداخلة على المفعول لتأكيد اللصوق",
         "والنون نون التوكيد الخفيفة التي يكثر دخولها في القسم المثبَت"
-      ]
+      ],
+      "translations": {
+        "en": "No! If he does not desist, We will surely drag him by the forelock -",
+        "fr": "Mais non! S'il ne cesse pas, Nous le saisirons certes, par le toupet,",
+        "es": "¡No! Si no cesa, hemos de arrastrarle por el copete,"
+      }
     },
     {
       "number": 16,
@@ -332,7 +407,12 @@
       "basair_ibn_ashour": [
         "ووصفُ الناصية بالكاذبة والخاطئة مجاز عقلي",
         "ومُحَسِّن هذا المجازَ أنّ فيه تخييلاً بأن الكذب والخِطءَ بَاديان من ناصيته فكانت الناصية جديرة بالسفع"
-      ]
+      ],
+      "translations": {
+        "en": "A lying, sinning forelock.",
+        "fr": "le toupet d'un menteur, d'un pécheur.",
+        "es": "copete que miente, que peca."
+      }
     },
     {
       "number": 17,
@@ -354,7 +434,12 @@
         "ويطلق النادي على الذين ينتدون فيه وهو معنى قول أبي جهل : إني لأكثر أهل هذا الوادي نَادياً",
         "ولذلك كتب في المصحف بدون واو وحرف الاستقبال لتأكيد الفعل",
         "أو جمع زِبْنيَة بكسر الزاي فموحدة ساكنة فنون مكسورة فتحتية مخففة"
-      ]
+      ],
+      "translations": {
+        "en": "Then let him call his associates;",
+        "fr": "Qu'il appelle donc son assemblée.",
+        "es": "Y ¡que llame a sus secuaces,"
+      }
     },
     {
       "number": 18,
@@ -376,7 +461,12 @@
         "ويطلق النادي على الذين ينتدون فيه وهو معنى قول أبي جهل : إني لأكثر أهل هذا الوادي نَادياً",
         "ولذلك كتب في المصحف بدون واو وحرف الاستقبال لتأكيد الفعل",
         "أو جمع زِبْنيَة بكسر الزاي فموحدة ساكنة فنون مكسورة فتحتية مخففة"
-      ]
+      ],
+      "translations": {
+        "en": "We will call the angels of Hell.",
+        "fr": "Nous appellerons les gardiens [de l'Enfer].",
+        "es": "que Nosotros llamaremos a los que precipitan!"
+      }
     },
     {
       "number": 19,
@@ -398,7 +488,12 @@
         "ويطلق النادي على الذين ينتدون فيه وهو معنى قول أبي جهل : إني لأكثر أهل هذا الوادي نَادياً",
         "ولذلك كتب في المصحف بدون واو وحرف الاستقبال لتأكيد الفعل",
         "أو جمع زِبْنيَة بكسر الزاي فموحدة ساكنة فنون مكسورة فتحتية مخففة"
-      ]
+      ],
+      "translations": {
+        "en": "No! Do not obey him. But prostrate and draw near [to Allah].",
+        "fr": "Non! Ne lui obéis pas; mais prosterne-toi et rapproche-toi.",
+        "es": "¡No! ¡No le obedezcas, sino prostérnate y acércate!"
+      }
     }
   ]
 }

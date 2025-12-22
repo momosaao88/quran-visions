@@ -28,7 +28,12 @@
         "يريد أن الظاهر أن قوله : { رسول من الله } بدل من { البينة } وأن متعلِّق { منفكين } حُذف لدلالة الكلام عليه لأنهم لما أجريت عليهم صلة الذين كفروا دل ذلك على أن المراد لم يكونوا منفكين على كفرهم",
         "وهذا الأخير بناء على اعتبار قوله تعالى : { وما تفرق الذين أوتوا الكتاب } [ البينة : 4 ] الخ كلاماً متصلاً بإعراضهم عن الإِسلام وذلك الذي درج عليه المفسرون ولنا في ذلك كلام سيأتي",
         "وأن نصب المضارع بعد { حتى } ينادي على أنه منصوب ب ( أنْ ) مضمرة بعد { حتى } فيقتضي أنّ إتيان البينة مستقبل وذلك لا يستقيم فإن البينة فسرت ب { رسول من اللَّه } وإتيانْ الرسول وقع قبل نزول هذه الآيات بسنين وهم مستمرون على ما هم عليه : هؤلاء على كفرهم"
-      ]
+      ],
+      "translations": {
+        "en": "Those who disbelieved among the People of the Scripture and the polytheists were not to be parted [from misbelief] until there came to them clear evidence -",
+        "fr": "Les infidèles parmi les gens du Livre, ainsi que les Associateurs, ne cesseront pas de mécroire jusqu'à ce que leur vienne la Preuve évidente:",
+        "es": "Los que no creen, tanto gente de la Escritura como asociadores, no podían renunciar hasta que les viniera la prueba clara:"
+      }
     },
     {
       "number": 2,
@@ -50,7 +55,12 @@
         "فهو من الحكاية لِما كانوا يَعِدُون به فهو حكاية بالمعنى كأنه قيل : كنتم تقولون لا نترك ما نحن عليه حتى تأتينا البينة",
         "وهذا تعريض بالتوبيخ بأسلوب الإِخبار المستعمل في إنشاء التعجيب أو الشكايةِ من صَلَففِ المُخبر عنه",
         "وحاصل المعنى : أنكم كنتم تقولون لا نترك ما نحن عليه من الدين حتى تأتينا البينة"
-      ]
+      ],
+      "translations": {
+        "en": "A Messenger from Allah, reciting purified scriptures",
+        "fr": "un Messager, de la part d'Allah, qui leur récite des feuilles purifiées,",
+        "es": "Un Enviado de Dios, que recitara hojas purificadas,"
+      }
     },
     {
       "number": 3,
@@ -69,7 +79,12 @@
       },
       "basair_ibn_ashour": [
         "أي شديدة القيام الذي هو هنا مجاز في الكمال والصواب وهذا من تشبيه المعقول بالمحسوس تشبيهاً بالقائم لاستعداده للعمل النافع"
-      ]
+      ],
+      "translations": {
+        "en": "Within which are correct writings.",
+        "fr": "dans lesquelles se trouvent des prescriptions d'une rectitude parfaite.",
+        "es": "que contenían Escrituras verdaderas."
+      }
     },
     {
       "number": 4,
@@ -91,7 +106,12 @@
         "والمراد بالتفرق : تفرق بني إسرائيل بين مكذّب لعيسى ومؤمن به وما آمن به إلا نفر قليل من اليهود",
         "وجُعل التفرق كناية عن إنكار البينة لأن تفرقهم كان اختلافاً في تصديق بينة عيسى عليه السلام",
         "وقد أطبقت كلمات المفسرين على أن معنى قوله تعالى : { وما تفرق الذين أوتوا الكتاب إلا من بعد ما جاءتهم البينة } أنهم ما تفرقوا عن اتباع الإِسلام"
-      ]
+      ],
+      "translations": {
+        "en": "Nor did those who were given the Scripture become divided until after there had come to them clear evidence.",
+        "fr": "Et ceux à qui le Livre a été donné ne se sont divisés qu'après que la preuve leur fut venue.",
+        "es": "Y quienes recibieron la Escritura no se dividieron sino después de venir a ellos la prueba clara."
+      }
     },
     {
       "number": 5,
@@ -113,7 +133,12 @@
         "فالمعنى : وما أمروا في التوراة والإِنجيل إلا أن يعبدوا الله مخلصين إلى آخره",
         "والإِنجيل لم يخالف التوراة أو المعنى وما أمروا في الإِسلام إلا بمثل ما أمرهم به كتابهم",
         "وهذا الوصف تأكيد لمعنى : { مخلصين له الدين } مع التذكير بأن ذلك هو دين إبراهيم عليه السلام الذي ملئت التوراة بتمجيده واتباع هديه"
-      ]
+      ],
+      "translations": {
+        "en": "And they were not commanded except to worship Allah, [being] sincere to Him in religion, inclining to truth, and to establish prayer and to give zakah. And that is the correct religion.",
+        "fr": "Il ne leur a été commandé, cependant, que d'adorer Allah, Lui vouant un culte exclusif, d'accomplir la Salât et d'acquitter la Zakât. Et voilà la religion de droiture.",
+        "es": "Pero no se les ordenó sino que sirvieran a Dios, rindiéndole culto sincero comohanifes, que hicieran la azalá y dieran el azaque. Ésa es la religión verdadera."
+      }
     },
     {
       "number": 6,
@@ -135,7 +160,12 @@
         "وقدم أهل الكتاب على المشركين في الوعيد استتباعاً لتقديمهم عليهم في سببه كما تقدم في أول السورة",
         "وتأكيد الخبر ب { إنّ } للرد على أهل الكتاب الذين يزعمون أنهم لا تمسهم النار إلا أياماً معدودة",
         "ومعنى كونهم { شر البريئة } أنهم أشد الناس شراً"
-      ]
+      ],
+      "translations": {
+        "en": "Indeed, they who disbelieved among the People of the Scripture and the polytheists will be in the fire of Hell, abiding eternally therein. Those are the worst of creatures.",
+        "fr": "Les infidèles parmi les gens du Livre, ainsi que les Associateurs iront au feu de l'Enfer, pour y demeurer éternellement. De toute la création, ce sont eux les pires.",
+        "es": "Los que no crean, tanto gente de la Escritura como asociadores estarán, eternamente, en el fuego de la gehena. Ésos son lo peor de la creación."
+      }
     },
     {
       "number": 7,
@@ -151,6 +181,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "Indeed, they who have believed and done righteous deeds - those are the best of creatures.",
+        "fr": "Quant à ceux qui croient et accomplissent les bonnes œuvres, ce sont les meilleurs de toute la création.",
+        "es": "En cambio, los que crean y obren bien, ésos son lo mejor de la creación,"
       }
     },
     {
@@ -172,7 +207,12 @@
         "وما في لفظ ربهم من الإِيماء إلى إجزال الجزاء بما يناسب عظم المضاف إليه { عندَ }",
         "وجَرْيُ النهر مستعار لانتقال السيْل تشبيهاً لسرعة انتقال الماء بسرعة المشي",
         "وأما الرضى في قوله : { ورضوا عنه } فهو كناية عن كونهم نالهم من إحسان الله ما لا مطلب لهم فوقه كقول أبي بكر في حديث الغار : «فشَرب حتى رضيتَ»"
-      ]
+      ],
+      "translations": {
+        "en": "Their reward with Allah will be gardens of perpetual residence beneath which rivers flow, wherein they will abide forever, Allah being pleased with them and they with Him. That is for whoever has feared his Lord.",
+        "fr": "Leur récompense auprès d'Allah sera les Jardins de séjour, sous lesquels coulent les ruisseaux, pour y demeurer éternellement. Allah les agrée et ils L'agréent. Telle sera [la récompense] de celui qui craint son Seigneur.",
+        "es": "y tendrán como retribución, junto a su Señor, los jardines del edén, por cuyos bajos fluyen arroyos, en los que estarán eternamente, para siempre. Dios está satisfecho de ellos y ellos lo están de Él. Esto es sólo para quien tiene miedo de su Señor."
+      }
     }
   ],
   "tafsirSources": [

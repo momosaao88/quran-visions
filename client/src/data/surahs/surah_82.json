@@ -25,7 +25,12 @@
         "إِذَا السَّمَاءُ انْفَطَرَتْ (1) الافتتاح ب { إذا } افتتاح مشوِّق لما يرد بعدها من متعلقها الذي هو جواب ما في ( إذا ) من معنى الشرط كما تقدم في أول سورة إذا الشمس كورت",
         "و { إذا } ظرف للمستقبل متضمن معنى الشرط",
         "وكذلك القول في تكرير كلمة ( إذا ) بعد حروف العطف كالقول في جمل { إذا الشمس كورت } [ التكوير : 1 ]"
-      ]
+      ],
+      "translations": {
+        "en": "When the sky breaks apart",
+        "fr": "Quand le ciel se rompra,",
+        "es": "Cuando el cielo se hienda,"
+      }
     },
     {
       "number": 2,
@@ -44,7 +49,12 @@
       },
       "basair_ibn_ashour": [
         "وأما التفرق في الهواء فإطلاق النثر عليه مجاز كما في قوله تعالى : { فجعلناه هباء منثوراً } [ الفرقان : 23 ]"
-      ]
+      ],
+      "translations": {
+        "en": "And when the stars fall, scattering,",
+        "fr": "et que les étoiles se disperseront,",
+        "es": "cuando las estrellas se dispersen,"
+      }
     },
     {
       "number": 3,
@@ -60,6 +70,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "And when the seas are erupted",
+        "fr": "et que les mers confondront leurs eaux,",
+        "es": "cuando los mares sean desbordados,"
       }
     },
     {
@@ -81,7 +96,12 @@
         "وَإِذَا الْقُبُورُ بُعْثِرَتْ (4) ومعنى : { بعثرت } : انقلبَ باطنها ظاهِرَها",
         "فيكون في بعثر معنى فعلين بَعَثَ وأثَار",
         "والذي اقتصر عليه أيمة اللغة أن معنى بعثر : قلب بَعض شيء على بعضه"
-      ]
+      ],
+      "translations": {
+        "en": "And when the [contents of] graves are scattered,",
+        "fr": "et que les tombeaux seront bouleversés,",
+        "es": "cuando las sepulturas sean vueltas al revés,"
+      }
     },
     {
       "number": 5,
@@ -103,7 +123,12 @@
         "وهذا العلم كناية عن الحساب على ما قدمت النفوس وأخرت",
         "صيغة الماضي في قوله : { انفطرت } وما عطف عليه مستعملة في المستقبل تشبيهاً لتحقيق وقوع المستقبل بحصول الشيء في الماضي",
         "أو المراد بالتقديم المبادرة بالعمل"
-      ]
+      ],
+      "translations": {
+        "en": "A soul will [then] know what it has put forth and kept back.",
+        "fr": "toute âme saura alors ce qu'elle a accompli et ce qu'elle a remis de faire à plus tard.",
+        "es": "sabrá cada cual lo que hizo y lo que dejó de hacer."
+      }
     },
     {
       "number": 6,
@@ -125,7 +150,12 @@
         "والاستفهام مجاز في الإِنكار والتعجيب من الإِشراك بالله",
         "أي لا موجب للشرك وإنكار البعث إلا أن يكون ذلك غروراً غرّه عنا كناية عن كون الشرك لا يخطر ببال العاقل إلا أن يغره به غار",
         "وفعلُه قد يسند إلى اسم ذات المُطمع حقيقة مثل : { ولا يغرنكم باللَّه الغرور } [ لقمان : 33 ] أو مجازاً نحو : { وغرتكم الحياة الدنيا } [ الجاثية : 35 ] فإن الحياة زمان الغرور"
-      ]
+      ],
+      "translations": {
+        "en": "O mankind, what has deceived you concerning your Lord, the Generous,",
+        "fr": "O homme! Qu'est-ce qui t'a trompé au sujet de ton Seigneur, le Noble,",
+        "es": "¡Hombre! ¿Qué es lo que te ha engañado acerca de tu noble Señor,"
+      }
     },
     {
       "number": 7,
@@ -147,7 +177,12 @@
         "وإيثار تعريف الله بوصف «ربك» دون ذكر اسم الجلالة لما في معنى الرب من الملك والإِنشاء والرفق",
         "فالتسوية جامعة لهذا المعنى العظيم",
         "وقوله : { في أي صورة } اعلم أن أصل { أي } أنها للاستفهام عن تمييز شيء عن مشاركيه في حاله كما تقدم في قوله تعالى : { من أي شيء خلقه } في سورة عبس ( 18 ) وقوله تعالى : { فبأي حديث بعده يؤمنون } [ الأعراف : 185 ]"
-      ]
+      ],
+      "translations": {
+        "en": "Who created you, proportioned you, and balanced you?",
+        "fr": "qui t'a créé, puis modelé et constitué harmonieusement?",
+        "es": "Que te ha creado, dado forma y disposición armoniosas,"
+      }
     },
     {
       "number": 8,
@@ -169,7 +204,12 @@
         "و { في } للظرفية المجازية التي هي بمعنى الملابسة",
         "فجعلت الصورة العجيبة كالظرف للمصوّر بها للدلالة على تمكنها من موصوفها",
         "والمعنى : ركّبك التركيب الذي شاءه قال تعالى : { هو الذي يصوركم في الأرحام كيف يشاء } [ آل عمران : 6 ]"
-      ]
+      ],
+      "translations": {
+        "en": "In whatever form He willed has He assembled you.",
+        "fr": "Il t'a façonné dans la forme qu'Il a voulue.",
+        "es": "Que te ha formado del modo que ha querido?"
+      }
     },
     {
       "number": 9,
@@ -191,7 +231,12 @@
         "وهو التكذيب بالبعث والجزاء ويشمله التوبيخ بالزجر بسبب أنه معطوف على توبيخ وجزر لأن { بل } لا تخرج عن معنى العطف أي العطف في الغرض لا في نسبة الحكم",
         "ولذلك يتبع المعطوف بها المفرد في إعراب المعطوف عليه فيقول النحويون : إنها تُتْبَع في اللفظ لا في الحكم",
         "أي هو اتباعُ مناسبة في الغرض لا اتباعٌ في النسبة"
-      ]
+      ],
+      "translations": {
+        "en": "No! But you deny the Recompense.",
+        "fr": "Non...! [malgré tout] vous traitez la Rétribution de mensonge;",
+        "es": "¡Pero no! Desmentís el Juicio,"
+      }
     },
     {
       "number": 10,
@@ -213,7 +258,12 @@
         "وجمع الملائكة باعتبار التوزيع على الناس : وإنما لكل أحد ملكان قال تعالى : { إذ يتلقى المتلقيان عن اليمين وعن الشمال قعيد ما يلفظ من قول إلا لديه رقيب عتيد } [ ق : 17",
         "فأما الحفظ : فهو هنا بمعنى الرعاية والمراقبة",
         "وهو بهذا المعنى يتعدى إلى المعمول بحرف الجر"
-      ]
+      ],
+      "translations": {
+        "en": "And indeed, [appointed] over you are keepers,",
+        "fr": "alors que veillent sur vous des gardiens,",
+        "es": "pero hay quienes os guardan:"
+      }
     },
     {
       "number": 11,
@@ -232,7 +282,12 @@
       },
       "basair_ibn_ashour": [
         "على أن حقيقة الكتابة بمعنى الخط غير ممكنة بكيفية مناسبة لأمور الغيب"
-      ]
+      ],
+      "translations": {
+        "en": "Noble and recording;",
+        "fr": "de nobles scribes,",
+        "es": "nobles, escribas,"
+      }
     },
     {
       "number": 12,
@@ -251,7 +306,12 @@
       },
       "basair_ibn_ashour": [
         "أو أن يلبس عليه حقيقة بحيث ينتفي عنه الغلط والخطأ في تمييز الأمور بأقصى ما يمكن"
-      ]
+      ],
+      "translations": {
+        "en": "They know whatever you do.",
+        "fr": "qui savent ce que vous faites.",
+        "es": "que saben lo que hacéis."
+      }
     },
     {
       "number": 13,
@@ -273,7 +333,12 @@
         "وكرر التأكيد مع الجملة المعطوفة للاهتمام بتحقيق كونهم في جحيم لا يطمعوا في مفارقته",
         "وهو فَعْل بمعنى فاعل مشتق من بَرَّ يبر",
         "ولفعل برّ اسم مصدر هو برّ بكسر الباء ولا يعرف له مصدر قياسيّ بفتح الباء كأنهم أماتوه لئلا يلتبس بالبَرّ وهو التقيّ"
-      ]
+      ],
+      "translations": {
+        "en": "Indeed, the righteous will be in pleasure,",
+        "fr": "Les bons seront, certes, dans un [jardin] de délice,",
+        "es": "Sí, los justos estarán en delicia,"
+      }
     },
     {
       "number": 14,
@@ -293,7 +358,12 @@
       "basair_ibn_ashour": [
         "فأما عصاة المؤمنين فلا يخلدون في النار وإلا لبطلت فائدة الإِيمان",
         "والظرفية من قوله : «في نعيم» مجازية لأن النعيم أمر اعتباري لا يكون ظرفاً حقيقة"
-      ]
+      ],
+      "translations": {
+        "en": "And indeed, the wicked will be in Hellfire.",
+        "fr": "et les libertins seront, certes, dans une fournaise",
+        "es": "mientras que los pecadores estarán en fuego de gehena."
+      }
     },
     {
       "number": 15,
@@ -309,6 +379,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "They will [enter to] burn therein on the Day of Recompense,",
+        "fr": "où ils brûleront, le jour de la Rétribution",
+        "es": "En él arderán el día del Juicio"
       }
     },
     {
@@ -328,7 +403,12 @@
       },
       "basair_ibn_ashour": [
         "وتقديم عنها } على متعلقه للاهتمام بالمجرور"
-      ]
+      ],
+      "translations": {
+        "en": "And never therefrom will they be absent.",
+        "fr": "incapables de s'en échapper.",
+        "es": "y no se ausentarán de él."
+      }
     },
     {
       "number": 17,
@@ -350,7 +430,12 @@
         "وقد علق على المفعولين الآخرين ب { ما } الاستفهامية الثانية",
         "والاستفهام الأول مستعمل كناية عن تعظيم أمر اليوم وتهويله بحيث يَسْأل المتكلم من يسمعه عن الشيء الذي يحصِّل له الدراية بكنه ذلك اليوم",
         "أي سئال سائل عن حقيقة يوم الدين كما تقول : علمت هل زيد قائم"
-      ]
+      ],
+      "translations": {
+        "en": "And what can make you know what is the Day of Recompense?",
+        "fr": "Et qui te dira ce qu'est le jour de la Rétribution?",
+        "es": "Y ¿cómo sabrás qué es el día del Juicio?"
+      }
     },
     {
       "number": 18,
@@ -370,7 +455,12 @@
       "basair_ibn_ashour": [
         "ثُمَّ مَا أَدْرَاكَ مَا يَوْمُ الدِّينِ (18)تكرير للتهويل تكريراً يؤذن بزيادته",
         "أي تجاوزه حدّ الوصف والتعبير فهو من التوكيد اللفظي"
-      ]
+      ],
+      "translations": {
+        "en": "Then, what can make you know what is the Day of Recompense?",
+        "fr": "Encore une fois, qui te dira ce qu'est le jour de la Rétribution?",
+        "es": "Sí, ¿cómo sabrás qué es el día del Juicio?"
+      }
     },
     {
       "number": 19,
@@ -392,7 +482,12 @@
         "وهو متوغل في الإِبهام يفسره ما يقترن به في الكلام من تمييز أو صفة أو نحوهما",
         "والأمر هنا بمعنى : التصرف والإِذن وهو واحد الأوامِر",
         "وليس في هذا التركيب صيغة حصر ولكنه آيل إلى معنى الحصر على نحو ما تقدم في قوله تعالى : { الحمد للَّه } [ الفاتحة : 2 ]"
-      ]
+      ],
+      "translations": {
+        "en": "It is the Day when a soul will not possess for another soul [power to do] a thing; and the command, that Day, is [entirely] with Allah.",
+        "fr": "Le jour où aucune âme ne pourra rien en faveur d'une autre âme. Et ce jour-là, le commandement sera à Allah.",
+        "es": "El día que nadie pueda hacer nada en favor de nadie. Y será Alá Quien, ese día, decida."
+      }
     }
   ]
 }

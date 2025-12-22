@@ -24,7 +24,12 @@
       "basair_ibn_ashour": [
         "إِذَا السَّمَاءُ انْشَقَّتْ (1) قدم الظرف { إذا السماء انشقت } على عامله وهو { كادح } للتهويل والتشويق إلى الخبر وأول الكلام في الاعتبار : يا أيها الإِنسان إنك كادح إذا السماء انشقت الخ",
         "ولكن لما تعلق { إذا } بجزء من جملة { إنك كادح } وكانت { إذا } ظرفاً متضمناً معنى الشرط صار : يا أيها الإنسان إنك كادح جواباً لشرط { إذا } ولذلك يقولون { إذا } ظرف خافض لشرطه منصوب بجوابه"
-      ]
+      ],
+      "translations": {
+        "en": "When the sky has split [open]",
+        "fr": "Quand le ciel se déchirera",
+        "es": "Cuando el cielo se desgarre"
+      }
     },
     {
       "number": 2,
@@ -45,7 +50,12 @@
         "وهو هنا مجاز مرسل في التأثر لأمر الله التكويني بأن تنشق",
         "وليس هو باستعارة تبعية ولا تمثيلية",
         "والمعنى : وهي محقوقة بأن تَأْذِن لربّها لأنها لا تخرج عن سلطان قدرته وإن عظم سمكها واشتدّ خَلقها وطال زمان رتقها فما ذلك كله إلا من تقدير الله لها"
-      ]
+      ],
+      "translations": {
+        "en": "And has responded to its Lord and was obligated [to do so]",
+        "fr": "et obéira à son Seigneur - et fera ce qu'il doit faire -",
+        "es": "y escuche a su Señor -como debe ser-,"
+      }
     },
     {
       "number": 3,
@@ -64,7 +74,12 @@
       },
       "basair_ibn_ashour": [
         "وَإِذَا الْأَرْضُ مُدَّتْ (3) والقول في جملة : { وإذا الأرض مدت } مثل القول في جملة { إذا السماء انشقت } في تقديم المسند إليه على المسند الفعلي"
-      ]
+      ],
+      "translations": {
+        "en": "And when the earth has been extended",
+        "fr": "et que la terre sera nivelée,",
+        "es": "cuando la tierra sea allanada,"
+      }
     },
     {
       "number": 4,
@@ -84,7 +99,12 @@
       "basair_ibn_ashour": [
         "{ وتخلت } أي أخرجت ما في باطنها فلما يبق منه شيء لأن فعل تخلّى يدل على قوة الخلوّ عن شيء لما في مادة التفعل من الدلالة على تكلف الفعل كما يقال تكرم فلان إذا بالغ في الإِكرام",
         "والمعنى : إنه لم يبق مما في باطن الأرض شيء كما قال تعالى : { وأخرجت الأرض أثقالها } [ الزلزلة : 2 ]"
-      ]
+      ],
+      "translations": {
+        "en": "And has cast out that within it and relinquished [it]",
+        "fr": "et qu'elle rejettera ce qui est en son sein (les morts) et se videra,",
+        "es": "vomite su contenido, vaciándose,"
+      }
     },
     {
       "number": 5,
@@ -104,7 +124,12 @@
       "basair_ibn_ashour": [
         "فالمعنى : إذا السماء انشقت وإذا الأرض مُدّت لاقيتَ ربك أيها الإنسان بعد كدحك لملاقاته فكان قوله : { إنك كادح إدماجاً بمنزلة الاعتراض أمام المقصود",
         "والخطاب لجميع الناس فاللام في قوله : { الإنسان } لتعريف الجنس وهو للاستغراق كما دل عليه التفصيل في قوله : { فأما من أوتي كتابه بيمينه إلى قوله : كان به بصيراً } [ الانشقاق : 15 ]"
-      ]
+      ],
+      "translations": {
+        "en": "And has responded to its Lord and was obligated [to do so] -",
+        "fr": "et qu'elle obéira à son Seigneur - et fera ce qu'elle doit faire -",
+        "es": "y escuche a su Señor -como debe ser-..."
+      }
     },
     {
       "number": 6,
@@ -126,7 +151,12 @@
         "وقد أهمل هذه المادة في «الأساس» فلعله لأنه لم يتحقق المعنى الحقيقي",
         "فيجوز أن يضمن { كادح } معنى ساععٍ لأن كدح الناس في الحياة يتطلبون بعمل اليوم عملاً لغد وهكذا",
         "ويجوز أن يضمن { كادح } معنى ماش فيكون المجرور ظرفاً لغواً"
-      ]
+      ],
+      "translations": {
+        "en": "O mankind, indeed you are laboring toward your Lord with [great] exertion and will meet it.",
+        "fr": "O homme! Toi qui t'efforces vers ton Seigneur sans relâche, tu Le rencontreras alors.",
+        "es": "¡Hombre! Te esfuerzas con denuedo en encontrar a tu Señor y Le encontrarás."
+      }
     },
     {
       "number": 7,
@@ -148,7 +178,12 @@
         "وهو هنا مفيد للتحقق والاستمرار بالنسبة إلى الفعل القابل للاستمرارِ وهو ينقلب إلى أهله مسروراً وهو المقصود من هذا الوعد",
         "فالحساب اليسير كناية عن عدم المؤاخذة",
         "والمعنى : إنه يؤتى كتابه بشماله كما تقتضيه المقابلة ب { من أوتي كتابه بيمينه } وذلك أيضاً في سورة الحاقة قوله : { وأما من أوتي كتابه بشماله فيقول يا ليتني لم أوت كتابيه }"
-      ]
+      ],
+      "translations": {
+        "en": "Then as for he who is given his record in his right hand,",
+        "fr": "Celui qui recevra son livre en sa main droite,",
+        "es": "Aquél que reciba su Escritura en la diestra"
+      }
     },
     {
       "number": 8,
@@ -170,7 +205,12 @@
         "وهو هنا مفيد للتحقق والاستمرار بالنسبة إلى الفعل القابل للاستمرارِ وهو ينقلب إلى أهله مسروراً وهو المقصود من هذا الوعد",
         "فالحساب اليسير كناية عن عدم المؤاخذة",
         "والمعنى : إنه يؤتى كتابه بشماله كما تقتضيه المقابلة ب { من أوتي كتابه بيمينه } وذلك أيضاً في سورة الحاقة قوله : { وأما من أوتي كتابه بشماله فيقول يا ليتني لم أوت كتابيه }"
-      ]
+      ],
+      "translations": {
+        "en": "He will be judged with an easy account",
+        "fr": "sera soumis à un jugement facile,",
+        "es": "será juzgado benignamente"
+      }
     },
     {
       "number": 9,
@@ -192,7 +232,12 @@
         "وهو هنا مفيد للتحقق والاستمرار بالنسبة إلى الفعل القابل للاستمرارِ وهو ينقلب إلى أهله مسروراً وهو المقصود من هذا الوعد",
         "فالحساب اليسير كناية عن عدم المؤاخذة",
         "والمعنى : إنه يؤتى كتابه بشماله كما تقتضيه المقابلة ب { من أوتي كتابه بيمينه } وذلك أيضاً في سورة الحاقة قوله : { وأما من أوتي كتابه بشماله فيقول يا ليتني لم أوت كتابيه }"
-      ]
+      ],
+      "translations": {
+        "en": "And return to his people in happiness.",
+        "fr": "et retournera réjoui auprès de sa famille",
+        "es": "y regresará, alegre, a los suyos."
+      }
     },
     {
       "number": 10,
@@ -214,7 +259,12 @@
         "بحال المسافر لتجارة حين يرجع إلى أهله سالماً رابحاً لما في الهيئة المشبه بها من وفرة المسرة بالفوز والربح والسلامة ولقاء الأهل وكلهم في مسرة",
         "فذلك وجه الشبه بين الهيْأتين وهو السرور المألوف للمخاطبين فالكلام استعارة تمثيلية",
         "وهو أيضاً كناية عن طول الراحة لأن المسافر إذا رجع إلى أهله فارق المتاعب زمان"
-      ]
+      ],
+      "translations": {
+        "en": "But as for he who is given his record behind his back,",
+        "fr": "Quant à celui qui recevra son livre derrière son dos,",
+        "es": "Pero aquél que reciba su Escritura detrás de la espalda"
+      }
     },
     {
       "number": 11,
@@ -233,7 +283,12 @@
       },
       "basair_ibn_ashour": [
         "والنداء في مثل هذه الكلمات مستعمل في التحسر والتوجع من معنى الاسم الواقع بعد حرف النداء"
-      ]
+      ],
+      "translations": {
+        "en": "He will cry out for destruction",
+        "fr": "il invoquera la destruction sur lui-même,",
+        "es": "invocará la destrucción,"
+      }
     },
     {
       "number": 12,
@@ -252,7 +307,12 @@
       },
       "basair_ibn_ashour": [
         "وهذا الوجه هو الذي يطرد في جميع المواضع التي جاء فيها لفظ النار ونحوه منصوباً بعد الأفعال المشتقة من الصلي والتصلية"
-      ]
+      ],
+      "translations": {
+        "en": "And [enter to] burn in a Blaze.",
+        "fr": "et il brûlera dans un feu ardent.",
+        "es": "pero arderá en fuego de gehena."
+      }
     },
     {
       "number": 13,
@@ -271,7 +331,12 @@
       },
       "basair_ibn_ashour": [
         "وتأكيد الخبر من شأن الأخبار المستعملة في التعجيب كقول عمر لحذيفة بن اليمان : «إنَّك عَلَيه لجريء» ( أي على النبي صلى الله عليه وسلم"
-      ]
+      ],
+      "translations": {
+        "en": "Indeed, he had [once] been among his people in happiness;",
+        "fr": "Car il était tout joyeux parmi les siens,",
+        "es": "Vivía alegre con los suyos,"
+      }
     },
     {
       "number": 14,
@@ -293,7 +358,12 @@
         "وهو المراد هنا وهو من المجاز الشائع مثل إطلاق الرجوع عليه في قوله : { ثم إلينا مرجعكم } [ يونس : 23 ] وقوله : { إنه على رجعه لقادر } [ الطارق : 8 ] وسُمي يومُ البعث يومَ المعاد",
         "وجيء بحرف { لن } الدال على تأكيد النفي وتأييده لحكاية جزمهم وقطعهم بنفيه",
         "وحرف { بلى } يجاب به الكلام المنفي لإبطال نفيه وأكثر وقوعه بعد الاستفهام عن النفي نحو : { ألست بربكم قالوا بلى } [ الأعراف : 172 ] ويقع بعد غير الاستفهام أيضاً نحو قوله تعالى :{ زعم الذين كفروا أن لن يبعثوا قل بلى وربي لتبعثن } [ التغابن : 7 ]"
-      ]
+      ],
+      "translations": {
+        "en": "Indeed, he had thought he would never return [to Allah].",
+        "fr": "et il pensait que jamais il ne ressusciterait",
+        "es": "creyendo que no iba a volver."
+      }
     },
     {
       "number": 15,
@@ -313,7 +383,12 @@
       "basair_ibn_ashour": [
         "وجملة : { إن ربه كان به بصيراً } مبينة للإِبطال الذي أفاده حرف { بلى } على وجه الإجمال يعني أن ظنه باطل لأن ربه أنبأه بأنه يبعث",
         "وتقديم المجرور على متعلَّقه للاهتمام بهذا المجرور"
-      ]
+      ],
+      "translations": {
+        "en": "But yes! Indeed, his Lord was ever of him, Seeing.",
+        "fr": "Mais si! Certes, son Seigneur l'observait parfaitement.",
+        "es": "¡Claro que sí! Su Señor le veía bien."
+      }
     },
     {
       "number": 16,
@@ -333,7 +408,12 @@
       "basair_ibn_ashour": [
         "على التفصيل الذي في قوله : { فأما من أوتى كتابه بيمينه } [ الانشقاق : 7 ] إلى هنا : فإنه اقتضى أن ثمة حساباً وجزاء بخير وشر فكان هذا التفريع فذلكة وحوصلة لما فصل من الأحوال وكان أيضاً جمعاً إجمالياً لما يعترض في ذلك من الأهوال",
         "ومناسبة الأمور المقسم بها هنا للمقسَم عليه لأنّ الشفق والليل والقمر تخالط أحوالاً بين الظلمة وظهور النور معها"
-      ]
+      ],
+      "translations": {
+        "en": "So I swear by the twilight glow",
+        "fr": "Non!... Je jure par le crépuscule,",
+        "es": "¡Pues no! ¡Juro por el arrebol vespertino,"
+      }
     },
     {
       "number": 17,
@@ -352,7 +432,12 @@
       },
       "basair_ibn_ashour": [
         "ويجوز أن يكون موصولة على طريقة حذف العائد المنصوب"
-      ]
+      ],
+      "translations": {
+        "en": "And [by] the night and what it envelops",
+        "fr": "et par la nuit et ce qu'elle enveloppe,",
+        "es": "por la noche y por lo que congrega,"
+      }
     },
     {
       "number": 18,
@@ -373,7 +458,12 @@
         "وَالْقَمَرِ إِذَا اتَّسَقَ (18) واتساق القمر : اجتماع ضيائه وهو افتعال من الوَسْق بمعنى الجمع كما تقدم آنفاً وذلك في ليلة البدر",
         "فجاءت على أبدع ما يُنسج عليه الكلام الذي يُرسل إرسال الأمثال من الكلام الجامع البديع النسْج الوافر المعنى ولذلك كثرت تأويلات المفسرين لها",
         "وذلك ما جعَل لإِيثار هذين اللفظين في هذه الآية خصوصية من أفنان الإِعجاز القرآني"
-      ]
+      ],
+      "translations": {
+        "en": "And [by] the moon when it becomes full",
+        "fr": "et par la lune quand elle devient pleine lune!",
+        "es": "por la luna cuando está llena,"
+      }
     },
     {
       "number": 19,
@@ -395,7 +485,12 @@
         "وأصل تلك المعاني إما استعارة وإما تمثيل يقال : رَكب أمراً صعباً وارتكب خطَأ",
         "وظاهر كلام «الأساس» و«الصحاح» أن المساواة بقيد كون الطبق أعلى من الشّيء لمُسَاويه فهو حقيقة في الغِطاء فيكون من الألفاظ الموضوعة لمعنى مقيَّد كالخِوان والكأس",
         "وإما أن يكون أصله اسمَ الطبَق وهو الغطاء لُوحظ فيه التشبيه ثم تنوسي ذلك فجاءت منه مادة المطابقة بمعنى المُساواة فيكون من المشتقات من الأسماء الجامدة"
-      ]
+      ],
+      "translations": {
+        "en": "[That] you will surely experience state after state.",
+        "fr": "Vous passerez, certes, par des états successifs!",
+        "es": "que habéis de pasar de uno a otro estado!"
+      }
     },
     {
       "number": 20,
@@ -417,7 +512,12 @@
         "وجيء بضمير الغيبة لأن المقصود من الإِنكار والتعجيب خصوص المشركين من الذين شملهم لفظ الإِنسان في قوله : { يا أيها الإنسان إنك كادح } لأن العناية بموعظتهم أهم فالضمير التفات",
         "وتركيب «ما لهم لا يؤمنون» يشتمل على ( مَا ) الاستفهامية مُخبر عنها بالجار والمجرور",
         "والجملةُ بعد { لهم } حال من ( ما ) الاستفهامية"
-      ]
+      ],
+      "translations": {
+        "en": "So what is [the matter] with them [that] they do not believe,",
+        "fr": "Qu'ont-ils à ne pas croire?",
+        "es": "Pero ¿qué les pasa que no creen"
+      }
     },
     {
       "number": 21,
@@ -437,7 +537,12 @@
       "basair_ibn_ashour": [
         "والسجود مستعمل بمعنى الخضوع والخشوع كقوله تعالى :{ والنجم والشجر يسجدان } [ الرحمن : 6 ] وقوله : { يتفيؤا ظلاله عن اليمين والشمائل سجداً للَّه } [ النحل : 48 ]",
         "ولا يؤمنون بحقيته ودليل هذا المعنى مقابلته بقوله : { بل الذين كفروا يكذبون } [ الانشقاق : 22 ]"
-      ]
+      ],
+      "translations": {
+        "en": "And when the Qur'an is recited to them, they do not prostrate [to Allah]?",
+        "fr": "et à ne pas se prosterner quand le Coran leur est lu?",
+        "es": "y, cuando se les recita el Corán, no se prosternan?"
+      }
     },
     {
       "number": 22,
@@ -456,7 +561,12 @@
       },
       "basair_ibn_ashour": [
         "} وفي اجتلاب الفعل المضارع دلالة على حدوث التكذيب منهم وتجدده"
-      ]
+      ],
+      "translations": {
+        "en": "But those who have disbelieved deny,",
+        "fr": "Mais ceux qui ne croient pas, le traitent plutôt de mensonge.",
+        "es": "¡No! Los infieles desmienten;"
+      }
     },
     {
       "number": 23,
@@ -478,7 +588,12 @@
         "ومعنى { بما يوعون } بما يُضمرون في قلوبهم من العناد مع علمهم بأنَّ ما جاء به القرآن حق ولكنهم يظهرون التّكذيب به ليكون صدودهم عنه مقبولاً عند أتباعهم وبين مجاوريهم",
         "وأصل معنى الإِيعاء : جعل الشيء وعاء والوعاء بكسر الواو الظرف لأنه يُجمع فيه",
         "ومنه قوله تعالى : { وجَمَع فأوعى } [ المعارج : 18 ] وفي الحديث : « لا تُوعي فيُوعي الله عليكِ » واستعمل في هذه الآية في الإِخفاء لأنّ الإِيعاء يستلزم الإِخفاء فهو هنا مجاز مرسل"
-      ]
+      ],
+      "translations": {
+        "en": "And Allah is most knowing of what they keep within themselves.",
+        "fr": "Or, Allah sait bien ce qu'ils dissimulent.",
+        "es": "pero Alá conoce bien lo que ocultan."
+      }
     },
     {
       "number": 24,
@@ -497,7 +612,12 @@
       },
       "basair_ibn_ashour": [
         "وفعل «بشِّرهم» مستعار للإِنذار والوعيد على طريقة التهكم لأن حقيقة التبشير : الإِخبار بما يَسرّ وينفع"
-      ]
+      ],
+      "translations": {
+        "en": "So give them tidings of a painful punishment,",
+        "fr": "Annonce-leur donc un châtiment douloureux.",
+        "es": "Anúnciales, pues, un castigo doloroso!"
+      }
     },
     {
       "number": 25,
@@ -519,7 +639,12 @@
         "والمعنى : أن أجرهم سرور لهم لا تشوبه شائبة كدر فإن المنّ ينغّص الإِنعام قال تعالى : { يا أيها الذين آمنوا لا تبطلوا صدقاتكم بالمن والأذى } [ البقرة : 264 ] وقال النابغة:",
         "ويجوز أن يكون { غير ممنون } بمعنى غير مقطوع يُقال : مننت الحبل",
         "فتَرى خَلفَهُنّ من سرعة الرَّجْع منيناً كأنه أهْباء"
-      ]
+      ],
+      "translations": {
+        "en": "Except for those who believe and do righteous deeds. For them is a reward uninterrupted.",
+        "fr": "Sauf ceux qui croient et accomplissent les bonnes œuvres: à eux une récompense jamais interrompue.",
+        "es": "Quienes, en cambio, crean y obren bien, recibirán una recompensa ininterrumpida."
+      }
     }
   ]
 }

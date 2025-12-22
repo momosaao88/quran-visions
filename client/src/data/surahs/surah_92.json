@@ -25,7 +25,12 @@
         "وَاللَّيْلِ إِذَا يَغْشَى (1) افتتاح الكلام بالقسم جار على أسلوب السورتين قبل هذه",
         "ومناسبة المُقْسَممِ به للمُقْسَممِ عليه أن سعي الناس منه خير ومنه شر وهما يماثلان النور والظلمة وأن سعي الناس ينبثق عن نتائج منها النافع ومنها الضار كما ينتج الذكر والأنثى ذرية صالحة وغير صالحة",
         "وخص بالذكر ما في الليل من الدلالة من حالة غشيانه الجانِب الذي يغشاه من الأرض"
-      ]
+      ],
+      "translations": {
+        "en": "By the night when it covers",
+        "fr": "Par la nuit quand elle enveloppe tout!",
+        "es": "¡Por la noche cuando extiende su velo!"
+      }
     },
     {
       "number": 2,
@@ -46,7 +51,12 @@
         "وفي قوله : { إن سعيكم لشتى } إجمال يفيد التشويق إلى تفصيله بقوله : { فأما من أعطى } [ الليل : 5 ] الآية ليتمكن تفصيله في الذهن",
         "وحذف مفعول { يغشى } لتنزيل الفعل منزلة اللازم لأن العبرة بغشيانه كلَّ ما تغشاه ظلمته",
         "فهو بمعنى قوله : { والشمس وضحاها } [ الشمس : 1 ] وقوله : { والضحى } [ الضحى : 1 ]"
-      ]
+      ],
+      "translations": {
+        "en": "And [by] the day when it appears",
+        "fr": "Par le jour quand il éclaire!",
+        "es": "¡Por el día cuando resplandece!"
+      }
     },
     {
       "number": 3,
@@ -67,7 +77,12 @@
         "والمعنى : وذلك الخلققِ العجيب من اختلاف حالي الذكورة والأنوثة مع خروجهما من أصل واحد",
         "والمقصود من التأكيد بالقسم قولُه : { وما يغني عنه مالُهُ إذا تردى } [ الليل : 11 ]",
         "وهو استعارة أو كناية عن الأعمال المتخالفة لأن التفرق يلزمه الاختلاف"
-      ]
+      ],
+      "translations": {
+        "en": "And [by] He who created the male and female,",
+        "fr": "Et par ce qu'Il a créé, mâle et femelle!",
+        "es": "¡Por Quien ha creado al varón y a la hembra!"
+      }
     },
     {
       "number": 4,
@@ -86,7 +101,12 @@
       },
       "basair_ibn_ashour": [
         "وقد بينت في المقدمة السادسة من مقدمات هذا التفسير معنى قولهم : قراءة النبي صلى الله عليه وسلم"
-      ]
+      ],
+      "translations": {
+        "en": "Indeed, your efforts are diverse.",
+        "fr": "Vos efforts sont divergents.",
+        "es": "Vuestro esfuerzo, en verdad, da resultados diversos."
+      }
     },
     {
       "number": 5,
@@ -108,7 +128,12 @@
         "والتفصيل : التفكيك بين متعدد اشتركت آحاده في حالة وانفرَد بعضها عن بعض بحالة هي التي يُعتنَى بتمييزها",
         "والمحتاج للتفصيل هنا هو السعي المذكور",
         "ولكن جعل التفصيلُ ببيان الساعين بقوله : فأما من أعطى } لأن المهم هو اختلاف أحوال الساعين ويُلازمهم السعي فإيقاعهم في التفصيل بحسب مساعيهم يساوي إيقاع المساعي في التفصيل"
-      ]
+      ],
+      "translations": {
+        "en": "As for he who gives and fears Allah",
+        "fr": "Celui qui donne et craint (Allah)",
+        "es": "A quien da, teme a Dios,"
+      }
     },
     {
       "number": 6,
@@ -128,7 +153,12 @@
       "basair_ibn_ashour": [
         "وهذه الخلال كناية عن كونه من المشركين",
         "وتأنيثها مشعر بأن موصوفها المقدر يعتبر مؤنث اللفظ ويحتمل أموراً كثيرة مثل المثوبة أو النصر أو العدة أو العاقبة"
-      ]
+      ],
+      "translations": {
+        "en": "And believes in the best [reward],",
+        "fr": "et déclare véridique la plus belle récompense",
+        "es": "y cree en lo más bello,"
+      }
     },
     {
       "number": 7,
@@ -150,7 +180,12 @@
         "واليسرى في قوله : { لليسرى } هي ما لا مشقة فيه",
         "وقد فسرت اليسرى بالجنة عن زيد بن أسلم ومجاهد",
         "ويحتمل اللفظ معاني كثيرة تندرج في معاني النافع الذي لا يشق على صاحبه"
-      ]
+      ],
+      "translations": {
+        "en": "We will ease him toward ease.",
+        "fr": "Nous lui faciliterons la voie au plus grand bonheur.",
+        "es": "le facilitaremos el acceso a la mayor felicidad."
+      }
     },
     {
       "number": 8,
@@ -172,7 +207,12 @@
         "فنشأ سؤال من سأل عن فائدة العمل الذي يعمله الناس",
         "ومعنى جوابه : أن فائدة العمل الصالح أنه عنوان على العاقبة الحسنة",
         "وذُكر مقابله وهو العمل السيىء إتماماً للفائدة ولا علاقة له بالجواب"
-      ]
+      ],
+      "translations": {
+        "en": "But as for he who withholds and considers himself free of need",
+        "fr": "Et quant à celui qui est avare, se dispense (de l'adoration d'Allah),",
+        "es": "En cambio, a quien es avaro, cree bastarse a sí mismo"
+      }
     },
     {
       "number": 9,
@@ -191,7 +231,12 @@
       },
       "basair_ibn_ashour": [
         "وبين و { صدق } و { كذب } وبين «اليسرى» و«العسرى»"
-      ]
+      ],
+      "translations": {
+        "en": "And denies the best [reward],",
+        "fr": "et traite de mensonge la plus belle récompense,",
+        "es": "y desmiente lo más bello,"
+      }
     },
     {
       "number": 10,
@@ -210,7 +255,12 @@
       },
       "basair_ibn_ashour": [
         "وبين و { صدق } و { كذب } وبين «اليسرى» و«العسرى»"
-      ]
+      ],
+      "translations": {
+        "en": "We will ease him toward difficulty.",
+        "fr": "Nous lui faciliterons la voie à la plus grande difficulté,",
+        "es": "le facilitaremos el acceso a la mayor adversidad,"
+      }
     },
     {
       "number": 11,
@@ -232,7 +282,12 @@
         "وتحتمل أن تكون استفهامية وهو استفهام إنكار وتوبيخ",
         "والمعنى : وما يغني عنه ماله الذي بخل به",
         "فأعطاها الرجلَ صاحب الصبية \" قال عكرمة قال ابن عباس : فأنزل الله تعالى : { والليل إذا يغشى } [ الليل : 1 ] إلى قوله : { للعسرى } وهو حديث غريب"
-      ]
+      ],
+      "translations": {
+        "en": "And what will his wealth avail him when he falls?",
+        "fr": "et à rien ne lui serviront ses richesses quand il sera jeté (au Feu).",
+        "es": "y de nada le servirá su hacienda cuando sea precipitado."
+      }
     },
     {
       "number": 12,
@@ -254,7 +309,12 @@
         "وذلك لإِلقاء التبعة على من صار إلى العسرى بأن الله أعذر إليه إذ هداه بدعوة الإسلام إلى الخير فأعرض عن الاهتداء باختياره اكتسابَ السيئات",
         "فإن التيسير لليسرى يحصل عند ميل العبد إلى عمل الحسنات",
         "والتيْسير للعسرى يحصل عند ميله إلى عمل السيئات"
-      ]
+      ],
+      "translations": {
+        "en": "Indeed, [incumbent] upon Us is guidance.",
+        "fr": "C'est à Nous, certes, de guider;",
+        "es": "Sí, es de incumbencia Nuestra la Dirección."
+      }
     },
     {
       "number": 13,
@@ -270,6 +330,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "And indeed, to Us belongs the Hereafter and the first [life].",
+        "fr": "à Nous appartient, certes, la vie dernière et la vie présente.",
+        "es": "Sí, es cosa Nuestra la otra vida y ésta."
       }
     },
     {
@@ -291,7 +356,12 @@
         "وهذه الفاء يشبه معناها معنى فاء الفصيحة لأنها تدلّ على مراعاة مضمون الكلام الذي قبلها وهو تفريع إنذار مفصَّللٍ على إنذارٍ مجمل",
         "وهو تفريع على جملة : { إن علينا للهدى } [ الليل : 12 ] والمعنى : هديكم فأنذرتكم إبلاغاً في الهدى",
         "وأصل { تلظى } تتلظى بتاءين حذفت إحداهما للاختصار"
-      ]
+      ],
+      "translations": {
+        "en": "So I have warned you of a Fire which is blazing.",
+        "fr": "Je vous ai donc avertis d'un Feu qui flambe",
+        "es": "Os he prevenido contra un fuego llameante,"
+      }
     },
     {
       "number": 15,
@@ -307,6 +377,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "None will [enter to] burn therein except the most wretched one.",
+        "fr": "où ne brûlera que le damné,",
+        "es": "en el cual sólo arderá el infame,"
       }
     },
     {
@@ -323,6 +398,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "Who had denied and turned away.",
+        "fr": "qui dément et tourne le dos;",
+        "es": "que desmiente y se desvía,"
       }
     },
     {
@@ -339,6 +419,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "But the righteous one will avoid it -",
+        "fr": "alors qu'en sera écarté le pieux,",
+        "es": "el cual evitará quien de veras teme a Dios,"
       }
     },
     {
@@ -358,7 +443,12 @@
       },
       "basair_ibn_ashour": [
         "وفائدة الحال التنبيه على أنه يؤتي ماله لقصد النفع والزيادة من الثواب تعريضاً بالمشركين الذي يؤتون المال للفخر والرياء والمفاسد والفجور"
-      ]
+      ],
+      "translations": {
+        "en": "[He] who gives [from] his wealth to purify himself",
+        "fr": "qui donne ses biens pour se purifier",
+        "es": "que da su hacienda para purificarse,"
+      }
     },
     {
       "number": 19,
@@ -374,6 +464,11 @@
       "gharib": {
         "muyassar": {},
         "siraj": {}
+      },
+      "translations": {
+        "en": "And not [giving] for anyone who has [done him] a favor to be rewarded",
+        "fr": "et auprès de qui personne ne profite d'un bienfait intéressé,",
+        "es": "que, cuando hace un favor, no lo hace con ánimo de ser retribuido,"
       }
     },
     {
@@ -395,7 +490,12 @@
         "و { عنده } ظرف مكان وهو مستعمل هنا مجازاً في تمكن المعنى من المضاف إليه عنه كتمكن الكائن في المكان القريب",
         "و { من نعمة } اسم { ما } النافية جر ب { من } الزائدة التي تزاد في النفي لتأكيد النفي والاستثناء في { إلا ابتغاء وجه ربه } مُنقطع",
         "ومعنى ابتغاء الذات ابتغاء رضا الله"
-      ]
+      ],
+      "translations": {
+        "en": "But only seeking the countenance of his Lord, Most High.",
+        "fr": "mais seulement pour la recherche de La Face de son Seigneur le Très Haut.",
+        "es": "sino tan sólo por deseo de agradar a su altísimo Señor."
+      }
     },
     {
       "number": 21,
@@ -414,7 +514,12 @@
       },
       "basair_ibn_ashour": [
         "واللام لام الابتداء لتأكيد الخبر"
-      ]
+      ],
+      "translations": {
+        "en": "And he is going to be satisfied.",
+        "fr": "Et certes, il sera bientôt satisfait!",
+        "es": "¡Sí, ése quedará satisfecho!"
+      }
     }
   ]
 }
