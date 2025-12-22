@@ -222,7 +222,15 @@
           "fr": "Un navire avec des planches de bois et des clous",
           "es": "Un barco con tablones de madera y clavos"
         }
-      }
+      },
+      "shehri_videos": [
+        {
+          "videoId": "x7HbB1NHelw",
+          "url": "https://www.youtube.com/watch?v=x7HbB1NHelw",
+          "title": "برنامج ( غريب القرآن ) || الحلقة 13  - { ذات ألواح و دسر }",
+          "word": "ذات ألواح ودسر"
+        }
+      ]
     },
     {
       "number": 14,

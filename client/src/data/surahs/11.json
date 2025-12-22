@@ -670,7 +670,15 @@
           "fr": "Sa navigation et son mouvement dans l'eau",
           "es": "Su navegación y movimiento en el agua"
         }
-      }
+      },
+      "shehri_videos": [
+        {
+          "videoId": "enNduVCQjeo",
+          "url": "https://www.youtube.com/watch?v=enNduVCQjeo",
+          "title": "برنامج غريب القرآن || الحلقة 38 - { بسم الله مجرىها }",
+          "word": "بسم الله مجراها"
+        }
+      ]
     },
     {
       "number": 42,
@@ -1273,7 +1281,15 @@
           "fr": "Les femmes de mon peuple pour un mariage licite",
           "es": "Las mujeres de mi pueblo para matrimonio lícito"
         }
-      }
+      },
+      "shehri_videos": [
+        {
+          "videoId": "2BFT5WaZ0WQ",
+          "url": "https://www.youtube.com/watch?v=2BFT5WaZ0WQ",
+          "title": "برنامج غريب القرآن || الحلقة 46 - { هؤلاء بناتي هن أطهر لكم }",
+          "word": "هؤلاء بناتي"
+        }
+      ]
     },
     {
       "number": 79,
@@ -1348,7 +1364,15 @@
           "fr": "Pierres d'argile empilées",
           "es": "Piedras de arcilla apiladas"
         }
-      }
+      },
+      "shehri_videos": [
+        {
+          "videoId": "sm9PNcXArag",
+          "url": "https://www.youtube.com/watch?v=sm9PNcXArag",
+          "title": "برنامج غريب القرآن || الحلقة 42 - { سجيل منضود }",
+          "word": "سجيل منضود"
+        }
+      ]
     },
     {
       "number": 83,

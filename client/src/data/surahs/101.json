@@ -29,14 +29,14 @@
       "shehri_videos": [
         {
           "videoId": "enNduVCQjeo",
-          "title": "برنامج غريب القرآن || الحلقة 38 - { بسم الله مجرىها }",
           "url": "https://www.youtube.com/watch?v=enNduVCQjeo",
+          "title": "برنامج غريب القرآن || الحلقة 38 - { بسم الله مجرىها }",
           "word": "بسم الله مجرىها"
         },
         {
           "videoId": "Yh9ekFRRaU8",
-          "title": "#برنامج_غريب_القرآن || الحلقة 81 - { سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ }",
           "url": "https://www.youtube.com/watch?v=Yh9ekFRRaU8",
+          "title": "#برنامج_غريب_القرآن || الحلقة 81 - { سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ }",
           "word": "سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ"
         }
       ]
@@ -81,14 +81,14 @@
       "shehri_videos": [
         {
           "videoId": "02iZa0vqNG4",
-          "title": "#برنامج_غريب_القرآن || الحلقة 78 - { وما يعزب عن ربك }",
           "url": "https://www.youtube.com/watch?v=02iZa0vqNG4",
+          "title": "#برنامج_غريب_القرآن || الحلقة 78 - { وما يعزب عن ربك }",
           "word": "وما يعزب عن ربك"
         },
         {
           "videoId": "i28ePozDjmE",
-          "title": "#برنامج_غريب_القرآن || الحلقة 94 - { والأرض وما طحاها }",
           "url": "https://www.youtube.com/watch?v=i28ePozDjmE",
+          "title": "#برنامج_غريب_القرآن || الحلقة 94 - { والأرض وما طحاها }",
           "word": "والأرض وما طحاها"
         }
       ]
@@ -117,14 +117,14 @@
       "shehri_videos": [
         {
           "videoId": "9Z55NwEhLjU",
-          "title": "برنامج غريب القرآن || الحلقة 44 - { وقالوا ربنا عجل لنا قطنا }",
           "url": "https://www.youtube.com/watch?v=9Z55NwEhLjU",
+          "title": "برنامج غريب القرآن || الحلقة 44 - { وقالوا ربنا عجل لنا قطنا }",
           "word": "وقالوا ربنا عجل لنا قطنا"
         },
         {
           "videoId": "WYnJVCJgDUo",
-          "title": "#برنامج_غريب_القرآن || الحلقة 93 - { يوم يدعون إلى نار جهنم }",
           "url": "https://www.youtube.com/watch?v=WYnJVCJgDUo",
+          "title": "#برنامج_غريب_القرآن || الحلقة 93 - { يوم يدعون إلى نار جهنم }",
           "word": "يوم يدعون إلى نار جهنم"
         }
       ]
@@ -154,7 +154,15 @@
           "fr": "Laine dispersée et volante",
           "es": "Lana dispersa y voladora"
         }
-      }
+      },
+      "shehri_videos": [
+        {
+          "videoId": "NRXfL3YIwHU",
+          "url": "https://www.youtube.com/watch?v=NRXfL3YIwHU",
+          "title": "برنامج ( غريب القرآن ) || الحلقة 25  - { كالعهن المنفوش }",
+          "word": "كالعهن المنفوش"
+        }
+      ]
     },
     {
       "number": 6,
@@ -244,14 +252,14 @@
       "shehri_videos": [
         {
           "videoId": "02iZa0vqNG4",
-          "title": "#برنامج_غريب_القرآن || الحلقة 78 - { وما يعزب عن ربك }",
           "url": "https://www.youtube.com/watch?v=02iZa0vqNG4",
+          "title": "#برنامج_غريب_القرآن || الحلقة 78 - { وما يعزب عن ربك }",
           "word": "وما يعزب عن ربك"
         },
         {
           "videoId": "i28ePozDjmE",
-          "title": "#برنامج_غريب_القرآن || الحلقة 94 - { والأرض وما طحاها }",
           "url": "https://www.youtube.com/watch?v=i28ePozDjmE",
+          "title": "#برنامج_غريب_القرآن || الحلقة 94 - { والأرض وما طحاها }",
           "word": "والأرض وما طحاها"
         }
       ]
@@ -280,8 +288,8 @@
       "shehri_videos": [
         {
           "videoId": "WYnJVCJgDUo",
-          "title": "#برنامج_غريب_القرآن || الحلقة 93 - { يوم يدعون إلى نار جهنم }",
           "url": "https://www.youtube.com/watch?v=WYnJVCJgDUo",
+          "title": "#برنامج_غريب_القرآن || الحلقة 93 - { يوم يدعون إلى نار جهنم }",
           "word": "يوم يدعون إلى نار جهنم"
         }
       ]

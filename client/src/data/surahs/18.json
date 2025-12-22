@@ -131,7 +131,21 @@
         "fr": "Puis, Nous allons sûrement transformer sa surface en un sol aride.",
         "es": "Y, ciertamente, haremos de su superficie un sequeral."
       },
-      "ibn_ashour": ""
+      "ibn_ashour": "",
+      "shehri_videos": [
+        {
+          "videoId": "ARvXYGqBJHU",
+          "url": "https://www.youtube.com/watch?v=ARvXYGqBJHU",
+          "title": "غريب القرآن - صعيداً جرزاً",
+          "word": "صعيداً جرزاً"
+        },
+        {
+          "videoId": "wMKiP_mV4tk",
+          "url": "https://www.youtube.com/watch?v=wMKiP_mV4tk",
+          "title": "#برنامج_غريب_القرآن || الحلقة 85 - { وَإِنَّا لَجَاعِلُونَ مَا عَلَيْهَا صَعِيدًا جُرُزًا }",
+          "word": "صعيداً جرزاً"
+        }
+      ]
     },
     {
       "number": 9,
@@ -1390,7 +1404,15 @@
           "fr": "Contenant de la boue noire",
           "es": "Que contiene barro negro"
         }
-      }
+      },
+      "shehri_videos": [
+        {
+          "videoId": "xicXO2Dj1VI",
+          "url": "https://www.youtube.com/watch?v=xicXO2Dj1VI",
+          "title": "#برنامج_غريب_القرآن || الحلقة 40 - { عين حمئة }",
+          "word": "عين حمئة"
+        }
+      ]
     },
     {
       "number": 87,
@@ -1753,7 +1775,15 @@
           "fr": "Changement ou transfert",
           "es": "Cambio o transferencia"
         }
-      }
+      },
+      "shehri_videos": [
+        {
+          "videoId": "d2UY7yo_CgA",
+          "url": "https://www.youtube.com/watch?v=d2UY7yo_CgA",
+          "title": "#برنامج_غريب_القرآن || الحلقة 41 - { لا يبغون عنها حولاً }",
+          "word": "لا يبغون عنها حولاً"
+        }
+      ]
     },
     {
       "number": 109,

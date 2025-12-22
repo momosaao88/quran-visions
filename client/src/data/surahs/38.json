@@ -62,7 +62,15 @@
           "fr": "Refuge ou évasion",
           "es": "Refugio o escape"
         }
-      }
+      },
+      "shehri_videos": [
+        {
+          "videoId": "0lE1l0OYKBM",
+          "url": "https://www.youtube.com/watch?v=0lE1l0OYKBM",
+          "title": "برنامج غريب القرآن || الحلقة 48 - { وَلاتَ حِينَ مَنَاصٍ }",
+          "word": "وَلاتَ حِينَ مَنَاصٍ"
+        }
+      ]
     },
     {
       "number": 4,
@@ -281,7 +289,15 @@
           "fr": "Notre part de châtiment",
           "es": "Nuestra parte del castigo"
         }
-      }
+      },
+      "shehri_videos": [
+        {
+          "videoId": "9Z55NwEhLjU",
+          "url": "https://www.youtube.com/watch?v=9Z55NwEhLjU",
+          "title": "برنامج غريب القرآن || الحلقة 44 - { وقالوا ربنا عجل لنا قطنا }",
+          "word": "عجل لنا قطنا"
+        }
+      ]
     },
     {
       "number": 17,
@@ -740,7 +756,15 @@
           "fr": "Un paquet d'herbe ou de brindilles",
           "es": "Un manojo de hierba o ramitas"
         }
-      }
+      },
+      "shehri_videos": [
+        {
+          "videoId": "feRa5J5YRZs",
+          "url": "https://www.youtube.com/watch?v=feRa5J5YRZs",
+          "title": "برنامج غريب القرآن || الحلقة 47 - { وَخُذْ بِيَدِكَ ضِغْثًا }",
+          "word": "ضغثاً"
+        }
+      ]
     },
     {
       "number": 45,
