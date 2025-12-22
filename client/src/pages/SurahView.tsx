@@ -13,6 +13,12 @@ import StarField from '../components/StarField';
 import indexData from '../data/surahs/index.json';
 
 // Types
+interface Video {
+  videoId: string;
+  title: string;
+  url: string;
+}
+
 interface Ayah {
   number: number;
   text: string;
@@ -28,6 +34,7 @@ interface Ayah {
     muyassar: { word: string; meaning: string } | Record<string, never>;
     siraj: { word: string; meaning: string } | Record<string, never>;
   };
+  video?: Video;
 }
 
 interface SurahData {
