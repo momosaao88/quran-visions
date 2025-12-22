@@ -25,21 +25,7 @@
         "title": "#برنامج_غريب_القرآن || الحلقة 81 - { سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ }",
         "url": "https://www.youtube.com/watch?v=Yh9ekFRRaU8",
         "word": "سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ"
-      },
-      "shehri_videos": [
-        {
-          "videoId": "enNduVCQjeo",
-          "url": "https://www.youtube.com/watch?v=enNduVCQjeo",
-          "title": "برنامج غريب القرآن || الحلقة 38 - { بسم الله مجرىها }",
-          "word": "بسم الله مجرىها"
-        },
-        {
-          "videoId": "Yh9ekFRRaU8",
-          "url": "https://www.youtube.com/watch?v=Yh9ekFRRaU8",
-          "title": "#برنامج_غريب_القرآن || الحلقة 81 - { سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ }",
-          "word": "سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ"
-        }
-      ]
+      }
     },
     {
       "number": 2,
@@ -61,15 +47,7 @@
         "title": "#برنامج_غريب_القرآن || الحلقة 111 - { إن الإنسان خلق هلوعًا }",
         "url": "https://www.youtube.com/watch?v=mcXnCCGNPLs",
         "word": "إن الإنسان خلق هلوعًا"
-      },
-      "shehri_videos": [
-        {
-          "videoId": "mcXnCCGNPLs",
-          "url": "https://www.youtube.com/watch?v=mcXnCCGNPLs",
-          "title": "#برنامج_غريب_القرآن || الحلقة 111 - { إن الإنسان خلق هلوعًا }",
-          "word": "إن الإنسان خلق هلوعًا"
-        }
-      ]
+      }
     },
     {
       "number": 3,
@@ -92,20 +70,6 @@
         "url": "https://www.youtube.com/watch?v=FqqopePrNYE",
         "word": "غاسق إذا وقب"
       },
-      "shehri_videos": [
-        {
-          "videoId": "FqqopePrNYE",
-          "url": "https://www.youtube.com/watch?v=FqqopePrNYE",
-          "title": "برنامج ( غريب القرآن ) || الحلقة 04 - { غاسق إذا وقب }",
-          "word": "غاسق إذا وقب"
-        },
-        {
-          "videoId": "FqqopePrNYE",
-          "url": "https://www.youtube.com/watch?v=FqqopePrNYE",
-          "title": "برنامج ( غريب القرآن ) || الحلقة 04 - { غاسق إذا وقب }",
-          "word": "غاسق إذا وقب"
-        }
-      ],
       "basair": {
         "title": "دلالة 'غاسق إذا وقب'",
         "points": [
@@ -114,7 +78,15 @@
           "الاستعاذة من شرور الليل وما يحدث فيه."
         ],
         "source": "لمسات بيانية - د. فاضل السامرائي"
-      }
+      },
+      "shehri_videos": [
+        {
+          "videoId": "FqqopePrNYE",
+          "url": "https://www.youtube.com/watch?v=FqqopePrNYE",
+          "title": "برنامج ( غريب القرآن ) || الحلقة 04 - { غاسق إذا وقب }",
+          "word": "غاسق إذا وقب"
+        }
+      ]
     },
     {
       "number": 4,
@@ -161,15 +133,7 @@
         "title": "برنامج ( غريب القرآن ) || الحلقة 04 - { غاسق إذا وقب }",
         "url": "https://www.youtube.com/watch?v=FqqopePrNYE",
         "word": "غاسق إذا وقب"
-      },
-      "shehri_videos": [
-        {
-          "videoId": "FqqopePrNYE",
-          "url": "https://www.youtube.com/watch?v=FqqopePrNYE",
-          "title": "برنامج ( غريب القرآن ) || الحلقة 04 - { غاسق إذا وقب }",
-          "word": "غاسق إذا وقب"
-        }
-      ]
+      }
     }
   ]
 }

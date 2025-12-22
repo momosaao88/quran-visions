@@ -25,21 +25,7 @@
         "title": "#برنامج_غريب_القرآن || الحلقة 81 - { سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ }",
         "url": "https://www.youtube.com/watch?v=Yh9ekFRRaU8",
         "word": "سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ"
-      },
-      "shehri_videos": [
-        {
-          "videoId": "enNduVCQjeo",
-          "url": "https://www.youtube.com/watch?v=enNduVCQjeo",
-          "title": "برنامج غريب القرآن || الحلقة 38 - { بسم الله مجرىها }",
-          "word": "بسم الله مجرىها"
-        },
-        {
-          "videoId": "Yh9ekFRRaU8",
-          "url": "https://www.youtube.com/watch?v=Yh9ekFRRaU8",
-          "title": "#برنامج_غريب_القرآن || الحلقة 81 - { سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ }",
-          "word": "سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ"
-        }
-      ]
+      }
     },
     {
       "number": 2,
@@ -93,15 +79,7 @@
         "title": "#برنامج_غريب_القرآن || الحلقة 111 - { إن الإنسان خلق هلوعًا }",
         "url": "https://www.youtube.com/watch?v=mcXnCCGNPLs",
         "word": "إن الإنسان خلق هلوعًا"
-      },
-      "shehri_videos": [
-        {
-          "videoId": "mcXnCCGNPLs",
-          "url": "https://www.youtube.com/watch?v=mcXnCCGNPLs",
-          "title": "#برنامج_غريب_القرآن || الحلقة 111 - { إن الإنسان خلق هلوعًا }",
-          "word": "إن الإنسان خلق هلوعًا"
-        }
-      ]
+      }
     },
     {
       "number": 5,
@@ -139,27 +117,7 @@
         "title": "#برنامج_غريب_القرآن || الحلقة 103 - { نملي لهم }",
         "url": "https://www.youtube.com/watch?v=Rl9hzenHsWk",
         "word": "نملي لهم"
-      },
-      "shehri_videos": [
-        {
-          "videoId": "UPTcV9V98yc",
-          "url": "https://www.youtube.com/watch?v=UPTcV9V98yc",
-          "title": "برنامج غريب القرآن || الحلقة 49 - { إِلًّا وَلَا ذِمَّةً }",
-          "word": "إِلًّا وَلَا ذِمَّةً"
-        },
-        {
-          "videoId": "ti37ozApp2E",
-          "url": "https://www.youtube.com/watch?v=ti37ozApp2E",
-          "title": "#برنامج_غريب_القرآن || الحلقة 68 - { فِيهَا أَنْهَارٌ مِّن مَّاءٍ غَيْرِ آسِنٍ }",
-          "word": "فِيهَا أَنْهَارٌ مِّن مَّاءٍ غَيْرِ آسِنٍ"
-        },
-        {
-          "videoId": "Rl9hzenHsWk",
-          "url": "https://www.youtube.com/watch?v=Rl9hzenHsWk",
-          "title": "#برنامج_غريب_القرآن || الحلقة 103 - { نملي لهم }",
-          "word": "نملي لهم"
-        }
-      ]
+      }
     },
     {
       "number": 7,
@@ -197,15 +155,7 @@
         "title": "#برنامج_غريب_القرآن || الحلقة 81 - { سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ }",
         "url": "https://www.youtube.com/watch?v=Yh9ekFRRaU8",
         "word": "سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ"
-      },
-      "shehri_videos": [
-        {
-          "videoId": "Yh9ekFRRaU8",
-          "url": "https://www.youtube.com/watch?v=Yh9ekFRRaU8",
-          "title": "#برنامج_غريب_القرآن || الحلقة 81 - { سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ }",
-          "word": "سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ"
-        }
-      ]
+      }
     }
   ]
 }

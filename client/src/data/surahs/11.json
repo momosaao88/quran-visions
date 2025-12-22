@@ -670,15 +670,7 @@
           "fr": "Sa navigation et son mouvement dans l'eau",
           "es": "Su navegación y movimiento en el agua"
         }
-      },
-      "shehri_videos": [
-        {
-          "videoId": "enNduVCQjeo",
-          "url": "https://www.youtube.com/watch?v=enNduVCQjeo",
-          "title": "برنامج غريب القرآن || الحلقة 38 - { بسم الله مجرىها }",
-          "word": "بسم الله مجراها"
-        }
-      ]
+      }
     },
     {
       "number": 42,
@@ -1287,7 +1279,7 @@
           "videoId": "2BFT5WaZ0WQ",
           "url": "https://www.youtube.com/watch?v=2BFT5WaZ0WQ",
           "title": "برنامج غريب القرآن || الحلقة 46 - { هؤلاء بناتي هن أطهر لكم }",
-          "word": "هؤلاء بناتي"
+          "word": "هؤلاء بناتي هن أطهر لكم"
         }
       ]
     },
