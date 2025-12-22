@@ -6,21 +6,13 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'wouter';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronRight, ChevronLeft, Home } from 'lucide-react';
+import { ChevronRight, ChevronLeft, Home, Youtube } from 'lucide-react';
 import AyahCard from '../components/AyahCard';
 import TafsirPanel from '../components/TafsirPanel';
-import VideoSection from '../components/VideoSection';
 import StarField from '../components/StarField';
 import indexData from '../data/surahs/index.json';
 
 // Types
-interface Video {
-  videoId: string;
-  title: string;
-  url: string;
-  keyword?: string;
-}
-
 interface Ayah {
   number: number;
   text: string;
@@ -36,23 +28,31 @@ interface Ayah {
     muyassar: { word: string; meaning: string } | Record<string, never>;
     siraj: { word: string; meaning: string } | Record<string, never>;
   };
-  video?: Video;
 }
 
 interface SurahData {
-  surah: {
-    number: number;
-    name: string;
-    englishName: string;
-    totalAyat: number;
-    revelationType: string;
-    meaning: string;
-  };
+  number: number;
+  name: string;
+  englishName: string;
+  meaning: string;
+  ayahCount: number;
+  revelationType: string;
   ayat: Ayah[];
-  tafsirSources: Array<{ id: string; name: string; author: string }>;
-  gharibSources: Array<{ id: string; name: string; author: string }>;
-  videos: Array<{ videoId: string; title: string; url: string }>;
 }
+
+// Tafsir sources
+const tafsirSources = [
+  { id: 'muyassar', name: 'التفسير الميسر', author: 'مجمع الملك فهد' },
+  { id: 'mukhtasar', name: 'المختصر في التفسير', author: 'مركز تفسير' },
+  { id: 'saadi', name: 'تفسير السعدي', author: 'عبدالرحمن السعدي' },
+  { id: 'jalalayn', name: 'تفسير الجلالين', author: 'المحلي والسيوطي' },
+];
+
+// Gharib sources
+const gharibSources = [
+  { id: 'muyassar', name: 'الميسر في غريب القرآن', author: 'مجمع الملك فهد' },
+  { id: 'siraj', name: 'السراج في غريب القرآن', author: 'محمد الخضيري' },
+];
 
 export default function SurahView() {
   const params = useParams<{ number: string }>();
@@ -99,17 +99,6 @@ export default function SurahView() {
   const currentIndex = indexData.surahs.findIndex(s => s.number === surahNumber);
   const prevSurah = currentIndex > 0 ? indexData.surahs[currentIndex - 1] : null;
   const nextSurah = currentIndex < indexData.surahs.length - 1 ? indexData.surahs[currentIndex + 1] : null;
-
-  // Get videos from ayat
-  const surahVideos = surahData?.ayat
-    .filter(ayah => ayah.video)
-    .map(ayah => ({
-      videoId: ayah.video!.videoId,
-      title: ayah.video!.title,
-      url: ayah.video!.url
-    }))
-    .filter((v, i, arr) => arr.findIndex(x => x.videoId === v.videoId) === i) // Remove duplicates
-    .slice(0, 12) || [];
 
   if (loading) {
     return (
@@ -169,7 +158,7 @@ export default function SurahView() {
               )}
               
               <span className="px-4 py-2 bg-primary/20 text-primary rounded-lg font-amiri">
-                {surahData.surah.name}
+                {surahData.name}
               </span>
               
               {prevSurah && (
@@ -201,12 +190,12 @@ export default function SurahView() {
 
             {/* Surah Name */}
             <h1 className="font-amiri text-4xl md:text-6xl text-gradient-gold mb-3 gold-glow">
-              سورة {surahData.surah.name}
+              سورة {surahData.name}
             </h1>
 
             {/* Surah Info */}
             <p className="font-tajawal text-base md:text-lg text-muted-foreground mb-2">
-              {surahData.surah.meaning} • {surahData.surah.totalAyat} آية • {surahData.surah.revelationType === 'Meccan' ? 'مكية' : 'مدنية'}
+              {surahData.meaning} • {surahData.ayahCount} آية • {surahData.revelationType === 'Meccan' ? 'مكية' : 'مدنية'}
             </p>
 
             {/* Decorative Divider */}
@@ -247,10 +236,39 @@ export default function SurahView() {
             </motion.div>
           </section>
 
-          {/* Videos Section */}
-          {surahVideos.length > 0 && (
-            <VideoSection videos={surahVideos} />
-          )}
+          {/* Gharib Al-Quran Videos Section */}
+          <section className="mb-16">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.5 }}
+            >
+              <div className="text-center mb-8">
+                <h2 className="font-amiri text-2xl md:text-3xl text-gradient-gold mb-2">
+                  غريب القرآن
+                </h2>
+                <p className="text-muted-foreground">
+                  برنامج غريب القرآن للشيخ عبدالرحمن الشهري
+                </p>
+              </div>
+
+              <div className="glass-card p-6 text-center">
+                <Youtube className="w-12 h-12 text-red-500 mx-auto mb-4" />
+                <p className="text-muted-foreground mb-4">
+                  شاهد جميع حلقات برنامج غريب القرآن (358 حلقة)
+                </p>
+                <a
+                  href="https://www.youtube.com/playlist?list=PLoslTfCHb8N9D8iXwxV88DCY3Fic7kd97"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-red-600 hover:bg-red-700 text-white rounded-lg transition-colors"
+                >
+                  <Youtube className="w-5 h-5" />
+                  مشاهدة قائمة التشغيل
+                </a>
+              </div>
+            </motion.div>
+          </section>
         </div>
       </main>
 
@@ -262,8 +280,8 @@ export default function SurahView() {
             activeTafsir={activeTafsir}
             setActiveTafsir={setActiveTafsir}
             onClose={() => setShowTafsir(false)}
-            tafsirSources={surahData.tafsirSources}
-            gharibSources={surahData.gharibSources}
+            tafsirSources={tafsirSources}
+            gharibSources={gharibSources}
           />
         )}
       </AnimatePresence>
@@ -272,7 +290,7 @@ export default function SurahView() {
       <footer className="relative z-10 py-6 border-t border-white/10">
         <div className="container text-center">
           <p className="text-muted-foreground text-sm">
-            رؤى قرآنية • سورة {surahData.surah.name}
+            رؤى قرآنية • سورة {surahData.name}
           </p>
         </div>
       </footer>
