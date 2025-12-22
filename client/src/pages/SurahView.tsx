@@ -47,6 +47,7 @@ interface Ayah {
     siraj: { word: string; meaning: string } | Record<string, never>;
   };
   video?: Video;
+  shehri_videos?: { videoId: string; url: string; title: string; word?: string; }[];
   basair?: BasairData;
   basair_ibn_ashour?: string[];
   translations?: Translations;

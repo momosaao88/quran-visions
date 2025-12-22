@@ -1,18 +1,25 @@
 /**
- * مكون بطاقة الآية
+ * مكون بطاقة الآية - v3.1 - Fixed video highlighting
  * يعرض الآية القرآنية مع رقمها وإمكانية النقر للتفسير
- * الآيات المرتبطة بفيديو الشيخ الشهري تظهر بتمييز خاص
+ * الآيات المرتبطة بفيديو الشيخ الشهري تظهر بتمييز خاص (تظليل أحمر)
  */
 
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Play, X } from 'lucide-react';
+import { Play, X, Video } from 'lucide-react';
 
 interface VideoMeaning {
   ar: string;
   en: string;
   fr: string;
   es: string;
+}
+
+interface ShehriVideo {
+  videoId: string;
+  url: string;
+  title: string;
+  word?: string;
 }
 
 interface Video {
@@ -42,6 +49,7 @@ interface Ayah {
     siraj?: { word: string; meaning: string } | Record<string, never>;
   };
   video?: Video;
+  shehri_videos?: ShehriVideo[];
 }
 
 interface AyahCardProps {
@@ -58,9 +66,35 @@ export default function AyahCard({ ayah, onClick, isSelected }: AyahCardProps) {
     (ayah.gharib?.muyassar && 'word' in ayah.gharib.muyassar) ||
     (ayah.gharib?.siraj && 'word' in ayah.gharib.siraj);
 
-  // Check if ayah has video
-  const hasVideo = ayah.video && (ayah.video.videoId || ayah.video.id);
-  const videoId = ayah.video?.videoId || ayah.video?.id || '';
+  // Check if ayah has Shehri videos - memoized for performance
+  const hasVideo = useMemo(() => {
+    // Check new structure (shehri_videos array)
+    if (ayah.shehri_videos && Array.isArray(ayah.shehri_videos) && ayah.shehri_videos.length > 0) {
+      return true;
+    }
+    // Check old structure (video object)
+    if (ayah.video && (ayah.video.videoId || ayah.video.id)) {
+      return true;
+    }
+    return false;
+  }, [ayah.shehri_videos, ayah.video]);
+  
+  // Get first video for display
+  const firstVideo = useMemo(() => {
+    if (ayah.shehri_videos && ayah.shehri_videos.length > 0) {
+      return ayah.shehri_videos[0];
+    }
+    return ayah.video;
+  }, [ayah.shehri_videos, ayah.video]);
+
+  const videoId = useMemo(() => {
+    if (ayah.shehri_videos && ayah.shehri_videos.length > 0) {
+      return ayah.shehri_videos[0].videoId;
+    }
+    return ayah.video?.videoId || ayah.video?.id || '';
+  }, [ayah.shehri_videos, ayah.video]);
+
+  const videoCount = ayah.shehri_videos?.length || (ayah.video ? 1 : 0);
 
   const handleVideoClick = (e: React.MouseEvent) => {
     e.stopPropagation();
@@ -72,21 +106,30 @@ export default function AyahCard({ ayah, onClick, isSelected }: AyahCardProps) {
     setShowVideo(false);
   };
 
+  // Build className based on state
+  const cardClassName = useMemo(() => {
+    // Use different base class for video vs non-video ayahs
+    const baseClass = hasVideo ? 'ayah-card-video' : 'ayah-card';
+    const classes = [baseClass, 'cursor-pointer', 'relative', 'group'];
+    
+    if (isSelected) {
+      classes.push('ring-2', 'ring-primary/50', 'bg-white/10');
+    }
+    
+    return classes.join(' ');
+  }, [isSelected, hasVideo]);
+
   return (
     <>
       <motion.div
         whileHover={{ scale: 1.01 }}
         whileTap={{ scale: 0.99 }}
         onClick={onClick}
-        className={`
-          ayah-card cursor-pointer relative group
-          ${isSelected ? 'ring-2 ring-primary/50 bg-white/10' : ''}
-          ${hasVideo ? 'ring-2 ring-red-500/30 bg-red-500/5' : ''}
-        `}
+        className={cardClassName}
       >
         {/* Video Highlight Glow Effect */}
         {hasVideo && (
-          <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-red-500/10 via-transparent to-red-500/10 animate-pulse pointer-events-none" />
+          <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-red-500/20 via-red-500/5 to-red-500/20 pointer-events-none" />
         )}
 
         {/* Ayah Number Badge */}
@@ -95,7 +138,7 @@ export default function AyahCard({ ayah, onClick, isSelected }: AyahCardProps) {
             w-10 h-10 flex items-center justify-center
             font-amiri text-lg rounded-full border
             ${hasVideo 
-              ? 'bg-red-500/20 text-red-400 border-red-500/30' 
+              ? 'bg-red-500/30 text-red-300 border-red-500/50' 
               : 'bg-primary/20 text-primary border-primary/30'
             }
           `}>
@@ -103,7 +146,7 @@ export default function AyahCard({ ayah, onClick, isSelected }: AyahCardProps) {
           </span>
           
           {/* Gharib Indicator */}
-          {hasGharib && (
+          {hasGharib && !hasVideo && (
             <span className="
               px-2 py-1 text-xs font-tajawal
               bg-secondary/20 text-secondary-foreground
@@ -120,24 +163,39 @@ export default function AyahCard({ ayah, onClick, isSelected }: AyahCardProps) {
               whileTap={{ scale: 0.95 }}
               onClick={handleVideoClick}
               className="
-                px-3 py-1 text-xs font-tajawal flex items-center gap-1
-                bg-red-500/20 text-red-400
-                rounded-full border border-red-500/30
-                hover:bg-red-500/30 transition-colors
+                px-3 py-1.5 text-xs font-tajawal flex items-center gap-1.5
+                bg-red-500/30 text-red-300
+                rounded-full border border-red-500/50
+                hover:bg-red-500/40 transition-colors
+                shadow-lg shadow-red-500/20
               "
             >
-              <Play className="w-3 h-3 fill-current" />
-              فيديو الشهري
+              <Video className="w-3.5 h-3.5" />
+              <span>الشهري</span>
+              {videoCount > 1 && (
+                <span className="bg-red-500/50 px-1.5 rounded-full text-[10px]">
+                  {videoCount}
+                </span>
+              )}
             </motion.button>
           )}
         </div>
 
         {/* Ayah Text */}
         <div className="pt-16 pb-4">
-          <p className={`quran-text text-center leading-[2.5] px-4 ${hasVideo ? 'text-red-100' : ''}`}>
+          <p className={`quran-text text-center leading-[2.5] px-4 ${hasVideo ? 'text-red-50' : ''}`}>
             {ayah.text}
           </p>
         </div>
+
+        {/* Video Word Badge */}
+        {hasVideo && firstVideo?.word && (
+          <div className="absolute bottom-12 left-1/2 -translate-x-1/2">
+            <span className="text-xs text-red-400 bg-red-500/20 px-3 py-1 rounded-full border border-red-500/30">
+              الكلمة: {firstVideo.word}
+            </span>
+          </div>
+        )}
 
         {/* Hover Indicator */}
         <div className="
@@ -161,13 +219,13 @@ export default function AyahCard({ ayah, onClick, isSelected }: AyahCardProps) {
         )}
 
         {/* Decorative Corner */}
-        <div className={`absolute top-0 left-0 w-8 h-8 border-t-2 border-l-2 rounded-tl-xl ${hasVideo ? 'border-red-500/30' : 'border-primary/20'}`} />
-        <div className={`absolute bottom-0 right-0 w-8 h-8 border-b-2 border-r-2 rounded-br-xl ${hasVideo ? 'border-red-500/30' : 'border-primary/20'}`} />
+        <div className={`absolute top-0 left-0 w-8 h-8 border-t-2 border-l-2 rounded-tl-xl ${hasVideo ? 'border-red-500/40' : 'border-primary/20'}`} />
+        <div className={`absolute bottom-0 right-0 w-8 h-8 border-b-2 border-r-2 rounded-br-xl ${hasVideo ? 'border-red-500/40' : 'border-primary/20'}`} />
       </motion.div>
 
       {/* Video Modal */}
       <AnimatePresence>
-        {showVideo && hasVideo && ayah.video && (
+        {showVideo && hasVideo && (
           <>
             {/* Backdrop */}
             <motion.div
@@ -193,10 +251,10 @@ export default function AyahCard({ ayah, onClick, isSelected }: AyahCardProps) {
                   </div>
                   <div>
                     <h3 className="font-tajawal font-bold text-white text-sm md:text-base">
-                      {ayah.video.title || `غريب القرآن - ${ayah.video.word || ''}`}
+                      {firstVideo?.title || `غريب القرآن - ${firstVideo?.word || ''}`}
                     </h3>
                     <p className="text-xs text-gray-400">
-                      الآية {ayah.number} {ayah.video.word && `• ${ayah.video.word}`}
+                      الآية {ayah.number} {firstVideo?.word && `• ${firstVideo.word}`}
                     </p>
                   </div>
                 </div>
@@ -212,7 +270,7 @@ export default function AyahCard({ ayah, onClick, isSelected }: AyahCardProps) {
               <div className="flex-1 bg-black rounded-b-xl overflow-hidden">
                 <iframe
                   src={`https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`}
-                  title={ayah.video.title}
+                  title={firstVideo?.title || 'غريب القرآن'}
                   className="w-full h-full"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
