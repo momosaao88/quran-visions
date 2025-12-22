@@ -25,20 +25,22 @@ interface Translations {
 interface Ayah {
   number: number;
   text: string;
-  juz: number;
-  page: number;
+  juz?: number;
+  page?: number;
   tafsir: {
     muyassar: string;
     mukhtasar: string;
     saadi: string;
     ibn_kathir?: string;
+    kathir?: string;
   };
-  gharib: {
-    muyassar: { word: string; meaning: string } | Record<string, never>;
-    siraj: { word: string; meaning: string } | Record<string, never>;
+  gharib?: {
+    muyassar?: { word: string; meaning: string } | Record<string, never>;
+    siraj?: { word: string; meaning: string } | Record<string, never>;
   };
   basair?: BasairData;
   basair_ibn_ashour?: string[];
+  ibn_ashour?: string;
   translations?: Translations;
 }
 
@@ -80,7 +82,7 @@ export default function TafsirPanel({
       muyassar: ayah.tafsir.muyassar,
       mukhtasar: ayah.tafsir.mukhtasar,
       saadi: ayah.tafsir.saadi,
-      ibn_kathir: ayah.tafsir.ibn_kathir || '',
+      ibn_kathir: ayah.tafsir.ibn_kathir || ayah.tafsir.kathir || '',
     };
     return tafsirMap[activeTafsir] || '';
   };
@@ -92,15 +94,16 @@ export default function TafsirPanel({
   };
 
   // Check if gharib exists
-  const hasGharib = 
+  const hasGharib = ayah.gharib && (
     (ayah.gharib.muyassar && 'word' in ayah.gharib.muyassar) ||
-    (ayah.gharib.siraj && 'word' in ayah.gharib.siraj);
+    (ayah.gharib.siraj && 'word' in ayah.gharib.siraj)
+  );
 
   // Check if basair exists (السامرائي)
   const hasBasairSamurai = ayah.basair && ayah.basair.points && ayah.basair.points.length > 0;
 
   // Check if basair ibn ashour exists
-  const hasBasairIbnAshour = ayah.basair_ibn_ashour && ayah.basair_ibn_ashour.length > 0;
+  const hasBasairIbnAshour = (ayah.basair_ibn_ashour && ayah.basair_ibn_ashour.length > 0) || (ayah.ibn_ashour && ayah.ibn_ashour.length > 0);
 
   // Check if translations exist
   const hasTranslations = ayah.translations && (ayah.translations.en || ayah.translations.fr || ayah.translations.es);
@@ -142,7 +145,7 @@ export default function TafsirPanel({
               </span>
               <div>
                 <h3 className="font-amiri text-xl text-foreground">الآية {ayah.number}</h3>
-                <p className="text-sm text-muted-foreground">الجزء {ayah.juz} • صفحة {ayah.page}</p>
+                <p className="text-sm text-muted-foreground">{ayah.juz && `الجزء ${ayah.juz}`} {ayah.page && `• صفحة ${ayah.page}`}</p>
               </div>
             </div>
             <button
@@ -279,18 +282,24 @@ export default function TafsirPanel({
               <div className="mt-6">
                 <div className="flex items-center gap-2 mb-3">
                   <GraduationCap className="w-5 h-5 text-emerald-400" />
-                  <h4 className="font-tajawal font-bold text-foreground">بصائر ابن عاشور</h4>
+                  <h4 className="font-tajawal font-bold text-foreground">تفسير ابن عاشور</h4>
                   <span className="text-xs text-muted-foreground">- التحرير والتنوير</span>
                 </div>
                 <div className="bg-gradient-to-br from-emerald-500/10 to-teal-500/10 rounded-xl p-4 border border-emerald-500/20">
-                  <ul className="space-y-3">
-                    {ayah.basair_ibn_ashour?.map((point, index) => (
-                      <li key={index} className="flex gap-2 text-foreground/90">
-                        <span className="text-emerald-400 mt-1 flex-shrink-0">◆</span>
-                        <span className="tafsir-text leading-relaxed">{point}</span>
-                      </li>
-                    ))}
-                  </ul>
+                  {ayah.basair_ibn_ashour && ayah.basair_ibn_ashour.length > 0 ? (
+                    <ul className="space-y-3">
+                      {ayah.basair_ibn_ashour.map((point, index) => (
+                        <li key={index} className="flex gap-2 text-foreground/90">
+                          <span className="text-emerald-400 mt-1 flex-shrink-0">◆</span>
+                          <span className="tafsir-text leading-relaxed">{point}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  ) : ayah.ibn_ashour ? (
+                    <p className="tafsir-text leading-relaxed text-foreground/90">
+                      {ayah.ibn_ashour}
+                    </p>
+                  ) : null}
                   <p className="text-xs text-muted-foreground mt-3 pt-2 border-t border-white/10">
                     المصدر: التحرير والتنوير - الشيخ محمد الطاهر ابن عاشور
                   </p>
@@ -306,7 +315,7 @@ export default function TafsirPanel({
                   <h4 className="font-tajawal font-bold text-foreground">غريب القرآن</h4>
                 </div>
                 <div className="grid gap-3">
-                  {ayah.gharib.muyassar && 'word' in ayah.gharib.muyassar && (
+                  {ayah.gharib?.muyassar && 'word' in ayah.gharib.muyassar && (
                     <div className="bg-secondary/10 rounded-xl p-4 border border-secondary/20">
                       <p className="text-sm text-muted-foreground mb-1">الميسر في غريب القرآن</p>
                       <p className="font-amiri text-lg text-primary mb-1">
@@ -317,7 +326,7 @@ export default function TafsirPanel({
                       </p>
                     </div>
                   )}
-                  {ayah.gharib.siraj && 'word' in ayah.gharib.siraj && (
+                  {ayah.gharib?.siraj && 'word' in ayah.gharib.siraj && (
                     <div className="bg-secondary/10 rounded-xl p-4 border border-secondary/20">
                       <p className="text-sm text-muted-foreground mb-1">السراج في غريب القرآن</p>
                       <p className="font-amiri text-lg text-primary mb-1">

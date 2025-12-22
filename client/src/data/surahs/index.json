@@ -1,304 +1,1275 @@
 {
-  "juz": 30,
-  "name": "جزء عم",
-  "totalSurahs": 37,
-  "totalAyat": 564,
+  "totalSurahs": 114,
+  "totalAyat": 6236,
+  "totalJuz": 30,
+  "juz": [
+    {
+      "number": 1,
+      "name": "الم",
+      "start_surah": 1,
+      "start_ayah": 1,
+      "end_surah": 2,
+      "end_ayah": 141
+    },
+    {
+      "number": 2,
+      "name": "سيقول",
+      "start_surah": 2,
+      "start_ayah": 142,
+      "end_surah": 2,
+      "end_ayah": 252
+    },
+    {
+      "number": 3,
+      "name": "تلك الرسل",
+      "start_surah": 2,
+      "start_ayah": 253,
+      "end_surah": 3,
+      "end_ayah": 92
+    },
+    {
+      "number": 4,
+      "name": "لن تنالوا",
+      "start_surah": 3,
+      "start_ayah": 93,
+      "end_surah": 4,
+      "end_ayah": 23
+    },
+    {
+      "number": 5,
+      "name": "والمحصنات",
+      "start_surah": 4,
+      "start_ayah": 24,
+      "end_surah": 4,
+      "end_ayah": 147
+    },
+    {
+      "number": 6,
+      "name": "لا يحب الله",
+      "start_surah": 4,
+      "start_ayah": 148,
+      "end_surah": 5,
+      "end_ayah": 81
+    },
+    {
+      "number": 7,
+      "name": "وإذا سمعوا",
+      "start_surah": 5,
+      "start_ayah": 82,
+      "end_surah": 6,
+      "end_ayah": 110
+    },
+    {
+      "number": 8,
+      "name": "ولو أننا",
+      "start_surah": 6,
+      "start_ayah": 111,
+      "end_surah": 7,
+      "end_ayah": 87
+    },
+    {
+      "number": 9,
+      "name": "قال الملأ",
+      "start_surah": 7,
+      "start_ayah": 88,
+      "end_surah": 8,
+      "end_ayah": 40
+    },
+    {
+      "number": 10,
+      "name": "واعلموا",
+      "start_surah": 8,
+      "start_ayah": 41,
+      "end_surah": 9,
+      "end_ayah": 92
+    },
+    {
+      "number": 11,
+      "name": "يعتذرون",
+      "start_surah": 9,
+      "start_ayah": 93,
+      "end_surah": 11,
+      "end_ayah": 5
+    },
+    {
+      "number": 12,
+      "name": "وما من دابة",
+      "start_surah": 11,
+      "start_ayah": 6,
+      "end_surah": 12,
+      "end_ayah": 52
+    },
+    {
+      "number": 13,
+      "name": "وما أبرئ",
+      "start_surah": 12,
+      "start_ayah": 53,
+      "end_surah": 14,
+      "end_ayah": 52
+    },
+    {
+      "number": 14,
+      "name": "ربما",
+      "start_surah": 15,
+      "start_ayah": 1,
+      "end_surah": 16,
+      "end_ayah": 128
+    },
+    {
+      "number": 15,
+      "name": "سبحان",
+      "start_surah": 17,
+      "start_ayah": 1,
+      "end_surah": 18,
+      "end_ayah": 74
+    },
+    {
+      "number": 16,
+      "name": "قال ألم",
+      "start_surah": 18,
+      "start_ayah": 75,
+      "end_surah": 20,
+      "end_ayah": 135
+    },
+    {
+      "number": 17,
+      "name": "اقترب",
+      "start_surah": 21,
+      "start_ayah": 1,
+      "end_surah": 22,
+      "end_ayah": 78
+    },
+    {
+      "number": 18,
+      "name": "قد أفلح",
+      "start_surah": 23,
+      "start_ayah": 1,
+      "end_surah": 25,
+      "end_ayah": 20
+    },
+    {
+      "number": 19,
+      "name": "وقال الذين",
+      "start_surah": 25,
+      "start_ayah": 21,
+      "end_surah": 27,
+      "end_ayah": 55
+    },
+    {
+      "number": 20,
+      "name": "أمن خلق",
+      "start_surah": 27,
+      "start_ayah": 56,
+      "end_surah": 29,
+      "end_ayah": 45
+    },
+    {
+      "number": 21,
+      "name": "اتل ما أوحي",
+      "start_surah": 29,
+      "start_ayah": 46,
+      "end_surah": 33,
+      "end_ayah": 30
+    },
+    {
+      "number": 22,
+      "name": "ومن يقنت",
+      "start_surah": 33,
+      "start_ayah": 31,
+      "end_surah": 36,
+      "end_ayah": 27
+    },
+    {
+      "number": 23,
+      "name": "وما لي",
+      "start_surah": 36,
+      "start_ayah": 28,
+      "end_surah": 39,
+      "end_ayah": 31
+    },
+    {
+      "number": 24,
+      "name": "فمن أظلم",
+      "start_surah": 39,
+      "start_ayah": 32,
+      "end_surah": 41,
+      "end_ayah": 46
+    },
+    {
+      "number": 25,
+      "name": "إليه يرد",
+      "start_surah": 41,
+      "start_ayah": 47,
+      "end_surah": 45,
+      "end_ayah": 37
+    },
+    {
+      "number": 26,
+      "name": "حم",
+      "start_surah": 46,
+      "start_ayah": 1,
+      "end_surah": 51,
+      "end_ayah": 30
+    },
+    {
+      "number": 27,
+      "name": "قال فما خطبكم",
+      "start_surah": 51,
+      "start_ayah": 31,
+      "end_surah": 57,
+      "end_ayah": 29
+    },
+    {
+      "number": 28,
+      "name": "قد سمع",
+      "start_surah": 58,
+      "start_ayah": 1,
+      "end_surah": 66,
+      "end_ayah": 12
+    },
+    {
+      "number": 29,
+      "name": "تبارك",
+      "start_surah": 67,
+      "start_ayah": 1,
+      "end_surah": 77,
+      "end_ayah": 50
+    },
+    {
+      "number": 30,
+      "name": "عم",
+      "start_surah": 78,
+      "start_ayah": 1,
+      "end_surah": 114,
+      "end_ayah": 6
+    }
+  ],
   "surahs": [
     {
-      "number": 78,
-      "name": "النبأ",
-      "englishName": "An-Naba",
-      "meaning": "الخبر العظيم",
+      "number": 1,
+      "name": "سُورَةُ ٱلْفَاتِحَةِ",
+      "englishName": "Al-Faatiha",
+      "meaning": "الافتتاح",
+      "totalAyat": 7,
+      "revelationType": "Meccan",
+      "juz": 1
+    },
+    {
+      "number": 2,
+      "name": "سُورَةُ البَقَرَةِ",
+      "englishName": "Al-Baqara",
+      "meaning": "البقرة",
+      "totalAyat": 286,
+      "revelationType": "Medinan",
+      "juz": 1
+    },
+    {
+      "number": 3,
+      "name": "سُورَةُ آلِ عِمۡرَانَ",
+      "englishName": "Aal-i-Imraan",
+      "meaning": "آل عمران",
+      "totalAyat": 200,
+      "revelationType": "Medinan",
+      "juz": 3
+    },
+    {
+      "number": 4,
+      "name": "سُورَةُ النِّسَاءِ",
+      "englishName": "An-Nisaa",
+      "meaning": "النساء",
+      "totalAyat": 176,
+      "revelationType": "Medinan",
+      "juz": 4
+    },
+    {
+      "number": 5,
+      "name": "سُورَةُ المَائـِدَةِ",
+      "englishName": "Al-Maaida",
+      "meaning": "المائدة",
+      "totalAyat": 120,
+      "revelationType": "Medinan",
+      "juz": 6
+    },
+    {
+      "number": 6,
+      "name": "سُورَةُ الأَنۡعَامِ",
+      "englishName": "Al-An'aam",
+      "meaning": "الأنعام",
+      "totalAyat": 165,
+      "revelationType": "Meccan",
+      "juz": 7
+    },
+    {
+      "number": 7,
+      "name": "سُورَةُ الأَعۡرَافِ",
+      "englishName": "Al-A'raaf",
+      "meaning": "الأعراف",
+      "totalAyat": 206,
+      "revelationType": "Meccan",
+      "juz": 8
+    },
+    {
+      "number": 8,
+      "name": "سُورَةُ الأَنفَالِ",
+      "englishName": "Al-Anfaal",
+      "meaning": "الأنفال",
+      "totalAyat": 75,
+      "revelationType": "Medinan",
+      "juz": 9
+    },
+    {
+      "number": 9,
+      "name": "سُورَةُ التَّوۡبَةِ",
+      "englishName": "At-Tawba",
+      "meaning": "التوبة",
+      "totalAyat": 129,
+      "revelationType": "Medinan",
+      "juz": 10
+    },
+    {
+      "number": 10,
+      "name": "سُورَةُ يُونُسَ",
+      "englishName": "Yunus",
+      "meaning": "يونس",
+      "totalAyat": 109,
+      "revelationType": "Meccan",
+      "juz": 11
+    },
+    {
+      "number": 11,
+      "name": "سُورَةُ هُودٍ",
+      "englishName": "Hud",
+      "meaning": "هود",
+      "totalAyat": 123,
+      "revelationType": "Meccan",
+      "juz": 11
+    },
+    {
+      "number": 12,
+      "name": "سُورَةُ يُوسُفَ",
+      "englishName": "Yusuf",
+      "meaning": "يوسف",
+      "totalAyat": 111,
+      "revelationType": "Meccan",
+      "juz": 12
+    },
+    {
+      "number": 13,
+      "name": "سُورَةُ الرَّعۡدِ",
+      "englishName": "Ar-Ra'd",
+      "meaning": "الرعد",
+      "totalAyat": 43,
+      "revelationType": "Medinan",
+      "juz": 13
+    },
+    {
+      "number": 14,
+      "name": "سُورَةُ إِبۡرَاهِيمَ",
+      "englishName": "Ibrahim",
+      "meaning": "إبراهيم",
+      "totalAyat": 52,
+      "revelationType": "Meccan",
+      "juz": 13
+    },
+    {
+      "number": 15,
+      "name": "سُورَةُ الحِجۡرِ",
+      "englishName": "Al-Hijr",
+      "meaning": "الحجر",
+      "totalAyat": 99,
+      "revelationType": "Meccan",
+      "juz": 14
+    },
+    {
+      "number": 16,
+      "name": "سُورَةُ النَّحۡلِ",
+      "englishName": "An-Nahl",
+      "meaning": "النحل",
+      "totalAyat": 128,
+      "revelationType": "Meccan",
+      "juz": 14
+    },
+    {
+      "number": 17,
+      "name": "سُورَةُ الإِسۡرَاءِ",
+      "englishName": "Al-Israa",
+      "meaning": "الإسراء",
+      "totalAyat": 111,
+      "revelationType": "Meccan",
+      "juz": 15
+    },
+    {
+      "number": 18,
+      "name": "سُورَةُ الكَهۡفِ",
+      "englishName": "Al-Kahf",
+      "meaning": "الكهف",
+      "totalAyat": 110,
+      "revelationType": "Meccan",
+      "juz": 15
+    },
+    {
+      "number": 19,
+      "name": "سُورَةُ مَرۡيَمَ",
+      "englishName": "Maryam",
+      "meaning": "مريم",
+      "totalAyat": 98,
+      "revelationType": "Meccan",
+      "juz": 16
+    },
+    {
+      "number": 20,
+      "name": "سُورَةُ طه",
+      "englishName": "Taa-Haa",
+      "meaning": "طه",
+      "totalAyat": 135,
+      "revelationType": "Meccan",
+      "juz": 16
+    },
+    {
+      "number": 21,
+      "name": "سُورَةُ الأَنبِيَاءِ",
+      "englishName": "Al-Anbiyaa",
+      "meaning": "الأنبياء",
+      "totalAyat": 112,
+      "revelationType": "Meccan",
+      "juz": 17
+    },
+    {
+      "number": 22,
+      "name": "سُورَةُ الحَجِّ",
+      "englishName": "Al-Hajj",
+      "meaning": "الحج",
+      "totalAyat": 78,
+      "revelationType": "Medinan",
+      "juz": 17
+    },
+    {
+      "number": 23,
+      "name": "سُورَةُ المُؤۡمِنُونَ",
+      "englishName": "Al-Muminoon",
+      "meaning": "المؤمنون",
+      "totalAyat": 118,
+      "revelationType": "Meccan",
+      "juz": 18
+    },
+    {
+      "number": 24,
+      "name": "سُورَةُ النُّورِ",
+      "englishName": "An-Noor",
+      "meaning": "النور",
+      "totalAyat": 64,
+      "revelationType": "Medinan",
+      "juz": 18
+    },
+    {
+      "number": 25,
+      "name": "سُورَةُ الفُرۡقَانِ",
+      "englishName": "Al-Furqaan",
+      "meaning": "الفرقان",
+      "totalAyat": 77,
+      "revelationType": "Meccan",
+      "juz": 18
+    },
+    {
+      "number": 26,
+      "name": "سُورَةُ الشُّعَرَاءِ",
+      "englishName": "Ash-Shu'araa",
+      "meaning": "الشعراء",
+      "totalAyat": 227,
+      "revelationType": "Meccan",
+      "juz": 19
+    },
+    {
+      "number": 27,
+      "name": "سُورَةُ النَّمۡلِ",
+      "englishName": "An-Naml",
+      "meaning": "النمل",
+      "totalAyat": 93,
+      "revelationType": "Meccan",
+      "juz": 19
+    },
+    {
+      "number": 28,
+      "name": "سُورَةُ القَصَصِ",
+      "englishName": "Al-Qasas",
+      "meaning": "القصص",
+      "totalAyat": 88,
+      "revelationType": "Meccan",
+      "juz": 20
+    },
+    {
+      "number": 29,
+      "name": "سُورَةُ العَنكَبُوتِ",
+      "englishName": "Al-Ankaboot",
+      "meaning": "العنكبوت",
+      "totalAyat": 69,
+      "revelationType": "Meccan",
+      "juz": 20
+    },
+    {
+      "number": 30,
+      "name": "سُورَةُ الرُّومِ",
+      "englishName": "Ar-Room",
+      "meaning": "الروم",
+      "totalAyat": 60,
+      "revelationType": "Meccan",
+      "juz": 21
+    },
+    {
+      "number": 31,
+      "name": "سُورَةُ لُقۡمَانَ",
+      "englishName": "Luqman",
+      "meaning": "لقمان",
+      "totalAyat": 34,
+      "revelationType": "Meccan",
+      "juz": 21
+    },
+    {
+      "number": 32,
+      "name": "سُورَةُ السَّجۡدَةِ",
+      "englishName": "As-Sajda",
+      "meaning": "السجدة",
+      "totalAyat": 30,
+      "revelationType": "Meccan",
+      "juz": 21
+    },
+    {
+      "number": 33,
+      "name": "سُورَةُ الأَحۡزَابِ",
+      "englishName": "Al-Ahzaab",
+      "meaning": "الأحزاب",
+      "totalAyat": 73,
+      "revelationType": "Medinan",
+      "juz": 21
+    },
+    {
+      "number": 34,
+      "name": "سُورَةُ سَبَإٍ",
+      "englishName": "Saba",
+      "meaning": "سبأ",
+      "totalAyat": 54,
+      "revelationType": "Meccan",
+      "juz": 22
+    },
+    {
+      "number": 35,
+      "name": "سُورَةُ فَاطِرٍ",
+      "englishName": "Faatir",
+      "meaning": "فاطر",
+      "totalAyat": 45,
+      "revelationType": "Meccan",
+      "juz": 22
+    },
+    {
+      "number": 36,
+      "name": "سُورَةُ يسٓ",
+      "englishName": "Yaseen",
+      "meaning": "يس",
+      "totalAyat": 83,
+      "revelationType": "Meccan",
+      "juz": 22
+    },
+    {
+      "number": 37,
+      "name": "سُورَةُ الصَّافَّاتِ",
+      "englishName": "As-Saaffaat",
+      "meaning": "الصافات",
+      "totalAyat": 182,
+      "revelationType": "Meccan",
+      "juz": 23
+    },
+    {
+      "number": 38,
+      "name": "سُورَةُ صٓ",
+      "englishName": "Saad",
+      "meaning": "ص",
+      "totalAyat": 88,
+      "revelationType": "Meccan",
+      "juz": 23
+    },
+    {
+      "number": 39,
+      "name": "سُورَةُ الزُّمَرِ",
+      "englishName": "Az-Zumar",
+      "meaning": "الزمر",
+      "totalAyat": 75,
+      "revelationType": "Meccan",
+      "juz": 23
+    },
+    {
+      "number": 40,
+      "name": "سُورَةُ غَافِرٍ",
+      "englishName": "Ghafir",
+      "meaning": "غافر",
+      "totalAyat": 85,
+      "revelationType": "Meccan",
+      "juz": 24
+    },
+    {
+      "number": 41,
+      "name": "سُورَةُ فُصِّلَتۡ",
+      "englishName": "Fussilat",
+      "meaning": "فصلت",
+      "totalAyat": 54,
+      "revelationType": "Meccan",
+      "juz": 24
+    },
+    {
+      "number": 42,
+      "name": "سُورَةُ الشُّورَىٰ",
+      "englishName": "Ash-Shura",
+      "meaning": "الشورى",
+      "totalAyat": 53,
+      "revelationType": "Meccan",
+      "juz": 25
+    },
+    {
+      "number": 43,
+      "name": "سُورَةُ الزُّخۡرُفِ",
+      "englishName": "Az-Zukhruf",
+      "meaning": "الزخرف",
+      "totalAyat": 89,
+      "revelationType": "Meccan",
+      "juz": 25
+    },
+    {
+      "number": 44,
+      "name": "سُورَةُ الدُّخَانِ",
+      "englishName": "Ad-Dukhaan",
+      "meaning": "الدخان",
+      "totalAyat": 59,
+      "revelationType": "Meccan",
+      "juz": 25
+    },
+    {
+      "number": 45,
+      "name": "سُورَةُ الجَاثِيَةِ",
+      "englishName": "Al-Jaathiya",
+      "meaning": "الجاثية",
+      "totalAyat": 37,
+      "revelationType": "Meccan",
+      "juz": 25
+    },
+    {
+      "number": 46,
+      "name": "سُورَةُ الأَحۡقَافِ",
+      "englishName": "Al-Ahqaf",
+      "meaning": "الأحقاف",
+      "totalAyat": 35,
+      "revelationType": "Meccan",
+      "juz": 26
+    },
+    {
+      "number": 47,
+      "name": "سُورَةُ مُحَمَّدٍ",
+      "englishName": "Muhammad",
+      "meaning": "محمد",
+      "totalAyat": 38,
+      "revelationType": "Medinan",
+      "juz": 26
+    },
+    {
+      "number": 48,
+      "name": "سُورَةُ الفَتۡحِ",
+      "englishName": "Al-Fath",
+      "meaning": "الفتح",
+      "totalAyat": 29,
+      "revelationType": "Medinan",
+      "juz": 26
+    },
+    {
+      "number": 49,
+      "name": "سُورَةُ الحُجُرَاتِ",
+      "englishName": "Al-Hujuraat",
+      "meaning": "الحجرات",
+      "totalAyat": 18,
+      "revelationType": "Medinan",
+      "juz": 26
+    },
+    {
+      "number": 50,
+      "name": "سُورَةُ قٓ",
+      "englishName": "Qaaf",
+      "meaning": "ق",
+      "totalAyat": 45,
+      "revelationType": "Meccan",
+      "juz": 26
+    },
+    {
+      "number": 51,
+      "name": "سُورَةُ الذَّارِيَاتِ",
+      "englishName": "Adh-Dhaariyat",
+      "meaning": "الذاريات",
+      "totalAyat": 60,
+      "revelationType": "Meccan",
+      "juz": 26
+    },
+    {
+      "number": 52,
+      "name": "سُورَةُ الطُّورِ",
+      "englishName": "At-Tur",
+      "meaning": "الطور",
+      "totalAyat": 49,
+      "revelationType": "Meccan",
+      "juz": 27
+    },
+    {
+      "number": 53,
+      "name": "سُورَةُ النَّجۡمِ",
+      "englishName": "An-Najm",
+      "meaning": "النجم",
+      "totalAyat": 62,
+      "revelationType": "Meccan",
+      "juz": 27
+    },
+    {
+      "number": 54,
+      "name": "سُورَةُ القَمَرِ",
+      "englishName": "Al-Qamar",
+      "meaning": "القمر",
+      "totalAyat": 55,
+      "revelationType": "Meccan",
+      "juz": 27
+    },
+    {
+      "number": 55,
+      "name": "سُورَةُ الرَّحۡمَٰن",
+      "englishName": "Ar-Rahmaan",
+      "meaning": "الرحمن",
+      "totalAyat": 78,
+      "revelationType": "Medinan",
+      "juz": 27
+    },
+    {
+      "number": 56,
+      "name": "سُورَةُ الوَاقِعَةِ",
+      "englishName": "Al-Waaqia",
+      "meaning": "الواقعة",
+      "totalAyat": 96,
+      "revelationType": "Meccan",
+      "juz": 27
+    },
+    {
+      "number": 57,
+      "name": "سُورَةُ الحَدِيدِ",
+      "englishName": "Al-Hadid",
+      "meaning": "الحديد",
+      "totalAyat": 29,
+      "revelationType": "Medinan",
+      "juz": 27
+    },
+    {
+      "number": 58,
+      "name": "سُورَةُ المُجَادلَةِ",
+      "englishName": "Al-Mujaadila",
+      "meaning": "المجادلة",
+      "totalAyat": 22,
+      "revelationType": "Medinan",
+      "juz": 28
+    },
+    {
+      "number": 59,
+      "name": "سُورَةُ الحَشۡرِ",
+      "englishName": "Al-Hashr",
+      "meaning": "الحشر",
+      "totalAyat": 24,
+      "revelationType": "Medinan",
+      "juz": 28
+    },
+    {
+      "number": 60,
+      "name": "سُورَةُ المُمۡتَحنَةِ",
+      "englishName": "Al-Mumtahana",
+      "meaning": "الممتحنة",
+      "totalAyat": 13,
+      "revelationType": "Medinan",
+      "juz": 28
+    },
+    {
+      "number": 61,
+      "name": "سُورَةُ الصَّفِّ",
+      "englishName": "As-Saff",
+      "meaning": "الصف",
+      "totalAyat": 14,
+      "revelationType": "Medinan",
+      "juz": 28
+    },
+    {
+      "number": 62,
+      "name": "سُورَةُ الجُمُعَةِ",
+      "englishName": "Al-Jumu'a",
+      "meaning": "الجمعة",
+      "totalAyat": 11,
+      "revelationType": "Medinan",
+      "juz": 28
+    },
+    {
+      "number": 63,
+      "name": "سُورَةُ المُنَافِقُونَ",
+      "englishName": "Al-Munaafiqoon",
+      "meaning": "المنافقون",
+      "totalAyat": 11,
+      "revelationType": "Medinan",
+      "juz": 28
+    },
+    {
+      "number": 64,
+      "name": "سُورَةُ التَّغَابُنِ",
+      "englishName": "At-Taghaabun",
+      "meaning": "التغابن",
+      "totalAyat": 18,
+      "revelationType": "Medinan",
+      "juz": 28
+    },
+    {
+      "number": 65,
+      "name": "سُورَةُ الطَّلَاقِ",
+      "englishName": "At-Talaaq",
+      "meaning": "الطلاق",
+      "totalAyat": 12,
+      "revelationType": "Medinan",
+      "juz": 28
+    },
+    {
+      "number": 66,
+      "name": "سُورَةُ التَّحۡرِيمِ",
+      "englishName": "At-Tahrim",
+      "meaning": "التحريم",
+      "totalAyat": 12,
+      "revelationType": "Medinan",
+      "juz": 28
+    },
+    {
+      "number": 67,
+      "name": "سُورَةُ المُلۡكِ",
+      "englishName": "Al-Mulk",
+      "meaning": "الملك",
+      "totalAyat": 30,
+      "revelationType": "Meccan",
+      "juz": 29
+    },
+    {
+      "number": 68,
+      "name": "سُورَةُ القَلَمِ",
+      "englishName": "Al-Qalam",
+      "meaning": "القلم",
+      "totalAyat": 52,
+      "revelationType": "Meccan",
+      "juz": 29
+    },
+    {
+      "number": 69,
+      "name": "سُورَةُ الحَاقَّةِ",
+      "englishName": "Al-Haaqqa",
+      "meaning": "الحاقة",
+      "totalAyat": 52,
+      "revelationType": "Meccan",
+      "juz": 29
+    },
+    {
+      "number": 70,
+      "name": "سُورَةُ المَعَارِجِ",
+      "englishName": "Al-Ma'aarij",
+      "meaning": "المعارج",
+      "totalAyat": 44,
+      "revelationType": "Meccan",
+      "juz": 29
+    },
+    {
+      "number": 71,
+      "name": "سُورَةُ نُوحٍ",
+      "englishName": "Nooh",
+      "meaning": "نوح",
+      "totalAyat": 28,
+      "revelationType": "Meccan",
+      "juz": 29
+    },
+    {
+      "number": 72,
+      "name": "سُورَةُ الجِنِّ",
+      "englishName": "Al-Jinn",
+      "meaning": "الجن",
+      "totalAyat": 28,
+      "revelationType": "Meccan",
+      "juz": 29
+    },
+    {
+      "number": 73,
+      "name": "سُورَةُ المُزَّمِّلِ",
+      "englishName": "Al-Muzzammil",
+      "meaning": "المزمل",
+      "totalAyat": 20,
+      "revelationType": "Meccan",
+      "juz": 29
+    },
+    {
+      "number": 74,
+      "name": "سُورَةُ المُدَّثِّرِ",
+      "englishName": "Al-Muddaththir",
+      "meaning": "المدثر",
+      "totalAyat": 56,
+      "revelationType": "Meccan",
+      "juz": 29
+    },
+    {
+      "number": 75,
+      "name": "سُورَةُ القِيَامَةِ",
+      "englishName": "Al-Qiyaama",
+      "meaning": "القيامة",
       "totalAyat": 40,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 29
+    },
+    {
+      "number": 76,
+      "name": "سُورَةُ الإِنسَانِ",
+      "englishName": "Al-Insaan",
+      "meaning": "الإنسان",
+      "totalAyat": 31,
+      "revelationType": "Medinan",
+      "juz": 29
+    },
+    {
+      "number": 77,
+      "name": "سُورَةُ المُرۡسَلَاتِ",
+      "englishName": "Al-Mursalaat",
+      "meaning": "المرسلات",
+      "totalAyat": 50,
+      "revelationType": "Meccan",
+      "juz": 29
+    },
+    {
+      "number": 78,
+      "name": "سُورَةُ النَّبَإِ",
+      "englishName": "An-Naba",
+      "meaning": "النبأ",
+      "totalAyat": 40,
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 79,
-      "name": "النازعات",
-      "englishName": "An-Naziat",
-      "meaning": "الملائكة",
+      "name": "سُورَةُ النَّازِعَاتِ",
+      "englishName": "An-Naazi'aat",
+      "meaning": "النازعات",
       "totalAyat": 46,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 80,
-      "name": "عبس",
+      "name": "سُورَةُ عَبَسَ",
       "englishName": "Abasa",
-      "meaning": "عبس وتولى",
+      "meaning": "عبس",
       "totalAyat": 42,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 81,
-      "name": "التكوير",
+      "name": "سُورَةُ التَّكۡوِيرِ",
       "englishName": "At-Takwir",
-      "meaning": "لف الشمس",
+      "meaning": "التكوير",
       "totalAyat": 29,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 82,
-      "name": "الانفطار",
-      "englishName": "Al-Infitar",
-      "meaning": "انشقاق السماء",
+      "name": "سُورَةُ الانفِطَارِ",
+      "englishName": "Al-Infitaar",
+      "meaning": "الانفطار",
       "totalAyat": 19,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 83,
-      "name": "المطففين",
+      "name": "سُورَةُ المُطَفِّفِينَ",
       "englishName": "Al-Mutaffifin",
-      "meaning": "الذين ينقصون الكيل",
+      "meaning": "المطففين",
       "totalAyat": 36,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 84,
-      "name": "الانشقاق",
-      "englishName": "Al-Inshiqaq",
-      "meaning": "انشقاق السماء",
+      "name": "سُورَةُ الانشِقَاقِ",
+      "englishName": "Al-Inshiqaaq",
+      "meaning": "الانشقاق",
       "totalAyat": 25,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 85,
-      "name": "البروج",
-      "englishName": "Al-Buruj",
-      "meaning": "النجوم",
+      "name": "سُورَةُ البُرُوجِ",
+      "englishName": "Al-Burooj",
+      "meaning": "البروج",
       "totalAyat": 22,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 86,
-      "name": "الطارق",
-      "englishName": "At-Tariq",
-      "meaning": "النجم الثاقب",
+      "name": "سُورَةُ الطَّارِقِ",
+      "englishName": "At-Taariq",
+      "meaning": "الطارق",
       "totalAyat": 17,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 87,
-      "name": "الأعلى",
-      "englishName": "Al-Ala",
-      "meaning": "الله الأعلى",
+      "name": "سُورَةُ الأَعۡلَىٰ",
+      "englishName": "Al-A'laa",
+      "meaning": "الأعلى",
       "totalAyat": 19,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 88,
-      "name": "الغاشية",
-      "englishName": "Al-Ghashiyah",
-      "meaning": "القيامة",
+      "name": "سُورَةُ الغَاشِيَةِ",
+      "englishName": "Al-Ghaashiya",
+      "meaning": "الغاشية",
       "totalAyat": 26,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 89,
-      "name": "الفجر",
+      "name": "سُورَةُ الفَجۡرِ",
       "englishName": "Al-Fajr",
-      "meaning": "وقت الفجر",
+      "meaning": "الفجر",
       "totalAyat": 30,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 90,
-      "name": "البلد",
+      "name": "سُورَةُ البَلَدِ",
       "englishName": "Al-Balad",
-      "meaning": "مكة المكرمة",
+      "meaning": "البلد",
       "totalAyat": 20,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 91,
-      "name": "الشمس",
+      "name": "سُورَةُ الشَّمۡسِ",
       "englishName": "Ash-Shams",
       "meaning": "الشمس",
       "totalAyat": 15,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 92,
-      "name": "الليل",
-      "englishName": "Al-Layl",
+      "name": "سُورَةُ اللَّيۡلِ",
+      "englishName": "Al-Lail",
       "meaning": "الليل",
       "totalAyat": 21,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 93,
-      "name": "الضحى",
-      "englishName": "Ad-Duha",
-      "meaning": "وقت الضحى",
+      "name": "سُورَةُ الضُّحَىٰ",
+      "englishName": "Ad-Dhuhaa",
+      "meaning": "الضحى",
       "totalAyat": 11,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 94,
-      "name": "الشرح",
+      "name": "سُورَةُ الشَّرۡحِ",
       "englishName": "Ash-Sharh",
-      "meaning": "شرح الصدر",
+      "meaning": "الشرح",
       "totalAyat": 8,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 95,
-      "name": "التين",
+      "name": "سُورَةُ التِّينِ",
       "englishName": "At-Tin",
       "meaning": "التين",
       "totalAyat": 8,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 96,
-      "name": "العلق",
+      "name": "سُورَةُ العَلَقِ",
       "englishName": "Al-Alaq",
-      "meaning": "العلقة",
+      "meaning": "العلق",
       "totalAyat": 19,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 97,
-      "name": "القدر",
+      "name": "سُورَةُ القَدۡرِ",
       "englishName": "Al-Qadr",
-      "meaning": "ليلة القدر",
+      "meaning": "القدر",
       "totalAyat": 5,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 98,
-      "name": "البينة",
-      "englishName": "Al-Bayyinah",
-      "meaning": "الدليل الواضح",
+      "name": "سُورَةُ البَيِّنَةِ",
+      "englishName": "Al-Bayyina",
+      "meaning": "البينة",
       "totalAyat": 8,
-      "revelationType": "Medinan"
+      "revelationType": "Medinan",
+      "juz": 30
     },
     {
       "number": 99,
-      "name": "الزلزلة",
-      "englishName": "Az-Zalzalah",
-      "meaning": "الزلزال",
+      "name": "سُورَةُ الزَّلۡزَلَةِ",
+      "englishName": "Az-Zalzala",
+      "meaning": "الزلزلة",
       "totalAyat": 8,
-      "revelationType": "Medinan"
+      "revelationType": "Medinan",
+      "juz": 30
     },
     {
       "number": 100,
-      "name": "العاديات",
-      "englishName": "Al-Adiyat",
-      "meaning": "الخيل العادية",
+      "name": "سُورَةُ العَادِيَاتِ",
+      "englishName": "Al-Aadiyaat",
+      "meaning": "العاديات",
       "totalAyat": 11,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 101,
-      "name": "القارعة",
-      "englishName": "Al-Qariah",
-      "meaning": "القيامة",
+      "name": "سُورَةُ القَارِعَةِ",
+      "englishName": "Al-Qaari'a",
+      "meaning": "القارعة",
       "totalAyat": 11,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 102,
-      "name": "التكاثر",
-      "englishName": "At-Takathur",
-      "meaning": "التفاخر بالكثرة",
+      "name": "سُورَةُ التَّكَاثُرِ",
+      "englishName": "At-Takaathur",
+      "meaning": "التكاثر",
       "totalAyat": 8,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 103,
-      "name": "العصر",
+      "name": "سُورَةُ العَصۡرِ",
       "englishName": "Al-Asr",
-      "meaning": "الزمن",
+      "meaning": "العصر",
       "totalAyat": 3,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 104,
-      "name": "الهمزة",
-      "englishName": "Al-Humazah",
-      "meaning": "المغتاب",
+      "name": "سُورَةُ الهُمَزَةِ",
+      "englishName": "Al-Humaza",
+      "meaning": "الهمزة",
       "totalAyat": 9,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 105,
-      "name": "الفيل",
+      "name": "سُورَةُ الفِيلِ",
       "englishName": "Al-Fil",
       "meaning": "الفيل",
       "totalAyat": 5,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 106,
-      "name": "قريش",
-      "englishName": "Quraysh",
-      "meaning": "قبيلة قريش",
+      "name": "سُورَةُ قُرَيۡشٍ",
+      "englishName": "Quraish",
+      "meaning": "قريش",
       "totalAyat": 4,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 107,
-      "name": "الماعون",
-      "englishName": "Al-Maun",
-      "meaning": "المعونة",
+      "name": "سُورَةُ المَاعُونِ",
+      "englishName": "Al-Maa'un",
+      "meaning": "الماعون",
       "totalAyat": 7,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 108,
-      "name": "الكوثر",
+      "name": "سُورَةُ الكَوۡثَرِ",
       "englishName": "Al-Kawthar",
-      "meaning": "الخير الكثير",
+      "meaning": "الكوثر",
       "totalAyat": 3,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 109,
-      "name": "الكافرون",
-      "englishName": "Al-Kafirun",
+      "name": "سُورَةُ الكَافِرُونَ",
+      "englishName": "Al-Kaafiroon",
       "meaning": "الكافرون",
       "totalAyat": 6,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 110,
-      "name": "النصر",
+      "name": "سُورَةُ النَّصۡرِ",
       "englishName": "An-Nasr",
       "meaning": "النصر",
       "totalAyat": 3,
-      "revelationType": "Medinan"
+      "revelationType": "Medinan",
+      "juz": 30
     },
     {
       "number": 111,
-      "name": "المسد",
+      "name": "سُورَةُ المَسَدِ",
       "englishName": "Al-Masad",
-      "meaning": "الحبل من ليف",
+      "meaning": "المسد",
       "totalAyat": 5,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 112,
-      "name": "الإخلاص",
-      "englishName": "Al-Ikhlas",
-      "meaning": "التوحيد",
+      "name": "سُورَةُ الإِخۡلَاصِ",
+      "englishName": "Al-Ikhlaas",
+      "meaning": "الإخلاص",
       "totalAyat": 4,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 113,
-      "name": "الفلق",
+      "name": "سُورَةُ الفَلَقِ",
       "englishName": "Al-Falaq",
-      "meaning": "الصبح",
+      "meaning": "الفلق",
       "totalAyat": 5,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     },
     {
       "number": 114,
-      "name": "الناس",
-      "englishName": "An-Nas",
+      "name": "سُورَةُ النَّاسِ",
+      "englishName": "An-Naas",
       "meaning": "الناس",
       "totalAyat": 6,
-      "revelationType": "Meccan"
+      "revelationType": "Meccan",
+      "juz": 30
     }
   ]
 }

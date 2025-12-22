@@ -59,7 +59,8 @@ interface SurahData {
   meaning: string;
   ayahCount: number;
   revelationType: string;
-  ayat: Ayah[];
+  ayahs?: Ayah[];
+  ayat?: Ayah[];
 }
 
 // Tafsir sources
@@ -91,8 +92,19 @@ export default function SurahView() {
     const loadSurah = async () => {
       setLoading(true);
       try {
-        const data = await import(`../data/surahs/surah_${surahNumber}.json`);
-        setSurahData(data.default || data);
+        // محاولة تحميل الملف بالاسم الجديد أولاً ثم القديم
+        let data;
+        try {
+          data = await import(`../data/surahs/${surahNumber}.json`);
+        } catch {
+          data = await import(`../data/surahs/surah_${surahNumber}.json`);
+        }
+        const surah = data.default || data;
+        // دعم كلا التنسيقين: ayahs و ayat
+        if (surah.ayahs && !surah.ayat) {
+          surah.ayat = surah.ayahs;
+        }
+        setSurahData(surah);
       } catch (error) {
         console.error('Error loading surah:', error);
       }
@@ -164,7 +176,7 @@ export default function SurahView() {
             <Link href="/">
               <button className="flex items-center gap-2 px-3 py-2 text-sm text-muted-foreground hover:text-white transition-colors">
                 <Home className="w-4 h-4" />
-                <span className="hidden sm:inline">جزء عمّ</span>
+                <span className="hidden sm:inline">فهرس السور</span>
               </button>
             </Link>
 
@@ -241,7 +253,7 @@ export default function SurahView() {
               transition={{ duration: 0.5, delay: 0.3 }}
               className="grid gap-4"
             >
-              {surahData.ayat.map((ayah, index) => (
+              {(surahData.ayat || []).map((ayah, index) => (
                 <motion.div
                   key={ayah.number}
                   initial={{ opacity: 0, y: 20 }}

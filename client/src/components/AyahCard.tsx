@@ -8,26 +8,38 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Play, X } from 'lucide-react';
 
+interface VideoMeaning {
+  ar: string;
+  en: string;
+  fr: string;
+  es: string;
+}
+
 interface Video {
-  videoId: string;
-  title: string;
-  url: string;
+  videoId?: string;
+  id?: string;
+  title?: string;
+  url?: string;
+  word?: string;
+  transliteration?: string;
+  meaning?: VideoMeaning;
 }
 
 interface Ayah {
   number: number;
   text: string;
-  juz: number;
-  page: number;
+  juz?: number;
+  page?: number;
   tafsir: {
     muyassar: string;
     mukhtasar: string;
     saadi: string;
     ibn_kathir?: string;
+    kathir?: string;
   };
-  gharib: {
-    muyassar: { word: string; meaning: string } | Record<string, never>;
-    siraj: { word: string; meaning: string } | Record<string, never>;
+  gharib?: {
+    muyassar?: { word: string; meaning: string } | Record<string, never>;
+    siraj?: { word: string; meaning: string } | Record<string, never>;
   };
   video?: Video;
 }
@@ -47,7 +59,8 @@ export default function AyahCard({ ayah, onClick, isSelected }: AyahCardProps) {
     (ayah.gharib?.siraj && 'word' in ayah.gharib.siraj);
 
   // Check if ayah has video
-  const hasVideo = ayah.video && ayah.video.videoId;
+  const hasVideo = ayah.video && (ayah.video.videoId || ayah.video.id);
+  const videoId = ayah.video?.videoId || ayah.video?.id || '';
 
   const handleVideoClick = (e: React.MouseEvent) => {
     e.stopPropagation();
@@ -141,9 +154,11 @@ export default function AyahCard({ ayah, onClick, isSelected }: AyahCardProps) {
         </div>
 
         {/* Page & Juz Info */}
-        <div className="absolute bottom-4 right-4 text-xs text-muted-foreground/50">
-          الجزء {ayah.juz} • صفحة {ayah.page}
-        </div>
+        {(ayah.juz || ayah.page) && (
+          <div className="absolute bottom-4 right-4 text-xs text-muted-foreground/50">
+            {ayah.juz && `الجزء ${ayah.juz}`} {ayah.page && `• صفحة ${ayah.page}`}
+          </div>
+        )}
 
         {/* Decorative Corner */}
         <div className={`absolute top-0 left-0 w-8 h-8 border-t-2 border-l-2 rounded-tl-xl ${hasVideo ? 'border-red-500/30' : 'border-primary/20'}`} />
@@ -178,10 +193,10 @@ export default function AyahCard({ ayah, onClick, isSelected }: AyahCardProps) {
                   </div>
                   <div>
                     <h3 className="font-tajawal font-bold text-white text-sm md:text-base">
-                      {ayah.video.title}
+                      {ayah.video.title || `غريب القرآن - ${ayah.video.word || ''}`}
                     </h3>
                     <p className="text-xs text-gray-400">
-                      الآية {ayah.number}
+                      الآية {ayah.number} {ayah.video.word && `• ${ayah.video.word}`}
                     </p>
                   </div>
                 </div>
@@ -196,7 +211,7 @@ export default function AyahCard({ ayah, onClick, isSelected }: AyahCardProps) {
               {/* YouTube Embed */}
               <div className="flex-1 bg-black rounded-b-xl overflow-hidden">
                 <iframe
-                  src={`https://www.youtube.com/embed/${ayah.video.videoId}?autoplay=1&rel=0`}
+                  src={`https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`}
                   title={ayah.video.title}
                   className="w-full h-full"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
