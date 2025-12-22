@@ -4,7 +4,13 @@
  */
 
 import { motion } from 'framer-motion';
-import { X, BookOpen, Sparkles } from 'lucide-react';
+import { X, BookOpen, Sparkles, Lightbulb } from 'lucide-react';
+
+interface BasairData {
+  title: string;
+  points: string[];
+  source: string;
+}
 
 interface Ayah {
   number: number;
@@ -21,6 +27,7 @@ interface Ayah {
     muyassar: { word: string; meaning: string } | Record<string, never>;
     siraj: { word: string; meaning: string } | Record<string, never>;
   };
+  basair?: BasairData;
 }
 
 interface TafsirSource {
@@ -62,6 +69,9 @@ export default function TafsirPanel({
   const hasGharib = 
     (ayah.gharib.muyassar && 'word' in ayah.gharib.muyassar) ||
     (ayah.gharib.siraj && 'word' in ayah.gharib.siraj);
+
+  // Check if basair exists
+  const hasBasair = ayah.basair && ayah.basair.points && ayah.basair.points.length > 0;
 
   return (
     <>
@@ -157,6 +167,33 @@ export default function TafsirPanel({
                 </p>
               </motion.div>
             </div>
+
+            {/* Basair Al-Bayan Section */}
+            {hasBasair && (
+              <div className="mt-6">
+                <div className="flex items-center gap-2 mb-3">
+                  <Lightbulb className="w-5 h-5 text-amber-400" />
+                  <h4 className="font-tajawal font-bold text-foreground">بصائر البيان</h4>
+                  <span className="text-xs text-muted-foreground">- د. فاضل السامرائي</span>
+                </div>
+                <div className="bg-gradient-to-br from-amber-500/10 to-orange-500/10 rounded-xl p-4 border border-amber-500/20">
+                  <h5 className="font-tajawal font-bold text-amber-300 mb-3">
+                    {ayah.basair?.title}
+                  </h5>
+                  <ul className="space-y-2">
+                    {ayah.basair?.points.map((point, index) => (
+                      <li key={index} className="flex gap-2 text-foreground/90">
+                        <span className="text-amber-400 mt-1">•</span>
+                        <span className="tafsir-text leading-relaxed">{point}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="text-xs text-muted-foreground mt-3 pt-2 border-t border-white/10">
+                    المصدر: {ayah.basair?.source}
+                  </p>
+                </div>
+              </div>
+            )}
 
             {/* Gharib Section */}
             {hasGharib && (

@@ -19,6 +19,12 @@ interface Video {
   url: string;
 }
 
+interface BasairData {
+  title: string;
+  points: string[];
+  source: string;
+}
+
 interface Ayah {
   number: number;
   text: string;
@@ -35,6 +41,7 @@ interface Ayah {
     siraj: { word: string; meaning: string } | Record<string, never>;
   };
   video?: Video;
+  basair?: BasairData;
 }
 
 interface SurahData {
