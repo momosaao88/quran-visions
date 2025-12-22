@@ -7,7 +7,7 @@
  */
 
 import { motion } from 'framer-motion';
-import { X, BookOpen, Sparkles, Lightbulb, GraduationCap, Globe } from 'lucide-react';
+import { X, BookOpen, Sparkles, Lightbulb, GraduationCap, Globe, Play, Video } from 'lucide-react';
 import { useState } from 'react';
 
 interface BasairData {
@@ -20,6 +20,13 @@ interface Translations {
   en: string;
   fr: string;
   es: string;
+}
+
+interface ShehriVideo {
+  videoId: string;
+  title: string;
+  url: string;
+  word?: string;
 }
 
 interface Ayah {
@@ -42,6 +49,7 @@ interface Ayah {
   basair_ibn_ashour?: string[];
   ibn_ashour?: string;
   translations?: Translations;
+  shehri_videos?: ShehriVideo[];
 }
 
 interface TafsirSource {
@@ -107,6 +115,9 @@ export default function TafsirPanel({
 
   // Check if translations exist
   const hasTranslations = ayah.translations && (ayah.translations.en || ayah.translations.fr || ayah.translations.es);
+
+  // Check if Shehri videos exist
+  const hasShehriVideos = ayah.shehri_videos && ayah.shehri_videos.length > 0;
 
   return (
     <>
@@ -303,6 +314,42 @@ export default function TafsirPanel({
                   <p className="text-xs text-muted-foreground mt-3 pt-2 border-t border-white/10">
                     المصدر: التحرير والتنوير - الشيخ محمد الطاهر ابن عاشور
                   </p>
+                </div>
+              </div>
+            )}
+
+            {/* Shehri Videos Section */}
+            {hasShehriVideos && (
+              <div className="mt-6">
+                <div className="flex items-center gap-2 mb-3">
+                  <Video className="w-5 h-5 text-red-400" />
+                  <h4 className="font-tajawal font-bold text-foreground">غريب القرآن - فيديو</h4>
+                  <span className="text-xs text-muted-foreground">- الشيخ محمد الشهري</span>
+                </div>
+                <div className="grid gap-3">
+                  {ayah.shehri_videos?.map((video, index) => (
+                    <a
+                      key={index}
+                      href={video.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-gradient-to-br from-red-500/10 to-rose-500/10 rounded-xl p-4 border border-red-500/20 hover:border-red-500/40 transition-all group flex items-center gap-4"
+                    >
+                      <div className="w-16 h-16 bg-red-500/20 rounded-xl flex items-center justify-center group-hover:bg-red-500/30 transition-colors flex-shrink-0">
+                        <Play className="w-8 h-8 text-red-400" />
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <p className="font-tajawal text-foreground/90 line-clamp-2">
+                          {video.title}
+                        </p>
+                        {video.word && (
+                          <p className="text-sm text-red-400 mt-1">
+                            الكلمة: {video.word}
+                          </p>
+                        )}
+                      </div>
+                    </a>
+                  ))}
                 </div>
               </div>
             )}
