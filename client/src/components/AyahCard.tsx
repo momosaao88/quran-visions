@@ -23,7 +23,7 @@ interface Ayah {
     muyassar: string;
     mukhtasar: string;
     saadi: string;
-    jalalayn: string;
+    ibn_kathir?: string;
   };
   gharib: {
     muyassar: { word: string; meaning: string } | Record<string, never>;

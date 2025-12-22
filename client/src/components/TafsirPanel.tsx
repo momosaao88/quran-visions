@@ -1,10 +1,12 @@
 /**
  * مكون لوحة التفسير
  * يعرض التفسيرات المختلفة للآية المحددة
+ * التفسيرات: الميسر، المختصر، السعدي، ابن كثير
+ * البصائر: السامرائي، ابن عاشور
  */
 
 import { motion } from 'framer-motion';
-import { X, BookOpen, Sparkles, Lightbulb } from 'lucide-react';
+import { X, BookOpen, Sparkles, Lightbulb, GraduationCap } from 'lucide-react';
 
 interface BasairData {
   title: string;
@@ -21,13 +23,14 @@ interface Ayah {
     muyassar: string;
     mukhtasar: string;
     saadi: string;
-    jalalayn: string;
+    ibn_kathir?: string;
   };
   gharib: {
     muyassar: { word: string; meaning: string } | Record<string, never>;
     siraj: { word: string; meaning: string } | Record<string, never>;
   };
   basair?: BasairData;
+  basair_ibn_ashour?: string[];
 }
 
 interface TafsirSource {
@@ -60,7 +63,7 @@ export default function TafsirPanel({
       muyassar: ayah.tafsir.muyassar,
       mukhtasar: ayah.tafsir.mukhtasar,
       saadi: ayah.tafsir.saadi,
-      jalalayn: ayah.tafsir.jalalayn,
+      ibn_kathir: ayah.tafsir.ibn_kathir || '',
     };
     return tafsirMap[activeTafsir] || '';
   };
@@ -70,8 +73,11 @@ export default function TafsirPanel({
     (ayah.gharib.muyassar && 'word' in ayah.gharib.muyassar) ||
     (ayah.gharib.siraj && 'word' in ayah.gharib.siraj);
 
-  // Check if basair exists
-  const hasBasair = ayah.basair && ayah.basair.points && ayah.basair.points.length > 0;
+  // Check if basair exists (السامرائي)
+  const hasBasairSamurai = ayah.basair && ayah.basair.points && ayah.basair.points.length > 0;
+
+  // Check if basair ibn ashour exists
+  const hasBasairIbnAshour = ayah.basair_ibn_ashour && ayah.basair_ibn_ashour.length > 0;
 
   return (
     <>
@@ -168,8 +174,8 @@ export default function TafsirPanel({
               </motion.div>
             </div>
 
-            {/* Basair Al-Bayan Section */}
-            {hasBasair && (
+            {/* Basair Al-Bayan Section - السامرائي */}
+            {hasBasairSamurai && (
               <div className="mt-6">
                 <div className="flex items-center gap-2 mb-3">
                   <Lightbulb className="w-5 h-5 text-amber-400" />
@@ -190,6 +196,30 @@ export default function TafsirPanel({
                   </ul>
                   <p className="text-xs text-muted-foreground mt-3 pt-2 border-t border-white/10">
                     المصدر: {ayah.basair?.source}
+                  </p>
+                </div>
+              </div>
+            )}
+
+            {/* Basair Ibn Ashour Section - ابن عاشور */}
+            {hasBasairIbnAshour && (
+              <div className="mt-6">
+                <div className="flex items-center gap-2 mb-3">
+                  <GraduationCap className="w-5 h-5 text-emerald-400" />
+                  <h4 className="font-tajawal font-bold text-foreground">بصائر ابن عاشور</h4>
+                  <span className="text-xs text-muted-foreground">- التحرير والتنوير</span>
+                </div>
+                <div className="bg-gradient-to-br from-emerald-500/10 to-teal-500/10 rounded-xl p-4 border border-emerald-500/20">
+                  <ul className="space-y-3">
+                    {ayah.basair_ibn_ashour?.map((point, index) => (
+                      <li key={index} className="flex gap-2 text-foreground/90">
+                        <span className="text-emerald-400 mt-1 flex-shrink-0">◆</span>
+                        <span className="tafsir-text leading-relaxed">{point}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="text-xs text-muted-foreground mt-3 pt-2 border-t border-white/10">
+                    المصدر: التحرير والتنوير - الشيخ محمد الطاهر ابن عاشور
                   </p>
                 </div>
               </div>

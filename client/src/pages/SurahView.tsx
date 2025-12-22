@@ -34,7 +34,7 @@ interface Ayah {
     muyassar: string;
     mukhtasar: string;
     saadi: string;
-    jalalayn: string;
+    ibn_kathir?: string;
   };
   gharib: {
     muyassar: { word: string; meaning: string } | Record<string, never>;
@@ -42,6 +42,7 @@ interface Ayah {
   };
   video?: Video;
   basair?: BasairData;
+  basair_ibn_ashour?: string[];
 }
 
 interface SurahData {
@@ -59,7 +60,7 @@ const tafsirSources = [
   { id: 'muyassar', name: 'التفسير الميسر', author: 'مجمع الملك فهد' },
   { id: 'mukhtasar', name: 'المختصر في التفسير', author: 'مركز تفسير' },
   { id: 'saadi', name: 'تفسير السعدي', author: 'عبدالرحمن السعدي' },
-  { id: 'jalalayn', name: 'تفسير الجلالين', author: 'المحلي والسيوطي' },
+  { id: 'ibn_kathir', name: 'تفسير ابن كثير', author: 'إسماعيل بن كثير' },
 ];
 
 // Gharib sources
