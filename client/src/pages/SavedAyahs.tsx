@@ -9,6 +9,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronRight, Trash2, Home, BookmarkX } from 'lucide-react';
 import { useSavedAyahs } from '@/hooks/useSavedAyahs';
 import StarField from '@/components/StarField';
+import ExportShareOptions from '@/components/ExportShareOptions';
 
 export default function SavedAyahs() {
   const { savedAyahs, removeAyah, clearAll, isLoaded } = useSavedAyahs();
@@ -95,18 +96,23 @@ export default function SavedAyahs() {
                     {savedAyahs.length} آية
                   </span>
                 </div>
-                {savedAyahs.length > 0 && (
-                  <button
-                    onClick={() => {
-                      if (confirm('هل أنت متأكد من حذف جميع الآيات المحفوظة؟')) {
-                        clearAll();
-                      }
-                    }}
-                    className="px-4 py-2 text-red-500 hover:bg-red-500/10 rounded-lg transition-colors"
-                  >
-                    حذف الكل
-                  </button>
-                )}
+                <div className="flex items-center gap-2">
+                  {savedAyahs.length > 0 && (
+                    <>
+                      <ExportShareOptions ayahs={savedAyahs} />
+                      <button
+                        onClick={() => {
+                          if (confirm('هل أنت متأكد من حذف جميع الآيات المحفوظة؟')) {
+                            clearAll();
+                          }
+                        }}
+                        className="px-4 py-2 text-red-500 hover:bg-red-500/10 rounded-lg transition-colors"
+                      >
+                        حذف الكل
+                      </button>
+                    </>
+                  )}
+                </div>
               </div>
 
               {/* Ayahs List */}

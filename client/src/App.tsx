@@ -3,6 +3,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import SurahIndex from "@/pages/SurahIndex";
 import SurahView from "@/pages/SurahView";
 import SavedAyahs from "@/pages/SavedAyahs";
+import SharedAyahs from "@/pages/SharedAyahs";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
         
         {/* صفحة الآيات المحفوظة */}
         <Route path="/saved" component={SavedAyahs} />
+        
+        {/* صفحة الآيات المشتركة */}
+        <Route path="/share/:id" component={SharedAyahs} />
         
         {/* صفحة 404 */}
         <Route>
