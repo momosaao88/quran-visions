@@ -7,6 +7,7 @@
 import { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Play, X, Video } from 'lucide-react';
+import SaveShareButtons from './SaveShareButtons';
 
 interface VideoMeaning {
   ar: string;
@@ -50,15 +51,22 @@ interface Ayah {
   };
   video?: Video;
   shehri_videos?: ShehriVideo[];
+  translations?: {
+    en: string;
+    fr: string;
+    es: string;
+  };
 }
 
 interface AyahCardProps {
   ayah: Ayah;
   onClick: () => void;
   isSelected: boolean;
+  surahNumber?: number;
+  surahName?: string;
 }
 
-export default function AyahCard({ ayah, onClick, isSelected }: AyahCardProps) {
+export default function AyahCard({ ayah, onClick, isSelected, surahNumber = 1, surahName = 'الفاتحة' }: AyahCardProps) {
   const [showVideo, setShowVideo] = useState(false);
   
   // Check if ayah has gharib content
@@ -217,6 +225,17 @@ export default function AyahCard({ ayah, onClick, isSelected }: AyahCardProps) {
             {ayah.juz && `الجزء ${ayah.juz}`} {ayah.page && `• صفحة ${ayah.page}`}
           </div>
         )}
+
+        {/* Save and Share Buttons */}
+        <div className="absolute top-4 left-4">
+          <SaveShareButtons
+            surahNumber={surahNumber}
+            surahName={surahName}
+            ayahNumber={ayah.number}
+            ayahText={ayah.text}
+            translations={ayah.translations}
+          />
+        </div>
 
         {/* Decorative Corner */}
         <div className={`absolute top-0 left-0 w-8 h-8 border-t-2 border-l-2 rounded-tl-xl ${hasVideo ? 'border-red-500/40' : 'border-primary/20'}`} />

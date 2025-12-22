@@ -265,6 +265,8 @@ export default function SurahView() {
                     ayah={ayah}
                     onClick={() => handleAyahClick(ayah)}
                     isSelected={selectedAyah?.number === ayah.number}
+                    surahNumber={surahData.number}
+                    surahName={surahData.name}
                   />
                 </motion.div>
               ))}

@@ -9,7 +9,7 @@
 import { useState, useEffect, useMemo } from 'react';
 import { Link } from 'wouter';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Book, Play, ChevronLeft, Filter, Grid, List, Search, Moon, Sun, Video } from 'lucide-react';
+import { Book, Play, ChevronLeft, Filter, Grid, List, Search, Moon, Sun, Video, Bookmark } from 'lucide-react';
 import StarField from '../components/StarField';
 import indexData from '../data/surahs/index.json';
 
@@ -121,6 +121,16 @@ export default function SurahIndex() {
             <p className="font-tajawal text-sm text-muted-foreground/70">
               تفسير • ترجمة • بصائر • غريب القرآن
             </p>
+
+            {/* Saved Ayahs Button */}
+            <div className="flex justify-center mb-6">
+              <Link href="/saved">
+                <button className="flex items-center gap-2 px-4 py-2 bg-primary/20 text-primary rounded-lg hover:bg-primary/30 transition-colors">
+                  <Bookmark className="w-4 h-4" />
+                  <span>الآيات المحفوظة</span>
+                </button>
+              </Link>
+            </div>
 
             {/* Stats */}
             <div className="flex justify-center gap-6 md:gap-10 mt-4">

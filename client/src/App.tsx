@@ -2,6 +2,7 @@ import { Switch, Route } from "wouter";
 import { ThemeProvider } from "@/components/theme-provider";
 import SurahIndex from "@/pages/SurahIndex";
 import SurahView from "@/pages/SurahView";
+import SavedAyahs from "@/pages/SavedAyahs";
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
         
         {/* صفحة عرض السورة */}
         <Route path="/surah/:number" component={SurahView} />
+        
+        {/* صفحة الآيات المحفوظة */}
+        <Route path="/saved" component={SavedAyahs} />
         
         {/* صفحة 404 */}
         <Route>
