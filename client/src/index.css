@@ -1,8 +1,24 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Tajawal:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Tajawal:wght@300;400;500;700&family=Cairo:wght@400;600;700&family=Lateef:wght@400;600;700&display=swap');
 
 @theme inline {
-  /* Contemporary Islamic with Cosmic Night Theme - OKLCH format */
+  /* Color Reference - Traditional Islamic Design */
+  /* Quranic text colors */
+  --quran-text: #1a5f3f; /* Dark noble green */
+  --quran-bg: #f8fdf9; /* Very light background */
+  
+  /* Explanation text colors */
+  --explanation-text: #2c3e50; /* Dark gray */
+  --explanation-bg: #ffffff; /* White */
+  
+  /* Heading colors */
+  --heading: #c17e3a; /* Heritage gold */
+  
+  /* Button colors */
+  --primary-btn: #2ecc71; /* Green */
+  --secondary-btn: #95a5a6; /* Gray */
+  
+  /* Tailwind theme colors - OKLCH format */
   --color-background: oklch(15% 0.03 250);
   --color-foreground: oklch(97% 0.02 85);
   
@@ -47,6 +63,8 @@
   /* Font families */
   --font-amiri: 'Amiri', serif;
   --font-tajawal: 'Tajawal', sans-serif;
+  --font-cairo: 'Cairo', sans-serif;
+  --font-lateef: 'Lateef', serif;
 }
 
 @layer base {
@@ -92,11 +110,12 @@
     }
   }
 
-  /* Quran text styling */
+  /* Quran text styling - Reference: 22-24px, weight 700, line-height 2.0 */
   .quran-text {
     font-family: var(--font-amiri);
-    font-size: 1.5rem;
-    line-height: 2;
+    font-size: 1.375rem; /* 22px */
+    font-weight: 700;
+    line-height: 2.0;
     text-align: center;
     color: var(--color-foreground);
     text-shadow: 0 0 30px oklch(75% 0.12 85 / 0.3);
@@ -104,28 +123,37 @@
   
   @media (min-width: 768px) {
     .quran-text {
-      font-size: 1.875rem;
+      font-size: 1.5rem; /* 24px */
     }
   }
   
   @media (min-width: 1024px) {
     .quran-text {
-      font-size: 2.25rem;
+      font-size: 1.5rem; /* 24px */
     }
   }
 
-  /* Tafsir text styling */
+  /* Explanation text styling - Reference: Cairo/Tajawal, 16-18px, weight 400, line-height 1.8 */
   .tafsir-text {
-    font-family: var(--font-tajawal);
-    font-size: 1rem;
-    line-height: 1.75;
+    font-family: var(--font-cairo), var(--font-tajawal);
+    font-size: 1rem; /* 16px */
+    font-weight: 400;
+    line-height: 1.8;
     color: var(--color-muted-foreground);
   }
   
   @media (min-width: 768px) {
     .tafsir-text {
-      font-size: 1.125rem;
+      font-size: 1.125rem; /* 18px */
     }
+  }
+
+  /* Heading styling - Reference: Lateef/Amiri, 20px, weight 600 */
+  .heading {
+    font-family: var(--font-lateef), var(--font-amiri);
+    font-size: 1.25rem; /* 20px */
+    font-weight: 600;
+    color: var(--heading);
   }
 
   /* Gold glow effect */
