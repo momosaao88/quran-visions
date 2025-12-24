@@ -11,6 +11,8 @@ import { Link } from 'wouter';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Book, Play, ChevronLeft, Filter, Grid, List, Search, Moon, Sun, Video, Bookmark } from 'lucide-react';
 import StarField from '../components/StarField';
+import ThemeToggle from '../components/ThemeToggle';
+import TranslationToggle from '../components/TranslationToggle';
 import indexData from '../data/surahs/index.json';
 
 interface JuzInfo {
@@ -43,6 +45,7 @@ export default function SurahIndex() {
   const [filterMode, setFilterMode] = useState<FilterMode>('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [showJuzNav, setShowJuzNav] = useState(false);
+  const [activeTranslations, setActiveTranslations] = useState<('en' | 'fr' | 'es')[]>([]);
 
   useEffect(() => {
     setSurahs(indexData.surahs);
@@ -122,14 +125,15 @@ export default function SurahIndex() {
               تفسير • ترجمة • بصائر • غريب القرآن
             </p>
 
-            {/* Saved Ayahs Button */}
-            <div className="flex justify-center mb-6">
+            {/* Saved Ayahs Button and Theme Toggle */}
+            <div className="flex justify-center gap-3 mb-6">
               <Link href="/saved">
                 <button className="flex items-center gap-2 px-4 py-2 bg-primary/20 text-primary rounded-lg hover:bg-primary/30 transition-colors">
                   <Bookmark className="w-4 h-4" />
                   <span>الآيات المحفوظة</span>
                 </button>
               </Link>
+              <ThemeToggle />
             </div>
 
             {/* Stats */}

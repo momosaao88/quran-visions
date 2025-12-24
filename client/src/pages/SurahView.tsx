@@ -10,6 +10,8 @@ import { ChevronRight, ChevronLeft, Home, Youtube } from 'lucide-react';
 import AyahCard from '../components/AyahCard';
 import TafsirPanel from '../components/TafsirPanel';
 import StarField from '../components/StarField';
+import ThemeToggle from '../components/ThemeToggle';
+import TranslationToggle from '../components/TranslationToggle';
 import { useSavedAyahs } from '../hooks/useSavedAyahs';
 import indexData from '../data/surahs/index.json';
 
@@ -89,6 +91,15 @@ export default function SurahView() {
   const [selectedAyah, setSelectedAyah] = useState<Ayah | null>(null);
   const [showTafsir, setShowTafsir] = useState(false);
   const [activeTafsir, setActiveTafsir] = useState<string>('muyassar');
+  const [activeTranslations, setActiveTranslations] = useState<('en' | 'fr' | 'es')[]>([]);
+
+  const handleToggleTranslation = (translation: 'en' | 'fr' | 'es') => {
+    setActiveTranslations(prev =>
+      prev.includes(translation)
+        ? prev.filter(t => t !== translation)
+        : [...prev, translation]
+    );
+  };
 
   // Load surah data
   useEffect(() => {
@@ -182,6 +193,12 @@ export default function SurahView() {
                 <span className="hidden sm:inline">فهرس السور</span>
               </button>
             </Link>
+
+            {/* Theme and Translation Toggle */}
+            <div className="flex items-center gap-2">
+              <ThemeToggle />
+              <TranslationToggle activeTranslations={activeTranslations} onToggle={handleToggleTranslation} />
+            </div>
 
             {/* Surah Navigation */}
             <div className="flex items-center gap-2">
