@@ -64,9 +64,10 @@ interface AyahCardProps {
   isSelected: boolean;
   surahNumber?: number;
   surahName?: string;
+  isSaved?: boolean;
 }
 
-export default function AyahCard({ ayah, onClick, isSelected, surahNumber = 1, surahName = 'الفاتحة' }: AyahCardProps) {
+export default function AyahCard({ ayah, onClick, isSelected, surahNumber = 1, surahName = 'الفاتحة', isSaved = false }: AyahCardProps) {
   const [showVideo, setShowVideo] = useState(false);
   
   // Check if ayah has gharib content
@@ -124,8 +125,12 @@ export default function AyahCard({ ayah, onClick, isSelected, surahNumber = 1, s
       classes.push('ring-2', 'ring-primary/50', 'bg-white/10');
     }
     
+    if (isSaved) {
+      classes.push('ring-2', 'ring-amber-500/50', 'bg-amber-500/5');
+    }
+    
     return classes.join(' ');
-  }, [isSelected, hasVideo]);
+  }, [isSelected, hasVideo, isSaved]);
 
   return (
     <>
@@ -138,6 +143,11 @@ export default function AyahCard({ ayah, onClick, isSelected, surahNumber = 1, s
         {/* Video Highlight Glow Effect */}
         {hasVideo && (
           <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-red-500/20 via-red-500/5 to-red-500/20 pointer-events-none" />
+        )}
+
+        {/* Saved Highlight Glow Effect */}
+        {isSaved && !hasVideo && (
+          <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-amber-500/20 via-amber-500/5 to-amber-500/20 pointer-events-none" />
         )}
 
         {/* Ayah Number Badge */}

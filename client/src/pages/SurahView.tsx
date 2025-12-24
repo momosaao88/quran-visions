@@ -10,6 +10,7 @@ import { ChevronRight, ChevronLeft, Home, Youtube } from 'lucide-react';
 import AyahCard from '../components/AyahCard';
 import TafsirPanel from '../components/TafsirPanel';
 import StarField from '../components/StarField';
+import { useSavedAyahs } from '../hooks/useSavedAyahs';
 import indexData from '../data/surahs/index.json';
 
 // Types
@@ -81,6 +82,7 @@ const gharibSources = [
 export default function SurahView() {
   const params = useParams<{ number: string }>();
   const surahNumber = parseInt(params.number || '78');
+  const { isAyahSaved } = useSavedAyahs();
   
   const [surahData, setSurahData] = useState<SurahData | null>(null);
   const [loading, setLoading] = useState(true);
@@ -267,6 +269,7 @@ export default function SurahView() {
                     isSelected={selectedAyah?.number === ayah.number}
                     surahNumber={surahData.number}
                     surahName={surahData.name}
+                    isSaved={isAyahSaved(surahData.number, ayah.number)}
                   />
                 </motion.div>
               ))}
