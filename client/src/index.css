@@ -110,10 +110,10 @@
     }
   }
 
-  /* Quran text styling - Reference: 22-24px, weight 700, line-height 1.8 */
+  /* Quran text styling - Reference: 18-20px, weight 700, line-height 1.8-2.0 */
   .quran-text {
     font-family: var(--font-amiri);
-    font-size: 1.75rem; /* 28px - Larger for visual hierarchy */
+    font-size: 1.125rem; /* 18px - Mobile */
     font-weight: 700;
     line-height: 1.8;
     text-align: center;
@@ -124,20 +124,22 @@
   
   @media (min-width: 768px) {
     .quran-text {
-      font-size: 2rem; /* 32px - Even larger on tablets */
+      font-size: 1.25rem; /* 20px - Tablet */
+      line-height: 1.9;
     }
   }
   
   @media (min-width: 1024px) {
     .quran-text {
-      font-size: 2.25rem; /* 36px - Maximum on desktop */
+      font-size: 1.25rem; /* 20px - Desktop */
+      line-height: 2.0;
     }
   }
 
-  /* Explanation text styling - Reference: Cairo/Tajawal, 16-18px, weight 400, line-height 1.8 */
+  /* Explanation text styling - Reference: Cairo/Tajawal, 14-16px, weight 400, line-height 1.8 */
   .tafsir-text {
     font-family: var(--font-cairo), var(--font-tajawal);
-    font-size: 0.95rem; /* 15px - Smaller than Quran text for hierarchy */
+    font-size: 0.875rem; /* 14px - Mobile */
     font-weight: 400;
     line-height: 1.8;
     color: var(--color-muted-foreground);
@@ -146,7 +148,8 @@
   
   @media (min-width: 768px) {
     .tafsir-text {
-      font-size: 1rem; /* 16px */
+      font-size: 1rem; /* 16px - Tablet and Desktop */
+      line-height: 1.8;
     }
   }
 
