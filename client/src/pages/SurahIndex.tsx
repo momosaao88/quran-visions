@@ -152,16 +152,16 @@ export default function SurahIndex() {
       </header>
 
       {/* Juz Navigation */}
-      <section className="relative z-10 py-4 border-y border-white/10 bg-black/20 backdrop-blur-sm">
+      <section className="relative z-10 py-6 border-b border-white/10 bg-gradient-to-b from-black/40 to-black/20 backdrop-blur-md sticky top-0">
         <div className="container">
-          <div className="flex items-center justify-between mb-3">
-            <h2 className="font-amiri text-lg text-primary flex items-center gap-2">
-              <Book className="w-4 h-4" />
+          <div className="flex items-center justify-between mb-4">
+            <h2 className="font-lateef text-xl text-heading flex items-center gap-2">
+              <Book className="w-5 h-5" />
               فهرس الأجزاء
             </h2>
             <button
               onClick={() => setShowJuzNav(!showJuzNav)}
-              className="text-sm text-muted-foreground hover:text-primary transition-colors"
+              className="text-sm text-muted-foreground hover:text-primary transition-colors font-tajawal"
             >
               {showJuzNav ? 'إخفاء' : 'عرض الكل'}
             </button>
@@ -232,29 +232,29 @@ export default function SurahIndex() {
       </section>
 
       {/* Filters & Search */}
-      <section className="relative z-10 py-4">
+      <section className="relative z-10 py-6 bg-black/30 border-b border-white/10">
         <div className="container">
-          <div className="flex flex-wrap items-center justify-between gap-4">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             {/* Search */}
-            <div className="relative flex-1 min-w-[200px] max-w-md">
-              <Search className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
+            <div className="relative flex-1 min-w-[200px] max-w-md w-full md:w-auto">
+              <Search className="absolute right-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
               <input
                 type="text"
                 placeholder="ابحث عن سورة..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full pr-10 pl-4 py-2 bg-white/5 border border-white/10 rounded-lg
-                         text-white placeholder:text-muted-foreground focus:outline-none focus:border-primary/50"
+                className="w-full pr-10 pl-4 py-3 bg-white/10 border border-white/20 rounded-lg
+                         text-white placeholder:text-muted-foreground focus:outline-none focus:border-primary/70 focus:ring-2 focus:ring-primary/20 transition-all"
               />
             </div>
 
             {/* Filters */}
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-3">
               {/* Revelation Type Filter */}
-              <div className="flex bg-white/5 rounded-lg p-1">
+              <div className="flex bg-white/10 rounded-lg p-1 border border-white/10">
                 <button
                   onClick={() => setFilterMode('all')}
-                  className={`px-3 py-1 rounded text-sm transition-all ${
+                  className={`px-4 py-2 rounded text-sm font-tajawal transition-all ${
                     filterMode === 'all' ? 'bg-primary text-primary-foreground' : 'text-muted-foreground hover:text-white'
                   }`}
                 >
@@ -262,20 +262,20 @@ export default function SurahIndex() {
                 </button>
                 <button
                   onClick={() => setFilterMode('meccan')}
-                  className={`px-3 py-1 rounded text-sm transition-all flex items-center gap-1 ${
+                  className={`px-4 py-2 rounded text-sm font-tajawal transition-all flex items-center gap-1 ${
                     filterMode === 'meccan' ? 'bg-amber-500 text-white' : 'text-muted-foreground hover:text-white'
                   }`}
                 >
-                  <Moon className="w-3 h-3" />
+                  <Moon className="w-4 h-4" />
                   مكية
                 </button>
                 <button
                   onClick={() => setFilterMode('medinan')}
-                  className={`px-3 py-1 rounded text-sm transition-all flex items-center gap-1 ${
+                  className={`px-4 py-2 rounded text-sm font-tajawal transition-all flex items-center gap-1 ${
                     filterMode === 'medinan' ? 'bg-emerald-500 text-white' : 'text-muted-foreground hover:text-white'
                   }`}
                 >
-                  <Sun className="w-3 h-3" />
+                  <Sun className="w-4 h-4" />
                   مدنية
                 </button>
               </div>
