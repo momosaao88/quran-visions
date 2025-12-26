@@ -412,4 +412,51 @@
       oklch(15% 0.03 250) 100%
     );
   }
+
+  /* Reflection Navigator */
+  .reflection-navigator {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    padding: 16px;
+    border-bottom: 2px solid #cbd5e1;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  }
+
+  .dark .reflection-navigator {
+    background: linear-gradient(135deg, oklch(20% 0.025 250) 0%, oklch(18% 0.025 250) 100%);
+    border-bottom-color: oklch(25% 0.02 250);
+  }
+
+  .touch-point {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-block;
+  }
+
+  .touch-point-completed {
+    background: #10b981;
+    box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.2);
+  }
+
+  .touch-point-current {
+    background: #3b82f6;
+    transform: scale(1.5);
+    box-shadow: 0 0 0 8px rgba(59, 130, 246, 0.3);
+    animation: pulse 2s infinite;
+  }
+
+  .touch-point-pending {
+    background: #e5e7eb;
+    border: 2px solid #9ca3af;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.6; }
+  }
 }

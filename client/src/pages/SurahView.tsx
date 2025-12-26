@@ -16,6 +16,7 @@ import SurahSidebar from '../components/SurahSidebar';
 import ScrollToTop from '../components/ScrollToTop';
 import ProgressIndicator from '../components/ProgressIndicator';
 import SearchBar from '../components/SearchBar';
+import ReflectionNavigator from '../components/ReflectionNavigator';
 import { useSavedAyahs } from '../hooks/useSavedAyahs';
 import indexData from '../data/surahs/index.json';
 
@@ -194,6 +195,24 @@ export default function SurahView() {
           currentAyah={currentAyahIndex + 1}
           totalAyahs={surahData.ayahCount}
           surahName={surahData.name}
+        />
+      )}
+
+      {/* Reflection Navigator */}
+      {surahData.ayat && surahData.ayat.length > 0 && (
+        <ReflectionNavigator
+          ayahs={surahData.ayat}
+          currentAyahNumber={selectedAyah?.number || 1}
+          onTouchPointClick={(ayahNumber) => {
+            const ayah = surahData.ayat?.find((a: Ayah) => a.number === ayahNumber);
+            if (ayah) {
+              setSelectedAyah(ayah);
+              setShowTafsir(true);
+              // Scroll to ayah
+              const element = document.getElementById(`ayah-${ayahNumber}`);
+              element?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+          }}
         />
       )}
 
