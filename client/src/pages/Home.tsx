@@ -121,6 +121,8 @@ export default function Home() {
                     ayah={ayah as Ayah}
                     onClick={() => handleAyahClick(ayah as Ayah)}
                     isSelected={selectedAyah?.number === ayah.number}
+                    surahNumber={78}
+                    surahName="سورة النبأ"
                   />
                 </motion.div>
               ))}

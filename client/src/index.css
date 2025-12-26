@@ -177,6 +177,28 @@
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
   }
 
+  /* Smart Card - New Design */
+  .smart-card {
+    backdrop-filter: blur(12px);
+    background-color: rgb(255 255 255 / 0.05);
+    border: 1px solid rgb(255 255 255 / 0.1);
+    border-radius: var(--radius-xl);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    margin-bottom: 2.5rem;
+  }
+
+  .smart-card:hover {
+    background-color: rgb(255 255 255 / 0.1);
+    border-color: oklch(75% 0.12 85 / 0.3);
+    transform: translateY(-2px);
+  }
+
+  .smart-card.saved {
+    background-color: oklch(100% 0 0 / 0.05);
+    border-color: oklch(60% 0.15 70 / 0.3);
+  }
+
   /* Ayah card */
   .ayah-card {
     backdrop-filter: blur(12px);
