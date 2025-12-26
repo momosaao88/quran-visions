@@ -3,7 +3,7 @@
  * التصميم: Contemporary Islamic with Cosmic Night Theme
  */
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useParams, Link } from 'wouter';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronRight, ChevronLeft, Home, Youtube } from 'lucide-react';
@@ -12,6 +12,10 @@ import TafsirPanel from '../components/TafsirPanel';
 import StarField from '../components/StarField';
 import ThemeToggle from '../components/ThemeToggle';
 import TranslationToggle from '../components/TranslationToggle';
+import SurahSidebar from '../components/SurahSidebar';
+import ScrollToTop from '../components/ScrollToTop';
+import ProgressIndicator from '../components/ProgressIndicator';
+import SearchBar from '../components/SearchBar';
 import { useSavedAyahs } from '../hooks/useSavedAyahs';
 import indexData from '../data/surahs/index.json';
 
@@ -92,6 +96,8 @@ export default function SurahView() {
   const [showTafsir, setShowTafsir] = useState(false);
   const [activeTafsir, setActiveTafsir] = useState<string>('muyassar');
   const [activeTranslations, setActiveTranslations] = useState<('en' | 'fr' | 'es')[]>([]);
+  const [currentAyahIndex, setCurrentAyahIndex] = useState(0);
+  const ayahsContainerRef = useRef<HTMLDivElement>(null);
 
   const handleToggleTranslation = (translation: 'en' | 'fr' | 'es') => {
     setActiveTranslations(prev =>
@@ -182,6 +188,21 @@ export default function SurahView() {
       {/* Islamic Pattern Overlay */}
       <div className="fixed inset-0 islamic-pattern pointer-events-none" />
 
+      {/* Progress Indicator */}
+      {surahData && (
+        <ProgressIndicator
+          currentAyah={currentAyahIndex + 1}
+          totalAyahs={surahData.ayahCount}
+          surahName={surahData.name}
+        />
+      )}
+
+      {/* Sidebar */}
+      <SurahSidebar currentSurah={surahNumber} />
+
+      {/* Scroll to Top Button */}
+      <ScrollToTop />
+
       {/* Navigation Bar */}
       <nav className="sticky top-0 z-20 bg-black/50 backdrop-blur-md border-b border-white/10">
         <div className="container py-3">
@@ -268,6 +289,7 @@ export default function SurahView() {
           {/* Ayat Section */}
           <section className="mb-16">
             <motion.div
+              ref={ayahsContainerRef}
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.3 }}
@@ -276,6 +298,7 @@ export default function SurahView() {
               {(surahData.ayat || []).map((ayah, index) => (
                 <motion.div
                   key={ayah.number}
+                  data-ayah-number={ayah.number}
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.3, delay: Math.min(index * 0.03, 1) }}
