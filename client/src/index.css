@@ -67,6 +67,52 @@
   --font-lateef: 'Lateef', serif;
 }
 
+/* Light Mode */
+.light {
+  --color-background: oklch(98% 0.01 85);
+  --color-foreground: oklch(15% 0.03 250);
+  --color-card: oklch(100% 0 0);
+  --color-card-foreground: oklch(15% 0.03 250);
+  --color-popover: oklch(100% 0 0);
+  --color-popover-foreground: oklch(15% 0.03 250);
+  --color-primary: oklch(50% 0.15 85);
+  --color-primary-foreground: oklch(100% 0 0);
+  --color-secondary: oklch(40% 0.08 170);
+  --color-secondary-foreground: oklch(100% 0 0);
+  --color-muted: oklch(85% 0.02 250);
+  --color-muted-foreground: oklch(50% 0.02 250);
+  --color-accent: oklch(40% 0.08 170);
+  --color-accent-foreground: oklch(100% 0 0);
+  --color-destructive: oklch(60% 0.2 25);
+  --color-destructive-foreground: oklch(100% 0 0);
+  --color-border: oklch(85% 0.02 250);
+  --color-input: oklch(85% 0.02 250);
+  --color-ring: oklch(50% 0.15 85);
+}
+
+/* Dark Mode */
+.dark {
+  --color-background: oklch(15% 0.03 250);
+  --color-foreground: oklch(97% 0.02 85);
+  --color-card: oklch(18% 0.025 250);
+  --color-card-foreground: oklch(97% 0.02 85);
+  --color-popover: oklch(16% 0.025 250);
+  --color-popover-foreground: oklch(97% 0.02 85);
+  --color-primary: oklch(75% 0.12 85);
+  --color-primary-foreground: oklch(15% 0.03 250);
+  --color-secondary: oklch(40% 0.08 170);
+  --color-secondary-foreground: oklch(97% 0.02 85);
+  --color-muted: oklch(25% 0.02 250);
+  --color-muted-foreground: oklch(65% 0.02 250);
+  --color-accent: oklch(40% 0.08 170);
+  --color-accent-foreground: oklch(97% 0.02 85);
+  --color-destructive: oklch(60% 0.2 25);
+  --color-destructive-foreground: oklch(100% 0 0);
+  --color-border: oklch(25% 0.02 250);
+  --color-input: oklch(25% 0.02 250);
+  --color-ring: oklch(75% 0.12 85);
+}
+
 @layer base {
   * {
     border-color: var(--color-border);
