@@ -88,7 +88,7 @@ export default function SmartCard({
         <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent mb-6" />
 
         {/* Tafsir/Gharib Section */}
-        {(tafsir?.muyassar || gharib?.muyassar || gharib?.siraj) && (
+        {(tafsir?.muyassar || tafsir?.mukhtasar || tafsir?.saadi || gharib?.muyassar || gharib?.siraj) && (
           <div className="mb-6">
             {/* Header */}
             <button
@@ -98,7 +98,7 @@ export default function SmartCard({
               <div className="flex items-center gap-2">
                 <Lightbulb size={18} className="text-amber-500" />
                 <span className="font-tajawal font-semibold text-foreground">
-                  {gharib?.muyassar ? 'غريب القرآن' : 'التفسير'}
+                  {gharib?.muyassar || gharib?.siraj ? 'غريب القرآن' : 'التفسير'}
                 </span>
               </div>
               <motion.div
