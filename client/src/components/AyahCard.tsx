@@ -128,6 +128,7 @@ export default function AyahCard({
         surahName={surahName}
         tafsir={tafsirData}
         gharib={gharibData}
+        shehri_videos={ayah.shehri_videos}
         translations={ayah.translations}
         isSaved={isSaved}
         onAyahClick={onClick}
