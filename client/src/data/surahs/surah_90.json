@@ -31,7 +31,8 @@
         "en": "I swear by this city, Makkah -",
         "fr": "Non!... Je jure par cette Cité!",
         "es": "¡No! ¡Juro por esta ciudad,"
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 2,
@@ -58,7 +59,8 @@
         "en": "And you, [O Muhammad], are free of restriction in this city -",
         "fr": "et toi, tu es un résident dans cette cité -",
         "es": "en la que estás avecindado!"
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 3,
@@ -83,7 +85,8 @@
         "en": "And [by] the father and that which was born [of him],",
         "fr": "Et par le père et ce qu'il engendre!",
         "es": "¡Por todo padre y lo que ha engendrado!"
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 4,
@@ -110,7 +113,8 @@
         "en": "We have certainly created man into hardship.",
         "fr": "Nous avons, certes, créé l'homme pour une vie de lutte.",
         "es": "Hemos creado al hombre en aflicción."
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 5,
@@ -135,7 +139,8 @@
         "en": "Does he think that never will anyone overcome him?",
         "fr": "Pense-t-il que personne ne pourra rien contre lui?",
         "es": "¿Cree que nadie podrá contra él?"
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 6,
@@ -156,7 +161,8 @@
         "en": "He says, \"I have spent wealth in abundance.\"",
         "fr": "Il dit: «J'ai gaspillé beaucoup de biens».",
         "es": "Dice: «He consumido una hacienda considerable»."
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 7,
@@ -181,7 +187,8 @@
         "en": "Does he think that no one has seen him?",
         "fr": "Pense-t-il que nul ne l'a vu?",
         "es": "¿Cree que nadie le ha visto?"
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 8,
@@ -205,7 +212,8 @@
         "en": "Have We not made for him two eyes?",
         "fr": "Ne lui avons Nous pas assigné deux yeux,",
         "es": "¿No le hemos dado dos ojos,"
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 9,
@@ -226,7 +234,8 @@
         "en": "And a tongue and two lips?",
         "fr": "et une langue et deux lèvres?",
         "es": "una lengua y dos labios?"
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 10,
@@ -256,7 +265,8 @@
         "en": "And have shown him the two ways?",
         "fr": "Ne l'avons-Nous pas guidé aux deux voies.",
         "es": "¿No le hemos mostrado las dos vías?"
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 11,
@@ -283,7 +293,8 @@
         "en": "But he has not broken through the difficult pass.",
         "fr": "Or, il ne s'engage pas dans la voie difficile!",
         "es": "Pues nunca se ha puesto a subir la Cuesta."
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 12,
@@ -309,7 +320,8 @@
         "en": "And what can make you know what is [breaking through] the difficult pass?",
         "fr": "Et qui te dira ce qu'est la voie difficile?",
         "es": "Y ¿cómo sabrás qué es la Cuesta?"
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 13,
@@ -336,7 +348,8 @@
         "en": "It is the freeing of a slave",
         "fr": "C'est délier un joug [affranchir un esclave],",
         "es": "Es manumitir a un esclavo,"
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 14,
@@ -360,7 +373,8 @@
         "en": "Or feeding on a day of severe hunger",
         "fr": "ou nourrir, en un jour de famine,",
         "es": "Alimentar en tiempo de hambre"
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 15,
@@ -381,7 +395,8 @@
         "en": "An orphan of near relationship",
         "fr": "un orphelin proche parent",
         "es": "A un pariente próximo huérfano,"
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 16,
@@ -408,7 +423,8 @@
         "en": "Or a needy person in misery",
         "fr": "ou un pauvre dans le dénuement.",
         "es": "A un pobre en la miseria."
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 17,
@@ -433,7 +449,8 @@
         "en": "And then being among those who believed and advised one another to patience and advised one another to compassion.",
         "fr": "Et c'est être, en outre, de ceux qui croient et s'enjoignent mutuellement l'endurance, et s'enjoignent mutuellement la miséricorde.",
         "es": "Es, también, formar parte de los que creen, de los que se recomiendan mutuamente la paciencia y la misericordia."
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 18,
@@ -457,7 +474,8 @@
         "en": "Those are the companions of the right.",
         "fr": "Ceux-là sont les gens de la droite;",
         "es": "Ésos son los de la Derecha."
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 19,
@@ -482,7 +500,8 @@
         "en": "But they who disbelieved in Our signs - those are the companions of the left.",
         "fr": "alors que ceux qui ne croient pas en Nos versets sont les gens de la gauche.",
         "es": "En cambio, los que no creen en Nuestros signos, ésos son los de la izquierda."
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 20,
@@ -507,7 +526,8 @@
         "en": "Over them will be fire closed in.",
         "fr": "Le Feu se refermera sur eux.",
         "es": "Se cerrará un fuego sobre ellos."
-      }
+      },
+      "shehri_videos": []
     }
   ]
 }

@@ -40,7 +40,8 @@
         "en": "Say, \"He is Allah, [who is] One,",
         "fr": "Dis: «Il est Allah, Unique.",
         "es": "Di: «¡Él es Alá, Uno,"
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 2,
@@ -80,7 +81,8 @@
         "en": "Allah, the Eternal Refuge.",
         "fr": "Allah, Le Seul à être imploré pour ce que nous désirons.",
         "es": "Dios, el Eterno."
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 3,
@@ -105,7 +107,8 @@
         "en": "He neither begets nor is born,",
         "fr": "Il n'a jamais engendré, n'a pas été engendré non plus.",
         "es": "No ha engendrado, ni ha sido engendrado."
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 4,
@@ -132,7 +135,8 @@
         "en": "Nor is there to Him any equivalent.\"",
         "fr": "Et nul n'est égal à Lui».",
         "es": "No tiene par»."
-      }
+      },
+      "shehri_videos": []
     }
   ]
 }

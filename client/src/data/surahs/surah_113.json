@@ -31,7 +31,8 @@
         "en": "Say, \"I seek refuge in the Lord of daybreak",
         "fr": "Dis: «Je cherche protection auprès du Seigneur de l'aube naissante,",
         "es": "Di: «Me refugio en el Señor del alba"
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 2,
@@ -52,7 +53,8 @@
         "en": "From the evil of that which He created",
         "fr": "contre le mal des êtres qu'Il a créés,",
         "es": "del mal que hacen sus criaturas,"
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 3,
@@ -93,7 +95,8 @@
         "en": "And from the evil of darkness when it settles",
         "fr": "contre le mal de l'obscurité quand elle s'approfondit,",
         "es": "del mal de la oscuridad cuando se extiende,"
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 4,
@@ -128,7 +131,8 @@
         "en": "And from the evil of the blowers in knots",
         "fr": "contre le mal de celles qui soufflent [les sorcières] sur les nœuds,",
         "es": "del mal de las que soplan en los nudos,"
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 5,
@@ -155,7 +159,8 @@
         "en": "And from the evil of an envier when he envies.\"",
         "fr": "et contre le mal de l'envieux quand il envie».",
         "es": "del mal envidioso cuando envidia»."
-      }
+      },
+      "shehri_videos": []
     }
   ]
 }

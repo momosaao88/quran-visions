@@ -31,7 +31,8 @@
         "en": "Indeed, We have granted you, [O Muhammad], al-Kawthar.",
         "fr": "Nous t'avons certes, accordé l'Abondance.",
         "es": "Te hemos dado la abundancia."
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 2,
@@ -58,7 +59,8 @@
         "en": "So pray to your Lord and sacrifice [to Him alone].",
         "fr": "Accomplis la Salât pour ton Seigneur et sacrifie.",
         "es": "Ora, pues, a tu Señor y ofrece sacrificios."
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 3,
@@ -85,7 +87,8 @@
         "en": "Indeed, your enemy is the one cut off.",
         "fr": "Celui qui te hait sera certes, sans postérité.",
         "es": "Sí, es quien te odia el privado de posteridad."
-      }
+      },
+      "shehri_videos": []
     }
   ]
 }

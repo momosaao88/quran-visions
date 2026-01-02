@@ -30,7 +30,8 @@
         "en": "By the fig and the olive",
         "fr": "Par le figuier et l'olivier!",
         "es": "¡Por las higueras y los olivos!"
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 2,
@@ -55,7 +56,8 @@
         "en": "And [by] Mount Sinai",
         "fr": "Et par le Mont Sînîn!",
         "es": "¡Por el monte Sinaí!"
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 3,
@@ -82,7 +84,8 @@
         "en": "And [by] this secure city [Makkah],",
         "fr": "Et par cette Cité sûre!",
         "es": "¡Por esta ciudad segura!"
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 4,
@@ -109,7 +112,8 @@
         "en": "We have certainly created man in the best of stature;",
         "fr": "Nous avons certes créé l'homme dans la forme la plus parfaite.",
         "es": "Hemos creado al hombre dándole la mejor complexión."
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 5,
@@ -136,7 +140,8 @@
         "en": "Then We return him to the lowest of the low,",
         "fr": "Ensuite, Nous l'avons ramené au niveau le plus bas,",
         "es": "Luego, hemos hecho de él el más abyecto,"
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 6,
@@ -161,7 +166,8 @@
         "en": "Except for those who believe and do righteous deeds, for they will have a reward uninterrupted.",
         "fr": "sauf ceux qui croient et accomplissent les bonnes œuvres: ceux-là auront une récompense jamais interrompue.",
         "es": "Excepto quienes crean y obren bien, que recibirán una recompensa ininterrumpida."
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 7,
@@ -186,7 +192,8 @@
         "en": "So what yet causes you to deny the Recompense?",
         "fr": "Après cela, qu'est-ce qui te fait traiter la rétribution de mensonge?",
         "es": "Cómo puede aún desmentirse el Juicio?"
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 8,
@@ -213,7 +220,8 @@
         "en": "Is not Allah the most just of judges?",
         "fr": "Allah n'est-Il pas le plus sage des Juges?",
         "es": "¿No es Alá quien mejor decide?"
-      }
+      },
+      "shehri_videos": []
     }
   ]
 }

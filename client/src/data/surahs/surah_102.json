@@ -29,7 +29,8 @@
         "en": "Competition in [worldly] increase diverts you",
         "fr": "La course aux richesses vous distrait,",
         "es": "El afán de lucro os distrae"
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 2,
@@ -54,7 +55,8 @@
         "en": "Until you visit the graveyards.",
         "fr": "jusqu'à ce que vous visitiez les tombes.",
         "es": "hasta la hora de la muerte."
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 3,
@@ -78,7 +80,8 @@
         "en": "No! You are going to know.",
         "fr": "Mais non! Vous saurez bientôt!",
         "es": "¡No! ¡Ya veréis...!"
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 4,
@@ -103,7 +106,8 @@
         "en": "Then no! You are going to know.",
         "fr": "(Encore une fois)! Vous saurez bientôt!",
         "es": "¡No y no! ¡Ya veréis...!"
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 5,
@@ -130,7 +134,8 @@
         "en": "No! If you only knew with knowledge of certainty...",
         "fr": "Sûrement! Si vous saviez de science certaine.",
         "es": "¡No! Si supierais a ciencia cierta..."
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 6,
@@ -157,7 +162,8 @@
         "en": "You will surely see the Hellfire.",
         "fr": "Vous verrez, certes, la Fournaise.",
         "es": "¡Veréis, de seguro, el fuego de la gehena!"
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 7,
@@ -184,7 +190,8 @@
         "en": "Then you will surely see it with the eye of certainty.",
         "fr": "Puis, vous la verrez certes, avec l'œil de la certitude.",
         "es": "¡Sí, lo veréis con ojos de certeza!"
-      }
+      },
+      "shehri_videos": []
     },
     {
       "number": 8,
@@ -210,7 +217,8 @@
         "en": "Then you will surely be asked that Day about pleasure.",
         "fr": "Puis, assurément, vous serez interrogés, ce jour-là, sur les délices.",
         "es": "Luego, ese día, se os preguntará, ciertamente, por la delicia."
-      }
+      },
+      "shehri_videos": []
     }
   ]
 }
