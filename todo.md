@@ -5,6 +5,8 @@
 - [x] Create script to add gharib data (Muyassar and Siraj) to all 114 surahs
 - [x] Add Shehri videos from video-mappings.ts to corresponding verses
 - [x] Update all surah JSON files with gharib and shehri_videos fields
+- [x] Apply comprehensive gharib database (159 entries across 137 verses)
+- [x] Verify gharib data in all surahs
 - [ ] Test gharib display in SmartCard component
 - [ ] Verify video player integration
 

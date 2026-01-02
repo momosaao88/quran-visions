@@ -1465,8 +1465,14 @@
         }
       ],
       "gharib": {
-        "muyassar": {},
-        "siraj": {}
+        "muyassar": {
+          "word": "باسرة",
+          "meaning": "عابسة"
+        },
+        "siraj": {
+          "word": "باسرة",
+          "meaning": "عابسة مكفهرة"
+        }
       }
     },
     {

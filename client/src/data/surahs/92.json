@@ -542,8 +542,14 @@
         "word": "سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ"
       },
       "gharib": {
-        "muyassar": {},
-        "siraj": {}
+        "muyassar": {
+          "word": "الليل",
+          "meaning": "الليل"
+        },
+        "siraj": {
+          "word": "الليل",
+          "meaning": "الليل إذا يغشى"
+        }
       },
       "shehri_videos": []
     },

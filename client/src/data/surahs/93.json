@@ -296,8 +296,14 @@
         "word": "سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ"
       },
       "gharib": {
-        "muyassar": {},
-        "siraj": {}
+        "muyassar": {
+          "word": "الضحى",
+          "meaning": "الضحى"
+        },
+        "siraj": {
+          "word": "الضحى",
+          "meaning": "ضوء النهار"
+        }
       },
       "shehri_videos": []
     },

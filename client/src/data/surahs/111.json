@@ -165,8 +165,14 @@
         "word": "سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ"
       },
       "gharib": {
-        "muyassar": {},
-        "siraj": {}
+        "muyassar": {
+          "word": "اللهب",
+          "meaning": "النار"
+        },
+        "siraj": {
+          "word": "اللهب",
+          "meaning": "نار جهنم"
+        }
       },
       "shehri_videos": []
     },

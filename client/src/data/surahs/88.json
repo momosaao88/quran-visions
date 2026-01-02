@@ -710,8 +710,14 @@
         "word": "سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ"
       },
       "gharib": {
-        "muyassar": {},
-        "siraj": {}
+        "muyassar": {
+          "word": "الغاشية",
+          "meaning": "القيامة"
+        },
+        "siraj": {
+          "word": "الغاشية",
+          "meaning": "يوم القيامة الغاشية"
+        }
       },
       "shehri_videos": [
         {

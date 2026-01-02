@@ -489,8 +489,14 @@
         "word": "سنسمه على الخرطوم"
       },
       "gharib": {
-        "muyassar": {},
-        "siraj": {}
+        "muyassar": {
+          "word": "سبح",
+          "meaning": "نزه"
+        },
+        "siraj": {
+          "word": "سبح",
+          "meaning": "نزه ربك من النقائص"
+        }
       },
       "shehri_videos": []
     },

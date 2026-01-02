@@ -233,8 +233,14 @@
         "word": "سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ"
       },
       "gharib": {
-        "muyassar": {},
-        "siraj": {}
+        "muyassar": {
+          "word": "زلزلت",
+          "meaning": "تحركت"
+        },
+        "siraj": {
+          "word": "زلزلت",
+          "meaning": "اهتزت وتزعزعت"
+        }
       },
       "shehri_videos": []
     },

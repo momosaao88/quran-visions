@@ -297,8 +297,14 @@
         "word": "سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ"
       },
       "gharib": {
-        "muyassar": {},
-        "siraj": {}
+        "muyassar": {
+          "word": "العاديات",
+          "meaning": "الخيل"
+        },
+        "siraj": {
+          "word": "العاديات",
+          "meaning": "الخيل التي تعدو"
+        }
       },
       "shehri_videos": [
         {

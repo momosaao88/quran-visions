@@ -129,8 +129,14 @@
         }
       },
       "gharib": {
-        "muyassar": {},
-        "siraj": {}
+        "muyassar": {
+          "word": "إيلاف",
+          "meaning": "العادة والألفة"
+        },
+        "siraj": {
+          "word": "إيلاف",
+          "meaning": "الألفة والعهد"
+        }
       },
       "shehri_videos": []
     },

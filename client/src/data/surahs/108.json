@@ -104,8 +104,14 @@
         "word": "طين لازب"
       },
       "gharib": {
-        "muyassar": {},
-        "siraj": {}
+        "muyassar": {
+          "word": "الكوثر",
+          "meaning": "نهر في الجنة"
+        },
+        "siraj": {
+          "word": "الكوثر",
+          "meaning": "نهر من أنهار الجنة"
+        }
       },
       "shehri_videos": []
     },

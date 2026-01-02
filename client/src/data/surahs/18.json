@@ -2537,8 +2537,14 @@
       },
       "ibn_ashour": "",
       "gharib": {
-        "muyassar": {},
-        "siraj": {}
+        "muyassar": {
+          "word": "الكهف",
+          "meaning": "الغار"
+        },
+        "siraj": {
+          "word": "الكهف",
+          "meaning": "غار في الجبل"
+        }
       },
       "shehri_videos": []
     },

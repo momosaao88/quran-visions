@@ -1041,8 +1041,14 @@
         "source": "لمسات بيانية - د. فاضل السامرائي"
       },
       "gharib": {
-        "muyassar": {},
-        "siraj": {}
+        "muyassar": {
+          "word": "عبس",
+          "meaning": "عبس الوجه"
+        },
+        "siraj": {
+          "word": "عبس",
+          "meaning": "عبس وأظهر الكراهة"
+        }
       },
       "shehri_videos": [
         {

@@ -159,8 +159,14 @@
         "source": "لمسات بيانية - د. فاضل السامرائي"
       },
       "gharib": {
-        "muyassar": {},
-        "siraj": {}
+        "muyassar": {
+          "word": "الله",
+          "meaning": "الإله الحق"
+        },
+        "siraj": {
+          "word": "الله",
+          "meaning": "الإله المستحق للعبادة"
+        }
       },
       "shehri_videos": []
     },

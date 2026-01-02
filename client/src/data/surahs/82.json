@@ -494,8 +494,14 @@
         "word": "سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ"
       },
       "gharib": {
-        "muyassar": {},
-        "siraj": {}
+        "muyassar": {
+          "word": "انفطرت",
+          "meaning": "انشقت"
+        },
+        "siraj": {
+          "word": "انفطرت",
+          "meaning": "انشقت وتفطرت"
+        }
       },
       "shehri_videos": []
     },

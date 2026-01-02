@@ -563,8 +563,14 @@
         "word": "سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ"
       },
       "gharib": {
-        "muyassar": {},
-        "siraj": {}
+        "muyassar": {
+          "word": "السماء",
+          "meaning": "السماء"
+        },
+        "siraj": {
+          "word": "السماء",
+          "meaning": "السماء ذات البروج"
+        }
       },
       "shehri_videos": []
     },

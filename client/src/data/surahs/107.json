@@ -188,8 +188,14 @@
         "word": "سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ"
       },
       "gharib": {
-        "muyassar": {},
-        "siraj": {}
+        "muyassar": {
+          "word": "الدين",
+          "meaning": "الحساب والجزاء"
+        },
+        "siraj": {
+          "word": "الدين",
+          "meaning": "يوم الدين والحساب"
+        }
       },
       "shehri_videos": []
     },

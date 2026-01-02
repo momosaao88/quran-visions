@@ -458,8 +458,14 @@
         "word": "سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ"
       },
       "gharib": {
-        "muyassar": {},
-        "siraj": {}
+        "muyassar": {
+          "word": "الطارق",
+          "meaning": "النجم"
+        },
+        "siraj": {
+          "word": "الطارق",
+          "meaning": "نجم يطرق الليل"
+        }
       },
       "shehri_videos": []
     },

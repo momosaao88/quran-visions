@@ -212,8 +212,14 @@
         "word": "سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ"
       },
       "gharib": {
-        "muyassar": {},
-        "siraj": {}
+        "muyassar": {
+          "word": "الناس",
+          "meaning": "البشر"
+        },
+        "siraj": {
+          "word": "الناس",
+          "meaning": "جميع الناس"
+        }
       },
       "shehri_videos": []
     },

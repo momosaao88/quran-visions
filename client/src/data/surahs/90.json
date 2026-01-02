@@ -527,8 +527,14 @@
         "word": "سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ"
       },
       "gharib": {
-        "muyassar": {},
-        "siraj": {}
+        "muyassar": {
+          "word": "البلد",
+          "meaning": "المدينة"
+        },
+        "siraj": {
+          "word": "البلد",
+          "meaning": "مكة المكرمة"
+        }
       },
       "shehri_videos": []
     },

@@ -221,8 +221,14 @@
         "word": "سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ"
       },
       "gharib": {
-        "muyassar": {},
-        "siraj": {}
+        "muyassar": {
+          "word": "التين",
+          "meaning": "الفاكهة المعروفة"
+        },
+        "siraj": {
+          "word": "التين",
+          "meaning": "شجر التين"
+        }
       },
       "shehri_videos": []
     },

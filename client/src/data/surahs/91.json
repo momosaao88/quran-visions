@@ -417,8 +417,14 @@
         "word": "سُجَّدًا لِّلَّهِ وَهُمْ دَاخِرُونَ"
       },
       "gharib": {
-        "muyassar": {},
-        "siraj": {}
+        "muyassar": {
+          "word": "الشمس",
+          "meaning": "الشمس"
+        },
+        "siraj": {
+          "word": "الشمس",
+          "meaning": "الشمس المضيئة"
+        }
       },
       "shehri_videos": []
     },
