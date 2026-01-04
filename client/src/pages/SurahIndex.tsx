@@ -133,6 +133,12 @@ export default function SurahIndex() {
                   <span>الآيات المحفوظة</span>
                 </button>
               </Link>
+              <Link href="/gharib">
+                <button className="flex items-center gap-2 px-4 py-2 bg-amber-500/20 text-amber-400 rounded-lg hover:bg-amber-500/30 transition-colors">
+                  <Search className="w-4 h-4" />
+                  <span>غريب القرآن</span>
+                </button>
+              </Link>
               <ThemeToggle />
             </div>
 
