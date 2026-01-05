@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 /**
  * Extended Gharib Al-Quran Database
  * Comprehensive collection of rare and unusual Quranic words

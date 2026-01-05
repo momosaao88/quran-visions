@@ -3,9 +3,16 @@
  * Search for rare Quranic words by surah, word, or meaning
  */
 
-import { useState, useMemo } from 'react';
+import { useState, useEffect } from 'react';
 import { Search, X, BookOpen } from 'lucide-react';
-import { gharibQuranExtended } from '../data/gharib-quran-extended';
+
+interface GharibEntry {
+  surah: number;
+  verse: number;
+  word: string;
+  muyassar: string;
+  siraj: string;
+}
 
 interface SearchResult {
   surah: number;
@@ -20,12 +27,30 @@ export default function GharibSearch() {
   const [searchType, setSearchType] = useState<'word' | 'meaning' | 'surah'>('word');
   const [results, setResults] = useState<SearchResult[]>([]);
   const [isSearching, setIsSearching] = useState(false);
+  const [gharibData, setGharibData] = useState<GharibEntry[]>([]);
+  const [dataLoaded, setDataLoaded] = useState(false);
+
+  // Load gharib data on component mount
+  useEffect(() => {
+    const loadGharibData = async () => {
+      try {
+        const { gharibQuranExtended } = await import('../data/gharib-quran-extended');
+        setGharibData(gharibQuranExtended);
+        setDataLoaded(true);
+      } catch (error) {
+        console.error('Error loading gharib data:', error);
+        setDataLoaded(false);
+      }
+    };
+
+    loadGharibData();
+  }, []);
 
   // Perform search
   const handleSearch = (query: string) => {
     setSearchQuery(query);
     
-    if (!query.trim()) {
+    if (!query.trim() || !dataLoaded) {
       setResults([]);
       return;
     }
@@ -35,28 +60,34 @@ export default function GharibSearch() {
     // Convert to lowercase for case-insensitive search
     const lowerQuery = query.toLowerCase();
 
-    const filtered = gharibQuranExtended.filter((item: any) => {
-      switch (searchType) {
-        case 'word':
-          return item.word.toLowerCase().includes(lowerQuery);
-        case 'meaning':
-          return (
-            item.muyassar.toLowerCase().includes(lowerQuery) ||
-            item.siraj.toLowerCase().includes(lowerQuery)
-          );
-        case 'surah':
-          const surahNum = parseInt(query);
-          return !isNaN(surahNum) && item.surah === surahNum;
-        default:
-          return false;
-      }
-    });
+    try {
+      const filtered = gharibData.filter((item: GharibEntry) => {
+        switch (searchType) {
+          case 'word':
+            return item.word.toLowerCase().includes(lowerQuery);
+          case 'meaning':
+            return (
+              item.muyassar.toLowerCase().includes(lowerQuery) ||
+              item.siraj.toLowerCase().includes(lowerQuery)
+            );
+          case 'surah':
+            const surahNum = parseInt(query);
+            return !isNaN(surahNum) && item.surah === surahNum;
+          default:
+            return false;
+        }
+      });
 
-    setResults(filtered);
+      setResults(filtered);
+    } catch (error) {
+      console.error('Search error:', error);
+      setResults([]);
+    }
+
     setIsSearching(false);
   };
 
-  // Get surah name (simplified - you can enhance this)
+  // Get surah name
   const getSurahName = (surahNum: number) => {
     const surahNames: Record<number, string> = {
       1: 'الفاتحة',
@@ -176,6 +207,16 @@ export default function GharibSearch() {
     };
     return surahNames[surahNum] || `السورة ${surahNum}`;
   };
+
+  if (!dataLoaded) {
+    return (
+      <div className="w-full max-w-4xl mx-auto p-6">
+        <div className="glass-card p-8 rounded-2xl backdrop-blur-xl border border-white/10 text-center">
+          <p className="text-muted-foreground">جاري تحميل قاعدة البيانات...</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="w-full max-w-4xl mx-auto p-6">
