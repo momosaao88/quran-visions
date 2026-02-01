@@ -6,8 +6,9 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronDown, Bookmark, Share2, Copy, Check, Lightbulb, Play, Video } from 'lucide-react';
+import { ChevronDown, Bookmark, Share2, Copy, Check, Lightbulb } from 'lucide-react';
 import SaveShareButtons from './SaveShareButtons';
+import GharibTabs from './GharibTabs';
 
 interface ShehriVideo {
   videoId: string;
@@ -52,17 +53,26 @@ export default function SmartCard({
   isSaved = false,
   onAyahClick,
 }: SmartCardProps) {
-  const [isExpanded, setIsExpanded] = useState(false);
+  const [tafsirExpanded, setTafsirExpanded] = useState(false);
+  const [gharibExpanded, setGharibExpanded] = useState(false);
   const [activeTab, setActiveTab] = useState<'ar' | 'en' | 'fr' | 'es'>('ar');
   const [copied, setCopied] = useState(false);
-  const [selectedVideoIndex, setSelectedVideoIndex] = useState(0);
-  const [showVideoPlayer, setShowVideoPlayer] = useState(false);
 
   const handleCopy = () => {
     navigator.clipboard.writeText(ayahText);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
+
+  // Prepare gharib entries for GharibTabs
+  const gharibEntries = [];
+  if (gharib?.muyassar || gharib?.siraj) {
+    gharibEntries.push({
+      word: gharib?.muyassar?.word || gharib?.siraj?.word || '',
+      muyassar: gharib?.muyassar?.meaning || '',
+      siraj: gharib?.siraj?.meaning || '',
+    });
+  }
 
   return (
     <motion.div
@@ -98,111 +108,20 @@ export default function SmartCard({
         {/* Divider */}
         <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent mb-6" />
 
-        {/* Gharib Al-Quran Section */}
-        {(gharib?.muyassar || gharib?.siraj || shehri_videos?.length) && (
-          <div className="mb-6">
-            {/* Header */}
-            <button
-              onClick={() => setIsExpanded(!isExpanded)}
-              className="w-full flex items-center justify-between px-4 py-3 bg-amber-500/10 rounded-lg hover:bg-amber-500/20 transition-colors group border border-amber-500/20"
-            >
-              <div className="flex items-center gap-2">
-                <Lightbulb size={18} className="text-amber-500" />
-                <span className="font-tajawal font-semibold text-foreground">
-                  غريب القرآن
-                </span>
-              </div>
-              <motion.div
-                animate={{ rotate: isExpanded ? 180 : 0 }}
-                transition={{ duration: 0.3 }}
-              >
-                <ChevronDown size={18} className="text-muted-foreground" />
-              </motion.div>
-            </button>
-
-            {/* Content */}
-            <AnimatePresence>
-              {isExpanded && (
-                <motion.div
-                  initial={{ opacity: 0, height: 0 }}
-                  animate={{ opacity: 1, height: 'auto' }}
-                  exit={{ opacity: 0, height: 0 }}
-                  transition={{ duration: 0.3 }}
-                  className="mt-3 space-y-4"
-                >
-                  {/* Gharib Muyassar - الميسر في غريب القرآن */}
-                  {gharib?.muyassar && Object.keys(gharib.muyassar).length > 0 && (
-                    <div className="p-4 bg-blue-500/5 rounded-lg border border-blue-500/20">
-                      <div className="text-xs font-tajawal font-bold text-blue-600 dark:text-blue-400 mb-2 uppercase tracking-wider">
-                        الميسر في غريب القرآن
-                      </div>
-                      <div className="text-sm font-tajawal font-semibold text-foreground mb-2">
-                        {gharib.muyassar.word}
-                      </div>
-                      <p className="tafsir-text text-muted-foreground text-sm leading-relaxed">
-                        {gharib.muyassar.meaning}
-                      </p>
-                    </div>
-                  )}
-
-                  {/* Gharib Siraj - السراج في غريب القرآن */}
-                  {gharib?.siraj && Object.keys(gharib.siraj).length > 0 && (
-                    <div className="p-4 bg-green-500/5 rounded-lg border border-green-500/20">
-                      <div className="text-xs font-tajawal font-bold text-green-600 dark:text-green-400 mb-2 uppercase tracking-wider">
-                        السراج في غريب القرآن
-                      </div>
-                      <div className="text-sm font-tajawal font-semibold text-foreground mb-2">
-                        {gharib.siraj.word}
-                      </div>
-                      <p className="tafsir-text text-muted-foreground text-sm leading-relaxed">
-                        {gharib.siraj.meaning}
-                      </p>
-                    </div>
-                  )}
-
-                  {/* Shehri Videos - مقاطع الشيخ الشهري */}
-                  {shehri_videos && shehri_videos.length > 0 && (
-                    <div className="p-4 bg-red-500/5 rounded-lg border border-red-500/20">
-                      <div className="text-xs font-tajawal font-bold text-red-600 dark:text-red-400 mb-3 uppercase tracking-wider">
-                        مقاطع الشيخ عبدالرحمن الشهري
-                      </div>
-                      <div className="space-y-2">
-                        {shehri_videos.map((video, index) => (
-                          <button
-                            key={index}
-                            onClick={() => {
-                              setSelectedVideoIndex(index);
-                              setShowVideoPlayer(true);
-                            }}
-                            className="w-full p-3 bg-red-500/10 hover:bg-red-500/20 rounded-lg border border-red-500/30 transition-colors flex items-center gap-2 text-left group"
-                          >
-                            <Video size={16} className="text-red-500 flex-shrink-0 group-hover:scale-110 transition-transform" />
-                            <div className="flex-1 min-w-0">
-                              <p className="text-sm font-tajawal font-semibold text-foreground truncate">
-                                {video.word || video.title}
-                              </p>
-                              <p className="text-xs text-muted-foreground truncate">
-                                {video.title}
-                              </p>
-                            </div>
-                            <Play size={14} className="text-red-500 flex-shrink-0" />
-                          </button>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-                </motion.div>
-              )}
-            </AnimatePresence>
-          </div>
-        )}
+        {/* Gharib Al-Quran Section with Tabs */}
+        <GharibTabs
+          gharibEntries={gharibEntries}
+          shehriVideos={shehri_videos}
+          isExpanded={gharibExpanded}
+          onToggle={() => setGharibExpanded(!gharibExpanded)}
+        />
 
         {/* Tafsir Section */}
         {(tafsir?.muyassar || tafsir?.mukhtasar || tafsir?.saadi) && (
           <div className="mb-6">
             {/* Header */}
             <button
-              onClick={() => setIsExpanded(!isExpanded)}
+              onClick={() => setTafsirExpanded(!tafsirExpanded)}
               className="w-full flex items-center justify-between px-4 py-3 bg-muted/50 rounded-lg hover:bg-muted transition-colors group"
             >
               <div className="flex items-center gap-2">
@@ -212,7 +131,7 @@ export default function SmartCard({
                 </span>
               </div>
               <motion.div
-                animate={{ rotate: isExpanded ? 180 : 0 }}
+                animate={{ rotate: tafsirExpanded ? 180 : 0 }}
                 transition={{ duration: 0.3 }}
               >
                 <ChevronDown size={18} className="text-muted-foreground" />
@@ -221,7 +140,7 @@ export default function SmartCard({
 
             {/* Content */}
             <AnimatePresence>
-              {isExpanded && (
+              {tafsirExpanded && (
                 <motion.div
                   initial={{ opacity: 0, height: 0 }}
                   animate={{ opacity: 1, height: 'auto' }}
@@ -272,20 +191,17 @@ export default function SmartCard({
 
         {/* Divider */}
         {translations && (
-          <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent mb-6" />
-        )}
+          <>
+            <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent mb-6" />
 
-        {/* Translations Tabs */}
-        {translations && (
-          <div className="mb-6">
-            {/* Tab Buttons */}
-            <div className="flex gap-2 mb-3 overflow-x-auto pb-2">
+            {/* Translation Tabs */}
+            <div className="flex gap-2 mb-4 border-b border-border/50 overflow-x-auto">
               <button
                 onClick={() => setActiveTab('ar')}
-                className={`px-3 py-2 rounded-lg text-sm font-tajawal font-semibold transition-colors whitespace-nowrap ${
+                className={`px-4 py-2 font-tajawal font-semibold text-sm whitespace-nowrap transition-all ${
                   activeTab === 'ar'
-                    ? 'bg-primary text-primary-foreground'
-                    : 'bg-muted text-muted-foreground hover:bg-muted/80'
+                    ? 'text-primary border-b-2 border-primary'
+                    : 'text-muted-foreground hover:text-foreground'
                 }`}
               >
                 العربية
@@ -293,10 +209,10 @@ export default function SmartCard({
               {translations.en && (
                 <button
                   onClick={() => setActiveTab('en')}
-                  className={`px-3 py-2 rounded-lg text-sm font-semibold transition-colors whitespace-nowrap ${
+                  className={`px-4 py-2 font-semibold text-sm whitespace-nowrap transition-all ${
                     activeTab === 'en'
-                      ? 'bg-primary text-primary-foreground'
-                      : 'bg-muted text-muted-foreground hover:bg-muted/80'
+                      ? 'text-primary border-b-2 border-primary'
+                      : 'text-muted-foreground hover:text-foreground'
                   }`}
                 >
                   English
@@ -305,10 +221,10 @@ export default function SmartCard({
               {translations.fr && (
                 <button
                   onClick={() => setActiveTab('fr')}
-                  className={`px-3 py-2 rounded-lg text-sm font-semibold transition-colors whitespace-nowrap ${
+                  className={`px-4 py-2 font-semibold text-sm whitespace-nowrap transition-all ${
                     activeTab === 'fr'
-                      ? 'bg-primary text-primary-foreground'
-                      : 'bg-muted text-muted-foreground hover:bg-muted/80'
+                      ? 'text-primary border-b-2 border-primary'
+                      : 'text-muted-foreground hover:text-foreground'
                   }`}
                 >
                   Français
@@ -317,10 +233,10 @@ export default function SmartCard({
               {translations.es && (
                 <button
                   onClick={() => setActiveTab('es')}
-                  className={`px-3 py-2 rounded-lg text-sm font-semibold transition-colors whitespace-nowrap ${
+                  className={`px-4 py-2 font-semibold text-sm whitespace-nowrap transition-all ${
                     activeTab === 'es'
-                      ? 'bg-primary text-primary-foreground'
-                      : 'bg-muted text-muted-foreground hover:bg-muted/80'
+                      ? 'text-primary border-b-2 border-primary'
+                      : 'text-muted-foreground hover:text-foreground'
                   }`}
                 >
                   Español
@@ -328,63 +244,92 @@ export default function SmartCard({
               )}
             </div>
 
-            {/* Tab Content */}
+            {/* Translation Content */}
             <AnimatePresence mode="wait">
-              <motion.div
-                key={activeTab}
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-                transition={{ duration: 0.2 }}
-                className="p-4 bg-muted/20 rounded-lg border border-border/50"
-              >
-                {activeTab === 'ar' && (
-                  <p className="tafsir-text text-muted-foreground text-right">
-                    {ayahText}
+              {activeTab === 'ar' && (
+                <motion.div
+                  key="ar"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: 0.2 }}
+                  className="p-4 bg-muted/20 rounded-lg border border-border/50"
+                >
+                  <p className="quran-text text-center text-foreground leading-relaxed">
+                    ﴿{ayahText}﴾
                   </p>
-                )}
-                {activeTab === 'en' && translations.en && (
-                  <p className="text-sm text-muted-foreground leading-relaxed">
+                </motion.div>
+              )}
+
+              {activeTab === 'en' && translations.en && (
+                <motion.div
+                  key="en"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: 0.2 }}
+                  className="p-4 bg-muted/20 rounded-lg border border-border/50"
+                >
+                  <p className="text-foreground leading-relaxed text-sm">
                     {translations.en}
                   </p>
-                )}
-                {activeTab === 'fr' && translations.fr && (
-                  <p className="text-sm text-muted-foreground leading-relaxed">
+                </motion.div>
+              )}
+
+              {activeTab === 'fr' && translations.fr && (
+                <motion.div
+                  key="fr"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: 0.2 }}
+                  className="p-4 bg-muted/20 rounded-lg border border-border/50"
+                >
+                  <p className="text-foreground leading-relaxed text-sm">
                     {translations.fr}
                   </p>
-                )}
-                {activeTab === 'es' && translations.es && (
-                  <p className="text-sm text-muted-foreground leading-relaxed">
+                </motion.div>
+              )}
+
+              {activeTab === 'es' && translations.es && (
+                <motion.div
+                  key="es"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: 0.2 }}
+                  className="p-4 bg-muted/20 rounded-lg border border-border/50"
+                >
+                  <p className="text-foreground leading-relaxed text-sm">
                     {translations.es}
                   </p>
-                )}
-              </motion.div>
+                </motion.div>
+              )}
             </AnimatePresence>
-          </div>
+          </>
         )}
 
-        {/* Divider */}
-        <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent mb-6" />
-
-        {/* Action Buttons */}
-        <div className="flex items-center justify-between">
+        {/* Footer Actions */}
+        <div className="mt-6 flex items-center justify-between gap-2 border-t border-border/50 pt-4">
           <SaveShareButtons
+            ayahNumber={ayahNumber}
             surahNumber={surahNumber}
             surahName={surahName}
-            ayahNumber={ayahNumber}
-            ayahText={ayahText}
-            translations={translations as any}
+            isSaved={isSaved}
           />
           <button
             onClick={handleCopy}
-            className="p-2 rounded-lg bg-muted text-muted-foreground hover:bg-muted/80 transition-colors"
-            title="نسخ النص"
+            className="flex items-center gap-2 px-3 py-2 rounded-lg bg-muted/50 hover:bg-muted transition-colors"
+            title="Copy ayah"
           >
             {copied ? (
-              <Check size={18} className="text-green-500" />
+              <Check size={16} className="text-green-500" />
             ) : (
-              <Copy size={18} />
+              <Copy size={16} className="text-muted-foreground" />
             )}
+            <span className="text-xs font-tajawal">
+              {copied ? 'تم النسخ' : 'نسخ'}
+            </span>
           </button>
         </div>
       </div>
