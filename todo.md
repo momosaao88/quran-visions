@@ -44,6 +44,10 @@
 - [x] Add tab navigation with colors
 - [x] Implement smooth tab switching
 - [x] Match Tafsir design and layout
+- [x] Fix gharib data not appearing in SmartCard
+- [x] Create script to fill gharib data from database
+- [x] Update 104 surah files with gharib entries
+- [x] Add gharib data to 133 ayahs
 
 ## Completed Features
 - [x] Smart Cards system for displaying verses
