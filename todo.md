@@ -40,6 +40,10 @@
 - [x] Style tabs with colors
 - [x] Test tab switching functionality
 - [x] Create GharibTabs component
+- [x] Update GharibTabs to display horizontal tabs like Tafsir
+- [x] Add tab navigation with colors
+- [x] Implement smooth tab switching
+- [x] Match Tafsir design and layout
 
 ## Completed Features
 - [x] Smart Cards system for displaying verses

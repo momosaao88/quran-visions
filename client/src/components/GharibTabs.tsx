@@ -1,12 +1,12 @@
 /**
  * Gharib Tabs Component
- * Displays gharib al-quran with tabbed interface
- * Similar to tafsir tabs: Muyassar, Siraj, Shehri Videos
+ * Displays gharib al-quran with tabbed interface exactly like Tafsir
+ * Horizontal tabs: Muyassar, Siraj, Shehri Videos
  */
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronDown, Play, Video } from 'lucide-react';
+import { ChevronDown, Play, Video, Lightbulb } from 'lucide-react';
 
 interface GharibEntry {
   word: string;
@@ -37,23 +37,10 @@ export default function GharibTabs({
   onToggle,
 }: GharibTabsProps) {
   const [activeTab, setActiveTab] = useState<TabType>('muyassar');
-  const [selectedVideoIndex, setSelectedVideoIndex] = useState(0);
-  const [showVideoPlayer, setShowVideoPlayer] = useState(false);
 
   const hasMuyassar = gharibEntries.some(g => g.muyassar);
   const hasSiraj = gharibEntries.some(g => g.siraj);
   const hasVideos = shehriVideos && shehriVideos.length > 0;
-
-  const tabs: { id: TabType; label: string; color: string; bgColor: string }[] = [
-    { id: 'muyassar', label: 'الميسر', color: 'text-blue-600 dark:text-blue-400', bgColor: 'bg-blue-500/10 border-blue-500/20' },
-    { id: 'siraj', label: 'السراج', color: 'text-green-600 dark:text-green-400', bgColor: 'bg-green-500/10 border-green-500/20' },
-    { id: 'videos', label: 'الشيخ الشهري', color: 'text-red-600 dark:text-red-400', bgColor: 'bg-red-500/10 border-red-500/20' },
-  ].filter(tab => {
-    if (tab.id === 'muyassar') return hasMuyassar;
-    if (tab.id === 'siraj') return hasSiraj;
-    if (tab.id === 'videos') return hasVideos;
-    return false;
-  });
 
   if (!hasMuyassar && !hasSiraj && !hasVideos) {
     return null;
@@ -67,6 +54,7 @@ export default function GharibTabs({
         className="w-full flex items-center justify-between px-4 py-3 bg-amber-500/10 rounded-lg hover:bg-amber-500/20 transition-colors group border border-amber-500/20"
       >
         <div className="flex items-center gap-2">
+          <Lightbulb size={18} className="text-amber-500" />
           <span className="font-tajawal font-semibold text-foreground">
             غريب القرآن
           </span>
@@ -89,24 +77,49 @@ export default function GharibTabs({
             transition={{ duration: 0.3 }}
             className="mt-3"
           >
-            {/* Tabs Navigation */}
-            <div className="flex gap-2 mb-4 border-b border-border/50 overflow-x-auto">
-              {tabs.map(tab => (
+            {/* Tabs Navigation - Horizontal like Tafsir */}
+            <div className="flex gap-3 mb-4 border-b border-border/50 overflow-x-auto pb-0">
+              {hasMuyassar && (
                 <button
-                  key={tab.id}
-                  onClick={() => setActiveTab(tab.id)}
-                  className={`px-4 py-2 font-tajawal font-semibold text-sm whitespace-nowrap transition-all ${
-                    activeTab === tab.id
-                      ? `${tab.color} border-b-2 border-current`
-                      : 'text-muted-foreground hover:text-foreground'
+                  onClick={() => setActiveTab('muyassar')}
+                  className={`px-4 py-3 font-tajawal font-semibold text-sm whitespace-nowrap transition-all border-b-2 ${
+                    activeTab === 'muyassar'
+                      ? 'text-blue-600 dark:text-blue-400 border-blue-600 dark:border-blue-400'
+                      : 'text-muted-foreground border-transparent hover:text-foreground'
                   }`}
                 >
-                  {tab.label}
+                  الميسر
                 </button>
-              ))}
+              )}
+
+              {hasSiraj && (
+                <button
+                  onClick={() => setActiveTab('siraj')}
+                  className={`px-4 py-3 font-tajawal font-semibold text-sm whitespace-nowrap transition-all border-b-2 ${
+                    activeTab === 'siraj'
+                      ? 'text-green-600 dark:text-green-400 border-green-600 dark:border-green-400'
+                      : 'text-muted-foreground border-transparent hover:text-foreground'
+                  }`}
+                >
+                  السراج
+                </button>
+              )}
+
+              {hasVideos && (
+                <button
+                  onClick={() => setActiveTab('videos')}
+                  className={`px-4 py-3 font-tajawal font-semibold text-sm whitespace-nowrap transition-all border-b-2 ${
+                    activeTab === 'videos'
+                      ? 'text-red-600 dark:text-red-400 border-red-600 dark:border-red-400'
+                      : 'text-muted-foreground border-transparent hover:text-foreground'
+                  }`}
+                >
+                  الشيخ الشهري
+                </button>
+              )}
             </div>
 
-            {/* Tab Content */}
+            {/* Tab Content - Space separated like Tafsir */}
             <AnimatePresence mode="wait">
               {activeTab === 'muyassar' && hasMuyassar && (
                 <motion.div
@@ -124,6 +137,9 @@ export default function GharibTabs({
                         key={index}
                         className="p-4 bg-blue-500/5 rounded-lg border border-blue-500/20"
                       >
+                        <div className="text-xs font-tajawal font-bold text-blue-600 dark:text-blue-400 mb-2 uppercase tracking-wider">
+                          الميسر في غريب القرآن
+                        </div>
                         <div className="text-sm font-tajawal font-semibold text-foreground mb-2">
                           {entry.word}
                         </div>
@@ -151,6 +167,9 @@ export default function GharibTabs({
                         key={index}
                         className="p-4 bg-green-500/5 rounded-lg border border-green-500/20"
                       >
+                        <div className="text-xs font-tajawal font-bold text-green-600 dark:text-green-400 mb-2 uppercase tracking-wider">
+                          السراج في غريب القرآن
+                        </div>
                         <div className="text-sm font-tajawal font-semibold text-foreground mb-2">
                           {entry.word}
                         </div>
@@ -175,8 +194,8 @@ export default function GharibTabs({
                     <button
                       key={index}
                       onClick={() => {
-                        setSelectedVideoIndex(index);
-                        setShowVideoPlayer(true);
+                        // Handle video play
+                        window.open(video.url, '_blank');
                       }}
                       className="w-full p-3 bg-red-500/10 hover:bg-red-500/20 rounded-lg border border-red-500/30 transition-colors flex items-center gap-2 text-left group"
                     >
