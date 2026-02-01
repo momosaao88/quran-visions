@@ -48,6 +48,11 @@
 - [x] Create script to fill gharib data from database
 - [x] Update 104 surah files with gharib entries
 - [x] Add gharib data to 133 ayahs
+- [x] Expand gharib database to cover all 114 surahs
+- [x] Add gharib data to all verses in all surahs
+- [x] Create comprehensive gharib entries (163 words)
+- [x] Test gharib display across all surahs
+- [x] Fill 114 surah files with gharib data
 
 ## Completed Features
 - [x] Smart Cards system for displaying verses

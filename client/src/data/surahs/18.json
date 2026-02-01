@@ -2732,8 +2732,14 @@
       },
       "ibn_ashour": "",
       "gharib": {
-        "muyassar": {},
-        "siraj": {}
+        "muyassar": {
+          "word": "يحسبهم",
+          "meaning": "يظنهم أيقاظاً"
+        },
+        "siraj": {
+          "word": "يحسبهم",
+          "meaning": "يظن الرائي أنهم أيقاظ"
+        }
       },
       "shehri_videos": []
     },
