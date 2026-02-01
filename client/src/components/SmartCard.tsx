@@ -66,12 +66,17 @@ export default function SmartCard({
 
   // Prepare gharib entries for GharibTabs
   const gharibEntries = [];
-  if (gharib?.muyassar || gharib?.siraj) {
-    gharibEntries.push({
-      word: gharib?.muyassar?.word || gharib?.siraj?.word || '',
-      muyassar: gharib?.muyassar?.meaning || '',
-      siraj: gharib?.siraj?.meaning || '',
-    });
+  if (gharib) {
+    const hasMuyassar = gharib.muyassar && gharib.muyassar.word && gharib.muyassar.meaning;
+    const hasSiraj = gharib.siraj && gharib.siraj.word && gharib.siraj.meaning;
+    
+    if (hasMuyassar || hasSiraj) {
+      gharibEntries.push({
+        word: (hasMuyassar ? gharib.muyassar?.word : gharib.siraj?.word) || '',
+        muyassar: hasMuyassar ? gharib.muyassar?.meaning || '' : '',
+        siraj: hasSiraj ? gharib.siraj?.meaning || '' : '',
+      });
+    }
   }
 
   return (
