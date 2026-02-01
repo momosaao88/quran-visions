@@ -34,8 +34,8 @@ export default function GharibSearch() {
   useEffect(() => {
     const loadGharibData = async () => {
       try {
-        const { gharibQuranExtended } = await import('../data/gharib-quran-extended');
-        setGharibData(gharibQuranExtended);
+        const { comprehensiveGharibDatabase } = await import('../data/comprehensive-gharib-database');
+        setGharibData(comprehensiveGharibDatabase);
         setDataLoaded(true);
       } catch (error) {
         console.error('Error loading gharib data:', error);
