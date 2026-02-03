@@ -53,6 +53,12 @@
 - [x] Create comprehensive gharib entries (163 words)
 - [x] Test gharib display across all surahs
 - [x] Fill 114 surah files with gharib data
+- [ ] Create comprehensive gharib database for all 6236 verses
+- [ ] Collect gharib data from reliable sources (Siraj, Muyassar)
+- [ ] Organize data in JSON format
+- [ ] Add gharib entries to all surah files
+- [ ] Test gharib display across all surahs
+- [ ] Verify data accuracy and completeness
 
 ## Completed Features
 - [x] Smart Cards system for displaying verses

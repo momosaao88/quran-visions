@@ -2369,8 +2369,14 @@
       },
       "ibn_ashour": "",
       "gharib": {
-        "muyassar": {},
-        "siraj": {}
+        "muyassar": {
+          "word": "الْحَمْدُ",
+          "meaning": "الثناء والتمجيد"
+        },
+        "siraj": {
+          "word": "الْحَمْدُ",
+          "meaning": "الحمد: الثناء بالجميل"
+        }
       },
       "shehri_videos": []
     },
